@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>自签 on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/%E8%87%AA%E7%AD%BE/</link>
+        <description>Recent content in 自签 on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 13 Aug 2021 11:50:48 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E8%87%AA%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>签名ipa以在iOS下安装软件</title>
+        <link>https://blog.linsnow.cn/p/sign-ipa/</link>
+        <pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/sign-ipa/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" /&gt;&lt;h1 id=&#34;签名ipa以在ios下安装软件&#34;&gt;签名ipa以在iOS下安装软件&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;iOS或iPadOS安装第三方软件需要对其进行签名才能安装到设备上，但特殊情况如在iOS已经越狱的情况下可通过插件绕过签名直接安装，侧载的方法有很多，大概分为一下两个大的签名方式，但这次写的是关于利用个人免费开发者账号签名并安装到设备上&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;免费开发者账号签名的软件必须每7天重新签名一次，否则会掉签，然后就打不开了&lt;/p&gt;
+&lt;p&gt;付费开发者账号可以每1年重新签名一次，这里推荐一个签名网站&lt;a class=&#34;link&#34; href=&#34;http://isign.ren/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;isign&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下分别介绍两个软件的签名教程，一个是爱思助手，一个是开源的Altstore，其他的签名软件本文就不讲了，毕竟要用到macos，也不是每个人都有macos使用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;p&gt;爱思助手：适合频繁使用电脑的认识签名，对于小白友好&lt;/p&gt;
+&lt;p&gt;Alt store：适合需要稳定签名的小伙伴，在iOS14及以上有组件提示日期，能够在链接服务器的条件下在手机完成签名并安装&lt;/p&gt;
+&lt;p&gt;总之，最好两者都会，会方便很多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;正文&#34;&gt;正文：&lt;/h2&gt;
+&lt;h3 id=&#34;爱思助手ipa签名&#34;&gt;爱思助手ipa签名&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign.jpg&#34;
+	width=&#34;1000&#34;
+	height=&#34;721&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1.选择“使用 Apple ID 签名 - 添加 Apple ID”，随后输入用于签名的 Apple ID、密码并选择或输入对应设备的设备标识（指签名后 IPA 文件要安装的设备）；&lt;/p&gt;
+&lt;p&gt;2.检查无误后点击“确定”。建议操作前需要将 iOS 设备连接至爱思助手，并保证可以读出“设备标识”，如果未连接设备，需要手动输入设备标识。Apple ID 添加完成后下方列表就会显示签名信息；&lt;/p&gt;
+&lt;p&gt;3.之后，添加需要签名的 IPA 文件并勾选 IPA 文件和用于签名的 Apple ID，点击“开始签名”即可，签名成功后就可以通过爱思助手安装该应用了。安装完成后，在 iOS 设备上首次打开前记得去“设置 - 通用 - 描述文件”内信任该应用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请务必注意，已签名的 IPA 文件和原文件保存路径可能并不相同，签名后应该点击“打开已签名 IPA 位置”按钮，可用于安装的已签名 IPA 文件都会储存在该目录下，请注意分辨。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altstore签名&#34;&gt;Altstore签名&lt;/h3&gt;
+&lt;h4 id=&#34;准备工作&#34;&gt;准备工作：&lt;/h4&gt;
+&lt;p&gt;1.AltStore工具只能在Windows 10系统下使用，其他Windows版本不支持。&lt;/p&gt;
+&lt;p&gt;2.安装之前：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/itunes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iTunes 。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.apple.com/en-us/HT204283&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iCloud 。&lt;/li&gt;
+&lt;li&gt;一个正常的&lt;strong&gt;apple id&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;正式开始altstore的安装&#34;&gt;正式开始Altstore的安装&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装iTunes以及iCloud，安装完或许会提示重启，重启就完事了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;登录iTunes并授权此电脑，iCloud不必登录也行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在官网获取最新版&lt;a class=&#34;link&#34; href=&#34;https://altstore.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;altstore&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装altstore并用数据线（充电线）将设备连接到电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall.png&#34;
+	width=&#34;613&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时解锁你的设备并在设备弹出的窗口中选择信任此电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鼠标左键单击任务栏中的altstore小图标，&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&lt;em&gt;&lt;strong&gt;install AltStore&lt;/strong&gt;&lt;/em&gt;，再选择你的的设备名称&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid.png&#34;
+	width=&#34;471&#34;
+	height=&#34;262&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone.png&#34;
+	width=&#34;749&#34;
+	height=&#34;346&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;519px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整个安装AltStore进的过程有长有短，在iPhone桌面出现AltStore APP之后，安装过程才算完成，此时先别动，在设备中打开设置-通用-设备管理-选择altstore-信任alt store，如无法信任，请重新安装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时即可将要安装的软件安装包导入到手机并使用altstore打开即可在手机完成安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;示例安装utm&#34;&gt;示例：安装UTM&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;从&lt;a class=&#34;link&#34; href=&#34;https://getutm.app/install/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;utm官网&lt;/a&gt;获取UTM安装包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开手机中的altstore&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击左上角的+号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择UTM.ipa安装包安装即可,等待安装完成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa.png&#34;
+	width=&#34;425&#34;
+	height=&#34;574&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;177px&#34;
+	
+&gt; &lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse.png&#34;
+	width=&#34;750&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;134px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这样就算安装完了&lt;/p&gt;
+&lt;hr&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone.png&#34;
+	width=&#34;442&#34;
+	height=&#34;249&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>obsidian on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/obsidian/</link>
+        <description>Recent content in obsidian on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 31 Aug 2021 09:58:22 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/obsidian/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我认为的最强markdown笔记软件obsidian</title>
+        <link>https://blog.linsnow.cn/p/opensource-best-obsidian/</link>
+        <pubDate>Tue, 31 Aug 2021 09:58:22 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/opensource-best-obsidian/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/obsidian.png" alt="Featured image of post 我认为的最强markdown笔记软件obsidian" /&gt;&lt;h1 id=&#34;我认为的最强markdown笔记软件obsidian&#34;&gt;我认为的最强markdown笔记软件obsidian&lt;/h1&gt;
+&lt;h2 id=&#34;什么是obsidian&#34;&gt;什么是obsidian？&lt;/h2&gt;
+&lt;p&gt;obsidian的中文名：黑曜石/黑石
+obsidian的简介（引用自官网：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;黑石是一个强大的&lt;strong&gt;知识库&lt;/strong&gt;之上的&lt;br&gt;
+&lt;strong&gt;本地文件夹&lt;/strong&gt;的纯文本标记文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;obsidian的特性：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一款支持 Markdown 的本地应用（不同于notion，笔记掌握在自己手里，更安全
+支持全平台的操作系统（包含移动端
+文件夹式管理
+支持各种插件
+支持自定义css
+思维脑图式的笔记管理
+能够记忆上一次编辑
+支持云同步
+个人用户免费
+&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;功能多到数不过来了，就简单的列了一些常用的功能
+Obsidian生成的文件全是Markdown格式。如果你已经用过markdown语法，那很棒，Obsidian对你来说几乎没有门槛。&lt;/p&gt;
+&lt;h2 id=&#34;我的obsidian工作流&#34;&gt;我的obsidian工作流&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;以hugo博客写作为例&lt;/strong&gt;
+我只需要在终端中用hugo命令创建好markdown文件
+并使用的obsidian进行编辑即可&lt;/p&gt;
+&lt;h3 id=&#34;obsidian的设置&#34;&gt;obsidian的设置&lt;/h3&gt;
+&lt;p&gt;以下全是我个人比较喜欢推荐的一种设置
+仅供参考，可以根据自己喜好更改&lt;/p&gt;
+&lt;h4 id=&#34;外观设置&#34;&gt;外观设置&lt;/h4&gt;
+&lt;p&gt;入口位置：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打开软件
+找到左下角的设置齿轮
+选择外观选项&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;将外观设置为黑暗、开启半透明的效果
+&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/1.png&#34;
+	width=&#34;1502&#34;
+	height=&#34;703&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;512px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;编辑设置&#34;&gt;编辑设置&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;目的/作用&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;达成边写作边预览的效果
+方便即使纠错
+方便文章排版&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先打开某个markdown文件
+如图：
+打开软件页面的右上角上的三个点
+&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/2.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1021&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;451px&#34;
+	
+&gt;
+在弹出的选项页面打开&lt;code&gt;与其他面板同步&lt;/code&gt;、&lt;code&gt;左右拆分&lt;/code&gt;
+&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/3.png&#34;
+	width=&#34;300&#34;
+	height=&#34;264&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;272px&#34;
+	
+&gt;
+将其中一边设置为预览模式：
+可以直接在右上角设置
+也可以使用快捷键&lt;code&gt;ctrl + E&lt;/code&gt;设置
+&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/4.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1020&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;451px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;到这里基本上都设置完了&lt;/p&gt;
+&lt;p&gt;接下来演示一些其他的功能&lt;/p&gt;
+&lt;h2 id=&#34;查看关系图谱&#34;&gt;查看关系图谱&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/5.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1017&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;453px&#34;
+	
+&gt;
+其他的一些功能就不展示了&lt;/p&gt;
+&lt;h2 id=&#34;软件获取&#34;&gt;软件获取&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;官网地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;黑曜石&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

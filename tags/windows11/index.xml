@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Windows11 on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/windows11/</link>
+        <description>Recent content in Windows11 on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 05 Oct 2021 09:53:05 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/windows11/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows11正式版!出发!</title>
+        <link>https://blog.linsnow.cn/p/win11/</link>
+        <pubDate>Tue, 05 Oct 2021 09:53:05 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/win11/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/win11/win11.png" alt="Featured image of post Windows11正式版!出发!" /&gt;&lt;h1 id=&#34;windows11正式版出发&#34;&gt;Windows11正式版!出发!&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;2021年10月5号，微软正式发布了Windows11的第一个正式版.xdm,开冲.这篇文章，将带你无伤轻松的踏上Windows11的快船&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;win11.mp4&#34;
+    
+    autoplay
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;win11.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;why-windows11&#34;&gt;🎉Why Windows11&lt;/h2&gt;
+&lt;p&gt;个人认为Windows11非常值得升级.如果你具有一定的电脑使用基础，并且喜欢各种新的事物，那么可以试一试，或许能因此得到一个适合的操作系统。&lt;/p&gt;
+&lt;p&gt;　1、抛开win11界面上的改变，因为这是个人使用习惯的问题，无法讨论值不值得。&lt;/p&gt;
+&lt;p&gt;　2、win11相比之前的系统，拥有更加强大的性能，无论是办公还是玩游戏都更加流畅。&lt;/p&gt;
+&lt;p&gt;　3、同时，随着技术的更新，将会有大量新的插件、软件支持win11系统，而不支持曾经的系统。&lt;/p&gt;
+&lt;p&gt;　4、就像是此前的win10系统获得了大量win7所没有的技术支持一样。&lt;/p&gt;
+&lt;p&gt;　5、此外，win11还有着win10所不具备的兼容安卓app功能，能够直接安装使用安卓应用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;安装前的前提&#34;&gt;👋安装前的前提&lt;/h2&gt;
+&lt;p&gt;在正式版推出前，我已经专门写过一篇关于Windows11安装的入坑指南。&lt;/p&gt;
+&lt;p&gt;如何确定自己的电脑是否能够直接升级，这很必要，因为直接升级能够省去很多的麻烦，无缝切换巴适得很.😂&lt;/p&gt;
+&lt;h3 id=&#34;windows11系统要求&#34;&gt;Windows11系统要求&lt;/h3&gt;
+&lt;h3 id=&#34;硬件表检测不推荐&#34;&gt;硬件表检测（不推荐&lt;/h3&gt;
+&lt;p&gt;系统要求这些是在电脑上安装 Windows 11 的基本要求。如果您的设备不满足这些要求，您可能无法在设备上安装 Windows 11，。如果您不确定您的电脑是否满足这些要求，您可向您电脑的原始设备制造商 (OEM) 进行核实，或如果您的电脑已在运行 Windows 10，那么您可利用&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/windows/windows-11#pchealthcheck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;电脑健康状况检查应用&lt;/a&gt;来评估您电脑的兼容性。您的设备必须&lt;code&gt;已安装 Windows 10 的 2004 或更高版本&lt;/code&gt;，才能升级。可在‘设置 &amp;gt; 更新和安全’中的 Windows 更新功能中获取免费更新。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;硬件&lt;/th&gt;
+&lt;th&gt;要求&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;处理器&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1 GHz&lt;/strong&gt; 或更快的，支持 64 位的处理器（双核或多核）或系统单芯片 &lt;strong&gt;(SoC)&lt;/strong&gt;。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;内存&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;4 GB。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;存储&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;64 GB 或更大的存储设备&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;系统固件&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;支持 UEFI 安全启动。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;TPM&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;受信任的平台模块 TPM 2.0 版本。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;显卡&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;显示器&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;简单粗暴检查方法推荐&#34;&gt;简单粗暴检查方法（推荐&lt;/h3&gt;
+&lt;p&gt;看不懂上面的没关系，用下面的方法也行.&lt;/p&gt;
+&lt;h4 id=&#34;使用官方的检测工具&#34;&gt;使用官方的检测工具&lt;/h4&gt;
+&lt;p&gt;由于一开始官方的检测工具不怎么好用，但现在已经改善了，所以可以去下载一个试试.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官网下载地址：&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/windows/windows-11#pchealthcheck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;pchealthcheck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意：打开这个链接后可能找不到软件的下载地址，幸运的话应该可以直接看到下载地址，如果看不到就需要划到底部，展开某个问题就能看到下载地址了，&lt;/p&gt;
+&lt;p&gt;如图&lt;img src=&#34;https://blog.linsnow.cn/p/win11/pchealthcheck.jpg&#34;
+	width=&#34;1158&#34;
+	height=&#34;678&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/pchealthcheck_huc05fef12e2cd43dc24fd7f4345828ffc_47059_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/win11/pchealthcheck_huc05fef12e2cd43dc24fd7f4345828ffc_47059_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;打开官方检测工具并点击立即检测&lt;img src=&#34;https://blog.linsnow.cn/p/win11/win11h1.jpg&#34;
+	width=&#34;1122&#34;
+	height=&#34;910&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/win11h1_hu4205d30f7434811db19a9b7e158cc8ba_63518_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/win11/win11h1_hu4205d30f7434811db19a9b7e158cc8ba_63518_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;295px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;查看是否符合系统要求&lt;img src=&#34;https://blog.linsnow.cn/p/win11/win11h2.png&#34;
+	width=&#34;1121&#34;
+	height=&#34;910&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/win11h2_hufe378883042bc8ecaa83883429fa063a_53897_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/win11h2_hufe378883042bc8ecaa83883429fa063a_53897_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;295px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;使用whynotwin11&#34;&gt;使用WhyNotWin11&lt;/h4&gt;
+&lt;p&gt;大神&lt;code&gt;Robert Maehl&lt;/code&gt;开发了&lt;code&gt;whynotwin11&lt;/code&gt;，这是一款实用的windows11升级检测工具，为了帮助Windows用户知道他们的设备是否被支持，它的判断逻辑简单直接，比微软的官方解决方案做得更好。同时它还可以根据所有相关标准检查PC的升级资格，而且该应用已经多次更新。除此之外，whynotwin11能够帮助用户去检测任何导致无法升级到Windows 11的问题，这对发现和解决这些问题是有非常大的帮助，软件轻巧实用，完全不需要任何的安装，下载双击打开即可使用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;工具地址：https://github.com/rcmaehl/WhyNotWin11&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面是我电脑的检测结果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/win11/whynotwin11.png&#34;
+	width=&#34;1002&#34;
+	height=&#34;752&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;不通过检测方法怎么办&#34;&gt;不通过检测方法怎么办&lt;/h4&gt;
+&lt;p&gt;不通过不慌，其实不通过就是不能直接升级到windos11而已，那么我们可以通过u盘直接安装就行。与Windows10类似。下面会讲到方法&lt;/p&gt;
+&lt;h2 id=&#34;获取windows11&#34;&gt;👨‍💻获取Windows11&lt;/h2&gt;
+&lt;p&gt;Windows11官方获取网站&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官网链接： &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows11&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.microsoft.com/zh-cn/software-download/windows11&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;使用windows-11-安装助手&#34;&gt;使用Windows 11 安装助手&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这种方法适合于已有Windows10的用户，能够直接使用这个安装助手升级到Windows11。将工具下载下来并运行，跟着软件的提示操作就好了，有手就行，十分简单&amp;hellip;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/win11/win11up.png&#34;
+	width=&#34;1067&#34;
+	height=&#34;326&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/win11up_hue4908639adcfbe8d14384bf7b86c644d_8911_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/win11up_hue4908639adcfbe8d14384bf7b86c644d_8911_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;327&#34;
+		data-flex-basis=&#34;785px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用u盘安装&#34;&gt;使用u盘安装&lt;/h3&gt;
+&lt;p&gt;这个方法是我本人比较推荐的，**&lt;code&gt;检测不通过&lt;/code&gt;**应该也可以通过这种方法安装上Windows11，当然你需要有一个u盘（大于等于8G)&lt;/p&gt;
+&lt;h4 id=&#34;使用官方工具刻录u盘&#34;&gt;使用官方工具刻录U盘&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/win11/win11upan.png&#34;
+	width=&#34;752&#34;
+	height=&#34;371&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/win11upan_hu641fa436410622c3aa6c80ff789d3ea0_10958_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/win11upan_hu641fa436410622c3aa6c80ff789d3ea0_10958_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;486px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击立即下载将工具下载下来&lt;/li&gt;
+&lt;li&gt;运行该工具&lt;/li&gt;
+&lt;li&gt;然后插上u盘&lt;/li&gt;
+&lt;li&gt;接受条款&lt;img src=&#34;https://blog.linsnow.cn/p/win11/1.png&#34;
+	width=&#34;802&#34;
+	height=&#34;712&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/1_hu7757628ffe26a167f2808bf1cbc09966_22749_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/1_hu7757628ffe26a167f2808bf1cbc09966_22749_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;一般默认就行，然后下一步&lt;img src=&#34;https://blog.linsnow.cn/p/win11/2.jpg&#34;
+	width=&#34;801&#34;
+	height=&#34;711&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/2_hudb1d8e7a1bc40f74ce19db676cbcd949_10401_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/win11/2_hudb1d8e7a1bc40f74ce19db676cbcd949_10401_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;选择使用的介质，那当然是U盘了&lt;img src=&#34;https://blog.linsnow.cn/p/win11/3.png&#34;
+	width=&#34;802&#34;
+	height=&#34;712&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/3_hu18b5ce8b498fac17810f0d2d7feb20a4_12511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/3_hu18b5ce8b498fac17810f0d2d7feb20a4_12511_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;选择自己插上的u盘，然后下一步&lt;img src=&#34;https://blog.linsnow.cn/p/win11/4.png&#34;
+	width=&#34;802&#34;
+	height=&#34;712&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/4_hu32c5a15bd884a063bac95c950e9abc50_10046_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/4_hu32c5a15bd884a063bac95c950e9abc50_10046_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;等待刻录完成后就可以了&lt;img src=&#34;https://blog.linsnow.cn/p/win11/5.png&#34;
+	width=&#34;802&#34;
+	height=&#34;712&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/5_hu1c992236200ec94eb8d6fc3c372d96d9_9702_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/5_hu1c992236200ec94eb8d6fc3c372d96d9_9702_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;使用u盘pe安装&#34;&gt;使用U盘PE安装&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这种方法也能够解决Windows检测不通过&lt;/p&gt;
+&lt;p&gt;我个人比较推荐的pe还是&lt;a class=&#34;link&#34; href=&#34;http://www.wepe.com.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;微PE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网络上的pe一大堆，怎么顺手怎么来呗&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提前将微pe刻录进u盘后把Windows11放到u盘里就行，这里就不重复造轮子了，自己百度一下就行&lt;/p&gt;
+&lt;p&gt;Windows11镜像可以从官网获取，也可以从&lt;a class=&#34;link&#34; href=&#34;https://next.itellyou.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MSDN&lt;/a&gt;获取，或者从国外镜像源&lt;a class=&#34;link&#34; href=&#34;https://uupdump.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;UUP Dump&lt;/strong&gt;&lt;/a&gt;获取，都行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从官网获取镜像iso(推荐&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/win11/iso.png&#34;
+	width=&#34;1062&#34;
+	height=&#34;406&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/win11/iso_hu4b9a12956c978e01ef1cd39497ec4828_13889_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11/iso_hu4b9a12956c978e01ef1cd39497ec4828_13889_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;261&#34;
+		data-flex-basis=&#34;627px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下载下来之后把镜像放到有pe的u盘里就可以了，具体怎么用pe安装百度一下就有了&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;🍔结语&lt;/h2&gt;
+&lt;p&gt;这篇文章有点肝，哈哈哈哈，快去冲Windows11&amp;hellip;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>iOS on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/categories/ios/</link>
+        <description>Recent content in iOS on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 17 Aug 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/ios/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IOS备份shsh2指南</title>
+        <link>https://blog.linsnow.cn/p/ios-save-shsh2/</link>
+        <pubDate>Tue, 17 Aug 2021 11:00:39 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/ios-save-shsh2/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/ios-save-shsh2/shsh.png" alt="Featured image of post IOS备份shsh2指南" /&gt;&lt;h1 id=&#34;ios备份shsh2指南&#34;&gt;IOS备份shsh2指南&lt;/h1&gt;
+&lt;h2 id=&#34;什么是shsh2&#34;&gt;什么是shsh2&lt;/h2&gt;
+&lt;p&gt;SHSH Blob 是非官方为便于今后 iDevice 设备降级而准备的备用数字签名字符串；&lt;/p&gt;
+&lt;p&gt;如何通过 Tsssaver 及 Telegram 来查找 Blob 并下载备份保存&lt;/p&gt;
+&lt;p&gt;SHSH 是基于缩写: signed hash 和 binary large object。为签名序列和二进制对象。也称为 ECID SHSH。每个 Blob 都与一个特定的设备绑定在一起，数据使用设备的 ECID 进行编码。&lt;/p&gt;
+&lt;p&gt;SHSH Blob 是一个非官方术语，指的是苹果生成并用于个性化每个 iOS 设备的 IPSW 固件文件的数字签名。它们是 Apple 协议的一部分，旨在确保在设备上安装受信任的软件，通常仅允许安装最新的 iOS 版本。苹果对此过程的公开名称是系统软件授权。&lt;/p&gt;
+&lt;p&gt;SHSH 是 iOS 10 之前的名称，之后称为 SHSH2。&lt;/p&gt;
+&lt;h2 id=&#34;shsh的作用&#34;&gt;shsh的作用&lt;/h2&gt;
+&lt;p&gt;iOS升级与降级的必需品，但是也会受到sep的限制&lt;/p&gt;
+&lt;h2 id=&#34;备份shsh&#34;&gt;备份shsh&lt;/h2&gt;
+&lt;h3 id=&#34;爱思助手备份&#34;&gt;爱思助手备份&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;手机连接电脑&lt;/li&gt;
+&lt;li&gt;电脑打开爱思助手-刷机越狱-专业刷机&lt;/li&gt;
+&lt;li&gt;点击【查询适配版本】即可备份&lt;/li&gt;
+&lt;li&gt;点击【下载SHSH】即可查询是否备份成功&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tss-saver备份&#34;&gt;&lt;strong&gt;TSS Saver备份&lt;/strong&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于未越狱的设备，您将需要使用“计算机”方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;使用-tss-saver-app-保存-blob&#34;&gt;&lt;strong&gt;使用 TSS Saver App 保存 Blob&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;在您首选的&lt;a class=&#34;link&#34; href=&#34;https://ios.cfw.guide/package-managers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;包管理器&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://repo.1conan.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;中将 repo.1conan.com&lt;/a&gt;添加到您的源中&lt;/li&gt;
+&lt;li&gt;下载并安装 TSS Saver&lt;/li&gt;
+&lt;li&gt;如果您在 iOS 14 上使用 unc0ver，请下载并安装 libkrw&lt;/li&gt;
+&lt;li&gt;如果您在 iOS 14 上使用 Taurine。请下载并安装 libkernrw&lt;/li&gt;
+&lt;li&gt;点击“保存 Blob”&lt;/li&gt;
+&lt;li&gt;收到确认信息后，点击“打开”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出现新的 blob 可能需要一些时间，尤其是在服务器负载不足的情况下。一般都需要科学上网。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;使用-tss-saver-网站保存-blob&#34;&gt;使用 TSS Saver 网站保存 Blob&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A12+ 用户将需要他们的 ApNonce 和 Generator 对来使用此方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;获取 Generator 和 ApNonce（仅限越狱 A12+）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果您在 iOS 14 上使用 unc0ver，请安装 libkrw&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果您在 iOS 14 上使用 Taurine，请安装 libkernrw&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开终端应用程序并运行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;sudo dimentio &amp;gt; dimentio.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;或者，您可以从 TSS Saver App 的 Generator 选项卡中获取您的 Generator 和 ApNonce&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;转到 Filza 中的 /var/mobile 并打开 dimentio.txt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;复制&lt;code&gt;Current nonce is&lt;/code&gt;文本文件底部后面的 0x 数字以及&lt;code&gt;entangled nonce:&lt;/code&gt;. 0x 数是你的 Generator，纠缠的 nonce 数是你的 ApNonce。把这些东西放在安全的地方，以后你会用到&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;开始保存 Blob&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将您的 iOS 设备连接到 Mac 或 PC&lt;/li&gt;
+&lt;li&gt;打开 iTunes 或 Finder
+&lt;ul&gt;
+&lt;li&gt;Windows 用户必须下载&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/itunes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;普通版本而&lt;/a&gt;不是 Windows 应用商店版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;导航到设备摘要页面&lt;/li&gt;
+&lt;li&gt;单击序列号字段两次
+&lt;ul&gt;
+&lt;li&gt;这应该会更改以显示您的 ECID 号码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;记下此 ECID 号码，以便稍后阅读&lt;/li&gt;
+&lt;li&gt;打开&lt;a class=&#34;link&#34; href=&#34;https://tsssaver.1conan.com/v2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TSS Saver 网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;输入您的设备 ECID&lt;/li&gt;
+&lt;li&gt;选择您的设备
+&lt;ul&gt;
+&lt;li&gt;iPhone 6S、6S Plus 和 iPhone SE 用户需要通过&lt;a class=&#34;link&#34; href=&#34;https://itunes.apple.com/us/app/ax-cpu/id1048174418?mt=8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载此应用程序&lt;/a&gt;来获取他们的主板配置&lt;/li&gt;
+&lt;li&gt;A12+ 用户需要输入 ApNonce 和 Generator 对&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;点击提交&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;使用-blobsaver-保存-blob&#34;&gt;使用 blobsaver 保存 Blob&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;blobsaver&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载、安装和启动最新版本的&lt;a class=&#34;link&#34; href=&#34;https://github.com/airsquared/blobsaver/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;blobsaver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;将您的 iOS 设备连接到您的计算机并确保它已解锁&lt;/li&gt;
+&lt;li&gt;单击第一个“从设备读取”按钮，该按钮将填写您的 ECID 和设备信息&lt;/li&gt;
+&lt;li&gt;如果您的 iOS 设备不是 A12 或更高版本，则不需要获取 APNonce，您可以跳过下一步&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;获取特定于设备的 APNonce 和生成器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;确保您的设备在整个过程中已连接并解锁。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;单击 APNonce 字段旁边的第二个“从设备读取”按钮&lt;/li&gt;
+&lt;li&gt;如果您已越狱或已在您的设备上设置了生成器/apnonce 对，您想保留，请选择“越狱”。否则，选择“越狱”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;您的设备将多次重启进入恢复模式。当您重新启动到正常操作系统模式时，解锁您的 iOS 设备。&lt;/p&gt;
+&lt;p&gt;如果您陷入恢复模式，请尝试使用 blobsaver 中“帮助”菜单中的“退出恢复模式”选项。&lt;/p&gt;
+&lt;p&gt;无论您是否越狱，都可以随时重复使用这些值来保存 blob。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;保存 Blob&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;填写完所有信息后，单击“Go”以保存 blob&lt;/li&gt;
+&lt;li&gt;也可以单击“保存设备”来保存您当前设备的信息，以便以后再次为其保存 blob&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>TestFlight打不开解决方法</title>
+        <link>https://blog.linsnow.cn/p/testfight-error/</link>
+        <pubDate>Tue, 17 Aug 2021 10:20:25 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/testfight-error/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/testfight-error/testfight.png" alt="Featured image of post TestFlight打不开解决方法" /&gt;&lt;h1 id=&#34;testflight打不开解决方法&#34;&gt;TestFlight打不开解决方法&lt;/h1&gt;
+&lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
+&lt;p&gt;苹果的 TestFlight 应用属实听奇怪的，又是突然就打不开，导致想下载测试版的应用都下载不了。「无法接入」主要是因为苹果服务器的问题，而要解决这个问题其实非常简单。&lt;/p&gt;
+&lt;h2 id=&#34;操作教程&#34;&gt;&lt;strong&gt;操作教程&lt;/strong&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;遇到这个问题可以尝试更换网络，但更换网络并不是百分百能解决。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;iPhone 链接上 Wi-Fi 后，进入「设置」-「无线局域网」。点击已经链接 Wi-Fi 的蓝色「i」按钮。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/testfight-error/wifisetting.png&#34;
+	width=&#34;750&#34;
+	height=&#34;737&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;点击「配置 DNS」设置项，勾选「手动」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/testfight-error/dnssetting.png&#34;
+	width=&#34;1500&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;269px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;点击「添加服务器」，这里输入8.8.8.8后点击右上角的「存储」按钮。&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;adddns.png&#34;  /&gt;
+&lt;p&gt;&lt;strong&gt;这时候打开 TsetFlight 应用就会发现它可以正常打开使用了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你担心设置了 DNS 服务器后会影响网速，可以在 TestFlight 下载完应用后把 Wi-Fi 的 DNS 服务改回自动。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>如何把玩iOS捷径</title>
+        <link>https://blog.linsnow.cn/p/ios-jiejin/</link>
+        <pubDate>Mon, 16 Aug 2021 16:01:20 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/ios-jiejin/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/jiejin.png" alt="Featured image of post 如何把玩iOS捷径" /&gt;&lt;h2 id=&#34;ios利用捷径设置充电提示音&#34;&gt;IOS利用捷径设置充电提示音&lt;/h2&gt;
+&lt;h3 id=&#34;前因&#34;&gt;😀前因&lt;/h3&gt;
+&lt;p&gt;在一次偶然间，我突然发现了手机没了充电提示音，不知道是bug还是，经过一番思索，突然有了这个想法，正好是越狱的iPhone，以为改系统文件可以解决，不过还是不行，突然我就想到了把提示音改成自己喜欢的，一举两得，岂不美哉，利用捷径app就能轻松搞定&lt;/p&gt;
+&lt;h3 id=&#34;手机要求&#34;&gt;🧨手机要求&lt;/h3&gt;
+&lt;p&gt;带有快捷指令app和自动化就行了&lt;/p&gt;
+&lt;h3 id=&#34;正文&#34;&gt;👻正文&lt;/h3&gt;
+&lt;h4 id=&#34;创建提取音频编码的指令&#34;&gt;创建提取音频编码的指令&lt;/h4&gt;
+&lt;p&gt;创建一个捷径，内容设置成这样子就行&lt;/p&gt;
+&lt;p&gt;嫌麻烦就用我直接分享的做好的指令，&lt;a class=&#34;link&#34; href=&#34;getsound.shortcut&#34; &gt;&lt;strong&gt;快捷指令链接&lt;/strong&gt;&lt;/a&gt;，点击后下载下来，然后点击打开即会跳转到捷径app,添加不了的在设置里找到&lt;code&gt;快捷指令app&lt;/code&gt;，打开&lt;code&gt;允许不受信任的快捷指令&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge3.jpg&#34;
+	width=&#34;750&#34;
+	height=&#34;3197&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;23&#34;
+		data-flex-basis=&#34;56px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;获取充电提示音的文本&#34;&gt;获取充电提示音的文本&lt;/h4&gt;
+&lt;p&gt;把提示音以录屏方式保存在相册。首先找到含有自己喜欢的充电提示音视频通过手机录屏的方式或者直接保存到相册中。如果是音频同样可以使用录屏的方式存储到相册中，通过刚才运行刚才制作的指令，运行后会提示选择相册里一个带有想要的充电声音的视频就行了，指令会自动拷贝到粘贴板&lt;/p&gt;
+&lt;h4 id=&#34;创建自动化&#34;&gt;创建自动化&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;打开快捷指令app&lt;/li&gt;
+&lt;li&gt;选择下面的自动化&lt;/li&gt;
+&lt;li&gt;点击右上角的+号&lt;/li&gt;
+&lt;li&gt;选择创建个人自动化&lt;/li&gt;
+&lt;li&gt;选择充电器&lt;/li&gt;
+&lt;li&gt;选择已连接，然后下一步&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;添加操作&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;搜索文本并添加文本，文本里粘贴刚才运行指令获得的文本（直接粘贴就行）&lt;/li&gt;
+&lt;li&gt;再点击加号，搜索base64编码并添加，修改编码为解码&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge2.jpg&#34;
+	width=&#34;720&#34;
+	height=&#34;519&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;最后点击加号，搜索播放声音并添加就好&lt;/li&gt;
+&lt;li&gt;然后选择下一步，关掉运行前询问&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge1.jpg&#34;
+	width=&#34;720&#34;
+	height=&#34;628&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;275px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;点击完成就创建好了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;制作一张属于你的memoji工牌&#34;&gt;制作一张属于你的Memoji工牌&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/memojicover.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;前言&#34;&gt;🎉前言&lt;/h3&gt;
+&lt;p&gt;apple store里的员工好像都有一张工牌，刚好扎比大神也做了一个Memoji工牌制作的快捷指令，轻松Get一张属于自己的Memoji工牌。在这里感谢扎比分享的快捷指令。&lt;/p&gt;
+&lt;h3 id=&#34;预见效果&#34;&gt;🎈预见效果&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/memoji.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;正文-1&#34;&gt;😬正文&lt;/h3&gt;
+&lt;h4 id=&#34;获取捷径&#34;&gt;获取捷径&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里放出该捷径的文件&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;memoji.shortcut&#34; &gt;点我下载&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;更详细的获取教程&lt;/strong&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;点击上面的下载链接，手机会提示下载，同意下载后打开下载的文件，不出意外的话会跳转到捷径app并提示添加此捷径，over🎉,没错，就是这么简单！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;使用捷径&#34;&gt;使用捷径&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;打开手机的&lt;code&gt;捷径指令app&lt;/code&gt;，运行下载好的Memoji快捷指令&lt;/li&gt;
+&lt;li&gt;在弹出来的窗口中选择一张你做好的头像，&lt;/li&gt;
+&lt;li&gt;然后在提示框中输入你想在工牌上显示的名字，&lt;/li&gt;
+&lt;li&gt;然后选择你喜欢的颜色，&lt;/li&gt;
+&lt;li&gt;制作完成后会弹出一个窗口，&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/picsave.png&#34;
+	width=&#34;750&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;134px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;选择&lt;code&gt;存储图像&lt;/code&gt;即可&lt;/li&gt;
+&lt;li&gt;在相册里就可以看到了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;结语&#34;&gt;🎈结语&lt;/h3&gt;
+&lt;p&gt;做好了工牌，apple store没你不行哈哈哈哈哈，明天就可以去上班了🐟&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;get一张喜人的微信支付壁纸&#34;&gt;Get一张喜人的微信支付壁纸&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/wepay.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;wepay.png&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;前言-1&#34;&gt;前言&lt;/h3&gt;
+&lt;p&gt;前几天偶然发现一个有趣的捷径，那就是制作一张极具个性化的微信收款码做未锁屏壁纸，当然，这只能在iOS中才能实现，同样要用到捷径app，目前比较新的iOS版本基本上都自带这个app了，如果还没有的话请自行百度解决吧，在正文还没开始之前首先要感谢提供此捷径的作者&lt;/p&gt;
+&lt;h3 id=&#34;先上效果&#34;&gt;📢先上效果&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/wepay.jpg&#34;
+	width=&#34;750&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;134px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;正文教程&#34;&gt;👌正文教程&lt;/h3&gt;
+&lt;h4 id=&#34;获取捷径-1&#34;&gt;获取捷径&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里放出该捷径的文件&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;wepay.shortcut&#34; &gt;点我下载&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;更详细的获取教程&lt;/strong&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;点击上面的下载链接，手机会提示下载，同意下载后打开下载的文件，不出意外的话会跳转到捷径app并提示添加此捷径，over🎉,没错，就是这么简单！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;使用捷径-1&#34;&gt;使用捷径&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;打开手机的&lt;code&gt;捷径指令app&lt;/code&gt;，运行下载好的Wepay快捷指令&lt;/li&gt;
+&lt;li&gt;在弹出来的提示框中选择&lt;code&gt;大金额&lt;/code&gt;、&lt;code&gt;小金额&lt;/code&gt;或者&lt;code&gt;充值中&lt;/code&gt;，&lt;img src=&#34;https://blog.linsnow.cn/p/ios-jiejin/scchoose.jpg&#34;
+	width=&#34;750&#34;
+	height=&#34;450&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;400px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;然后选择事先在微信里保存的收款码,&lt;/li&gt;
+&lt;li&gt;等待自动制作完成即可在相册里看到了。&lt;/li&gt;
+&lt;li&gt;（补充：如何在微信里获取收款码，打开微信，一次点击“支付-收付款-二维码收款-保存收款码”即可）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;结语-1&#34;&gt;🤑结语&lt;/h3&gt;
+&lt;p&gt;做好了但是谁给我转账啊哈哈哈哈&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>签名ipa以在iOS下安装软件</title>
+        <link>https://blog.linsnow.cn/p/sign-ipa/</link>
+        <pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/sign-ipa/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" /&gt;&lt;h1 id=&#34;签名ipa以在ios下安装软件&#34;&gt;签名ipa以在iOS下安装软件&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;iOS或iPadOS安装第三方软件需要对其进行签名才能安装到设备上，但特殊情况如在iOS已经越狱的情况下可通过插件绕过签名直接安装，侧载的方法有很多，大概分为一下两个大的签名方式，但这次写的是关于利用个人免费开发者账号签名并安装到设备上&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;免费开发者账号签名的软件必须每7天重新签名一次，否则会掉签，然后就打不开了&lt;/p&gt;
+&lt;p&gt;付费开发者账号可以每1年重新签名一次，这里推荐一个签名网站&lt;a class=&#34;link&#34; href=&#34;http://isign.ren/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;isign&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下分别介绍两个软件的签名教程，一个是爱思助手，一个是开源的Altstore，其他的签名软件本文就不讲了，毕竟要用到macos，也不是每个人都有macos使用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;p&gt;爱思助手：适合频繁使用电脑的认识签名，对于小白友好&lt;/p&gt;
+&lt;p&gt;Alt store：适合需要稳定签名的小伙伴，在iOS14及以上有组件提示日期，能够在链接服务器的条件下在手机完成签名并安装&lt;/p&gt;
+&lt;p&gt;总之，最好两者都会，会方便很多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;正文&#34;&gt;正文：&lt;/h2&gt;
+&lt;h3 id=&#34;爱思助手ipa签名&#34;&gt;爱思助手ipa签名&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign.jpg&#34;
+	width=&#34;1000&#34;
+	height=&#34;721&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1.选择“使用 Apple ID 签名 - 添加 Apple ID”，随后输入用于签名的 Apple ID、密码并选择或输入对应设备的设备标识（指签名后 IPA 文件要安装的设备）；&lt;/p&gt;
+&lt;p&gt;2.检查无误后点击“确定”。建议操作前需要将 iOS 设备连接至爱思助手，并保证可以读出“设备标识”，如果未连接设备，需要手动输入设备标识。Apple ID 添加完成后下方列表就会显示签名信息；&lt;/p&gt;
+&lt;p&gt;3.之后，添加需要签名的 IPA 文件并勾选 IPA 文件和用于签名的 Apple ID，点击“开始签名”即可，签名成功后就可以通过爱思助手安装该应用了。安装完成后，在 iOS 设备上首次打开前记得去“设置 - 通用 - 描述文件”内信任该应用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请务必注意，已签名的 IPA 文件和原文件保存路径可能并不相同，签名后应该点击“打开已签名 IPA 位置”按钮，可用于安装的已签名 IPA 文件都会储存在该目录下，请注意分辨。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altstore签名&#34;&gt;Altstore签名&lt;/h3&gt;
+&lt;h4 id=&#34;准备工作&#34;&gt;准备工作：&lt;/h4&gt;
+&lt;p&gt;1.AltStore工具只能在Windows 10系统下使用，其他Windows版本不支持。&lt;/p&gt;
+&lt;p&gt;2.安装之前：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/itunes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iTunes 。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.apple.com/en-us/HT204283&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iCloud 。&lt;/li&gt;
+&lt;li&gt;一个正常的&lt;strong&gt;apple id&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;正式开始altstore的安装&#34;&gt;正式开始Altstore的安装&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装iTunes以及iCloud，安装完或许会提示重启，重启就完事了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;登录iTunes并授权此电脑，iCloud不必登录也行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在官网获取最新版&lt;a class=&#34;link&#34; href=&#34;https://altstore.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;altstore&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装altstore并用数据线（充电线）将设备连接到电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall.png&#34;
+	width=&#34;613&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时解锁你的设备并在设备弹出的窗口中选择信任此电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鼠标左键单击任务栏中的altstore小图标，&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&lt;em&gt;&lt;strong&gt;install AltStore&lt;/strong&gt;&lt;/em&gt;，再选择你的的设备名称&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid.png&#34;
+	width=&#34;471&#34;
+	height=&#34;262&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone.png&#34;
+	width=&#34;749&#34;
+	height=&#34;346&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;519px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整个安装AltStore进的过程有长有短，在iPhone桌面出现AltStore APP之后，安装过程才算完成，此时先别动，在设备中打开设置-通用-设备管理-选择altstore-信任alt store，如无法信任，请重新安装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时即可将要安装的软件安装包导入到手机并使用altstore打开即可在手机完成安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;示例安装utm&#34;&gt;示例：安装UTM&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;从&lt;a class=&#34;link&#34; href=&#34;https://getutm.app/install/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;utm官网&lt;/a&gt;获取UTM安装包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开手机中的altstore&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击左上角的+号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择UTM.ipa安装包安装即可,等待安装完成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa.png&#34;
+	width=&#34;425&#34;
+	height=&#34;574&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;177px&#34;
+	
+&gt; &lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse.png&#34;
+	width=&#34;750&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;134px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这样就算安装完了&lt;/p&gt;
+&lt;hr&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone.png&#34;
+	width=&#34;442&#34;
+	height=&#34;249&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>使用OdysseyRa1n安装Sileo</title>
+        <link>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link>
+        <pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" /&gt;&lt;h1 id=&#34;使用odysseyra1n安装sileo&#34;&gt;使用OdysseyRa1n安装Sileo&lt;/h1&gt;
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;Odysseyra1n 是来自 Coolstar 的一个新的处理计划，并附带了来自 Diatrus 新的、开源的 Procursus bootstrap。&lt;/p&gt;
+&lt;p&gt;Odysseyra1n 能够让你的设施运转齐全自力的 libhooker。Libhooker 是 Coolstar 从零开端打造的一个以速率和稳固性为条件的 substrate/substitute。Libhooker 对 iOS 13 进行了完美的适配。&lt;/p&gt;
+&lt;p&gt;Procursus 从零开端就被计划为开源，一切人都能够拜访，并附带 Diatrus 不断在开辟的 133 个软件包，此中包含 wget2，这是一切 iOS Boostrap 的第一个软件包。Procursus 的计划目标是能够轻松地增加就任何越狱中，以便疾速、轻松地增加成为越狱依赖，而且依赖是古代化的、最新的。&lt;/p&gt;
+&lt;p&gt;Odysseyra1n 仅允从应用 checkra1n 越狱的设施，不允从 unc0ver 越狱设施。&lt;/p&gt;
+&lt;h2 id=&#34;macos-平台&#34;&gt;macOS 平台&lt;/h2&gt;
+&lt;p&gt;在 macOS 的终端输入以下命令安装 homebrew，使用国内镜像源安装，如果电脑没有安装 Xcode 需要输入两次命令。第一次输入会提示安装系统更新，系统更新安装完成后，再次输入命令进行安装 homebrew，请耐心等待安装完成。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;/bin/zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装 homebrew 完成之后，再次输入命令安装 iproxy，请耐心等待安装完成。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;brew install usbmuxd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;linux-平台&#34;&gt;Linux 平台&lt;/h2&gt;
+&lt;p&gt;终端输入命令安装 iproxy&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install libusbmuxd-tools
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;checkra1n-越狱&#34;&gt;checkra1n 越狱&lt;/h3&gt;
+&lt;p&gt;首先使用 checkra1n 越狱，如何越狱就不再赘述了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果已经使用 checkra1n 越狱，请先 rootfs 清理越狱环境再使用 checkra1n 越狱一次。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;安装-sileo&#34;&gt;安装 Sileo&lt;/h3&gt;
+&lt;p&gt;注意事项：使用 CoolStar 提供的脚本及国内分流脚本，不需要打开 SSH 通道，checkra1n 越狱后，&lt;strong&gt;不要打开 checkra1n 安装 Cydia&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;coolstar-原版脚本&#34;&gt;CoolStar 原版脚本&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;/bin/bash -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;安装完后&#34;&gt;安装完后&lt;/h2&gt;
+&lt;h3 id=&#34;更新插件必须&#34;&gt;更新插件（必须）&lt;/h3&gt;
+&lt;p&gt;Sileo 刷新完成后，会提示更新插件，直接更新即可。&lt;/p&gt;
+&lt;h3 id=&#34;安装-libhooker必须&#34;&gt;安装 libhooker（必须）&lt;/h3&gt;
+&lt;p&gt;Sileo 切换至开发者模式（慢慢找，一个圆圆的按钮，不要找不到就说没有）&lt;/p&gt;
+&lt;p&gt;进入Odyssey Repo 安装 PreferenceLoader和libhook&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;libhooker 安装完成后，请使用 checkra1n 重新引导越狱一次，或者安装 NewTerm (iOS 10 - 13) 终端插件，使用命令。&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;su /etc/rc.d/libhooker
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

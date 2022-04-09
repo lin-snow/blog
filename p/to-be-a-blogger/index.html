@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='🙃/To Begin blog翻译成中文也就是博客，不知道是什么时候起，我开始发现了博客这个东西，对于刚开始了解网络的我对很多东西都有兴趣，于是我开始研究了解了一番blog的前世今生，并且也享受着别人的blog，网络世界很大，日常除了上网冲浪还是上网冲浪的我在掌握了一点点微不足道的小技巧、小知识后便产生了与人们分享的需求，刚好blog便很好满足了我的需求。
+二话不说的我拿起电脑就是一顿操作，估计很多人和我一样，都是从hexo入坑的🙈，一开始进入这个“深坑”时，我感觉一切都是那么有趣新颖，什么主题和功能都想尝试一下，东搞搞西搞搞，我已经完全忘记了我搭建这个blog的目的了，一个劲的折腾各种小玩意，无法自拔，导致我也没有写下什么内容，直到我经历了多次的审美疲劳，我才慢慢的意识到我最初的目的。
+是时候发挥blog应有的作用了，折腾了这么多，我明白了我真正需要的是一个稳定、方便、易于阅读和维护的blog。但这并没有结束，因为符合更多苛刻条件并且长在你审美上的theme或许不易于找到，自己写一个主题的话应该说是最有效的解决方法，但是这太麻烦，而且需要掌握某些方面的专业知识，很显然，这不适合我这种人菜瘾大的小白😩&amp;hellip;&amp;hellip;&amp;hellip;.但很幸运，hugo和hugo-theme-stack恰好通过了我的层层筛选，拥抱它，并享受它&amp;hellip;&amp;hellip;&amp;hellip;.
+ 🔮/留意的问题 blog作为发布言论的地方，不是法外之地，同样也要留意一些法律问题，这涉及的很多内容，最好有个大概的了解。做到知法守法用法🎓
+ 🍭我对blog的认识 从博客的属性和本质上讲的。blog是网络日志的意思，也就是在网上写日记。即web log。我可以用它来记录我所学的知识，用它来记录生活，独立blog便是属于你在互联网的一片自留地，我在blog里分享，并收获着喜悦。它不同于知乎、CSDN等这些大平台，你的内容属于你自己，你能够享有更大的自由，互联网时刻发生巨变，有些平台有时并不值得信任，blog才是最稳定安全的方法，源文件放在本地，由自己掌握,想随时可以发布到互联网上&amp;hellip;&amp;hellip;.
+ 🎈我读，我看，我写！
+ 👻本博的出生 本博本着稳定，简单，自由，低成本诞生，GitHub、vercel和hugo是我比较信任且稳定的平台和工具，通过这些驱动我的博客是个不错的选择。为什么选择hugo而不是hexo，因为hexo需要npm，这会使得整个blog的源文件很臃肿，对网络也有更高的要求，且在文章多了之后速度会变慢很多，hugo自称是世界上最快的博客生成器也是当之无愧，所以我会更推荐使用hugo。
+搭建本博客其实很简单，我也不是很喜欢重复造轮子，这里给出搭建blog的相关文档🧀
+ 博客生成器hugo官网及文档
+https://gohugo.io/
+hugo-theme-stack主题的使用文档
+https://docs.stack.jimmycai.com/zh/
+ 通过这些，搭建一个blog应该是很简单了，但是blog搭建完还需要上线，
+因此我推荐将blog发布到GitHub，并配合vercel上线你的blog.这里同样给出相关内容的官网及文档
+ GitHub官网：
+https://github.com/
+vercel官网：
+https://vercel.com/
+ 🃏完成这些之后就算是搭建完工了，开始在blog里发挥吧。
+顺便在此分享一下我对主题的config.yaml的具体配置，如下
+baseurl:https://blog.linsnow.cnlanguageCode:zh-cntheme:hugo-theme-stackpaginate:5title:L1nSn0w&amp;#39;s Blog# Change it to your Disqus shortname before usingdisqusShortname:hugo-theme-stack# GA Tracking IDgoogleAnalytics:# Theme i18n support# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, ukDefaultContentLanguage:zh-cn# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]# This will make .'><title>To Be a Blogger</title>
+
+<link rel='canonical' href='https://blog.linsnow.cn/p/to-be-a-blogger/'>
+
+<link rel="stylesheet" href="/scss/style.min.900db0cca7fed8bfef255ba330b4ac0cd2e28d82ecb411fd6034c5e1326a8da0.css"><meta property='og:title' content='To Be a Blogger'>
+<meta property='og:description' content='🙃/To Begin blog翻译成中文也就是博客，不知道是什么时候起，我开始发现了博客这个东西，对于刚开始了解网络的我对很多东西都有兴趣，于是我开始研究了解了一番blog的前世今生，并且也享受着别人的blog，网络世界很大，日常除了上网冲浪还是上网冲浪的我在掌握了一点点微不足道的小技巧、小知识后便产生了与人们分享的需求，刚好blog便很好满足了我的需求。
+二话不说的我拿起电脑就是一顿操作，估计很多人和我一样，都是从hexo入坑的🙈，一开始进入这个“深坑”时，我感觉一切都是那么有趣新颖，什么主题和功能都想尝试一下，东搞搞西搞搞，我已经完全忘记了我搭建这个blog的目的了，一个劲的折腾各种小玩意，无法自拔，导致我也没有写下什么内容，直到我经历了多次的审美疲劳，我才慢慢的意识到我最初的目的。
+是时候发挥blog应有的作用了，折腾了这么多，我明白了我真正需要的是一个稳定、方便、易于阅读和维护的blog。但这并没有结束，因为符合更多苛刻条件并且长在你审美上的theme或许不易于找到，自己写一个主题的话应该说是最有效的解决方法，但是这太麻烦，而且需要掌握某些方面的专业知识，很显然，这不适合我这种人菜瘾大的小白😩&amp;hellip;&amp;hellip;&amp;hellip;.但很幸运，hugo和hugo-theme-stack恰好通过了我的层层筛选，拥抱它，并享受它&amp;hellip;&amp;hellip;&amp;hellip;.
+ 🔮/留意的问题 blog作为发布言论的地方，不是法外之地，同样也要留意一些法律问题，这涉及的很多内容，最好有个大概的了解。做到知法守法用法🎓
+ 🍭我对blog的认识 从博客的属性和本质上讲的。blog是网络日志的意思，也就是在网上写日记。即web log。我可以用它来记录我所学的知识，用它来记录生活，独立blog便是属于你在互联网的一片自留地，我在blog里分享，并收获着喜悦。它不同于知乎、CSDN等这些大平台，你的内容属于你自己，你能够享有更大的自由，互联网时刻发生巨变，有些平台有时并不值得信任，blog才是最稳定安全的方法，源文件放在本地，由自己掌握,想随时可以发布到互联网上&amp;hellip;&amp;hellip;.
+ 🎈我读，我看，我写！
+ 👻本博的出生 本博本着稳定，简单，自由，低成本诞生，GitHub、vercel和hugo是我比较信任且稳定的平台和工具，通过这些驱动我的博客是个不错的选择。为什么选择hugo而不是hexo，因为hexo需要npm，这会使得整个blog的源文件很臃肿，对网络也有更高的要求，且在文章多了之后速度会变慢很多，hugo自称是世界上最快的博客生成器也是当之无愧，所以我会更推荐使用hugo。
+搭建本博客其实很简单，我也不是很喜欢重复造轮子，这里给出搭建blog的相关文档🧀
+ 博客生成器hugo官网及文档
+https://gohugo.io/
+hugo-theme-stack主题的使用文档
+https://docs.stack.jimmycai.com/zh/
+ 通过这些，搭建一个blog应该是很简单了，但是blog搭建完还需要上线，
+因此我推荐将blog发布到GitHub，并配合vercel上线你的blog.这里同样给出相关内容的官网及文档
+ GitHub官网：
+https://github.com/
+vercel官网：
+https://vercel.com/
+ 🃏完成这些之后就算是搭建完工了，开始在blog里发挥吧。
+顺便在此分享一下我对主题的config.yaml的具体配置，如下
+baseurl:https://blog.linsnow.cnlanguageCode:zh-cntheme:hugo-theme-stackpaginate:5title:L1nSn0w&amp;#39;s Blog# Change it to your Disqus shortname before usingdisqusShortname:hugo-theme-stack# GA Tracking IDgoogleAnalytics:# Theme i18n support# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, ukDefaultContentLanguage:zh-cn# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]# This will make .'>
+<meta property='og:url' content='https://blog.linsnow.cn/p/to-be-a-blogger/'>
+<meta property='og:site_name' content='L1nSn0w&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='blogger' /><meta property='article:published_time' content='2022-02-18T20:38:59&#43;08:00'/><meta property='article:modified_time' content='2022-02-18T20:38:59&#43;08:00'/><meta property='og:image' content='https://blog.linsnow.cn/p/to-be-a-blogger/blogger.png' />
+<meta name="twitter:title" content="To Be a Blogger">
+<meta name="twitter:description" content="🙃/To Begin blog翻译成中文也就是博客，不知道是什么时候起，我开始发现了博客这个东西，对于刚开始了解网络的我对很多东西都有兴趣，于是我开始研究了解了一番blog的前世今生，并且也享受着别人的blog，网络世界很大，日常除了上网冲浪还是上网冲浪的我在掌握了一点点微不足道的小技巧、小知识后便产生了与人们分享的需求，刚好blog便很好满足了我的需求。
+二话不说的我拿起电脑就是一顿操作，估计很多人和我一样，都是从hexo入坑的🙈，一开始进入这个“深坑”时，我感觉一切都是那么有趣新颖，什么主题和功能都想尝试一下，东搞搞西搞搞，我已经完全忘记了我搭建这个blog的目的了，一个劲的折腾各种小玩意，无法自拔，导致我也没有写下什么内容，直到我经历了多次的审美疲劳，我才慢慢的意识到我最初的目的。
+是时候发挥blog应有的作用了，折腾了这么多，我明白了我真正需要的是一个稳定、方便、易于阅读和维护的blog。但这并没有结束，因为符合更多苛刻条件并且长在你审美上的theme或许不易于找到，自己写一个主题的话应该说是最有效的解决方法，但是这太麻烦，而且需要掌握某些方面的专业知识，很显然，这不适合我这种人菜瘾大的小白😩&amp;hellip;&amp;hellip;&amp;hellip;.但很幸运，hugo和hugo-theme-stack恰好通过了我的层层筛选，拥抱它，并享受它&amp;hellip;&amp;hellip;&amp;hellip;.
+ 🔮/留意的问题 blog作为发布言论的地方，不是法外之地，同样也要留意一些法律问题，这涉及的很多内容，最好有个大概的了解。做到知法守法用法🎓
+ 🍭我对blog的认识 从博客的属性和本质上讲的。blog是网络日志的意思，也就是在网上写日记。即web log。我可以用它来记录我所学的知识，用它来记录生活，独立blog便是属于你在互联网的一片自留地，我在blog里分享，并收获着喜悦。它不同于知乎、CSDN等这些大平台，你的内容属于你自己，你能够享有更大的自由，互联网时刻发生巨变，有些平台有时并不值得信任，blog才是最稳定安全的方法，源文件放在本地，由自己掌握,想随时可以发布到互联网上&amp;hellip;&amp;hellip;.
+ 🎈我读，我看，我写！
+ 👻本博的出生 本博本着稳定，简单，自由，低成本诞生，GitHub、vercel和hugo是我比较信任且稳定的平台和工具，通过这些驱动我的博客是个不错的选择。为什么选择hugo而不是hexo，因为hexo需要npm，这会使得整个blog的源文件很臃肿，对网络也有更高的要求，且在文章多了之后速度会变慢很多，hugo自称是世界上最快的博客生成器也是当之无愧，所以我会更推荐使用hugo。
+搭建本博客其实很简单，我也不是很喜欢重复造轮子，这里给出搭建blog的相关文档🧀
+ 博客生成器hugo官网及文档
+https://gohugo.io/
+hugo-theme-stack主题的使用文档
+https://docs.stack.jimmycai.com/zh/
+ 通过这些，搭建一个blog应该是很简单了，但是blog搭建完还需要上线，
+因此我推荐将blog发布到GitHub，并配合vercel上线你的blog.这里同样给出相关内容的官网及文档
+ GitHub官网：
+https://github.com/
+vercel官网：
+https://vercel.com/
+ 🃏完成这些之后就算是搭建完工了，开始在blog里发挥吧。
+顺便在此分享一下我对主题的config.yaml的具体配置，如下
+baseurl:https://blog.linsnow.cnlanguageCode:zh-cntheme:hugo-theme-stackpaginate:5title:L1nSn0w&amp;#39;s Blog# Change it to your Disqus shortname before usingdisqusShortname:hugo-theme-stack# GA Tracking IDgoogleAnalytics:# Theme i18n support# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, ukDefaultContentLanguage:zh-cn# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]# This will make ."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.linsnow.cn/p/to-be-a-blogger/blogger.png' />
+    <link rel="shortcut icon" href="img/avatar.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu803f79045d20d580f52450dca68cf196_14608_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">L1nSn0w&#39;s Blog</a></h1>
+            <h2 class="site-description">借问酒家何处有.🎈</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/lin-snow'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://blog.linsnow.cn/index.xml'
+                        target="_blank"
+                        title="RSS"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+  <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+  <line x1="8" y1="11" x2="10" y2="13" />
+  <line x1="16" y1="11" x2="14" y2="13" />
+</svg>
+
+                
+                <span>关于&amp;留言</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links' >
+                
+                
+                
+                    <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M31 7V24V7Z" fill="none"/><path d="M31 7V24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.636 6.63605L30.7781 20.7782L16.636 6.63605Z" fill="none"/><path d="M16.636 6.63605L30.7781 20.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 17H24H7Z" fill="none"/><path d="M7 17H24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.364 17.636L6.22188 31.7782L20.364 17.636Z" fill="none"/><path d="M20.364 17.636L6.22188 31.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 25V42V25Z" fill="none"/><path d="M17 25V42" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17.636 27.636L31.7781 41.7782L17.636 27.636Z" fill="none"/><path d="M17.636 27.636L31.7781 41.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M24 31L42 31L24 31Z" fill="none"/><path d="M24 31L42 31" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M42.364 16.636L28.2219 30.7782L42.364 16.636Z" fill="none"/><path d="M42.364 16.636L28.2219 30.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 31C27.866 31 31 27.866 31 24C31 20.134 27.866 17 24 17C20.134 17 17 20.134 17 24C17 27.866 20.134 31 24 31Z" fill="none" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/to-be-a-blogger/">
+                <img src="/p/to-be-a-blogger/blogger_huef33af0fdd1e3573a948a013665ec70a_156225_800x0_resize_box_3.png"
+                        srcset="/p/to-be-a-blogger/blogger_huef33af0fdd1e3573a948a013665ec70a_156225_800x0_resize_box_3.png 800w, /p/to-be-a-blogger/blogger_huef33af0fdd1e3573a948a013665ec70a_156225_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="460" 
+                        loading="lazy"
+                        alt="Featured image of post To Be a Blogger" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/blog/" >
+                blog
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/to-be-a-blogger/">To Be a Blogger</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 18, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="to-begin">🙃/To Begin</h1>
+<p><code>blog</code>翻译成中文也就是<code>博客</code>，不知道是什么时候起，我开始发现了博客这个东西，对于刚开始了解网络的我对很多东西都有兴趣，于是我开始研究了解了一番blog的前世今生，并且也享受着别人的blog，网络世界很大，日常除了上网冲浪还是上网冲浪的我在掌握了一点点微不足道的小技巧、小知识后便产生了与人们分享的需求，刚好blog便很好满足了我的需求。</p>
+<p>二话不说的我拿起电脑就是一顿操作，估计很多人和我一样，都是从hexo入坑的🙈，一开始进入这个“深坑”时，我感觉一切都是那么有趣新颖，什么主题和功能都想尝试一下，东搞搞西搞搞，我已经完全忘记了我搭建这个blog的目的了，一个劲的折腾各种小玩意，无法自拔，导致我也没有写下什么内容，直到我经历了多次的审美疲劳，我才慢慢的意识到我最初的目的。</p>
+<p>是时候发挥<code>blog</code>应有的作用了，折腾了这么多，我明白了我真正需要的是一个稳定、方便、易于阅读和维护的<code>blog</code>。但这并没有结束，因为符合更多苛刻条件并且长在你审美上的theme或许不易于找到，自己写一个主题的话应该说是最有效的解决方法，但是这太麻烦，而且需要掌握某些方面的专业知识，很显然，这不适合我这种人菜瘾大的小白😩&hellip;&hellip;&hellip;.但很幸运，hugo和hugo-theme-stack恰好通过了我的层层筛选，拥抱它，并享受它&hellip;&hellip;&hellip;.</p>
+<hr>
+<h2 id="留意的问题">🔮/留意的问题</h2>
+<p><code>blog</code>作为发布言论的地方，不是法外之地，同样也要留意一些法律问题，这涉及的很多内容，最好有个大概的了解。做到知法守法用法🎓</p>
+<hr>
+<h2 id="我对blog的认识">🍭我对blog的认识</h2>
+<p>从博客的属性和本质上讲的。blog是网络日志的意思，也就是在网上写日记。即<code>web log</code>。我可以用它来记录我所学的知识，用它来记录生活，独立blog便是属于你在互联网的一片自留地，我在blog里分享，并收获着喜悦。它不同于知乎、CSDN等这些大平台，你的内容属于你自己，你能够享有更大的自由，互联网时刻发生巨变，有些平台有时并不值得信任，blog才是最稳定安全的方法，源文件放在本地，由自己掌握,想随时可以发布到互联网上&hellip;&hellip;.</p>
+<blockquote>
+<p>🎈<strong>我读，我看，我写！</strong></p>
+</blockquote>
+<h2 id="本博的出生">👻本博的出生</h2>
+<p>本博本着稳定，简单，自由，低成本诞生，<code>GitHub</code>、<code>vercel</code>和<code>hugo</code>是我比较信任且稳定的平台和工具，通过这些驱动我的博客是个不错的选择。为什么选择<code>hugo</code>而不是<code>hexo</code>，因为hexo需要npm，这会使得整个blog的源文件很臃肿，对网络也有更高的要求，且在文章多了之后速度会变慢很多，hugo自称是世界上最快的博客生成器也是当之无愧，所以我会更推荐使用<code>hugo</code>。</p>
+<p>搭建本博客其实很简单，我也不是很喜欢重复造轮子，这里给出搭建blog的相关文档🧀</p>
+<blockquote>
+<p>博客生成器hugo官网及文档</p>
+<p><a class="link" href="https://gohugo.io/"  target="_blank" rel="noopener"
+    >https://gohugo.io/</a></p>
+<p>hugo-theme-stack主题的使用文档</p>
+<p><a class="link" href="https://docs.stack.jimmycai.com/zh/"  target="_blank" rel="noopener"
+    >https://docs.stack.jimmycai.com/zh/</a></p>
+</blockquote>
+<p>通过这些，搭建一个blog应该是很简单了，但是blog搭建完还需要上线，</p>
+<p>因此我推荐将<code>blog</code>发布到<code>GitHub</code>，并配合<code>vercel</code>上线你的blog.这里同样给出相关内容的官网及文档</p>
+<blockquote>
+<p>GitHub官网：</p>
+<p><a class="link" href="https://github.com/"  target="_blank" rel="noopener"
+    >https://github.com/</a></p>
+<p>vercel官网：</p>
+<p><a class="link" href="https://vercel.com/"  target="_blank" rel="noopener"
+    >https://vercel.com/</a></p>
+</blockquote>
+<p>🃏完成这些之后就算是搭建完工了，开始在blog里发挥吧。</p>
+<p>顺便在此分享一下我对主题的<code>config.yaml</code>的具体配置，如下</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">baseurl</span><span class="p">:</span><span class="w"> </span><span class="l">https://blog.linsnow.cn</span><span class="w">
+</span><span class="w"></span><span class="nt">languageCode</span><span class="p">:</span><span class="w"> </span><span class="l">zh-cn</span><span class="w">
+</span><span class="w"></span><span class="nt">theme</span><span class="p">:</span><span class="w"> </span><span class="l">hugo-theme-stack</span><span class="w">
+</span><span class="w"></span><span class="nt">paginate</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">L1nSn0w&#39;s Blog</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c"># Change it to your Disqus shortname before using</span><span class="w">
+</span><span class="w"></span><span class="nt">disqusShortname</span><span class="p">:</span><span class="w"> </span><span class="l">hugo-theme-stack</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c"># GA Tracking ID</span><span class="w">
+</span><span class="w"></span><span class="nt">googleAnalytics</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c"># Theme i18n support</span><span class="w">
+</span><span class="w"></span><span class="c"># Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk</span><span class="w">
+</span><span class="w"></span><span class="nt">DefaultContentLanguage</span><span class="p">:</span><span class="w"> </span><span class="l">zh-cn</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c"># Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]</span><span class="w">
+</span><span class="w"></span><span class="c"># This will make .Summary and .WordCount behave correctly for CJK languages.</span><span class="w">
+</span><span class="w"></span><span class="nt">hasCJKLanguage</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">permalinks</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">post</span><span class="p">:</span><span class="w"> </span><span class="l">/p/:slug/</span><span class="w">
+</span><span class="w">    </span><span class="nt">page</span><span class="p">:</span><span class="w"> </span><span class="l">/:slug/</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">mainSections</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="l">post</span><span class="w">
+</span><span class="w">    </span><span class="nt">featuredImageField</span><span class="p">:</span><span class="w"> </span><span class="l">image</span><span class="w">
+</span><span class="w">    </span><span class="nt">rssFullContent</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span><span class="nt">favicon</span><span class="p">:</span><span class="w"> </span><span class="l">img/avatar.png</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">footer</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">since</span><span class="p">:</span><span class="w"> </span><span class="m">2020</span><span class="w">
+</span><span class="w">        </span><span class="nt">customText</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">dateFormat</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">published</span><span class="p">:</span><span class="w"> </span><span class="l">Jan 02, 2006</span><span class="w">
+</span><span class="w">        </span><span class="nt">lastUpdated</span><span class="p">:</span><span class="w"> </span><span class="l">Jan 02, 2006 15:04 MST</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">sidebar</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">emoji</span><span class="p">:</span><span class="w"> </span><span class="l">🍥</span><span class="w">
+</span><span class="w">        </span><span class="nt">subtitle</span><span class="p">:</span><span class="w"> </span><span class="l">借问酒家何处有.🎈</span><span class="w">
+</span><span class="w">        </span><span class="nt">avatar</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">            </span><span class="nt">local</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">            </span><span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">img/avatar.png</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">article</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">math</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">        </span><span class="nt">toc</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">readingTime</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">license</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">            </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l">Licensed under CC BY-NC-SA 4.0</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">comments</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l">giscus</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">disqusjs</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">shortname</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">apiUrl</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">apiKey</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">admin</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">adminLabel</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">utterances</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">repo</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">issueTerm</span><span class="p">:</span><span class="w"> </span><span class="l">pathname</span><span class="w">
+</span><span class="w">            </span><span class="nt">label</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">remark42</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">host</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">site</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">locale</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">vssue</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">platform</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">owner</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">repo</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">clientId</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">clientSecret</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">autoCreateIssue</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="c"># Waline client configuration see: https://waline.js.org/en/reference/client.html</span><span class="w">
+</span><span class="w">        </span><span class="nt">waline</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">serverURL</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">lang</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">visitor</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">            </span><span class="nt">avatar</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">emoji</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span>- <span class="w">
+</span><span class="w">            </span><span class="nt">requiredMeta</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span>- <span class="l">name</span><span class="w">
+</span><span class="w">                </span>- <span class="l">email</span><span class="w">
+</span><span class="w">                </span>- <span class="l">url</span><span class="w">
+</span><span class="w">            </span><span class="nt">placeholder</span><span class="p">:</span><span class="w"> </span><span class="l">🎉不用登陆也可以畅所欲言哦....</span><span class="w">
+</span><span class="w">            </span><span class="nt">locale</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span><span class="nt">admin</span><span class="p">:</span><span class="w"> </span><span class="l">努力学习ing🍔</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">twikoo</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">envId</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">region</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">path</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">lang</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="c"># See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options</span><span class="w">
+</span><span class="w">        </span><span class="nt">cactus</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">defaultHomeserverUrl</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://matrix.cactus.chat:8448&#34;</span><span class="w">
+</span><span class="w">            </span><span class="nt">serverName</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;cactus.chat&#34;</span><span class="w">
+</span><span class="w">            </span><span class="nt">siteName</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w"> </span><span class="c"># You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)</span><span class="w">
+</span><span class="w">            
+</span><span class="w">        </span><span class="nt">giscus</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">..........不许偷看</span><span class="w">
+</span><span class="w">            </span><span class="nt">repoID</span><span class="p">:</span><span class="w"> </span><span class="l">..........不许偷看</span><span class="w">
+</span><span class="w">            </span><span class="nt">category</span><span class="p">:</span><span class="w"> </span><span class="l">Announcements</span><span class="w">
+</span><span class="w">            </span><span class="nt">categoryID</span><span class="p">:</span><span class="w"> </span><span class="l">..........不许偷看</span><span class="w">
+</span><span class="w">            </span><span class="nt">mapping</span><span class="p">:</span><span class="w"> </span><span class="l">pathname</span><span class="w">
+</span><span class="w">            </span><span class="nt">lightTheme</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">darkTheme</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">reactionsEnabled</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span><span class="w">            </span><span class="nt">emitMetadata</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span><span class="w">            </span><span class="nt">inputposition</span><span class="p">:</span><span class="w"> </span><span class="l">top</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">gitalk</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">owner</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">admin</span><span class="p">:</span><span class="w">  
+</span><span class="w">            </span><span class="nt">repo</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">clientID</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">clientSecret</span><span class="p">:</span><span class="w"> 
+</span><span class="w">        
+</span><span class="w">        </span><span class="nt">cusdis</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">host</span><span class="p">:</span><span class="w"> 
+</span><span class="w">            </span><span class="nt">id</span><span class="p">:</span><span class="w"> 
+</span><span class="w">    </span><span class="nt">widgets</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">enabled</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span>- <span class="l">search</span><span class="w">
+</span><span class="w">            </span>- <span class="l">archives</span><span class="w">
+</span><span class="w">            </span>- <span class="l">tag-cloud</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">archives</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">limit</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="nt">tagCloud</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">limit</span><span class="p">:</span><span class="w"> </span><span class="m">20</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">opengraph</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">twitter</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="c"># Your Twitter username</span><span class="w">
+</span><span class="w">            </span><span class="nt">site</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">            </span><span class="c"># Available values: summary, summary_large_image</span><span class="w">
+</span><span class="w">            </span><span class="nt">card</span><span class="p">:</span><span class="w"> </span><span class="l">summary_large_image</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">defaultImage</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">opengraph</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">            </span><span class="nt">local</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">            </span><span class="nt">src</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">colorScheme</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="c"># Display toggle</span><span class="w">
+</span><span class="w">        </span><span class="nt">toggle</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="c"># Available values: auto, light, dark</span><span class="w">
+</span><span class="w">        </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l">dark</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">imageProcessing</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">cover</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">content</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c">### Custom menu</span><span class="w">
+</span><span class="w"></span><span class="c">### See https://docs.stack.jimmycai.com/configuration/custom-menu.html</span><span class="w">
+</span><span class="w"></span><span class="c">### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter</span><span class="w">
+</span><span class="w"></span><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">home</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Home</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span>-<span class="m">100</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">              </span><span class="c">### For demonstration purpose, the home link will be open in a new tab</span><span class="w">
+</span><span class="w">              </span><span class="nt">newTab</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">              </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">home</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">关于</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">关于&amp;留言</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/about</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span>-<span class="m">60</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">user</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">links</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">友链</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/links</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">40</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">friends</span><span class="w">
+</span><span class="w">    
+</span><span class="w">    </span><span class="nt">social</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">陋巷</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">陋巷</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/louxiang</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">                </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">beach</span><span class="w">
+</span><span class="w">                </span><span class="nt">newTab</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">github</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/lin-snow</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">brand-github</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">rss</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">RSS</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">https://blog.linsnow.cn/index.xml</span><span class="w">
+</span><span class="w">          </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l">rss</span><span class="w">
+</span><span class="w">        
+</span><span class="w">
+</span><span class="w"></span><span class="nt">related</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">includeNewer</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="m">60</span><span class="w">
+</span><span class="w">    </span><span class="nt">toLower</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">    </span><span class="nt">indices</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">tags</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">100</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">categories</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">200</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">markup</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">goldmark</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">renderer</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="c">## Set to true if you have HTML content inside Markdown</span><span class="w">
+</span><span class="w">            </span><span class="nt">unsafe</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span><span class="nt">tableOfContents</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">endLevel</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+</span><span class="w">        </span><span class="nt">ordered</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">startLevel</span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
+</span><span class="w">    </span><span class="nt">highlight</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">noClasses</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">
+</span></code></pre></div><h2 id="我的博客魔改">🪅我的博客魔改</h2>
+<h3 id="魔改声明">🎈魔改声明</h3>
+<blockquote>
+<p>魔改的内容采用多个博客站点的样式并进行删减整合，如侵权请留言删除</p>
+</blockquote>
+<hr>
+<p>由于<code>hugo-theme-stack</code>在某些方面我认为是不易于阅读和使用的，因此我对其进行了小小的改造。对hugo主题进行改造不应该直接修改theme目录下的主题源码，这里我将给出我的整个blog文件夹目录结构并作出简单的解释。这里引用文档对修改主题的介绍</p>
+<blockquote>
+<p>修改主题方法:</p>
+<p>主题预留了 <code>layouts/partials/head/custom.html</code> 和 <code>layouts/partials/footer/custom.html</code> 这两个文件来自定义页面头部和底部的内容。</p>
+<p>借助 <a class="link" href="https://gohugo.io/hugo-modules/theme-components/"  target="_blank" rel="noopener"
+    >Hugo 的特性</a>可以很方便地覆盖主题的源码（类似 WordPress 的子主题功能）。</p>
+<p>举个例子，假设我要在页面底部添加 Google Analytics 统计代码，可以这么做：</p>
+<ol>
+<li>在<strong>站点根目录</strong>新建 <code>layouts/partials/footer/custom.html</code> 文件</li>
+<li>在该文件内插入统计代码</li>
+</ol>
+<p>这么做的好处就是<strong>可以直接覆盖升级主题</strong>，同时不丢失你对主题做的修改。</p>
+<p>也可以用同样的方式<strong>修改主题的 SCSS 文件</strong>（存放在 <code>assets/scss</code> 文件夹下）。同理，需要在站点根目录下创建同名文件，Hugo 就会赋予它更高的优先级。</p>
+</blockquote>
+<p>我的blog文件夹目录：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">blog:.
+├─archetypes #生成带有YAML Front Matter模板的文章
+├─assets
+│  ├─icons #存放魔改的图标的文件夹
+│  ├─img #存放魔改的图片的文件
+│  └─scss #存放魔改的scss样式的文件夹
+├─content #博客的主要内容
+│  ├─categories #用来放分类
+│  ├─page #用于存放我的页面，如
+│  │  ├─about #关于
+│  │  ├─archives #归档
+│  │  ├─links #友链
+│  │  ├─louxiang #陋巷
+│  │  └─search #搜索
+│  └─post #用来放文章
+├─layouts #用于魔改主题里的layouts文件
+├─public #最终生成blog的目录
+├─resources #无需了解
+├─static #存放静态文件的目录，如CNAME等
+│  └─img
+└─themes #存放主题的文件夹
+    └─hugo-theme-stack 
+</code></pre></div><p>我魔改主题的文件位于<code>blog\themes\hugo-theme-stack\assets\scss\custom.scss</code>,因此，我在<code>blog</code>根目录下新建了<code>assets\scss\custom.scss</code>，在其中写入如下代码：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="cm">/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */</span>
+<span class="c1">// 设置选中字体的区域背景颜色
+</span><span class="c1"></span><span class="nd">::selection</span> <span class="p">{</span>
+    <span class="na">background</span><span class="o">:</span> <span class="mh">#dae3ea</span><span class="p">;</span>
+    <span class="na">color</span><span class="o">:</span> <span class="mh">#34495e</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nd">::-moz-selection</span> <span class="p">{</span>
+    <span class="na">background</span><span class="o">:</span> <span class="mh">#dae3ea</span><span class="p">;</span>
+    <span class="na">color</span><span class="o">:</span> <span class="mh">#34495e</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nd">::-webkit-selection</span> <span class="p">{</span>
+    <span class="na">background</span><span class="o">:</span> <span class="mh">#dae3ea</span><span class="p">;</span>
+    <span class="na">color</span><span class="o">:</span> <span class="mh">#34495e</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="nt">a</span> <span class="p">{</span>
+    <span class="na">text-decoration</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+    <span class="na">color</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">accent-color</span><span class="p">);</span>
+
+    <span class="k">&amp;</span><span class="nd">:hover</span> <span class="p">{</span>
+        <span class="na">color</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">accent-color-darker</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">&amp;</span><span class="nc">.link</span> <span class="p">{</span>
+        <span class="na">color</span><span class="o">:</span> <span class="mh">#4288b9</span><span class="n">ad</span><span class="p">;</span>
+        <span class="na">font-weight</span><span class="o">:</span> <span class="mi">600</span><span class="p">;</span>
+        <span class="na">padding</span><span class="o">:</span> <span class="mi">0</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+        <span class="na">text-decoration</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
+        <span class="na">cursor</span><span class="o">:</span> <span class="ni">pointer</span><span class="p">;</span>
+        
+        <span class="k">&amp;</span><span class="nd">:hover</span><span class="p">{</span>
+            <span class="na">text-decoration</span><span class="o">:</span> <span class="ni">underline</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="c1">// 页面配色样式####################################################################
+</span><span class="c1"></span><span class="nd">:root</span> <span class="p">{</span>
+    <span class="c1">// 右边栏菜单字体大小
+</span><span class="c1"></span>    <span class="nc">.section-title</span> <span class="p">{</span>
+        <span class="na">font-size</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.8</span><span class="kt">rem</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// 菜单字体大小
+</span><span class="c1"></span>    <span class="nc">.menu</span> <span class="p">{</span>
+        <span class="na">font-size</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.9</span><span class="kt">rem</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// 文章内容图片圆角阴影
+</span><span class="c1"></span>    <span class="nc">.article-page</span> <span class="nc">.main-article</span> <span class="nc">.article-content</span> <span class="p">{</span>
+        <span class="nt">img</span> <span class="p">{</span>
+            <span class="na">max-width</span><span class="o">:</span> <span class="mi">92</span><span class="kt">%</span> <span class="k">!important</span><span class="p">;</span>
+            <span class="na">height</span><span class="o">:</span> <span class="ni">auto</span> <span class="k">!important</span><span class="p">;</span>
+            <span class="na">box-shadow</span><span class="o">:</span> <span class="mi">0</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="mh">#636b90</span><span class="mi">4</span><span class="kt">d</span><span class="p">;</span>
+            <span class="na">border-radius</span><span class="o">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="c1">// 文章内容引用块左边样式
+</span><span class="c1"></span>    <span class="nc">.article-content</span> <span class="p">{</span>
+        <span class="nt">blockquote</span> <span class="p">{</span>
+            <span class="na">border-left</span><span class="o">:</span> <span class="mi">6</span><span class="kt">px</span> <span class="ni">solid</span> <span class="mh">#1bcdfc</span> <span class="k">!important</span><span class="p">;</span>
+            <span class="na">border-radius</span><span class="o">:</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="c1">// 字体颜色
+</span><span class="c1"></span>    <span class="na">--card-text-color-main</span><span class="o">:</span> <span class="mh">#34495e</span><span class="p">;</span>
+    <span class="c1">// 行内代码背景色
+</span><span class="c1"></span>    <span class="na">--code-background-color</span><span class="o">:</span> <span class="mh">#e7fffc</span><span class="n">cf</span><span class="p">;</span>
+    <span class="c1">// 行内代码前景色
+</span><span class="c1"></span>    <span class="na">--code-text-color</span><span class="o">:</span> <span class="mh">#1f2d55</span><span class="n">cf</span><span class="p">;</span>
+    <span class="c1">// 默认模式下引用块背景样式
+</span><span class="c1"></span>    <span class="na">--blockquote-background-color</span><span class="o">:</span> <span class="mh">#b9ebea</span><span class="mi">4</span><span class="kt">d</span><span class="p">;</span>
+    <span class="c1">// 全局字体大小
+</span><span class="c1"></span>    <span class="na">--article-font-size</span><span class="o">:</span> <span class="mi">2</span><span class="mf">.0</span><span class="kt">rem</span><span class="p">;</span>
+    <span class="c1">// 表格配色样式
+</span><span class="c1"></span>    <span class="na">--tr-even-background-color</span><span class="o">:</span> <span class="mh">#eff0fa</span><span class="mi">54</span> <span class="k">!important</span><span class="p">;</span>
+    <span class="k">&amp;</span><span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="s2">&#34;dark&#34;</span><span class="o">]</span> <span class="p">{</span>
+        <span class="c1">//    暗黑模式下引用块背景样式
+</span><span class="c1"></span>        <span class="na">--blockquote-background-color</span><span class="o">:</span> <span class="mh">#313f56</span><span class="mi">45</span><span class="p">;</span>
+        <span class="c1">// 整页背景配色
+</span><span class="c1"></span>        <span class="na">--body-background</span><span class="o">:</span> <span class="mh">#000</span><span class="p">;</span>
+        <span class="c1">// 卡片配色
+</span><span class="c1"></span>        <span class="na">--card-background</span><span class="o">:</span> <span class="mh">#191d24</span><span class="p">;</span>
+        <span class="c1">// 表格配色样式
+</span><span class="c1"></span>        <span class="na">--tr-even-background-color</span><span class="o">:</span> <span class="mh">#1e242e</span><span class="n">cf</span> <span class="k">!important</span><span class="p">;</span>
+        <span class="c1">// 文章内容引用块左边样式
+</span><span class="c1"></span>        <span class="nc">.article-content</span> <span class="p">{</span>
+            <span class="nt">blockquote</span> <span class="p">{</span>
+                <span class="na">border-left</span><span class="o">:</span> <span class="mi">6</span><span class="kt">px</span> <span class="ni">solid</span> <span class="mh">#33619b</span><span class="mi">8</span><span class="kt">c</span> <span class="k">!important</span><span class="p">;</span>
+                <span class="na">border-radius</span><span class="o">:</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+
+
+
+
+
+<span class="c1">// 友链样式 ###############################################################################
+</span><span class="c1">// 头像边框颜色
+</span><span class="c1"></span><span class="nv">$avatar-border-color</span><span class="o">:</span> <span class="mh">#566a82</span><span class="p">;</span>
+<span class="nv">$avatar-border-color-dark</span><span class="o">:</span> <span class="mh">#C0C0C0</span><span class="p">;</span>
+
+<span class="c1">// style-card 背景色
+</span><span class="c1"></span><span class="nv">$friend-link-background-color</span><span class="o">:</span> <span class="mh">#51a8ca</span><span class="mi">10</span><span class="p">;</span>
+<span class="nv">$friend-link-background-color-dark</span><span class="o">:</span> <span class="mh">#696971</span><span class="mi">41</span><span class="p">;</span>
+
+<span class="c1">// 友链 name 原始色
+</span><span class="c1"></span><span class="nv">$friend-link-color</span><span class="o">:</span> <span class="mh">#11a1a2</span><span class="p">;</span>
+<span class="nv">$friend-link-color-dark</span><span class="o">:</span> <span class="mh">#ffffff</span><span class="p">;</span>
+
+<span class="c1">// 友链 name 气泡响应对比色
+</span><span class="c1"></span><span class="nv">$friend-link-hover-color</span><span class="o">:</span> <span class="mh">#ea4e2f</span><span class="p">;</span>
+<span class="nv">$friend-link-hover-color-dark</span><span class="o">:</span> <span class="nf">rgb</span><span class="p">(</span><span class="mi">241</span><span class="o">,</span> <span class="mi">213</span><span class="o">,</span> <span class="mi">159</span><span class="p">);</span>
+
+<span class="c1">// bio 简介上下文
+</span><span class="c1"></span><span class="nv">$context-color</span><span class="o">:</span> <span class="mh">#404040</span><span class="p">;</span>
+<span class="nv">$context-color-dark</span><span class="o">:</span> <span class="mh">#c0c0c0</span><span class="p">;</span>
+
+<span class="c1">// 友链头像及头像边框的样式
+</span><span class="c1"></span><span class="nc">.friend-avatar</span> <span class="p">{</span>
+    <span class="na">width</span><span class="o">:</span> <span class="mi">56</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">height</span><span class="o">:</span> <span class="mi">56</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">padding</span><span class="o">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">margin-top</span><span class="o">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">margin-left</span><span class="o">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">border-radius</span><span class="o">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">border</span><span class="o">:</span> <span class="mi">3</span><span class="mf">.6</span><span class="kt">px</span> <span class="ni">inset</span> <span class="nv">$avatar-border-color</span><span class="p">;</span>
+
+    <span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="k">&amp;</span> <span class="p">{</span>
+        <span class="na">border</span><span class="o">:</span> <span class="mi">3</span><span class="mf">.6</span><span class="kt">px</span> <span class="ni">inset</span> <span class="nv">$avatar-border-color-dark</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nc">.friend-link-div</span> <span class="p">{</span>
+    <span class="c1">// 实现卡片双栏排列效果
+</span><span class="c1"></span>    <span class="na">height</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+    <span class="na">margin-top</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+    <span class="na">margin-inline-start</span><span class="o">:</span> <span class="mi">4</span><span class="mf">.5</span><span class="kt">%</span><span class="p">;</span>
+    <span class="na">width</span><span class="o">:</span> <span class="mi">43</span><span class="kt">%</span><span class="p">;</span>
+    <span class="na">display</span><span class="o">:</span> <span class="ni">inline-block</span> <span class="k">!important</span><span class="p">;</span>
+
+    <span class="c1">// 控制上下连续排列的卡片之间的行距
+</span><span class="c1"></span>    <span class="na">margin-bottom</span><span class="o">:</span> <span class="mi">11</span><span class="kt">px</span><span class="p">;</span>
+
+    <span class="c1">// 卡片圆角
+</span><span class="c1"></span>    <span class="na">border-radius</span><span class="o">:</span> <span class="mi">7</span><span class="kt">px</span> <span class="mi">7</span><span class="kt">px</span> <span class="mi">7</span><span class="kt">px</span> <span class="mi">7</span><span class="kt">px</span><span class="p">;</span>
+
+    <span class="c1">// 卡片阴影
+</span><span class="c1"></span>    <span class="na">-webkit-box-shadow</span><span class="o">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">14</span><span class="kt">px</span> <span class="mi">32</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="nf">rgba</span><span class="p">(</span><span class="mi">231</span><span class="o">,</span> <span class="mi">224</span><span class="o">,</span> <span class="mi">224</span><span class="o">,</span> <span class="mi">0</span><span class="mf">.15</span><span class="p">);</span>
+    <span class="na">-moz-box-shadow</span><span class="o">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">14</span><span class="kt">px</span> <span class="mi">32</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="nf">rgba</span><span class="p">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="mf">.15</span><span class="p">);</span>
+    <span class="na">box-shadow</span><span class="o">:</span> <span class="mi">0</span><span class="mf">.7</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="nf">rgba</span><span class="p">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="mf">.16</span><span class="p">);</span>
+
+    <span class="c1">// 卡片背景色
+</span><span class="c1"></span>    <span class="na">background</span><span class="o">:</span> <span class="nv">$friend-link-background-color</span><span class="p">;</span>
+
+    <span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="k">&amp;</span> <span class="p">{</span>
+        <span class="na">background</span><span class="o">:</span> <span class="nv">$friend-link-background-color-dark</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// 卡牌气泡响应动画
+</span><span class="c1"></span>    <span class="na">-webkit-transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mi">0</span><span class="mf">.4</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+    <span class="na">-moz-transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mi">0</span><span class="mf">.4</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+    <span class="na">-o-transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mi">0</span><span class="mf">.4</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+    <span class="na">transition</span><span class="o">:</span> <span class="ni">transform</span> <span class="mi">0</span><span class="mf">.15</span><span class="kt">s</span> <span class="ni">ease</span><span class="p">;</span>
+
+    <span class="k">&amp;</span><span class="nd">:hover</span> <span class="p">{</span>
+        <span class="na">transform</span><span class="o">:</span> <span class="nf">scale</span><span class="p">(</span><span class="mi">1</span><span class="mf">.03</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+
+<span class="nc">.friend-link-avatar</span> <span class="p">{</span>
+    <span class="na">width</span><span class="o">:</span> <span class="mi">92</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">float</span><span class="o">:</span> <span class="ni">left</span><span class="p">;</span>
+    <span class="na">margin-right</span><span class="o">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+
+<span class="p">}</span>
+
+<span class="c1">// name 特效样式， hover 气泡效果,友链 name 变色
+</span><span class="c1"></span><span class="nc">.friend-link-info</span> <span class="p">{</span>
+    <span class="na">margin-top</span><span class="o">:</span> <span class="mi">13</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">margin-right</span><span class="o">:</span> <span class="mi">18</span><span class="kt">px</span><span class="p">;</span>
+    <span class="na">color</span><span class="o">:</span> <span class="nv">$friend-link-color</span><span class="p">;</span>
+
+    <span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="k">&amp;</span> <span class="p">{</span>
+        <span class="na">color</span><span class="o">:</span> <span class="nv">$friend-link-color-dark</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">&amp;</span><span class="nd">:hover</span> <span class="p">{</span>
+        <span class="na">color</span><span class="o">:</span> <span class="nv">$friend-link-hover-color</span><span class="p">;</span>
+
+        <span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="k">&amp;</span> <span class="p">{</span>
+            <span class="na">color</span><span class="o">:</span> <span class="nv">$friend-link-hover-color-dark</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// name 文字样式
+</span><span class="c1"></span><span class="nc">.friend-name</span> <span class="p">{</span>
+    <span class="na">text-overflow</span><span class="o">:</span> <span class="ni">ellipsis</span><span class="p">;</span>
+    <span class="na">overflow</span><span class="o">:</span> <span class="ni">hidden</span><span class="p">;</span>
+    <span class="na">white-space</span><span class="o">:</span> <span class="ni">nowrap</span><span class="p">;</span>
+    <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
+    <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Comic Sans MS&#39;</span><span class="o">,</span> <span class="ni">cursive</span><span class="p">;</span>
+    <span class="na">font-size</span><span class="o">:</span> <span class="mi">16</span><span class="kt">px</span><span class="p">;</span>
+
+<span class="p">}</span>
+
+<span class="c1">// bio 文字样式
+</span><span class="c1"></span><span class="nc">.friend-bio</span> <span class="p">{</span>
+    <span class="na">text-overflow</span><span class="o">:</span> <span class="ni">ellipsis</span><span class="p">;</span>
+    <span class="na">overflow</span><span class="o">:</span> <span class="ni">hidden</span><span class="p">;</span>
+    <span class="na">white-space</span><span class="o">:</span> <span class="ni">nowrap</span><span class="p">;</span>
+    <span class="na">margin-top</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+
+    <span class="c1">// font: 12px/1 Tahoma,Helvetica,Arial,&#34;\5b8b\4f53&#34;,sans-serif;
+</span><span class="c1"></span>    <span class="na">font-family</span><span class="o">:</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="s1">&#39;Hiragino Sans GB&#39;</span><span class="o">,</span> <span class="s1">&#39;Microsoft Yahei&#39;</span><span class="o">,</span> <span class="s1">&#39;微软雅黑&#39;</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="ni">sans-serif</span><span class="p">;</span>
+    <span class="na">font-size</span><span class="o">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+
+    <span class="na">color</span><span class="o">:</span> <span class="nv">$context-color</span><span class="p">;</span>
+
+    <span class="o">[</span><span class="nt">data-scheme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="k">&amp;</span> <span class="p">{</span>
+        <span class="na">color</span><span class="o">:</span> <span class="nv">$context-color-dark</span><span class="p">;</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="c1">// 响应式页面，允许根据不同的尺寸调整样式
+</span><span class="c1"></span><span class="k">@media</span> <span class="ni">screen</span> <span class="ow">and</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">720</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nc">.friend-link-div</span> <span class="p">{</span>
+        <span class="na">width</span><span class="o">:</span> <span class="mi">92</span><span class="kt">%</span><span class="p">;</span>
+        <span class="na">margin-right</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nc">.friend-bio</span> <span class="p">{</span>
+        <span class="na">margin</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+        <span class="na">align-content</span><span class="o">:</span> <span class="ni">center</span><span class="p">;</span>
+        <span class="na">justify-content</span><span class="o">:</span> <span class="ni">left</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nc">.friend-link-avatar</span> <span class="p">{</span>
+        <span class="na">width</span><span class="o">:</span> <span class="mi">84</span><span class="kt">px</span><span class="p">;</span>
+        <span class="na">margin</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// .friend-link-info {
+</span><span class="c1"></span>    <span class="c1">//     height: 100%;
+</span><span class="c1"></span>    <span class="c1">//     margin: auto;
+</span><span class="c1"></span>    <span class="c1">//     display: flex;
+</span><span class="c1"></span>    <span class="c1">//     align-items: center;
+</span><span class="c1"></span>    <span class="c1">//     justify-content: left;
+</span><span class="c1"></span>    <span class="c1">// }
+</span><span class="c1"></span>
+    <span class="nc">.friend-name</span> <span class="p">{</span>
+        <span class="na">font-size</span><span class="o">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+        <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
+        <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Microsoft Yahei&#39;</span><span class="o">,</span> <span class="s1">&#39;微软雅黑&#39;</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="ni">sans-serif</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="c1">//############################################################################
+</span></code></pre></div><p>友链页需要使用短代码即<code>shortcode</code>实现，于是需要在blog根目录新建<code>layouts\shortcodes\friend.html</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">{{- $name := .Get &#34;name&#34; | default (.Get 0) -}} {{- $url := .Get &#34;url&#34; | default (.Get 1) -}} {{- $avatar := .Get &#34;avatar&#34; | default (.Get 2) -}} {{- $bio := .Get &#34;bio&#34; | default (.Get 3) -}}
+
+<span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{- $url -}}&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;{{- $name -}}&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-link&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;friend&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-link-div&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-link-avatar&#34;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">{{</span> <span class="err">.</span><span class="na">Get</span> <span class="err">&#34;</span><span class="na">avatar</span><span class="err">&#34;</span> <span class="err">}}</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-avatar&#34;</span> <span class="na">loading</span><span class="o">=</span><span class="s">&#34;lazy&#34;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;Avatar&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-link-info&#34;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fa fa-link&#34;</span> <span class="na">aria-hidden</span><span class="o">=</span><span class="s">&#34;true&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-name&#34;</span><span class="p">&gt;</span>{{ $name }}<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;friend-bio&#34;</span><span class="p">&gt;</span>{{ $bio }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></div><p>如何调用短代码，这里举个例子：</p>
+<p>在友链页的md文件里写入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="c">&lt;!-- 此处为了正常演示添加反斜杠防止转译。 --&gt;</span>
+{\{<span class="p">&lt;</span> <span class="nt">friend</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Heo&#34;</span> <span class="na">url</span><span class="o">=</span><span class="s">&#34;https://blog.zhheo.com/&#34;</span> <span class="na">avatar</span><span class="o">=</span><span class="s">&#34;https://blog.zhheo.com/img/avatar.png&#34;</span> <span class="na">bio</span><span class="o">=</span><span class="s">&#34;👻爱折腾的设计师&#34;</span> <span class="p">&gt;</span>}}
+</code></pre></div><p>效果如下：</p>
+<a href="https://blog.zhheo.com/" title="Heo" class="friend-link" target="_blank" rel="friend">
+    <div class="friend-link-div">
+        <div class="friend-link-avatar">
+            <img src=https://blog.zhheo.com/img/avatar.png class="friend-avatar" loading="lazy" alt="Avatar">
+        </div>
+        <div class="friend-link-info">
+            <i class="fa fa-link" aria-hidden="true"></i>
+            <i class="friend-name">Heo</i>
+            <p class="friend-bio">👻爱折腾的设计师</p>
+        </div>
+    </div>
+</a>
+<blockquote>
+<p>🎈参数讲解</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Value</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">name</td>
+<td style="text-align:center">必填（Type: String）</td>
+<td style="text-align:center">名称</td>
+</tr>
+<tr>
+<td style="text-align:center">url</td>
+<td style="text-align:center">必填（Type: String）</td>
+<td style="text-align:center">站点链接</td>
+</tr>
+<tr>
+<td style="text-align:center">avatar</td>
+<td style="text-align:center">必填（Type: String）</td>
+<td style="text-align:center">头像链接</td>
+</tr>
+<tr>
+<td style="text-align:center">bio</td>
+<td style="text-align:center">必填（Type: String）</td>
+<td style="text-align:center">简介</td>
+</tr>
+</tbody>
+</table></div>
+</blockquote>
+<hr>
+<p>给blog增加顶部加载进度条：</p>
+<p>需要在blog根目录下新建<code>layouts\partials\footer\custom.html</code>然后写入如下代码：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- 加载进度条 --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span>
+    <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js&#34;</span>
+    <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg&#34;</span>
+    <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span>
+<span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">link</span>
+    <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span>
+    <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css&#34;</span>
+    <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE&#34;</span>
+    <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span>
+<span class="p">/&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="nx">NProgress</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&#34;readystatechange&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">readyState</span> <span class="o">===</span> <span class="s2">&#34;interactive&#34;</span><span class="p">)</span> <span class="nx">NProgress</span><span class="p">.</span><span class="nx">inc</span><span class="p">(</span><span class="mf">0.8</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">readyState</span> <span class="o">===</span> <span class="s2">&#34;complete&#34;</span><span class="p">)</span> <span class="nx">NProgress</span><span class="p">.</span><span class="nx">done</span><span class="p">();</span>
+    <span class="p">});</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+
+</code></pre></div><h2 id="more">🌵More</h2>
+<p>In writing&hellip;&hellip;.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/blogger/">blogger</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/keykey/">
+        
+        
+            <div class="article-image">
+                <img src="/p/keykey/keykey.a59085abe919b938dffee437a35ffd95_hu93d1826446021d6543f8dd872f66b360_33053_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 我认为的最好用的打字软件"
+                        data-key="keykey" 
+                        data-hash="md5-pZCFq&#43;kZuTjf/uQ3o1/9lQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我认为的最好用的打字软件</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/m73-hackintosh/">
+        
+        
+            <div class="article-image">
+                <img src="/p/m73-hackintosh/hackintosh.191ce3efec799c8573ba54d66cd851cd_hu896827d6f7ad0831d261360098e3eb00_46118_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 记我的第一次捡垃圾之M73"
+                        data-key="m73-hackintosh" 
+                        data-hash="md5-GRzj7&#43;x5nIVzulTWbNhRzQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">记我的第一次捡垃圾之M73</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/send-file/">
+        
+        
+            <div class="article-image">
+                <img src="/p/send-file/filedeliver.dd731c149beca3b0fc736d0ec4d0f225_hua7ccf94766099bbcb7ce540d4c2fed61_74948_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何优雅的传输文件"
+                        data-key="send-file" 
+                        data-hash="md5-3XMcFJvso7D8c20OxNDyJQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何优雅的传输文件</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/setup-apple-books/">
+        
+        
+            <div class="article-image">
+                <img src="/p/setup-apple-books/applebooks.208104c3d52a5efd4b9dade7c95c88f0_hu4df1f67f2debcb668e7d5425c0864097_37984_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库"
+                        data-key="setup-apple-books" 
+                        data-hash="md5-IIEEw9UqXv1Lna3nyVyI8A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何用apple自带图书app搭建个人专属阅读库</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/win11/">
+        
+        
+            <div class="article-image">
+                <img src="/p/win11/win11.fe0316284c4ad278c83369164a41035a_hud22cc3af5e457c8ecb727efb06a1b175_34101_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Windows11正式版!出发!"
+                        data-key="win11" 
+                        data-hash="md5-/gMWKExK0njIM2kWSkEDWg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Windows11正式版!出发!</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="lin-snow/blog-comment"
+    data-repo-id="R_kgDOG1PCZg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOG1PCZs4CBIDy"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    data-input-position="top"
+    async
+></script>
+
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector('iframe.giscus-frame');
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                { 
+                    giscus: {
+                        setConfig: { 
+                            theme: theme 
+                        }
+                    }
+                },
+                "https://giscus.app"
+            );
+        };
+    };
+
+    (function(){
+        addEventListener('message', (e) => {
+            if (event.origin !== 'https://giscus.app') return;
+            handler()
+        });
+        window.addEventListener('onColorSchemeChange', handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            };
+        };
+    }());
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 L1nSn0w&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        
+            Powered by GitHub.Pages <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#留意的问题">🔮/留意的问题</a></li>
+    <li><a href="#我对blog的认识">🍭我对blog的认识</a></li>
+    <li><a href="#本博的出生">👻本博的出生</a></li>
+    <li><a href="#我的博客魔改">🪅我的博客魔改</a>
+      <ol>
+        <li><a href="#魔改声明">🎈魔改声明</a></li>
+      </ol>
+    </li>
+    <li><a href="#more">🌵More</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+    </body>
+</html>

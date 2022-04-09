@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='前言 其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.
+正文 捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;
+配置 买的是联想M73 Tiny准系统
+ 什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.
+   配件类别 具体型号     主板 H81(联想M73 Tiny）   CPU Intel i3-4360标压   内存条 杂牌ddr3 1333MHz 4G*1   硬盘 杂牌120g固态硬盘   电源 联系原装90w电源   转接头 dp转hdmi转接头   视频输出线 家里闲置的HDMI转HDMI线   网卡 博通bcm94352hmb   天线 一代的IPEX内置天线     小机机的外貌，内部图就不拍了，我懒得拆开
+ 折腾之白名单 为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了
+折腾之黑苹果 这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。 为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子. 算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。
+折腾之定制USB 由于macOS11.'><title>记我的第一次捡垃圾之M73</title>
+
+<link rel='canonical' href='https://blog.linsnow.cn/p/m73-hackintosh/'>
+
+<link rel="stylesheet" href="/scss/style.min.900db0cca7fed8bfef255ba330b4ac0cd2e28d82ecb411fd6034c5e1326a8da0.css"><meta property='og:title' content='记我的第一次捡垃圾之M73'>
+<meta property='og:description' content='前言 其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.
+正文 捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;
+配置 买的是联想M73 Tiny准系统
+ 什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.
+   配件类别 具体型号     主板 H81(联想M73 Tiny）   CPU Intel i3-4360标压   内存条 杂牌ddr3 1333MHz 4G*1   硬盘 杂牌120g固态硬盘   电源 联系原装90w电源   转接头 dp转hdmi转接头   视频输出线 家里闲置的HDMI转HDMI线   网卡 博通bcm94352hmb   天线 一代的IPEX内置天线     小机机的外貌，内部图就不拍了，我懒得拆开
+ 折腾之白名单 为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了
+折腾之黑苹果 这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。 为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子. 算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。
+折腾之定制USB 由于macOS11.'>
+<meta property='og:url' content='https://blog.linsnow.cn/p/m73-hackintosh/'>
+<meta property='og:site_name' content='L1nSn0w&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='捡垃圾' /><meta property='article:tag' content='Hackintosh' /><meta property='article:published_time' content='2022-03-04T16:45:33&#43;08:00'/><meta property='article:modified_time' content='2022-03-04T16:45:33&#43;08:00'/><meta property='og:image' content='https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.png' />
+<meta name="twitter:title" content="记我的第一次捡垃圾之M73">
+<meta name="twitter:description" content="前言 其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.
+正文 捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;
+配置 买的是联想M73 Tiny准系统
+ 什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.
+   配件类别 具体型号     主板 H81(联想M73 Tiny）   CPU Intel i3-4360标压   内存条 杂牌ddr3 1333MHz 4G*1   硬盘 杂牌120g固态硬盘   电源 联系原装90w电源   转接头 dp转hdmi转接头   视频输出线 家里闲置的HDMI转HDMI线   网卡 博通bcm94352hmb   天线 一代的IPEX内置天线     小机机的外貌，内部图就不拍了，我懒得拆开
+ 折腾之白名单 为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了
+折腾之黑苹果 这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。 为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子. 算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。
+折腾之定制USB 由于macOS11."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.png' />
+    <link rel="shortcut icon" href="img/avatar.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu803f79045d20d580f52450dca68cf196_14608_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">L1nSn0w&#39;s Blog</a></h1>
+            <h2 class="site-description">借问酒家何处有.🎈</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/lin-snow'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://blog.linsnow.cn/index.xml'
+                        target="_blank"
+                        title="RSS"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+  <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+  <line x1="8" y1="11" x2="10" y2="13" />
+  <line x1="16" y1="11" x2="14" y2="13" />
+</svg>
+
+                
+                <span>关于&amp;留言</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links' >
+                
+                
+                
+                    <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M31 7V24V7Z" fill="none"/><path d="M31 7V24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.636 6.63605L30.7781 20.7782L16.636 6.63605Z" fill="none"/><path d="M16.636 6.63605L30.7781 20.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 17H24H7Z" fill="none"/><path d="M7 17H24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.364 17.636L6.22188 31.7782L20.364 17.636Z" fill="none"/><path d="M20.364 17.636L6.22188 31.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 25V42V25Z" fill="none"/><path d="M17 25V42" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17.636 27.636L31.7781 41.7782L17.636 27.636Z" fill="none"/><path d="M17.636 27.636L31.7781 41.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M24 31L42 31L24 31Z" fill="none"/><path d="M24 31L42 31" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M42.364 16.636L28.2219 30.7782L42.364 16.636Z" fill="none"/><path d="M42.364 16.636L28.2219 30.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 31C27.866 31 31 27.866 31 24C31 20.134 27.866 17 24 17C20.134 17 17 20.134 17 24C17 27.866 20.134 31 24 31Z" fill="none" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/m73-hackintosh/">
+                <img src="/p/m73-hackintosh/hackintosh_hu896827d6f7ad0831d261360098e3eb00_46118_800x0_resize_box_3.png"
+                        srcset="/p/m73-hackintosh/hackintosh_hu896827d6f7ad0831d261360098e3eb00_46118_800x0_resize_box_3.png 800w, /p/m73-hackintosh/hackintosh_hu896827d6f7ad0831d261360098e3eb00_46118_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 记我的第一次捡垃圾之M73" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/blog/" >
+                blog
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/m73-hackintosh/">记我的第一次捡垃圾之M73</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 04, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="前言">前言</h2>
+<p>其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.</p>
+<h2 id="正文">正文</h2>
+<p>捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&hellip;</p>
+<h2 id="配置">配置</h2>
+<p>买的是联想M73 Tiny准系统</p>
+<blockquote>
+<p>什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>配件类别</th>
+<th>具体型号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主板</td>
+<td>H81(联想M73 Tiny）</td>
+</tr>
+<tr>
+<td>CPU</td>
+<td>Intel i3-4360标压</td>
+</tr>
+<tr>
+<td>内存条</td>
+<td>杂牌ddr3 1333MHz 4G*1</td>
+</tr>
+<tr>
+<td>硬盘</td>
+<td>杂牌120g固态硬盘</td>
+</tr>
+<tr>
+<td>电源</td>
+<td>联系原装90w电源</td>
+</tr>
+<tr>
+<td>转接头</td>
+<td>dp转hdmi转接头</td>
+</tr>
+<tr>
+<td>视频输出线</td>
+<td>家里闲置的HDMI转HDMI线</td>
+</tr>
+<tr>
+<td>网卡</td>
+<td>博通bcm94352hmb</td>
+</tr>
+<tr>
+<td>天线</td>
+<td>一代的IPEX内置天线</td>
+</tr>
+</tbody>
+</table></div>
+</blockquote>
+<p>小机机的外貌，内部图就不拍了，我懒得拆开</p>
+<p><img src="/p/m73-hackintosh/m73.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/m73-hackintosh/m73_hu6ddb91b585a929bc6e9ff992fc71296a_501095_480x0_resize_q75_box.jpg 480w, /p/m73-hackintosh/m73_hu6ddb91b585a929bc6e9ff992fc71296a_501095_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="m73"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p><img src="/p/m73-hackintosh/zhuomian.png"
+	width="1956"
+	height="1116"
+	srcset="/p/m73-hackintosh/zhuomian_hu2c2318e806e1154b44f333b90214ed92_537518_480x0_resize_box_3.png 480w, /p/m73-hackintosh/zhuomian_hu2c2318e806e1154b44f333b90214ed92_537518_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="420px"
+	
+></p>
+<hr>
+<h2 id="折腾之白名单">折腾之白名单</h2>
+<p>为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了</p>
+<h2 id="折腾之黑苹果">折腾之黑苹果</h2>
+<p>这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。
+为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子.
+算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。</p>
+<img src="jigailan.png"  />
+<h2 id="折腾之定制usb">折腾之定制USB</h2>
+<p>由于macOS11.3之后的系统变动，安装和更新新版必须要定制USB端口，否则会卡代码和USB用不了，无奈只能装个windows给这台机子定制USB端口，更***的是，由于定制好USB后要给efi添加两个驱动，但是我的疏忽，只添加了一个驱动，所以就导致后来的各种毛病，好在后来才发现了问题&hellip;.</p>
+<h2 id="成果分享之efi">成果分享之EFI</h2>
+<p>整了这么久，如果没有网上一些热心网友的帮助，我可能还要撞很多坑，因此，我打算把我的EFI也开源出了，让大家使用。
+这里就简单的给我这个EFI做个介绍吧。
+这个EFI提供了过的版本的专属config共选择使用。</p>
+<p>其中包括从macOS10.15到macOS12各大版本的config文件，使用只需把想要用的config对应的文件改名为<code>config.plist</code>即可，想要看跑代码过程可以在引导界面按下<code>win+v</code>键即可.</p>
+<p>目前该opencore的版本为0.78，全部文件均使用来自官方的最新文件，对每个不必要的选项进行了精简优化，三码已经去掉了，只需自行加上三码即可.但是机型最好不要更改，防止无法安装.后续版本的更新看心情和时间，有问题的可以直接在本文下评论.</p>
+<h3 id="整个efi大致结构如下">整个EFI大致结构如下：</h3>
+<img title="" src="EFIjiegou.png" alt="EFI结构" data-align="center">
+<p>采用oc最新版，包括驱动，并且有我维护，随缘更新.</p>
+<h3 id="hackintools图">hackintools图：</h3>
+<img title="" src="hackintoolsgailan.png" alt="" style="zoom:150%;" data-align="center">
+<h3 id="引导界面">引导界面：</h3>
+<img src="yindao.png" title="" alt="" data-align="center">
+<img src="kaiji.jpg" title="" alt="" data-align="center">
+<h3 id="获取efi">获取EFI</h3>
+<blockquote>
+<p>Github地址:</p>
+<p><a class="link" href="https://github.com/lin-snow/hackintosh-m73-tiny"  target="_blank" rel="noopener"
+    >https://github.com/lin-snow/hackintosh-m73-tiny</a></p>
+<p>👋如果你白嫖了，希望可以点歌免费的star或者考虑打赏该项目，求求了</p>
+</blockquote>
+<h2 id="一些功能演示图">一些功能演示图：</h2>
+<h3 id="隔空投送">隔空投送</h3>
+<img src="airdrop.png" style="zoom:150%;" />
+<h3 id="网卡蓝牙驱动">网卡蓝牙驱动</h3>
+<img src="wangkaqudong.png" style="zoom:150%;" />
+<p>支持4k和多种分辨率</p>
+<img src="fenbianlv.png" style="zoom:150%;" />
+<h2 id="其他">其他</h2>
+<p>每个接口基本都能正常使用，包括耳机接口.板载声卡已正确驱动.</p>
+<h2 id="鸣谢">鸣谢</h2>
+<blockquote>
+<p>国光：<a class="link" href="https://www.sqlsec.com/"  target="_blank" rel="noopener"
+    >国光 (sqlsec.com)</a></p>
+<p><a class="link" href="https://dortania.github.io/OpenCore-Install-Guide/"  target="_blank" rel="noopener"
+    >OpenCore 安装指南 (dortania.github.io)</a></p>
+<p>司波图：<a class="link" href="https://space.bilibili.com/28457/"  target="_blank" rel="noopener"
+    >司波图的个人空间_哔哩哔哩_bilibili</a></p>
+<p>黑果小兵： <a class="link" href="https://blog.daliansky.net/"  target="_blank" rel="noopener"
+    >黑果小兵的部落阁 (daliansky.net)</a></p>
+<p>opencorepkg： <a class="link" href="https://github.com/acidanthera/OpenCorePkg/releases/"  target="_blank" rel="noopener"
+    >发布 ·acidanthera/OpenCorePkg (github.com)</a></p>
+<p>oc编辑器：<a class="link" href="https://github.com/ic005k/OCAuxiliaryTools"  target="_blank" rel="noopener"
+    >ic005k/OCAuxiliaryTools: Cross-platform GUI management tools for OpenCore（OCAT） (github.com)</a></p>
+<p>群友们的热心解答</p>
+<p>&hellip;&hellip;.</p>
+</blockquote>
+<h2 id="打赏">打赏：</h2>
+<p>本博客一直用爱发电，此EFI项目已经开源给了大家，如果这个项目对你有帮助并且你财力雄厚，希望可以考虑给本化这个项目&hellip;</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%8D%A1%E5%9E%83%E5%9C%BE/">捡垃圾</a>
+        
+            <a href="/tags/hackintosh/">Hackintosh</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/keykey/">
+        
+        
+            <div class="article-image">
+                <img src="/p/keykey/keykey.a59085abe919b938dffee437a35ffd95_hu93d1826446021d6543f8dd872f66b360_33053_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 我认为的最好用的打字软件"
+                        data-key="keykey" 
+                        data-hash="md5-pZCFq&#43;kZuTjf/uQ3o1/9lQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我认为的最好用的打字软件</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/to-be-a-blogger/">
+        
+        
+            <div class="article-image">
+                <img src="/p/to-be-a-blogger/blogger.d2e92ed226a9645f3d359724184a1364_huef33af0fdd1e3573a948a013665ec70a_156225_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post To Be a Blogger"
+                        data-key="to-be-a-blogger" 
+                        data-hash="md5-0uku0iapZF89NZckGEoTZA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">To Be a Blogger</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/send-file/">
+        
+        
+            <div class="article-image">
+                <img src="/p/send-file/filedeliver.dd731c149beca3b0fc736d0ec4d0f225_hua7ccf94766099bbcb7ce540d4c2fed61_74948_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何优雅的传输文件"
+                        data-key="send-file" 
+                        data-hash="md5-3XMcFJvso7D8c20OxNDyJQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何优雅的传输文件</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/setup-apple-books/">
+        
+        
+            <div class="article-image">
+                <img src="/p/setup-apple-books/applebooks.208104c3d52a5efd4b9dade7c95c88f0_hu4df1f67f2debcb668e7d5425c0864097_37984_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库"
+                        data-key="setup-apple-books" 
+                        data-hash="md5-IIEEw9UqXv1Lna3nyVyI8A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何用apple自带图书app搭建个人专属阅读库</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/win11/">
+        
+        
+            <div class="article-image">
+                <img src="/p/win11/win11.fe0316284c4ad278c83369164a41035a_hud22cc3af5e457c8ecb727efb06a1b175_34101_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Windows11正式版!出发!"
+                        data-key="win11" 
+                        data-hash="md5-/gMWKExK0njIM2kWSkEDWg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Windows11正式版!出发!</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="lin-snow/blog-comment"
+    data-repo-id="R_kgDOG1PCZg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOG1PCZs4CBIDy"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    data-input-position="top"
+    async
+></script>
+
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector('iframe.giscus-frame');
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                { 
+                    giscus: {
+                        setConfig: { 
+                            theme: theme 
+                        }
+                    }
+                },
+                "https://giscus.app"
+            );
+        };
+    };
+
+    (function(){
+        addEventListener('message', (e) => {
+            if (event.origin !== 'https://giscus.app') return;
+            handler()
+        });
+        window.addEventListener('onColorSchemeChange', handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            };
+        };
+    }());
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 L1nSn0w&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        
+            Powered by GitHub.Pages <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#正文">正文</a></li>
+    <li><a href="#配置">配置</a></li>
+    <li><a href="#折腾之白名单">折腾之白名单</a></li>
+    <li><a href="#折腾之黑苹果">折腾之黑苹果</a></li>
+    <li><a href="#折腾之定制usb">折腾之定制USB</a></li>
+    <li><a href="#成果分享之efi">成果分享之EFI</a>
+      <ol>
+        <li><a href="#整个efi大致结构如下">整个EFI大致结构如下：</a></li>
+        <li><a href="#hackintools图">hackintools图：</a></li>
+        <li><a href="#引导界面">引导界面：</a></li>
+        <li><a href="#获取efi">获取EFI</a></li>
+      </ol>
+    </li>
+    <li><a href="#一些功能演示图">一些功能演示图：</a>
+      <ol>
+        <li><a href="#隔空投送">隔空投送</a></li>
+        <li><a href="#网卡蓝牙驱动">网卡蓝牙驱动</a></li>
+      </ol>
+    </li>
+    <li><a href="#其他">其他</a></li>
+    <li><a href="#鸣谢">鸣谢</a></li>
+    <li><a href="#打赏">打赏：</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+    </body>
+</html>

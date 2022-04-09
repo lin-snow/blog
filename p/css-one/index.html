@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='（一）CSS 简介与基础选择器 1. CSS 简介 1.1 HTML 的局限性 HTML 是网友的骨架，只关注内容的语义。例如&amp;lt;h1&amp;gt;表示大标题，&amp;lt;p&amp;gt;表示段落。
+早期的时候，HTML 只能做一些简单的样式，网页非常丑，而且使 HTML 代码臃肿。
+1.2 CSS-网页的美容师 CSS 是 层叠样式表（Cascading Style Sheets）的简称。
+CSS 也是一种标记语言。
+CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。·
+HTML 呈现结构，CSS 决定样式，结构与样式分离。
+1.2 CSS 语法规范 CSS 规则由两个部分组成：选择器和一条或多条声明。
+1.3 CSS 代码风格  展开式 选择器，属性名，属性关键字全部小写 空格规范  2. CSS 基础选择器 2.1 选择器的作用 选择器就是根据不同需求把不同标签选择出来。
+2.2 选择器分类 选择器分为基础选择器和复合选择器两大类。
+ 基础选择器由单个选择器组成 基础选择器包括：标签选择器、类选择器、id 选择器和通配符选择器  2.3 标签选择器 直接用 HTML 标签名作为选择器，按标签名称分类，为页面某一类标签指定统一的 CSS 样式。
+语法
+标签名 { 属性1： 属性值1; 属性2： 属性值2; 属性3： 属性值3; } 优点 标签选择器可以把某一标签全部选择出来，快速为同类型标签设置统一样式。'><title>（一）CSS简介与基础选择器</title>
+
+<link rel='canonical' href='https://blog.linsnow.cn/p/css-one/'>
+
+<link rel="stylesheet" href="/scss/style.min.900db0cca7fed8bfef255ba330b4ac0cd2e28d82ecb411fd6034c5e1326a8da0.css"><meta property='og:title' content='（一）CSS简介与基础选择器'>
+<meta property='og:description' content='（一）CSS 简介与基础选择器 1. CSS 简介 1.1 HTML 的局限性 HTML 是网友的骨架，只关注内容的语义。例如&amp;lt;h1&amp;gt;表示大标题，&amp;lt;p&amp;gt;表示段落。
+早期的时候，HTML 只能做一些简单的样式，网页非常丑，而且使 HTML 代码臃肿。
+1.2 CSS-网页的美容师 CSS 是 层叠样式表（Cascading Style Sheets）的简称。
+CSS 也是一种标记语言。
+CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。·
+HTML 呈现结构，CSS 决定样式，结构与样式分离。
+1.2 CSS 语法规范 CSS 规则由两个部分组成：选择器和一条或多条声明。
+1.3 CSS 代码风格  展开式 选择器，属性名，属性关键字全部小写 空格规范  2. CSS 基础选择器 2.1 选择器的作用 选择器就是根据不同需求把不同标签选择出来。
+2.2 选择器分类 选择器分为基础选择器和复合选择器两大类。
+ 基础选择器由单个选择器组成 基础选择器包括：标签选择器、类选择器、id 选择器和通配符选择器  2.3 标签选择器 直接用 HTML 标签名作为选择器，按标签名称分类，为页面某一类标签指定统一的 CSS 样式。
+语法
+标签名 { 属性1： 属性值1; 属性2： 属性值2; 属性3： 属性值3; } 优点 标签选择器可以把某一标签全部选择出来，快速为同类型标签设置统一样式。'>
+<meta property='og:url' content='https://blog.linsnow.cn/p/css-one/'>
+<meta property='og:site_name' content='L1nSn0w&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='css' /><meta property='article:published_time' content='2021-06-28T17:40:25&#43;08:00'/><meta property='article:modified_time' content='2021-06-28T17:40:25&#43;08:00'/><meta property='og:image' content='https://blog.linsnow.cn/p/css-one/css.png' />
+<meta name="twitter:title" content="（一）CSS简介与基础选择器">
+<meta name="twitter:description" content="（一）CSS 简介与基础选择器 1. CSS 简介 1.1 HTML 的局限性 HTML 是网友的骨架，只关注内容的语义。例如&amp;lt;h1&amp;gt;表示大标题，&amp;lt;p&amp;gt;表示段落。
+早期的时候，HTML 只能做一些简单的样式，网页非常丑，而且使 HTML 代码臃肿。
+1.2 CSS-网页的美容师 CSS 是 层叠样式表（Cascading Style Sheets）的简称。
+CSS 也是一种标记语言。
+CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。·
+HTML 呈现结构，CSS 决定样式，结构与样式分离。
+1.2 CSS 语法规范 CSS 规则由两个部分组成：选择器和一条或多条声明。
+1.3 CSS 代码风格  展开式 选择器，属性名，属性关键字全部小写 空格规范  2. CSS 基础选择器 2.1 选择器的作用 选择器就是根据不同需求把不同标签选择出来。
+2.2 选择器分类 选择器分为基础选择器和复合选择器两大类。
+ 基础选择器由单个选择器组成 基础选择器包括：标签选择器、类选择器、id 选择器和通配符选择器  2.3 标签选择器 直接用 HTML 标签名作为选择器，按标签名称分类，为页面某一类标签指定统一的 CSS 样式。
+语法
+标签名 { 属性1： 属性值1; 属性2： 属性值2; 属性3： 属性值3; } 优点 标签选择器可以把某一标签全部选择出来，快速为同类型标签设置统一样式。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.linsnow.cn/p/css-one/css.png' />
+    <link rel="shortcut icon" href="img/avatar.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu803f79045d20d580f52450dca68cf196_14608_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">L1nSn0w&#39;s Blog</a></h1>
+            <h2 class="site-description">借问酒家何处有.🎈</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/lin-snow'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://blog.linsnow.cn/index.xml'
+                        target="_blank"
+                        title="RSS"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+  <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+  <line x1="8" y1="11" x2="10" y2="13" />
+  <line x1="16" y1="11" x2="14" y2="13" />
+</svg>
+
+                
+                <span>关于&amp;留言</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links' >
+                
+                
+                
+                    <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M31 7V24V7Z" fill="none"/><path d="M31 7V24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.636 6.63605L30.7781 20.7782L16.636 6.63605Z" fill="none"/><path d="M16.636 6.63605L30.7781 20.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 17H24H7Z" fill="none"/><path d="M7 17H24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.364 17.636L6.22188 31.7782L20.364 17.636Z" fill="none"/><path d="M20.364 17.636L6.22188 31.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 25V42V25Z" fill="none"/><path d="M17 25V42" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17.636 27.636L31.7781 41.7782L17.636 27.636Z" fill="none"/><path d="M17.636 27.636L31.7781 41.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M24 31L42 31L24 31Z" fill="none"/><path d="M24 31L42 31" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M42.364 16.636L28.2219 30.7782L42.364 16.636Z" fill="none"/><path d="M42.364 16.636L28.2219 30.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 31C27.866 31 31 27.866 31 24C31 20.134 27.866 17 24 17C20.134 17 17 20.134 17 24C17 27.866 20.134 31 24 31Z" fill="none" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/css-one/">
+                <img src="/p/css-one/css_hu19bf36480724bf850c7b8208b65febaf_13270_800x0_resize_box_3.png"
+                        srcset="/p/css-one/css_hu19bf36480724bf850c7b8208b65febaf_13270_800x0_resize_box_3.png 800w, /p/css-one/css_hu19bf36480724bf850c7b8208b65febaf_13270_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="500" 
+                        loading="lazy"
+                        alt="Featured image of post （一）CSS简介与基础选择器" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/css/" >
+                CSS笔记
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/css-one/">（一）CSS简介与基础选择器</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 28, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="一css-简介与基础选择器">（一）CSS 简介与基础选择器</h1>
+<h2 id="1-css-简介">1. CSS 简介</h2>
+<h3 id="11-html-的局限性">1.1 HTML 的局限性</h3>
+<p>HTML 是网友的骨架，只关注内容的语义。例如<code>&lt;h1&gt;</code>表示大标题，<code>&lt;p&gt;</code>表示段落。</p>
+<p>早期的时候，HTML 只能做一些简单的样式，网页非常丑，而且使 HTML 代码臃肿。</p>
+<h3 id="12-css-网页的美容师">1.2 CSS-网页的美容师</h3>
+<p>CSS 是 层叠样式表（Cascading Style Sheets）的简称。</p>
+<p>CSS 也是一种标记语言。</p>
+<p>CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。·</p>
+<p>HTML 呈现结构，CSS 决定样式，结构与样式分离。</p>
+<h3 id="12-css-语法规范">1.2 CSS 语法规范</h3>
+<p>CSS 规则由两个部分组成：选择器和一条或多条声明。</p>
+<h3 id="13-css-代码风格">1.3 CSS 代码风格</h3>
+<ul>
+<li>展开式</li>
+<li>选择器，属性名，属性关键字全部小写</li>
+<li>空格规范</li>
+</ul>
+<h2 id="2-css-基础选择器">2. CSS 基础选择器</h2>
+<h3 id="21-选择器的作用">2.1 选择器的作用</h3>
+<p>选择器就是根据不同需求把不同标签选择出来。</p>
+<h3 id="22-选择器分类">2.2 选择器分类</h3>
+<p>选择器分为基础选择器和复合选择器两大类。</p>
+<ul>
+<li>基础选择器由单个选择器组成</li>
+<li>基础选择器包括：标签选择器、类选择器、id 选择器和通配符选择器</li>
+</ul>
+<h3 id="23-标签选择器">2.3 标签选择器</h3>
+<p>直接用 HTML 标签名作为选择器，按标签名称分类，<strong>为页面某一类标签指定统一的 CSS 样式。</strong></p>
+<p>语法</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">标签名</span> <span class="p">{</span>
+    <span class="err">属性1：</span> <span class="err">属性值1</span><span class="p">;</span>
+    <span class="err">属性2：</span> <span class="err">属性值2</span><span class="p">;</span>
+    <span class="err">属性3：</span> <span class="err">属性值3</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>优点 标签选择器可以把某一标签全部选择出来，快速为同类型标签设置统一样式。</p>
+<p>缺点 不能设置差异化样式，只能选择全部当前标签。</p>
+<h3 id="24-类选择器">2.4 类选择器</h3>
+<p>差异化选择不同标签，单独选一个或者某个标签。</p>
+<p>语法</p>
+<p>使用 <code>class</code> 属性来调用 class 类，样式点定义，结构类调用，一个或多个，开发最常用。</p>
+<p>类选择器用 <code>.</code> 号显示。</p>
+<p>注意</p>
+<ol>
+<li>类选择器用 <code>.</code> 标识，紧跟类名。</li>
+<li>小写，使用 <code>-</code> 连接单词。</li>
+<li>不要用纯数字、中文。</li>
+<li>命名有意义。</li>
+</ol>
+<h3 id="241-类选择器-多类名">2.4.1 类选择器-多类名</h3>
+<p>类名间用空格分开</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">p</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&#34;class-name1 class-name2&#34;</span><span class="o">&gt;&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</code></pre></div><h3 id="25-id-选择器">2.5 id 选择器</h3>
+<p>id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。</p>
+<p>HTML 元素以 id 属性来设置 id 选择器，用 <code>#</code> 来定义。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="p">#</span><span class="nn">id名</span> <span class="p">{</span>
+    <span class="err">属性1:</span> <span class="err">属性值1</span><span class="p">;</span>
+    <span class="err">...</span>
+<span class="p">}</span>
+</code></pre></div><p>样式 <code>#</code> 定义，结构 id 调用，别人切勿使用。</p>
+<p>id 选择器与类选择器的区别</p>
+<ol>
+<li>类选择器可以被多个元素调用。</li>
+<li>id 选择器只能允许一个标签调用。</li>
+<li>类选择器使用的较多，id 选择器用于唯一特性的标签。</li>
+</ol>
+<h3 id="26-通配符选择器">2.6 通配符选择器</h3>
+<p>语法</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="o">*</span> <span class="p">{</span>
+    <span class="err">属性1:</span> <span class="err">属性值1</span><span class="p">;</span>
+    <span class="err">...</span>
+<span class="p">}</span>
+</code></pre></div><ul>
+<li>用 <code>*</code> 定义通配符选择器，选取页面中所有标签。</li>
+<li>不需要调用，自动给所有标签。</li>
+<li>特殊情况使用</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="o">*</span> <span class="p">{</span>
+    <span class="k">margin</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><h3 id="27-基础选择器总结">2.7 基础选择器总结</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>基础选择器</th>
+<th>作用</th>
+<th>特点</th>
+<th>使用情况</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标签选择器</td>
+<td>选中所有相同标签</td>
+<td>不能差异化选择</td>
+<td>较多</td>
+<td><code>p{color:red;}</code></td>
+</tr>
+<tr>
+<td>类选择器</td>
+<td>选出一个或多个标签</td>
+<td>可以根据需求选择</td>
+<td>较多</td>
+<td><code>.nav {color: red;}</code></td>
+</tr>
+<tr>
+<td>id 选择器</td>
+<td>一次只能选出一个标签</td>
+<td>一个 id 属性在页面中只能出现一次</td>
+<td>一般配合 js 使用</td>
+<td><code>#nav {color: red;}</code></td>
+</tr>
+<tr>
+<td>通配符选择器</td>
+<td>选择所有标签元素</td>
+<td>选择的太多，有部分不需要</td>
+<td>特殊情况使用</td>
+<td><code>* {color: red; }</code></td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>每个选择器都有自己的使用场景，都要掌握。</li>
+<li>如果是修改样式，类选择器是使用最多的。</li>
+</ul>
+<h2 id="3-css-字体属性">3. CSS 字体属性</h2>
+<h3 id="31-字体系列">3.1 字体系列</h3>
+<p>CSS 使用 <code>font-family</code> 属性定义文本字体系列。 尽量使用默认字体，保证不同浏览器的兼容性。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="k">font-family</span><span class="p">:</span> <span class="s2">&#34;微软雅黑&#34;</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><h3 id="32-字体大小">3.2 字体大小</h3>
+<p>CSS 使用 <code>font-size</code> 属性定义字体大小。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="p">:</span> <span class="mi">16</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><ul>
+<li><code>px</code> 大小是我们网页常用单位</li>
+<li>谷歌浏览器默认是 <code>16px</code></li>
+<li>可以给 <code>body</code> 指定整个页面文字大小</li>
+</ul>
+<h3 id="33-字体粗细">3.3 字体粗细</h3>
+<p>CSS 使用 <code>font-weight</code> 属性设置字体粗细</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-weight</span><span class="p">:</span> <span class="mi">700</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>实际开发中，更常用数字来表示加粗或变细。<code>400</code>为<code>normal</code>，<code>700</code> 为 <code>bold</code>。 |属性值|描述| |-|-| |normal|默认值| |bold|定义粗体| |100-900|400 等价于 normal，700 等价于 bold，无单位|</p>
+<h3 id="34-文字样式">3.4 文字样式</h3>
+<p>CSS 使用 <code>font-style</code> 属性设置文本风格。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">p { font-style: italic; }Copy to clipboardErrorCopied
+</code></pre></div><div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>normal</td>
+<td>正常显示</td>
+</tr>
+<tr>
+<td>italic</td>
+<td><em>斜体</em></td>
+</tr>
+</tbody>
+</table></div>
+<p>注意：平常很少给字体加斜体，而是给斜体标签（em,i）给位不倾斜字体。</p>
+<h3 id="35-字体复合属性写法">3.5 字体复合属性写法</h3>
+<p>将各种字体属性写在同一选择器下，节约代码。</p>
+<p>规则</p>
+<p>严格遵守顺序，且 <code>font-sieze</code> 和 <code>font-family</code> 必须有。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="k">font</span><span class="p">:</span> <span class="k">font-style</span> <span class="k">font-weight</span> <span class="k">font-size</span><span class="o">/</span><span class="n">line-hight</span> <span class="k">font-family</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><h3 id="36-字体属性总结">3.6 字体属性总结</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>字体属性</th>
+<th>表示</th>
+<th>注意</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>font-size</td>
+<td>字号</td>
+<td>单位是 <code>px</code></td>
+</tr>
+<tr>
+<td>font-family</td>
+<td>字体</td>
+<td>按照团队约定来写</td>
+</tr>
+<tr>
+<td>font-weight</td>
+<td>字体粗细</td>
+<td>400=normal，700=bold</td>
+</tr>
+<tr>
+<td>font-style</td>
+<td>字体样式</td>
+<td>italic，normal，常用 normal</td>
+</tr>
+<tr>
+<td>font</td>
+<td>属性连写</td>
+<td>顺序不能变，==字体和字号属性必须有==</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="4-css-文本属性">4. CSS 文本属性</h2>
+<p>CSS Text（文本）属性定义文本外观，比如颜色、对齐、装饰、缩进、行间距等。</p>
+<h3 id="41-文本颜色">4.1 文本颜色</h3>
+<p><code>color</code> 属性定义文本颜色。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>属性值 |表示颜色|属性值| |-|-| |预定义的颜色值|red,green,pink| |十六进制|#FF0000，#FF6600| |RGB 代码|rgb(255,0,0)|</p>
+<p>实际开发中，最常用的是十六进制。</p>
+<h3 id="42-对齐文本">4.2 对齐文本</h3>
+<p><code>text-align</code> 属性用于设置元素文本内容的对齐方式。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
+  <span class="k">text-align</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>left</td>
+<td>左对齐（默认）</td>
+</tr>
+<tr>
+<td>right</td>
+<td>右对齐</td>
+</tr>
+<tr>
+<td>center</td>
+<td>居中对齐</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="43-装饰文本">4.3 装饰文本</h3>
+<p><code>text-decoration</code> 属性规定添加到文本的修饰。可以给文本添加下划线、删除线、上划线等。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">text-decoration</span><span class="o">:</span> <span class="nt">underline</span><span class="o">;</span>
+</code></pre></div><div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>none</td>
+<td>==默认，无装饰（最常用）==</td>
+</tr>
+<tr>
+<td>underline</td>
+<td>==下划线，a 标签自带（常用）==</td>
+</tr>
+<tr>
+<td>overline</td>
+<td>上划线。（几乎不用）</td>
+</tr>
+<tr>
+<td>line-through</td>
+<td>删除线。（不常用）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="44-文本缩进">4.4 文本缩进</h3>
+<p><code>text-indent</code>定义段落首行缩进。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="n">text-indet</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p><code>em</code> 是一个相对单位，<code>1em</code> 就是一个字符所占大小。当 <code>text-indent=2em</code>，则恰好缩进两个文字。</p>
+<h3 id="45-行间距">4.5 行间距</h3>
+<p><code>line-height</code> 设置行间的距离，行间距=文本高度+上间距+下间距</p>
+<h3 id="46-文本属性总结">4.6 文本属性总结</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>表示</th>
+<th>注意</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>文本颜色</td>
+<td>通常十六进制缩写</td>
+</tr>
+<tr>
+<td>text-align</td>
+<td>文本对齐</td>
+<td></td>
+</tr>
+<tr>
+<td>text-indent</td>
+<td>文本缩进</td>
+<td>记住 <code>text-indent: 2em;</code></td>
+</tr>
+<tr>
+<td>text-decoration</td>
+<td>文本装饰</td>
+<td>记住下划线和去除下划线</td>
+</tr>
+<tr>
+<td>line-height</td>
+<td>行高</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="5-css-引用方式">5. CSS 引用方式</h2>
+<p>按照 CSS 书写的位置不同，CSS 样式表可以分为三大类：</p>
+<ol>
+<li>行内样式表（行内式）</li>
+<li>内部样式表（嵌入式）</li>
+<li>外部样式表（链接式）</li>
+</ol>
+<h3 id="51-内部样式表">5.1 内部样式表</h3>
+<p>将 CSS 代码写在 HTML 页面内部，单独放在一个 <code>&lt;style&gt;</code> 标签中。</p>
+<ul>
+<li><code>&lt;style&gt;</code> 理论上可以放在 HTML 文档中任何一个地方，一般放在 <code>&lt;head&gt;</code> 标签中。</li>
+<li>方便控制整个页面中的元素样式。</li>
+</ul>
+<p>==练习时使用，实际开发不用。==</p>
+<h3 id="52-行内样式表">5.2 行内样式表</h3>
+<p>==行内样式表（内联样式表）是在元素标签内部的 <code>style</code> 属性中设定 CSS 样式，适合修改简单样式。==</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">div</span> <span class="nt">style</span><span class="o">=</span><span class="s2">&#34;color: red; font-size: 12px&#34;</span><span class="o">&gt;</span><span class="nt">行内样式表</span><span class="o">&lt;/</span><span class="nt">div</span><span class="o">&gt;</span>
+</code></pre></div><ul>
+<li>设置当前标签样式</li>
+<li>==书写繁琐，不推荐大量使用。==</li>
+</ul>
+<h3 id="53-外部样式表">5.3 外部样式表</h3>
+<p>实际开发中都是外部样式表，适用于样式比较多的情况。 核心：样式单独写到 CSS 文件中，再将 CSS 文件引入到 HTML 页面中。</p>
+<p>引入格式</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nt">href</span><span class="o">=</span><span class="s2">&#34;css文件路径&#34;</span> <span class="o">/&gt;</span>
+</code></pre></div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/css/">css</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/css-six/">
+        
+        
+            <div class="article-image">
+                <img src="/p/css-six/css.afcb73442bf0af5c6e09cb98d98d5d1e_hu19bf36480724bf850c7b8208b65febaf_13270_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post （六）CSS高级"
+                        data-key="css-six" 
+                        data-hash="md5-r8tzRCvwr1xuCcuY2Y1dHg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">（六）CSS高级</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/css-five/">
+        
+        
+            <div class="article-image">
+                <img src="/p/css-five/css.afcb73442bf0af5c6e09cb98d98d5d1e_hu19bf36480724bf850c7b8208b65febaf_13270_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post （五）CSS定位"
+                        data-key="css-five" 
+                        data-hash="md5-r8tzRCvwr1xuCcuY2Y1dHg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">（五）CSS定位</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/css-four/">
+        
+        
+            <div class="article-image">
+                <img src="/p/css-four/css.afcb73442bf0af5c6e09cb98d98d5d1e_hu19bf36480724bf850c7b8208b65febaf_13270_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post （四）CSS浮动"
+                        data-key="css-four" 
+                        data-hash="md5-r8tzRCvwr1xuCcuY2Y1dHg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">（四）CSS浮动</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/css-three/">
+        
+        
+            <div class="article-image">
+                <img src="/p/css-three/css.afcb73442bf0af5c6e09cb98d98d5d1e_hu19bf36480724bf850c7b8208b65febaf_13270_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post （三）CSS之盒子模型"
+                        data-key="css-three" 
+                        data-hash="md5-r8tzRCvwr1xuCcuY2Y1dHg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">（三）CSS之盒子模型</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/css-two/">
+        
+        
+            <div class="article-image">
+                <img src="/p/css-two/css.afcb73442bf0af5c6e09cb98d98d5d1e_hu19bf36480724bf850c7b8208b65febaf_13270_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post （二）CSS复合选择器与特性"
+                        data-key="css-two" 
+                        data-hash="md5-r8tzRCvwr1xuCcuY2Y1dHg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">（二）CSS复合选择器与特性</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="lin-snow/blog-comment"
+    data-repo-id="R_kgDOG1PCZg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOG1PCZs4CBIDy"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    data-input-position="top"
+    async
+></script>
+
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector('iframe.giscus-frame');
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                { 
+                    giscus: {
+                        setConfig: { 
+                            theme: theme 
+                        }
+                    }
+                },
+                "https://giscus.app"
+            );
+        };
+    };
+
+    (function(){
+        addEventListener('message', (e) => {
+            if (event.origin !== 'https://giscus.app') return;
+            handler()
+        });
+        window.addEventListener('onColorSchemeChange', handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            };
+        };
+    }());
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 L1nSn0w&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        
+            Powered by GitHub.Pages <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1-css-简介">1. CSS 简介</a>
+      <ol>
+        <li><a href="#11-html-的局限性">1.1 HTML 的局限性</a></li>
+        <li><a href="#12-css-网页的美容师">1.2 CSS-网页的美容师</a></li>
+        <li><a href="#12-css-语法规范">1.2 CSS 语法规范</a></li>
+        <li><a href="#13-css-代码风格">1.3 CSS 代码风格</a></li>
+      </ol>
+    </li>
+    <li><a href="#2-css-基础选择器">2. CSS 基础选择器</a>
+      <ol>
+        <li><a href="#21-选择器的作用">2.1 选择器的作用</a></li>
+        <li><a href="#22-选择器分类">2.2 选择器分类</a></li>
+        <li><a href="#23-标签选择器">2.3 标签选择器</a></li>
+        <li><a href="#24-类选择器">2.4 类选择器</a></li>
+        <li><a href="#241-类选择器-多类名">2.4.1 类选择器-多类名</a></li>
+        <li><a href="#25-id-选择器">2.5 id 选择器</a></li>
+        <li><a href="#26-通配符选择器">2.6 通配符选择器</a></li>
+        <li><a href="#27-基础选择器总结">2.7 基础选择器总结</a></li>
+      </ol>
+    </li>
+    <li><a href="#3-css-字体属性">3. CSS 字体属性</a>
+      <ol>
+        <li><a href="#31-字体系列">3.1 字体系列</a></li>
+        <li><a href="#32-字体大小">3.2 字体大小</a></li>
+        <li><a href="#33-字体粗细">3.3 字体粗细</a></li>
+        <li><a href="#34-文字样式">3.4 文字样式</a></li>
+        <li><a href="#35-字体复合属性写法">3.5 字体复合属性写法</a></li>
+        <li><a href="#36-字体属性总结">3.6 字体属性总结</a></li>
+      </ol>
+    </li>
+    <li><a href="#4-css-文本属性">4. CSS 文本属性</a>
+      <ol>
+        <li><a href="#41-文本颜色">4.1 文本颜色</a></li>
+        <li><a href="#42-对齐文本">4.2 对齐文本</a></li>
+        <li><a href="#43-装饰文本">4.3 装饰文本</a></li>
+        <li><a href="#44-文本缩进">4.4 文本缩进</a></li>
+        <li><a href="#45-行间距">4.5 行间距</a></li>
+        <li><a href="#46-文本属性总结">4.6 文本属性总结</a></li>
+      </ol>
+    </li>
+    <li><a href="#5-css-引用方式">5. CSS 引用方式</a>
+      <ol>
+        <li><a href="#51-内部样式表">5.1 内部样式表</a></li>
+        <li><a href="#52-行内样式表">5.2 行内样式表</a></li>
+        <li><a href="#53-外部样式表">5.3 外部样式表</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+    </body>
+</html>

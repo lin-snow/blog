@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/categories/</link>
+        <description>Recent content in Categories on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 06 Mar 2022 12:18:28 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>blog</title>
+        <link>https://blog.linsnow.cn/categories/blog/</link>
+        <pubDate>Sun, 06 Mar 2022 12:18:28 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/blog/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/blog/blog.jpg" alt="Featured image of post blog" /&gt;</description>
+        </item>
+        <item>
+        <title>随笔</title>
+        <link>https://blog.linsnow.cn/categories/%E9%9A%8F%E7%AC%94/</link>
+        <pubDate>Fri, 31 Dec 2021 17:55:10 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/%E9%9A%8F%E7%AC%94/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/%E9%9A%8F%E7%AC%94/suibi.jpg" alt="Featured image of post 随笔" /&gt;</description>
+        </item>
+        <item>
+        <title>软件</title>
+        <link>https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/</link>
+        <pubDate>Sat, 02 Oct 2021 07:30:35 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/software.png" alt="Featured image of post 软件" /&gt;</description>
+        </item>
+        <item>
+        <title>JailBreak</title>
+        <link>https://blog.linsnow.cn/categories/jailbreak/</link>
+        <pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/jailbreak/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/jailbreak/jb.png" alt="Featured image of post JailBreak" /&gt;</description>
+        </item>
+        <item>
+        <title>iOS</title>
+        <link>https://blog.linsnow.cn/categories/ios/</link>
+        <pubDate>Tue, 17 Aug 2021 11:00:39 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/ios/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/ios/ios.png" alt="Featured image of post iOS" /&gt;</description>
+        </item>
+        <item>
+        <title>javascript笔记</title>
+        <link>https://blog.linsnow.cn/categories/javascript/</link>
+        <pubDate>Fri, 13 Aug 2021 20:33:59 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/javascript/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/javascript/js.png" alt="Featured image of post javascript笔记" /&gt;</description>
+        </item>
+        <item>
+        <title>CSS笔记</title>
+        <link>https://blog.linsnow.cn/categories/css/</link>
+        <pubDate>Wed, 28 Jul 2021 18:16:58 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/css/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/css/css.png" alt="Featured image of post CSS笔记" /&gt;</description>
+        </item>
+        <item>
+        <title>Html笔记</title>
+        <link>https://blog.linsnow.cn/categories/html/</link>
+        <pubDate>Wed, 28 Jul 2021 18:16:58 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/categories/html/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/categories/html/html.png" alt="Featured image of post Html笔记" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

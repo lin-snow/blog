@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ios on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/ios/</link>
+        <description>Recent content in ios on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 02 Jan 2022 16:31:57 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/ios/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何用apple自带图书app搭建个人专属阅读库</title>
+        <link>https://blog.linsnow.cn/p/setup-apple-books/</link>
+        <pubDate>Sun, 02 Jan 2022 16:31:57 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/setup-apple-books/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/applebooks.png" alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库" /&gt;&lt;h2 id=&#34;一些废话&#34;&gt;🍉一些废话&lt;/h2&gt;
+&lt;p&gt;这是一篇关于一个屑博主想读书后水的一篇文章，并试图拉你一起下水（bushi) 😅.&lt;/p&gt;
+&lt;p&gt;我会写的尽量详细，但这只是一个我认为可行的一个方案，或许你也可以直接摸索适合你自己的阅读方案。&lt;/p&gt;
+&lt;p&gt;在b站上面看到了一个up主分享的英文原著阅读，瞬间感觉又行了🤣，恰好iOS系统自带了 &lt;code&gt;Apple Books&lt;/code&gt;，于是乎新一轮的折腾便开始，害~🤔&lt;/p&gt;
+&lt;h2 id=&#34;开始之前&#34;&gt;🎉开始之前&lt;/h2&gt;
+&lt;p&gt;在开始之前，你应该先有所准备，Follow：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;硬件&lt;/th&gt;
+&lt;th&gt;软件&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;装有较新OS的iPhone（或者iPad、Mac)&lt;/td&gt;
+&lt;td&gt;Apple Books&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;浏览器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;理论知识&#34;&gt;🧀理论知识&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Apple Books&lt;/code&gt;貌似只支持导入 &lt;code&gt;epub&lt;/code&gt;格式的电子书.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;软件获取&#34;&gt;🍥软件获取&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果已经安装完apple books了的话就可以跳过了不看了&lt;/p&gt;
+&lt;p&gt;一般一个完整OS都自带apple books，但不排除有人把它删了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从官网获取最新版 &lt;code&gt;apple books&lt;/code&gt;,几乎每个区域的 &lt;code&gt;app store&lt;/code&gt;都提供了软件下载，可以直接搜索下载&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/apple-books/id364709193&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple Books on the App Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/setup-apple-books/applebookpage.png&#34;
+	width=&#34;1034&#34;
+	height=&#34;657&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;正文&#34;&gt;📄正文&lt;/h2&gt;
+&lt;h3 id=&#34;核心思想&#34;&gt;🎃核心思想&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过获取各种想要的书籍的epub格式并使用apple books打开即可成功导入并使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;书籍来源&#34;&gt;📢书籍来源&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里我只推荐几个常用的获取电子书的地方，不能保证稳定不掉，如果掉了，你也可以自行Google一些资源&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;电子书资源链接&lt;/th&gt;
+&lt;th&gt;简介&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.shuzhou.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;书舟搜索&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;基本上能满足大部分书籍了&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://b-ok.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Z-Library&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;号称世界最大的电子图书馆&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jiumodiary.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;鸠摩搜索 &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;界面可爱又简洁，提供各种电子书格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;td&gt;&amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：Z-library主站貌似要魔法才能用,这里提供几个Z站“子站点”，资源全部互通，访问没有限制。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Z-library子站点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;http://b-ok.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://b-ok.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://hk1lib.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hk1lib.org&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://zh.1lib.pl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://zh.1lib.pl&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://1lib.tw/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://1lib.tw&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;虽说是国外站点，但适配了中文界面（如果打开是英文，可拉到页面最底部，english那里选chinese），全站无广告，也无强制登录。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;进阶&#34;&gt;进阶:&lt;/h4&gt;
+&lt;p&gt;通过Telegram一些电子书频道能够快速获得想要的epub电子书，当然使用telegram存在一些门槛&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;使用方法&#34;&gt;📌使用方法&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;通过获取epub格式的电子书，使用你的设备并将需要的书籍导入到 &lt;code&gt;apple books&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/setup-apple-books/books2.jpg&#34;
+	width=&#34;749&#34;
+	height=&#34;618&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;同步书籍&#34;&gt;🎄同步书籍&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;同步你的书籍很方便，只需要在你的iCloud里开启books同步按钮即可&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/setup-apple-books/booksbackup.jpg&#34;
+	width=&#34;750&#34;
+	height=&#34;530&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;软件的一些界面&#34;&gt;🃏软件的一些界面&lt;/h3&gt;
+&lt;p&gt;这里展示一张软件使用的界面，大概看看就行&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/setup-apple-books/books.jpg&#34;
+	width=&#34;1446&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;271px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;管理你的图书&#34;&gt;🔮管理你的图书&lt;/h3&gt;
+&lt;p&gt;简单粗暴，你可以直接在 &lt;code&gt;apple books&lt;/code&gt;里管理你的书籍&lt;/p&gt;
+&lt;h3 id=&#34;阅读分享非必要&#34;&gt;✏阅读分享（非必要&lt;/h3&gt;
+&lt;p&gt;这个其实有很多有很多种方法，比如b站有up用notion来搭建，当然也可以使用你的blog来分享，这个可以自行发挥。&lt;/p&gt;
+&lt;h2 id=&#34;more&#34;&gt;📕more&lt;/h2&gt;
+&lt;p&gt;In Writing&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>TestFlight打不开解决方法</title>
+        <link>https://blog.linsnow.cn/p/testfight-error/</link>
+        <pubDate>Tue, 17 Aug 2021 10:20:25 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/testfight-error/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/testfight-error/testfight.png" alt="Featured image of post TestFlight打不开解决方法" /&gt;&lt;h1 id=&#34;testflight打不开解决方法&#34;&gt;TestFlight打不开解决方法&lt;/h1&gt;
+&lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
+&lt;p&gt;苹果的 TestFlight 应用属实听奇怪的，又是突然就打不开，导致想下载测试版的应用都下载不了。「无法接入」主要是因为苹果服务器的问题，而要解决这个问题其实非常简单。&lt;/p&gt;
+&lt;h2 id=&#34;操作教程&#34;&gt;&lt;strong&gt;操作教程&lt;/strong&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;遇到这个问题可以尝试更换网络，但更换网络并不是百分百能解决。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;iPhone 链接上 Wi-Fi 后，进入「设置」-「无线局域网」。点击已经链接 Wi-Fi 的蓝色「i」按钮。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/testfight-error/wifisetting.png&#34;
+	width=&#34;750&#34;
+	height=&#34;737&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;点击「配置 DNS」设置项，勾选「手动」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/testfight-error/dnssetting.png&#34;
+	width=&#34;1500&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;269px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;点击「添加服务器」，这里输入8.8.8.8后点击右上角的「存储」按钮。&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;adddns.png&#34;  /&gt;
+&lt;p&gt;&lt;strong&gt;这时候打开 TsetFlight 应用就会发现它可以正常打开使用了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果你担心设置了 DNS 服务器后会影响网速，可以在 TestFlight 下载完应用后把 Wi-Fi 的 DNS 服务改回自动。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>签名ipa以在iOS下安装软件</title>
+        <link>https://blog.linsnow.cn/p/sign-ipa/</link>
+        <pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/sign-ipa/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" /&gt;&lt;h1 id=&#34;签名ipa以在ios下安装软件&#34;&gt;签名ipa以在iOS下安装软件&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;iOS或iPadOS安装第三方软件需要对其进行签名才能安装到设备上，但特殊情况如在iOS已经越狱的情况下可通过插件绕过签名直接安装，侧载的方法有很多，大概分为一下两个大的签名方式，但这次写的是关于利用个人免费开发者账号签名并安装到设备上&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;免费开发者账号签名的软件必须每7天重新签名一次，否则会掉签，然后就打不开了&lt;/p&gt;
+&lt;p&gt;付费开发者账号可以每1年重新签名一次，这里推荐一个签名网站&lt;a class=&#34;link&#34; href=&#34;http://isign.ren/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;isign&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下分别介绍两个软件的签名教程，一个是爱思助手，一个是开源的Altstore，其他的签名软件本文就不讲了，毕竟要用到macos，也不是每个人都有macos使用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;p&gt;爱思助手：适合频繁使用电脑的认识签名，对于小白友好&lt;/p&gt;
+&lt;p&gt;Alt store：适合需要稳定签名的小伙伴，在iOS14及以上有组件提示日期，能够在链接服务器的条件下在手机完成签名并安装&lt;/p&gt;
+&lt;p&gt;总之，最好两者都会，会方便很多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;正文&#34;&gt;正文：&lt;/h2&gt;
+&lt;h3 id=&#34;爱思助手ipa签名&#34;&gt;爱思助手ipa签名&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign.jpg&#34;
+	width=&#34;1000&#34;
+	height=&#34;721&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1.选择“使用 Apple ID 签名 - 添加 Apple ID”，随后输入用于签名的 Apple ID、密码并选择或输入对应设备的设备标识（指签名后 IPA 文件要安装的设备）；&lt;/p&gt;
+&lt;p&gt;2.检查无误后点击“确定”。建议操作前需要将 iOS 设备连接至爱思助手，并保证可以读出“设备标识”，如果未连接设备，需要手动输入设备标识。Apple ID 添加完成后下方列表就会显示签名信息；&lt;/p&gt;
+&lt;p&gt;3.之后，添加需要签名的 IPA 文件并勾选 IPA 文件和用于签名的 Apple ID，点击“开始签名”即可，签名成功后就可以通过爱思助手安装该应用了。安装完成后，在 iOS 设备上首次打开前记得去“设置 - 通用 - 描述文件”内信任该应用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请务必注意，已签名的 IPA 文件和原文件保存路径可能并不相同，签名后应该点击“打开已签名 IPA 位置”按钮，可用于安装的已签名 IPA 文件都会储存在该目录下，请注意分辨。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altstore签名&#34;&gt;Altstore签名&lt;/h3&gt;
+&lt;h4 id=&#34;准备工作&#34;&gt;准备工作：&lt;/h4&gt;
+&lt;p&gt;1.AltStore工具只能在Windows 10系统下使用，其他Windows版本不支持。&lt;/p&gt;
+&lt;p&gt;2.安装之前：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apple.com/itunes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iTunes 。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.apple.com/en-us/HT204283&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接从Apple&lt;/a&gt;（&lt;strong&gt;而不是&lt;/strong&gt;Microsoft Store）下载最新版本的iCloud 。&lt;/li&gt;
+&lt;li&gt;一个正常的&lt;strong&gt;apple id&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;正式开始altstore的安装&#34;&gt;正式开始Altstore的安装&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装iTunes以及iCloud，安装完或许会提示重启，重启就完事了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;登录iTunes并授权此电脑，iCloud不必登录也行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在官网获取最新版&lt;a class=&#34;link&#34; href=&#34;https://altstore.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;altstore&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装altstore并用数据线（充电线）将设备连接到电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall.png&#34;
+	width=&#34;613&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时解锁你的设备并在设备弹出的窗口中选择信任此电脑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鼠标左键单击任务栏中的altstore小图标，&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&lt;em&gt;&lt;strong&gt;install AltStore&lt;/strong&gt;&lt;/em&gt;，再选择你的的设备名称&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid.png&#34;
+	width=&#34;471&#34;
+	height=&#34;262&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone.png&#34;
+	width=&#34;749&#34;
+	height=&#34;346&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;519px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整个安装AltStore进的过程有长有短，在iPhone桌面出现AltStore APP之后，安装过程才算完成，此时先别动，在设备中打开设置-通用-设备管理-选择altstore-信任alt store，如无法信任，请重新安装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这时即可将要安装的软件安装包导入到手机并使用altstore打开即可在手机完成安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;示例安装utm&#34;&gt;示例：安装UTM&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;从&lt;a class=&#34;link&#34; href=&#34;https://getutm.app/install/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;utm官网&lt;/a&gt;获取UTM安装包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开手机中的altstore&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击左上角的+号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择UTM.ipa安装包安装即可,等待安装完成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa.png&#34;
+	width=&#34;425&#34;
+	height=&#34;574&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;177px&#34;
+	
+&gt; &lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse.png&#34;
+	width=&#34;750&#34;
+	height=&#34;1334&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;134px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这样就算安装完了&lt;/p&gt;
+&lt;hr&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone.png&#34;
+	width=&#34;442&#34;
+	height=&#34;249&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='越狱常见问题指北手册 iOS更新屏蔽 Unc0ver越狱自带更新屏蔽
+Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新
+ OTADisabler 官方源https://cydia.ichitaso.com/
+  Dpkg 中断/卸载不掉插件 一般情況都是因为安装了盗版源引起的，建议清除越狱，重新越狱。
+ Sileo 刷新源报错404/552 一般情況都是网络問題，科学上网即可解決，也可以开加速器或者开数据试试，不過也有可能是作者服务器出錯了（但是可能性不大）。
+ 逃离Sileo，拥抱Cydia 假如你使用unc0ver或者checkra1n越狱，那么一开始便可直接选择安装cydia
+但是如果你是Taurine，Odyssey，Chimera，Odysseyra1n 越狱想用 Cydia 怎么办，在自带的软件源 Procursus 源里安裝 Cydia Installer 即可，但是着并不建议，因为配套使用会更加稳定些，且切换过程可能会出现问题
+ 人手必备实用工具 三大使用工具
+ 涉及软件源：
+http://tigisoftware.com/cydia/
+https://cydia.angelxwind.net/
+https://repo.chariz.com/
+ Filza File Manager  你能想象没有了资源文件管理器的Windows系统吗？
+是的，有了这个宝物，你就能够像安卓或windows一样用文件管理器访问任意目录以及文件，并且支持对多种文件进行修改与编辑，可以说是相当的使用
+这里有个好百度网盘羊毛的技巧：利用这个插件找到百度网盘下载的文件就能随意解压缩而不需要充会员
+ iCleaner Pro  越狱界老牌清理工具，还能够给插件排错。
+建议人手一个，用来清理垃圾效果简直不要太好
+ NewTerm 2  对小白不是很友好的神器，他就类似于Linux上的shell，能够执行各种命令，并且与Ubuntu的命令基本都是一样的
+ NewTerm 2常用命令 在输入大部分命令前需要获取 root 权限，请输入su 或者 su root 密码默认是 alpine（你输入的時候看不见，沒事，直接输入然后回车即可）
+如果你想省事那就先输入 sudo 加上你想要的命令，sudo 后面有空格'><title>越狱常见问题指北手册</title>
+
+<link rel='canonical' href='https://blog.linsnow.cn/p/jb-question/'>
+
+<link rel="stylesheet" href="/scss/style.min.900db0cca7fed8bfef255ba330b4ac0cd2e28d82ecb411fd6034c5e1326a8da0.css"><meta property='og:title' content='越狱常见问题指北手册'>
+<meta property='og:description' content='越狱常见问题指北手册 iOS更新屏蔽 Unc0ver越狱自带更新屏蔽
+Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新
+ OTADisabler 官方源https://cydia.ichitaso.com/
+  Dpkg 中断/卸载不掉插件 一般情況都是因为安装了盗版源引起的，建议清除越狱，重新越狱。
+ Sileo 刷新源报错404/552 一般情況都是网络問題，科学上网即可解決，也可以开加速器或者开数据试试，不過也有可能是作者服务器出錯了（但是可能性不大）。
+ 逃离Sileo，拥抱Cydia 假如你使用unc0ver或者checkra1n越狱，那么一开始便可直接选择安装cydia
+但是如果你是Taurine，Odyssey，Chimera，Odysseyra1n 越狱想用 Cydia 怎么办，在自带的软件源 Procursus 源里安裝 Cydia Installer 即可，但是着并不建议，因为配套使用会更加稳定些，且切换过程可能会出现问题
+ 人手必备实用工具 三大使用工具
+ 涉及软件源：
+http://tigisoftware.com/cydia/
+https://cydia.angelxwind.net/
+https://repo.chariz.com/
+ Filza File Manager  你能想象没有了资源文件管理器的Windows系统吗？
+是的，有了这个宝物，你就能够像安卓或windows一样用文件管理器访问任意目录以及文件，并且支持对多种文件进行修改与编辑，可以说是相当的使用
+这里有个好百度网盘羊毛的技巧：利用这个插件找到百度网盘下载的文件就能随意解压缩而不需要充会员
+ iCleaner Pro  越狱界老牌清理工具，还能够给插件排错。
+建议人手一个，用来清理垃圾效果简直不要太好
+ NewTerm 2  对小白不是很友好的神器，他就类似于Linux上的shell，能够执行各种命令，并且与Ubuntu的命令基本都是一样的
+ NewTerm 2常用命令 在输入大部分命令前需要获取 root 权限，请输入su 或者 su root 密码默认是 alpine（你输入的時候看不见，沒事，直接输入然后回车即可）
+如果你想省事那就先输入 sudo 加上你想要的命令，sudo 后面有空格'>
+<meta property='og:url' content='https://blog.linsnow.cn/p/jb-question/'>
+<meta property='og:site_name' content='L1nSn0w&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='jailbreak' /><meta property='article:published_time' content='2021-08-26T07:28:27&#43;08:00'/><meta property='article:modified_time' content='2021-08-26T07:28:27&#43;08:00'/><meta property='og:image' content='https://blog.linsnow.cn/p/jb-question/jbzhibei.png' />
+<meta name="twitter:title" content="越狱常见问题指北手册">
+<meta name="twitter:description" content="越狱常见问题指北手册 iOS更新屏蔽 Unc0ver越狱自带更新屏蔽
+Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新
+ OTADisabler 官方源https://cydia.ichitaso.com/
+  Dpkg 中断/卸载不掉插件 一般情況都是因为安装了盗版源引起的，建议清除越狱，重新越狱。
+ Sileo 刷新源报错404/552 一般情況都是网络問題，科学上网即可解決，也可以开加速器或者开数据试试，不過也有可能是作者服务器出錯了（但是可能性不大）。
+ 逃离Sileo，拥抱Cydia 假如你使用unc0ver或者checkra1n越狱，那么一开始便可直接选择安装cydia
+但是如果你是Taurine，Odyssey，Chimera，Odysseyra1n 越狱想用 Cydia 怎么办，在自带的软件源 Procursus 源里安裝 Cydia Installer 即可，但是着并不建议，因为配套使用会更加稳定些，且切换过程可能会出现问题
+ 人手必备实用工具 三大使用工具
+ 涉及软件源：
+http://tigisoftware.com/cydia/
+https://cydia.angelxwind.net/
+https://repo.chariz.com/
+ Filza File Manager  你能想象没有了资源文件管理器的Windows系统吗？
+是的，有了这个宝物，你就能够像安卓或windows一样用文件管理器访问任意目录以及文件，并且支持对多种文件进行修改与编辑，可以说是相当的使用
+这里有个好百度网盘羊毛的技巧：利用这个插件找到百度网盘下载的文件就能随意解压缩而不需要充会员
+ iCleaner Pro  越狱界老牌清理工具，还能够给插件排错。
+建议人手一个，用来清理垃圾效果简直不要太好
+ NewTerm 2  对小白不是很友好的神器，他就类似于Linux上的shell，能够执行各种命令，并且与Ubuntu的命令基本都是一样的
+ NewTerm 2常用命令 在输入大部分命令前需要获取 root 权限，请输入su 或者 su root 密码默认是 alpine（你输入的時候看不见，沒事，直接输入然后回车即可）
+如果你想省事那就先输入 sudo 加上你想要的命令，sudo 后面有空格"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.linsnow.cn/p/jb-question/jbzhibei.png' />
+    <link rel="shortcut icon" href="img/avatar.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu803f79045d20d580f52450dca68cf196_14608_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">L1nSn0w&#39;s Blog</a></h1>
+            <h2 class="site-description">借问酒家何处有.🎈</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/lin-snow'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://blog.linsnow.cn/index.xml'
+                        target="_blank"
+                        title="RSS"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+  <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+  <line x1="8" y1="11" x2="10" y2="13" />
+  <line x1="16" y1="11" x2="14" y2="13" />
+</svg>
+
+                
+                <span>关于&amp;留言</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links' >
+                
+                
+                
+                    <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M31 7V24V7Z" fill="none"/><path d="M31 7V24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16.636 6.63605L30.7781 20.7782L16.636 6.63605Z" fill="none"/><path d="M16.636 6.63605L30.7781 20.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 17H24H7Z" fill="none"/><path d="M7 17H24" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.364 17.636L6.22188 31.7782L20.364 17.636Z" fill="none"/><path d="M20.364 17.636L6.22188 31.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 25V42V25Z" fill="none"/><path d="M17 25V42" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17.636 27.636L31.7781 41.7782L17.636 27.636Z" fill="none"/><path d="M17.636 27.636L31.7781 41.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M24 31L42 31L24 31Z" fill="none"/><path d="M24 31L42 31" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M42.364 16.636L28.2219 30.7782L42.364 16.636Z" fill="none"/><path d="M42.364 16.636L28.2219 30.7782" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 31C27.866 31 31 27.866 31 24C31 20.134 27.866 17 24 17C20.134 17 17 20.134 17 24C17 27.866 20.134 31 24 31Z" fill="none" stroke="#579901" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/jb-question/">
+                <img src="/p/jb-question/jbzhibei_huad22e8a8f38ced1911e3dacea4da62bd_15216_800x0_resize_box_3.png"
+                        srcset="/p/jb-question/jbzhibei_huad22e8a8f38ced1911e3dacea4da62bd_15216_800x0_resize_box_3.png 800w, /p/jb-question/jbzhibei_huad22e8a8f38ced1911e3dacea4da62bd_15216_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 越狱常见问题指北手册" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/jailbreak/" >
+                JailBreak
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/jb-question/">越狱常见问题指北手册</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 26, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="越狱常见问题指北手册">越狱常见问题指北手册</h1>
+<h3 id="ios更新屏蔽">iOS更新屏蔽</h3>
+<p>Unc0ver越狱自带更新屏蔽</p>
+<p>Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新</p>
+<blockquote>
+<p>OTADisabler 官方源https://cydia.ichitaso.com/</p>
+</blockquote>
+<hr>
+<h3 id="dpkg-中断卸载不掉插件">Dpkg 中断/卸载不掉插件</h3>
+<p>一般情況都是因为安装了盗版源引起的，建议清除越狱，重新越狱。</p>
+<hr>
+<h3 id="sileo-刷新源报错404552">Sileo 刷新源报错404/552</h3>
+<p>一般情況都是网络問題，科学上网即可解決，也可以开加速器或者开数据试试，不過也有可能是作者服务器出錯了（但是可能性不大）。</p>
+<hr>
+<h3 id="逃离sileo拥抱cydia">逃离Sileo，拥抱Cydia</h3>
+<p>假如你使用unc0ver或者checkra1n越狱，那么一开始便可直接选择安装cydia</p>
+<p>但是如果你是Taurine，Odyssey，Chimera，Odysseyra1n 越狱想用 Cydia 怎么办，在自带的软件源 Procursus 源里安裝 Cydia Installer 即可，但是着并不建议，因为配套使用会更加稳定些，且切换过程可能会出现问题</p>
+<hr>
+<h3 id="人手必备实用工具">人手必备实用工具</h3>
+<p><strong>三大使用工具</strong></p>
+<blockquote>
+<p>涉及软件源：</p>
+<p><a class="link" href="http://tigisoftware.com/cydia/"  target="_blank" rel="noopener"
+    >http://tigisoftware.com/cydia/</a></p>
+<p><a class="link" href="https://cydia.angelxwind.net/"  target="_blank" rel="noopener"
+    >https://cydia.angelxwind.net/</a></p>
+<p><a class="link" href="https://repo.chariz.com/"  target="_blank" rel="noopener"
+    >https://repo.chariz.com/</a></p>
+</blockquote>
+<p><img src="/p/jb-question/threetool.png"
+	width="750"
+	height="741"
+	srcset="/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_480x0_resize_box_3.png 480w, /p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="242px"
+	
+></p>
+<h4 id="filza-file-manager">Filza File Manager</h4>
+<blockquote>
+<p>你能想象没有了资源文件管理器的Windows系统吗？</p>
+<p>是的，有了这个宝物，你就能够像安卓或windows一样用文件管理器访问任意目录以及文件，并且支持对多种文件进行修改与编辑，可以说是相当的使用</p>
+<p>这里有个好百度网盘羊毛的技巧：利用这个插件找到百度网盘下载的文件就能随意解压缩而不需要充会员</p>
+</blockquote>
+<h4 id="icleaner-pro">iCleaner Pro</h4>
+<blockquote>
+<p>越狱界老牌清理工具，还能够给插件排错。</p>
+<p>建议人手一个，用来清理垃圾效果简直不要太好</p>
+</blockquote>
+<h4 id="newterm-2">NewTerm 2</h4>
+<blockquote>
+<p>对小白不是很友好的神器，他就类似于Linux上的shell，能够执行各种命令，并且与Ubuntu的命令基本都是一样的</p>
+</blockquote>
+<h3 id="newterm-2常用命令">NewTerm 2常用命令</h3>
+<p>在输入大部分命令前需要获取 root 权限，请输入su 或者 su root 密码默认是 alpine（你输入的時候看不见，沒事，直接输入然后回车即可）</p>
+<p>如果你想省事那就先输入 sudo 加上你想要的命令，sudo 后面有空格</p>
+<h5 id="注销这个命令好像不用root也能执行">注销（这个命令好像不用root也能执行）</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> killall SpringBoard/sbreload/uicache -r
+</code></pre></div><h5 id="清理图标缓存这个命令好像不用root也能执行">清理图标缓存（这个命令好像不用root也能执行）</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">uicache -a
+<span class="c1"># 安裝成功插件发现沒有 App 图标出现就可以用这个命令 </span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">uicache -p 你的 app 目录
+<span class="c1">#这个是单独清除特定 App 的图标缓存</span>
+</code></pre></div><h5 id="软重启">软重启</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">ldrestart
+</code></pre></div><h5 id="重启手机">重启手机</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> reboot
+</code></pre></div><h5 id="关机">关机</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> halt
+</code></pre></div><h5 id="重启使用者空间">重启使用者空间</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">launchctl reboot userspace
+</code></pre></div><h5 id="安全模式">安全模式</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> killall -SEGV SpringBoard
+</code></pre></div><h3 id="进阶命令">进阶命令</h3>
+<blockquote>
+<p>需要获取 root</p>
+<p>必要是需要获取插件的bundleid</p>
+</blockquote>
+<h5 id="获取插件bundleid">获取插件bundleid</h5>
+<p>一般划到插件底部就可以看到插件的bundleid</p>
+<p><img src="/p/jb-question/bundleid.png"
+	width="750"
+	height="444"
+	srcset="/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_480x0_resize_box_3.png 480w, /p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="bundleid"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="168"
+		data-flex-basis="405px"
+	
+></p>
+<h5 id="安裝本地-deb-插件">安裝本地 deb 插件</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">dpkg -i 你的deb路径
+<span class="c1">#例如 </span>
+<span class="c1">#dpkg -i /var/mobile/Documents/aaa.deb</span>
+</code></pre></div><h5 id="在线安裝插件">在线安裝插件</h5>
+<blockquote>
+<p>前提是你已经把这个插件的源添加到 源列表上了</p>
+<p>建议安裝插件之前先输入 apt update（类似于刷新软件源）</p>
+<p>这对Linux用户十分友好</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"> apt install 插件的bundleid
+</code></pre></div><h5 id="卸载插件">卸载插件</h5>
+<pre tabindex="0"><code> dpkg -r 插件的bundleid 
+ or
+ apt remove 插件的bundleid
+</code></pre><h5 id="更新所有插件">更新所有插件</h5>
+<blockquote>
+<p>建议更新插件之前先输入 apt update（类似于刷新软件源）</p>
+</blockquote>
+<p>然后输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">apt upgrade
+</code></pre></div><p>如果让你确认就输入<code>y</code>然后回车就行</p>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/jailbreak/">jailbreak</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/jb-source/">
+        
+        
+            <div class="article-image">
+                <img src="/p/jb-source/repo.395394526247b7dabe6403e08a156b70_hu480492706057c69ada989611428d830b_16567_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Cydia和Sileo插件源地址整理"
+                        data-key="jb-source" 
+                        data-hash="md5-OVOUUmJHt9q&#43;ZAPgihVrcA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cydia和Sileo插件源地址整理</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/onekey-jbupdate/">
+        
+        
+            <div class="article-image">
+                <img src="/p/onekey-jbupdate/jbupdate.18d3540bdde4899df09b6fca4074260c_hu29b21095a92218502fd1597d39ba8f83_17985_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 一键更新Odyssey/Taurine越狱内核"
+                        data-key="onekey-jbupdate" 
+                        data-hash="md5-GNNUC93kiZ3wm2/KQHQmDA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一键更新Odyssey/Taurine越狱内核</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/succession-shuaji/">
+        
+        
+            <div class="article-image">
+                <img src="/p/succession-shuaji/succsion.31c085d57e68a53c0614d5e9c56dcdfd_hu23a7850791385f468c9ba9d18817f6b5_40621_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post iOS13.0至13.6Succession平刷教程"
+                        data-key="succession-shuaji" 
+                        data-hash="md5-McCF1X5opTwGFNXpxW3N/Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">iOS13.0至13.6Succession平刷教程</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/ios-with-bigsur/">
+        
+        
+            <div class="article-image">
+                <img src="/p/ios-with-bigsur/iosbigsur.3de7330c5a26574bd54022cd55e42cd9_hu1295b0050bfc7765bede072327097fdf_145847_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 当iOS遇上Big Sur"
+                        data-key="ios-with-bigsur" 
+                        data-hash="md5-PeczDFomV0vVQCLNVeQs2Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">当iOS遇上Big Sur</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/p/checkra1n-on-linux/">
+        
+        
+            <div class="article-image">
+                <img src="/p/checkra1n-on-linux/c1linux.acd96f3ba6f71b6c8a78bb2514ac040c_huae9b5b2f87cc15dc23636eff421aae7c_25361_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post CheckRa1n On Linux"
+                        data-key="checkra1n-on-linux" 
+                        data-hash="md5-rNlvO6b3G2yKeLslFKwEDA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CheckRa1n On Linux</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="lin-snow/blog-comment"
+    data-repo-id="R_kgDOG1PCZg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOG1PCZs4CBIDy"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    data-input-position="top"
+    async
+></script>
+
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector('iframe.giscus-frame');
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                { 
+                    giscus: {
+                        setConfig: { 
+                            theme: theme 
+                        }
+                    }
+                },
+                "https://giscus.app"
+            );
+        };
+    };
+
+    (function(){
+        addEventListener('message', (e) => {
+            if (event.origin !== 'https://giscus.app') return;
+            handler()
+        });
+        window.addEventListener('onColorSchemeChange', handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            };
+        };
+    }());
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 L1nSn0w&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        
+            Powered by GitHub.Pages <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#ios更新屏蔽">iOS更新屏蔽</a></li>
+        <li><a href="#dpkg-中断卸载不掉插件">Dpkg 中断/卸载不掉插件</a></li>
+        <li><a href="#sileo-刷新源报错404552">Sileo 刷新源报错404/552</a></li>
+        <li><a href="#逃离sileo拥抱cydia">逃离Sileo，拥抱Cydia</a></li>
+        <li><a href="#人手必备实用工具">人手必备实用工具</a>
+          <ol>
+            <li><a href="#filza-file-manager">Filza File Manager</a></li>
+            <li><a href="#icleaner-pro">iCleaner Pro</a></li>
+            <li><a href="#newterm-2">NewTerm 2</a></li>
+          </ol>
+        </li>
+        <li><a href="#newterm-2常用命令">NewTerm 2常用命令</a>
+          <ol>
+            <li></li>
+          </ol>
+        </li>
+        <li><a href="#进阶命令">进阶命令</a>
+          <ol>
+            <li></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+    </body>
+</html>
