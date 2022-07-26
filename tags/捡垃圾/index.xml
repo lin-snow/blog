@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>捡垃圾 on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/%E6%8D%A1%E5%9E%83%E5%9C%BE/</link>
+        <description>Recent content in 捡垃圾 on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 04 Mar 2022 16:45:33 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E6%8D%A1%E5%9E%83%E5%9C%BE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>记我的第一次捡垃圾之M73</title>
+        <link>https://blog.linsnow.cn/p/m73-hackintosh/</link>
+        <pubDate>Fri, 04 Mar 2022 16:45:33 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/m73-hackintosh/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.png" alt="Featured image of post 记我的第一次捡垃圾之M73" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.&lt;/p&gt;
+&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+&lt;p&gt;捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;p&gt;买的是联想M73 Tiny准系统&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;配件类别&lt;/th&gt;
+&lt;th&gt;具体型号&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;主板&lt;/td&gt;
+&lt;td&gt;H81(联想M73 Tiny）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CPU&lt;/td&gt;
+&lt;td&gt;Intel i3-4360标压&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;内存条&lt;/td&gt;
+&lt;td&gt;杂牌ddr3 1333MHz 4G*1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;硬盘&lt;/td&gt;
+&lt;td&gt;杂牌120g固态硬盘&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;电源&lt;/td&gt;
+&lt;td&gt;联系原装90w电源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;转接头&lt;/td&gt;
+&lt;td&gt;dp转hdmi转接头&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;视频输出线&lt;/td&gt;
+&lt;td&gt;家里闲置的HDMI转HDMI线&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;网卡&lt;/td&gt;
+&lt;td&gt;博通bcm94352hmb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;天线&lt;/td&gt;
+&lt;td&gt;一代的IPEX内置天线&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;小机机的外貌，内部图就不拍了，我懒得拆开&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/m73.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/m73_hu6ddb91b585a929bc6e9ff992fc71296a_501095_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/m73-hackintosh/m73_hu6ddb91b585a929bc6e9ff992fc71296a_501095_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;m73&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/zhuomian.png&#34;
+	width=&#34;1956&#34;
+	height=&#34;1116&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/zhuomian_hu2c2318e806e1154b44f333b90214ed92_537518_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/zhuomian_hu2c2318e806e1154b44f333b90214ed92_537518_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;折腾之白名单&#34;&gt;折腾之白名单&lt;/h2&gt;
+&lt;p&gt;为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了&lt;/p&gt;
+&lt;h2 id=&#34;折腾之黑苹果&#34;&gt;折腾之黑苹果&lt;/h2&gt;
+&lt;p&gt;这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。
+为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子.
+算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/jigailan.png&#34;
+	width=&#34;622&#34;
+	height=&#34;387&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/jigailan_hu32e7297d227ba3c9314a24c7fe14105a_28186_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/jigailan_hu32e7297d227ba3c9314a24c7fe14105a_28186_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;385px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;折腾之定制usb&#34;&gt;折腾之定制USB&lt;/h2&gt;
+&lt;p&gt;由于macOS11.3之后的系统变动，安装和更新新版必须要定制USB端口，否则会卡代码和USB用不了，无奈只能装个windows给这台机子定制USB端口，更***的是，由于定制好USB后要给efi添加两个驱动，但是我的疏忽，只添加了一个驱动，所以就导致后来的各种毛病，好在后来才发现了问题&amp;hellip;.&lt;/p&gt;
+&lt;h2 id=&#34;成果分享之efi&#34;&gt;成果分享之EFI&lt;/h2&gt;
+&lt;p&gt;整了这么久，如果没有网上一些热心网友的帮助，我可能还要撞很多坑，因此，我打算把我的EFI也开源出了，让大家使用。
+这里就简单的给我这个EFI做个介绍吧。
+这个EFI提供了过的版本的专属config共选择使用。&lt;/p&gt;
+&lt;p&gt;其中包括从macOS10.15到macOS12各大版本的config文件，使用只需把想要用的config对应的文件改名为&lt;code&gt;config.plist&lt;/code&gt;即可，想要看跑代码过程可以在引导界面按下&lt;code&gt;win+v&lt;/code&gt;键即可.&lt;/p&gt;
+&lt;p&gt;目前该opencore的版本为0.78，全部文件均使用来自官方的最新文件，对每个不必要的选项进行了精简优化，三码已经去掉了，只需自行加上三码即可.但是机型最好不要更改，防止无法安装.后续版本的更新看心情和时间，有问题的可以直接在本文下评论.&lt;/p&gt;
+&lt;h3 id=&#34;整个efi大致结构如下&#34;&gt;整个EFI大致结构如下：&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/EFIjiegou.png&#34;
+	width=&#34;487&#34;
+	height=&#34;833&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/EFIjiegou_hu8c3376b4bbbc019f1a9a82709ea0e817_26218_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/EFIjiegou_hu8c3376b4bbbc019f1a9a82709ea0e817_26218_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;140px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;采用oc最新版，包括驱动，并且有我维护，随缘更新.&lt;/p&gt;
+&lt;h3 id=&#34;hackintools图&#34;&gt;hackintools图：&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan.png&#34;
+	width=&#34;866&#34;
+	height=&#34;1016&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan_hu88535eacf7a1c6942b7125ad9f04fa65_49882_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan_hu88535eacf7a1c6942b7125ad9f04fa65_49882_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;204px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;引导界面&#34;&gt;引导界面：&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/yindao.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/yindao_hu589e98d0a4e3969f789086f7716ca3f0_263083_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/yindao_hu589e98d0a4e3969f789086f7716ca3f0_263083_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/kaiji.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/kaiji_hu32eb8466e6fcbd8111d27ebf21550421_328894_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/m73-hackintosh/kaiji_hu32eb8466e6fcbd8111d27ebf21550421_328894_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;获取efi&#34;&gt;获取EFI&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Github地址:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lin-snow/hackintosh-m73-tiny&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/lin-snow/hackintosh-m73-tiny&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;👋如果你白嫖了，希望可以点歌免费的star或者考虑打赏该项目，求求了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一些功能演示图&#34;&gt;一些功能演示图：&lt;/h2&gt;
+&lt;h3 id=&#34;隔空投送&#34;&gt;隔空投送&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/airdrop.png&#34;
+	width=&#34;956&#34;
+	height=&#34;472&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/airdrop_hu422bc4fb560cf7d8e942ff9b1d96ceee_25749_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/airdrop_hu422bc4fb560cf7d8e942ff9b1d96ceee_25749_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;486px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;网卡蓝牙驱动&#34;&gt;网卡蓝牙驱动&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/wangkaqudong.png&#34;
+	width=&#34;704&#34;
+	height=&#34;612&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/wangkaqudong_hu2670d6fa5453f2f5ce2826c9d2fd8365_20173_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/wangkaqudong_hu2670d6fa5453f2f5ce2826c9d2fd8365_20173_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;276px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;支持4k和多种分辨率&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/m73-hackintosh/fenbianlv.png&#34;
+	width=&#34;704&#34;
+	height=&#34;496&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/m73-hackintosh/fenbianlv_hu39441f947f1d512c3c9c3200294158b4_18047_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/m73-hackintosh/fenbianlv_hu39441f947f1d512c3c9c3200294158b4_18047_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;每个接口基本都能正常使用，包括耳机接口.板载声卡已正确驱动.&lt;/p&gt;
+&lt;h2 id=&#34;鸣谢&#34;&gt;鸣谢&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;国光：&lt;a class=&#34;link&#34; href=&#34;https://www.sqlsec.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国光 (sqlsec.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://dortania.github.io/OpenCore-Install-Guide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenCore 安装指南 (dortania.github.io)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;司波图：&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/28457/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;司波图的个人空间_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;黑果小兵： &lt;a class=&#34;link&#34; href=&#34;https://blog.daliansky.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;黑果小兵的部落阁 (daliansky.net)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;opencorepkg： &lt;a class=&#34;link&#34; href=&#34;https://github.com/acidanthera/OpenCorePkg/releases/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;发布 ·acidanthera/OpenCorePkg (github.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;oc编辑器：&lt;a class=&#34;link&#34; href=&#34;https://github.com/ic005k/OCAuxiliaryTools&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ic005k/OCAuxiliaryTools: Cross-platform GUI management tools for OpenCore（OCAT） (github.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;群友们的热心解答&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;打赏&#34;&gt;打赏：&lt;/h2&gt;
+&lt;p&gt;本博客一直用爱发电，此EFI项目已经开源给了大家，如果这个项目对你有帮助并且你财力雄厚，希望可以考虑给本化这个项目&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

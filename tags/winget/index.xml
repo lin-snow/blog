@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>winget on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/winget/</link>
+        <description>Recent content in winget on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 15 Aug 2021 13:42:53 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/winget/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows包管理器Winget快速入门</title>
+        <link>https://blog.linsnow.cn/p/winget-start/</link>
+        <pubDate>Sun, 15 Aug 2021 13:42:53 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/winget-start/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/winget-start/winget.png" alt="Featured image of post Windows包管理器Winget快速入门" /&gt;&lt;h1 id=&#34;windows包管理器winget快速入门&#34;&gt;Windows包管理器Winget快速入门&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;微软 Windows 软件包管理器 winget已经发布了，winget 是 Windows 软件包管理器的 CLI（命令行界面），类似于 Linux 上的软件包管理器，用户可以通过 winget 命令行工具发现、安装、升级、删除和配置特选应用程序集。安装后，用户可以通过 Windows Terminal、PowerShell 或 CMD 访问 winget。假如你已经习惯了使用Linux的包管理器，那么winget就可以快速上手，运用winget可以快速给Windows安装软件&amp;hellip;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;获取winget&#34;&gt;获取winget&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从winget的github获取：https://github.com/microsoft/winget-cli&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;winget常用命令&#34;&gt;Winget常用命令&lt;/h2&gt;
+&lt;h3 id=&#34;获取帮助&#34;&gt;获取帮助&lt;/h3&gt;
+&lt;p&gt;直接输入命令 winget，能获取基本帮助，包括命令格式和命令参数。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;使用情况&#34;&gt;&lt;strong&gt;使用情况:&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&amp;lt;命令&amp;gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&amp;lt;选项&amp;gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/winget-start/wingetuse.png&#34;
+	width=&#34;1302&#34;
+	height=&#34;725&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;搜索软件&#34;&gt;搜索软件&lt;/h3&gt;
+&lt;p&gt;以搜索&lt;strong&gt;chrome&lt;/strong&gt;为例,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget search chrome 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;输出结果&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/winget-start/wingetsearch.png&#34;
+	width=&#34;841&#34;
+	height=&#34;358&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;563px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;安装软件&#34;&gt;安装软件&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1. winget install Package  &lt;span class=&#34;c1&#34;&gt;#Package 为软件包名称或软件包的id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 2. winget install Package --rainbow &lt;span class=&#34;c1&#34;&gt;#加上--rainbow的参数可以让进度条显示为彩色，否则显示为单色&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查看软件的详细信息&#34;&gt;查看软件的详细信息&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget show package
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;软件源管理&#34;&gt;软件源管理&lt;/h3&gt;
+&lt;p&gt;WinGet 提供了一个 &lt;code&gt;source&lt;/code&gt; 的命令，利用 &lt;code&gt;winget source &amp;lt;command&amp;gt;&lt;/code&gt;，我们就可以方便地管理不同的 WinGet 软件 Manifest 仓库，WinGet 官方称之为「软件源」&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; add &amp;lt;软件源&amp;gt;  &lt;span class=&#34;c1&#34;&gt;# 添加新的软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; list  &lt;span class=&#34;c1&#34;&gt;# 列出当前已添加的软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; update  &lt;span class=&#34;c1&#34;&gt;#  更新当前全部添加的软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; remove &lt;span class=&#34;c1&#34;&gt;# 移除当前使用的软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;这玩意跟Linux没法比，但能用，用起来也还不错，有至少比没有好，估计经过多次迭代会越来越好,建议配合Windows Terminal一起用&lt;/p&gt;
+&lt;p&gt;。winget的命令不是很多，常用的那几条记一记就够用了&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

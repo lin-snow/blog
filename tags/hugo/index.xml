@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>hugo on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/hugo/</link>
+        <description>Recent content in hugo on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 26 Aug 2021 03:40:33 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在win11下搭建hugo博客环境</title>
+        <link>https://blog.linsnow.cn/p/install-hugo/</link>
+        <pubDate>Thu, 26 Aug 2021 03:40:33 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/install-hugo/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/install-hugo/hugo.png" alt="Featured image of post 在win11下搭建hugo博客环境" /&gt;&lt;h1 id=&#34;在win11下搭建hugo博客环境&#34;&gt;在win11下搭建hugo博客环境&lt;/h1&gt;
+&lt;h2 id=&#34;hugo-简介&#34;&gt;Hugo 简介&lt;/h2&gt;
+&lt;p&gt;搭建个人博客有很多开源的博客框架，我们要介绍的框架叫作&lt;code&gt;Hugo&lt;/code&gt;。Hugo 是一个基于Go 语言的框架，可以快速方便的创建自己的博客。&lt;/p&gt;
+&lt;p&gt;Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的博客系统中，从而展示给他人。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;获取hugo&#34;&gt;获取Hugo&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;在GitHub上获取hugo&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo的仓库地址:https://github.com/gohugoio/hugo&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;配置hugo&#34;&gt;配置hugo&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;以64位hugo0.87版本为例，其他基本都大同小异，或者说是一样的&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/install-hugo/hugo1.png&#34;
+	width=&#34;428&#34;
+	height=&#34;346&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/install-hugo/hugo1_hu4588f85ad281a80dce5f15f8adfa7bc7_8622_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/install-hugo/hugo1_hu4588f85ad281a80dce5f15f8adfa7bc7_8622_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下载好的hugo安装包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将其解压出来，会得到一个后缀为exe的可执行文件，但是不要直接刷个双击去运行他（因为他根本运行不了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下面举个栗子，比如我在将这个解压好的hugo.exe文件放在&lt;code&gt;D:\hugo\bin&lt;/code&gt;目录下&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：hugo.exe必须放在一个名为&lt;code&gt;bin&lt;/code&gt;的文件夹下面，至于&lt;code&gt;bin&lt;/code&gt;文件夹你要放在哪那是你自己的事&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;在设置-系统-相关链接里找到高级系统设置并打开&lt;/strong&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/install-hugo/hugo2.png&#34;
+	width=&#34;1184&#34;
+	height=&#34;663&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/install-hugo/hugo2_hu6bf781e59c61f004b4e4eae612486b2d_40289_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/install-hugo/hugo2_hu6bf781e59c61f004b4e4eae612486b2d_40289_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;428px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;找到环境变量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/install-hugo/hugo3.png&#34;
+	width=&#34;564&#34;
+	height=&#34;292&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/install-hugo/hugo3_hu1fc009e3896eabc11568a5573d18f14d_3895_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/install-hugo/hugo3_hu1fc009e3896eabc11568a5573d18f14d_3895_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;463px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;选择系统变量里的&lt;code&gt;path&lt;/code&gt;选项&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/install-hugo/hugo4.png&#34;
+	width=&#34;764&#34;
+	height=&#34;311&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/install-hugo/hugo4_hu844afd9c090f8dbd44154ae9f2351d29_9571_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/install-hugo/hugo4_hu844afd9c090f8dbd44154ae9f2351d29_9571_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;245&#34;
+		data-flex-basis=&#34;589px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在里面添加hugo.exe存放的所在目录，比如我将其放在了&lt;code&gt;D:\hugo\bin&lt;/code&gt;目录下，那么就在里面添加上这个路径，如图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/install-hugo/hugo5.png&#34;
+	width=&#34;408&#34;
+	height=&#34;195&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/install-hugo/hugo5_hud211417e47e98bb9d93cf119706219a0_3497_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/install-hugo/hugo5_hud211417e47e98bb9d93cf119706219a0_3497_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;到这里就算搞定了，在终端里检测一下,输入&lt;code&gt;hugo version&lt;/code&gt;，查看是否有版本号输出，有的好就算是ok了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;PS C:&lt;span class=&#34;se&#34;&gt;\U&lt;/span&gt;sers&lt;span class=&#34;se&#34;&gt;\l&lt;/span&gt;1nsn0w&amp;gt; hugo version  &lt;span class=&#34;c1&#34;&gt;#输入&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo v0.87.0-B0C541E4+extended windows/amd64 &lt;span class=&#34;nv&#34;&gt;BuildDate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2021-08-03T10:57:28Z &lt;span class=&#34;nv&#34;&gt;VendorInfo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;gohugoio &lt;span class=&#34;c1&#34;&gt;#输出结果&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>为hugo引入不蒜子</title>
+        <link>https://blog.linsnow.cn/p/hugo-busuanzi/</link>
+        <pubDate>Wed, 18 Aug 2021 21:19:29 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/hugo-busuanzi/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/hugo-busuanzi/busuanzi.png" alt="Featured image of post 为hugo引入不蒜子" /&gt;&lt;h1 id=&#34;为hugo引入不蒜子&#34;&gt;为hugo引入不蒜子&lt;/h1&gt;
+&lt;h2 id=&#34;安装脚本必选&#34;&gt;安装脚本（必选）&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;要使用不蒜子必须在页面中引入js&lt;/p&gt;
+&lt;p&gt;我的hugo引入js的路径：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;themes\stack\layouts\partials\head\head.html&lt;/p&gt;
+&lt;p&gt;其他都是大同小异&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;显示站点总访问量&#34;&gt;显示站点总访问量&lt;/h2&gt;
+&lt;p&gt;要显示站点总访问量，复制以下代码添加到你需要显示的位置。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;举个栗子：比如我blog的首页底部那个统计就是将代码加在以下这个路径&lt;/p&gt;
+&lt;p&gt;themes\stack\layouts\partials\footer\footer.html&lt;/p&gt;
+&lt;p&gt;其实都是大同小异的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有两种算法可选：&lt;/p&gt;
+&lt;p&gt;算法a：pv的方式，单个用户连续点击n篇文章，记录n次访问量。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;busuanzi_container_site_pv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    本站总访问量&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;busuanzi_value_site_pv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;次
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;算法b：uv的方式，单个用户连续点击n篇文章，只记录1次访客数。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;busuanzi_container_site_uv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  本站访客数&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;busuanzi_value_site_uv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;人次
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;
+&lt;p&gt;在本站的的footer已经引入了不蒜子计数器&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hugo一键部署到Gitee或Github</title>
+        <link>https://blog.linsnow.cn/p/onekey-deployment/</link>
+        <pubDate>Fri, 13 Aug 2021 20:23:02 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/onekey-deployment/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/onekey-deployment/hugo.png" alt="Featured image of post Hugo一键部署到Gitee或Github" /&gt;&lt;h1 id=&#34;hugo一键部署到gitee或github&#34;&gt;Hugo一键部署到Gitee或Github&lt;/h1&gt;
+&lt;p&gt;为hugo博客创建一个一键推送到GitHub或gitee的.sh文件，前提是在对应的仓库已有ssh密钥&lt;/p&gt;
+&lt;p&gt;创建一个名为&lt;code&gt;deploy.sh&lt;/code&gt;的文件并写入以下内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo &lt;span class=&#34;c1&#34;&gt;#构造你的blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; public &lt;span class=&#34;c1&#34;&gt;#进入构造后的blog输出目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init &lt;span class=&#34;c1&#34;&gt;#初始化git&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add -A
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s1&#34;&gt;&amp;#39;deploy&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -f https://gitee.com/l1nsn0w/l1nsn0w.git master &lt;span class=&#34;c1&#34;&gt;#向存储库推送&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ../  &lt;span class=&#34;c1&#34;&gt;# 回到上一级目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf public &lt;span class=&#34;c1&#34;&gt;# 删除目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>motrix on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/motrix/</link>
+        <description>Recent content in motrix on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 16 Aug 2021 15:04:18 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/motrix/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我认为的最强开源下载软件之Motrix</title>
+        <link>https://blog.linsnow.cn/p/opensource-best-motrix/</link>
+        <pubDate>Mon, 16 Aug 2021 15:04:18 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/opensource-best-motrix/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix.png" alt="Featured image of post 我认为的最强开源下载软件之Motrix" /&gt;&lt;h1 id=&#34;我认为的最强开源下载软件之motrix&#34;&gt;我认为的最强开源下载软件之Motrix&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;好的软件不应该被埋没，今天分享一个开源的下载软件&amp;ndash;Motrix。说到下载器，你首先想到什么？&lt;/p&gt;
+&lt;p&gt;某雷？某雷的确很强大，但是由于种种原因，并不可靠；IDM？IDM牛逼是牛逼，可惜不支持BT。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motrix&lt;/strong&gt;，可以支持 HTTP、FTP、BT、磁力链接、&lt;strong&gt;百度云网盘下载&lt;/strong&gt;等等，基本能覆盖所有的资源下载需求。&lt;/p&gt;
+&lt;h2 id=&#34;motrix的特点&#34;&gt;Motrix的特点&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;简单明了的用户界面&lt;/li&gt;
+&lt;li&gt;支持BT种子磁力链&lt;/li&gt;
+&lt;li&gt;种子选择性下载&lt;/li&gt;
+&lt;li&gt;每天自动更新跟踪列表&lt;/li&gt;
+&lt;li&gt;UPnp = 纳特 - Pmp 端口映射&lt;/li&gt;
+&lt;li&gt;最多 10 个任务同时下载&lt;/li&gt;
+&lt;li&gt;单个任务最大支持 64 线程下载&lt;/li&gt;
+&lt;li&gt;下载进度图形动态显示&lt;/li&gt;
+&lt;li&gt;模拟用户代理&lt;/li&gt;
+&lt;li&gt;下载已完成的通知&lt;/li&gt;
+&lt;li&gt;用于快速操作的居民系统托盘&lt;/li&gt;
+&lt;li&gt;黑暗模式&lt;/li&gt;
+&lt;li&gt;删除任务时删除相关文件（可选）&lt;/li&gt;
+&lt;li&gt;I18n&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&amp;hellip;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Motrix使用aria2作为内核，下载速度非常快，Motrix也可以接管你的浏览器（需要Chromium内核浏览器）下载，成为你的默认下载器，不用担心下载不了扩展，它的扩展也可以在GitHub上下载到，简直十分的良心。软件代码基于 Electron + Vue + VueX + Element 等技术编写而来，对开发感兴趣的同学可以参考学习一下。&lt;/p&gt;
+&lt;h2 id=&#34;跨平台&#34;&gt;跨平台&lt;/h2&gt;
+&lt;p&gt;Motrix支持Windows、Linux和macos。并且跨平台界面统一，在 Windows、&lt;a class=&#34;link&#34; href=&#34;https://www.iplaysoft.com/os/mac-platform&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;macOS&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://www.iplaysoft.com/os/linux-platform&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linux&lt;/a&gt; 三大平台上都有着一致的使用体验。&lt;/p&gt;
+&lt;h2 id=&#34;软件界面&#34;&gt;软件界面&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;下载界面&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page.png&#34;
+	width=&#34;1147&#34;
+	height=&#34;716&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其他界面&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting.png&#34;
+	width=&#34;1443&#34;
+	height=&#34;900&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;口说无凭&#34;&gt;口说无凭&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;以下载GitHub上的软件做测试&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下载GitHub上的Motrix做测试&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload.png&#34;
+	width=&#34;1163&#34;
+	height=&#34;582&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;479px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;好家伙，还好我截图快，差点就下载完了&lt;/p&gt;
+&lt;h2 id=&#34;软件地址&#34;&gt;软件地址&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官网网站：&lt;a class=&#34;link&#34; href=&#34;https://motrix.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;莫特里克斯 (motrix.app)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub仓库地址：https://github.com/agalwood/Motrix&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

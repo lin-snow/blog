@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>typora;vue on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/typoravue/</link>
+        <description>Recent content in typora;vue on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 19 Aug 2021 14:58:23 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/typoravue/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>为typora安装vue风格主题</title>
+        <link>https://blog.linsnow.cn/p/vue-typora/</link>
+        <pubDate>Thu, 19 Aug 2021 14:58:23 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/vue-typora/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/vue-typora/typoravue.png" alt="Featured image of post 为typora安装vue风格主题" /&gt;&lt;h1 id=&#34;为typora安装vue风格主题&#34;&gt;为typora安装vue风格主题&lt;/h1&gt;
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.typora.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Typora&lt;/a&gt;是一款支持实时预览的 Markdown 编辑器和阅读器，支持&lt;code&gt;Windows&lt;/code&gt;、&lt;code&gt;macOS&lt;/code&gt;、&lt;code&gt;Linux&lt;/code&gt;三大平台。Typora 作为一款合格的 Markdown 编辑器，支持图片、列表、表格、代码、公式、目录等功能，同时这款软件还支持（一键）动态预览功能，让一切都变得如此干净、纯粹。&lt;/p&gt;
+&lt;h2 id=&#34;主题仓库&#34;&gt;主题仓库&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/blinkfox/typora-vue-theme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/blinkfox/typora-vue-theme&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在这里十分感谢&lt;strong&gt;blinkfox&lt;/strong&gt;大佬开发的主题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装主题&#34;&gt;安装主题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;从主题仓库克隆到本地并获取主题中的&lt;code&gt;vue.css&lt;/code&gt;、&lt;code&gt;vue-dark.css&lt;/code&gt;文件和包含字体的&lt;code&gt;vue&lt;/code&gt;文件夹；&lt;/li&gt;
+&lt;li&gt;打开 Typora，点击“&lt;strong&gt;偏好设置&lt;/strong&gt;” =&amp;gt; “&lt;strong&gt;打开主题文件夹&lt;/strong&gt;”按钮，将弹出 Typora 的主题文件夹；&lt;/li&gt;
+&lt;li&gt;将下载好的&lt;code&gt;vue.css&lt;/code&gt;和&lt;code&gt;vue-dark.css&lt;/code&gt;文件和包含字体的&lt;code&gt;vue&lt;/code&gt;文件夹放到 Typora 的主题文件夹中；&lt;/li&gt;
+&lt;li&gt;关闭并重新打开 Typora，从菜单栏中选择 “&lt;strong&gt;主题&lt;/strong&gt;” =&amp;gt; “&lt;strong&gt;Vue&lt;/strong&gt;” 或者 “&lt;strong&gt;Vue Dark&lt;/strong&gt;” 即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;效果图&#34;&gt;效果图&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/vue-typora/vuetypora.png&#34;
+	width=&#34;955&#34;
+	height=&#34;874&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;typora&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;262px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

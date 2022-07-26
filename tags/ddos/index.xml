@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ddos on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/ddos/</link>
+        <description>Recent content in ddos on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 10 Sep 2021 16:50:15 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/ddos/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>浅谈DDoS</title>
+        <link>https://blog.linsnow.cn/p/ddos/</link>
+        <pubDate>Fri, 10 Sep 2021 16:50:15 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/ddos/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/ddos/ddos.png" alt="Featured image of post 浅谈DDoS" /&gt;&lt;h1 id=&#34;浅谈ddos&#34;&gt;浅谈DDoS&lt;/h1&gt;
+&lt;h2 id=&#34;闲言碎语&#34;&gt;闲言碎语&lt;/h2&gt;
+&lt;p&gt;今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学课就回家了。其实我也不懂什么网络安全，但是还是抱又好奇心的了解了一下，所以就有了今天这篇关于DDoS的介绍了.就看看DDoS的大概就行了，不会是硬核科普&amp;hellip;.&lt;/p&gt;
+&lt;h2 id=&#34;什么是ddos&#34;&gt;什么是DDos？&lt;/h2&gt;
+&lt;p&gt;DDoS是英文Distributed Denial of Service的缩写，意即&amp;quot;分布式拒绝服务&amp;quot;,DDoS的中文名叫分布式拒绝服务攻击，俗称洪水攻击。&lt;/p&gt;
+&lt;h2 id=&#34;ddos攻击原理&#34;&gt;DDoS攻击原理&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;做个比喻&lt;/strong&gt;：
+有一家店铺正在营业（网站），但有人想让这家店铺无法营业，甚至倒闭。于是就找了一些人堵在店铺中不走，而且把所有通道都堵死。真正的客户却堵在门外无法进入。而且这些人在店里不断地找茬，散布假信息。让商铺上下忙成一团但却是一场空。最终不仅没有做成生意，反而把所有的购物者都拒之门外，损失惨重。
+但是大型企业或组织往往具有较强的服务提供能力(例如腾讯云或者阿里巴巴，GitHub等)，足以处理单个攻击者发起的所有请求。于是，攻击者会组织很多协作的同伴（或计算机），从不同的位置同时提出服务请求，直到服务无法被访问，这就是&lt;code&gt;分布式&lt;/code&gt;。现实中，攻击者往往没有那么多同伴，所以他们通常利用&lt;code&gt;僵尸网络&lt;/code&gt;来控制大量计算机进行攻击。&lt;/p&gt;
+&lt;h2 id=&#34;ddos攻击方式&#34;&gt;DDoS攻击方式&lt;/h2&gt;
+&lt;p&gt;&lt;del&gt;（笑死，有些我根本不懂&lt;/del&gt;
+这里引用网络上一些比较易懂的介绍
+DDOS攻击主要分为三类：&lt;strong&gt;流量型攻击；连接型攻击；特殊协议缺陷&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ip-flood&#34;&gt;Ip flood&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+此攻击以多个随机的源主机地址向目的主机发送超大量的随机或特定的IP包，造成目标主机不能处理其他正常的IP报文。&lt;/p&gt;
+&lt;h3 id=&#34;icmp-flood&#34;&gt;Icmp Flood&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+icmp flood 也就是 ping flood，此攻击&lt;strong&gt;在短时间内向目的主机发送大量的ping的echo报文&lt;/strong&gt;，主机不断响应，造成网络堵塞、主机资源耗尽。&lt;/p&gt;
+&lt;h3 id=&#34;syn-flood&#34;&gt;Syn Flood&lt;/h3&gt;
+&lt;p&gt;攻击原理：
+依据 tcp建立连接的三次握手。此攻击以多个随机的源主机地址向目的主机发送syn包，而在收到目的主机的syn＋ack包后并不回应，目的主机就为这些源主机建立大量的连接队列，由于没有收到ack一直维护这些连接队列，造成资源的大量消耗而不能向正常的请求提供服务。
+与之类似的攻击方式还有ack-flood、s-ack-flood、fin-flood、rst-flood、tcp-flood&lt;/p&gt;
+&lt;h3 id=&#34;udp-flood&#34;&gt;UDP Flood&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+此攻击在短时间内 &lt;strong&gt;模拟随机的源端口地址向随机的目的端口发送大量的udp包，造成目标主机不能处理其他udp的请求&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ip-scan&#34;&gt;IP scan&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+攻击者 &lt;strong&gt;通过IP扫描可以迅速服务器网络情况及服务器主机信息，为后面的攻击做好准备。通过发送IP扫描探测包探测存在的服务器主机。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;port-scan&#34;&gt;Port scan&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+&lt;strong&gt;当一个源ip地址在规定的时间间隔内将tcp syn包发送给一个目标地址的多个不同端口时，就是一次端口扫描&lt;/strong&gt;，目的是扫描 可用的服务，从而识别目标的服务。&lt;/p&gt;
+&lt;h3 id=&#34;ping-of-death&#34;&gt;ping of death&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+根据tcp/ip的规范，&lt;strong&gt;一个包的长度最大为65535字节&lt;/strong&gt;。攻击向&lt;strong&gt;一个目标地址发送icmp echo包的大于65535字节&lt;/strong&gt;（这需要多个分片叠加才能做到），&lt;strong&gt;当主机重组这些分片发现包大于65535字节时，就会导致宕机&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;cc攻击&#34;&gt;CC攻击&lt;/h3&gt;
+&lt;p&gt;攻击原理：&lt;br&gt;
+利用 代理服务器 向 受害者 发起大量HTTP Get 请求；&lt;strong&gt;主要请求动态页面，涉及到数据库访问操作；数据库负载以及数据库连接池负载极高，无法响应正常请求&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ddos的危害&#34;&gt;DDoS的危害&lt;/h2&gt;
+&lt;p&gt;最简单的就是网站崩了，访问不了，甚至服务器也坏了&amp;hellip;.
+历史上一些比较经典的DDoS攻击案例
+美国东部时间 2018年2月28日，GitHub 在一瞬间遭到高达 1.35Tbps 的带宽攻击。这次 DDoS 攻击几乎可以堪称是互联网有史以来规模最大、威力最大的 DDoS 攻击了。
+在 GitHub 遭到攻击后，事件并没有停歇，仅仅一周后，DDoS 攻击又开始对 Google、亚马逊甚至 Pornhub 等网站进行了 DDoS 攻击。后续的 DDoS 攻击带宽最高也达到了 1Tbps。&lt;/p&gt;
+&lt;h2 id=&#34;总结与感想&#34;&gt;总结与感想&lt;/h2&gt;
+&lt;p&gt;天晴了雨停了，我感觉我又行了hhhh.DDoS确实很强，又是一个坐牢小技巧。互联网发展了这么久，现在的防御做的也很不错了，而且ddos攻击也是需要成本的，比如组成僵尸网络，理论上成本越高攻击力越强。最后，希望我的blog没事&amp;hellip;&amp;hellip;&amp;hellip;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

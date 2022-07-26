@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Checkra1n on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/checkra1n/</link>
+        <description>Recent content in Checkra1n on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 26 Aug 2021 12:53:59 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/checkra1n/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CheckRa1n On Linux</title>
+        <link>https://blog.linsnow.cn/p/checkra1n-on-linux/</link>
+        <pubDate>Thu, 26 Aug 2021 12:53:59 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/checkra1n-on-linux/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/checkra1n-on-linux/c1linux.png" alt="Featured image of post CheckRa1n On Linux" /&gt;&lt;h1 id=&#34;checkra1n-on-linux&#34;&gt;CheckRa1n On Linux&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Windows版的checkra1n还是不要想了，有没有macos&lt;/p&gt;
+&lt;p&gt;只能去舔一下Linux咯&lt;/p&gt;
+&lt;p&gt;Linux的官方源里并没有checkra1n&lt;/p&gt;
+&lt;p&gt;以下命令均在shell中运行，以Ubuntu为例&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;第一条&#34;&gt;第一条&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#添加checkra1n软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;deb https://assets.checkra.in/debian /&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sudo tee /etc/apt/sources.list.d/checkra1n.list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;第二条&#34;&gt;第二条&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 获取钥匙&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-key adv --fetch-keys https://assets.checkra.in/debian/archive.key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;第三条&#34;&gt;第三条&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 刷新软件源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;or
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;第四条&#34;&gt;第四条&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;安装checkra1n
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install checkra1n
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;or
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install checkra1n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;补充&#34;&gt;补充&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行完以上四条命令后就安装了，checkra1n软件可以通过启动器直接打开&lt;/p&gt;
+&lt;p&gt;当然了，官网也贴心的准备了终端版本，&lt;/p&gt;
+&lt;p&gt;只需要在终端里输入checkra1n并回车会就出现终端版的checkra1n&lt;/p&gt;
+&lt;p&gt;但是该版本需要root权限，反正给root权限就完事了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#进入root&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo -i 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;输入密码回车就行，输入的时候看不见，直接输入就完事了，输完回车&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>CheckRa1n越狱报错合集</title>
+        <link>https://blog.linsnow.cn/p/checkra1n-error/</link>
+        <pubDate>Thu, 26 Aug 2021 12:28:52 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/checkra1n-error/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/checkra1n-error/c1err.png" alt="Featured image of post CheckRa1n越狱报错合集" /&gt;&lt;h1 id=&#34;checkra1n越狱报错合集&#34;&gt;CheckRa1n越狱报错合集&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Linux简易版报错解决方法&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出现 -77 或者 USB错误，请重启再来，换个usb接口。
+出现 -78 请请重启再来，换个usb接口。
+出现 -79 请重启再来，换个usb接口。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;虚拟机&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;checkra1n -26和-31错误
+不支持虚拟机,需要在黑苹果，Ra1nUSB，Linux下越狱&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AMD的黑苹果，错误－31，&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AMD的CPU使用checkra1n越狱黑苹果会报错-31&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Error code: -20 错误&lt;/strong&gt;
+Timed out waiting for bootstrap upload(Likely caused by an incompatible tweak, to enable Safe Mode check the option on main screen) (Error code: -20)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-20 错误，官方已经给到解决办法，请在应用程序中勾选 “安全模式（Safe Mode）”选项，重新越狱&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AMD的Linux简易版越狱，错误－71&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AMD的CPU使用Linux简易版checkra1n越狱会报错-71&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;By the way&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前几天iOS14.7.1越狱的时候各种报错，心态都搞崩了，使用cli版越狱就会报31和79错误，但是用终端版就一边过，还有就是Ubuntu上越狱也会卡住&amp;hellip;&amp;hellip;害&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>超简易checkn1x越狱</title>
+        <link>https://blog.linsnow.cn/p/easy-checkn1x/</link>
+        <pubDate>Sun, 22 Nov 2020 17:25:53 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/easy-checkn1x/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkn1x.png" alt="Featured image of post 超简易checkn1x越狱" /&gt;&lt;h1 id=&#34;超简易checkn1x越狱&#34;&gt;超简易checkn1x越狱&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;CheckRa1n 越狱工具需要在 macOS 系统上进行安装，但借助民间大佬做的&lt;strong&gt;checkn1x.iso&lt;/strong&gt;镜像文件即可轻松在Windows电脑完成越狱。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;strong&gt;准备工作：&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;工具&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;BalenaEtcher刻录工具&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.balena.io/etcher/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Checkn1x.iso镜像文件&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://l1nsn0w.lanzoui.com/b010pts1a&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点我下载密码1111&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;一个大于1G的U盘&lt;/th&gt;
+&lt;th&gt;一条正常的充电线或数据线&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;一台能用的电脑****&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;一台iPhone&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;准备上述材料后即准备工作结束。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;制作步骤&#34;&gt;制作步骤：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;打开&lt;strong&gt;BalenaEtcher刻录工具&lt;/strong&gt;（注意不要把刻录工具放在中文路径，如果不懂就直接放到桌面）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/selectimage.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;504&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/selectimage_hu48d69ee9a0bee57c01cdfcd152d2755e_6980_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/selectimage_hu48d69ee9a0bee57c01cdfcd152d2755e_6980_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从左往右点击第一个选项（Select image)&lt;/p&gt;
+&lt;p&gt;选择刚才下载&lt;strong&gt;checkn1x.iso&lt;/strong&gt;镜像文件并打开&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkn1xiso.jpg&#34;
+	width=&#34;645&#34;
+	height=&#34;113&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkn1xiso_hub3eb1601b09f2a56fb0021f6f39fddbd_2632_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/checkn1xiso_hub3eb1601b09f2a56fb0021f6f39fddbd_2632_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;570&#34;
+		data-flex-basis=&#34;1369px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;插入U盘（注意：该步骤会清空当前 U  盘上储存的所有数据，请务必提请备份好个人数据）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/flash.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;504&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/flash_hu066a2f89be4c1ff85e1e924e52fc6a65_7518_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/flash_hu066a2f89be4c1ff85e1e924e52fc6a65_7518_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;最后一步，从左往右点击第三个按钮（Flash）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待刻录成功&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/flashfinish.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;504&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/flashfinish_hu35bfc4dbbfa423c9135c8b78998bbbd2_15472_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/flashfinish_hu35bfc4dbbfa423c9135c8b78998bbbd2_15472_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;到这了则表示已经制作成功了？？？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重新插拔U盘，此时电脑可能会提示格式化，这里不需要管，直接重启电脑即可&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;启动越狱工具&#34;&gt;启动越狱工具：&lt;/h2&gt;
+&lt;p&gt;重启电脑，进入 BIOS 模式并选择以 U 盘启动，使用数据线将 iPhone 连接至电脑&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/selectbootdevice.jpg&#34;
+	width=&#34;768&#34;
+	height=&#34;452&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（不同型号电脑、主板进入 BIOS 方法不同，以下提供部分配置参考）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/bootkey.jpg&#34;
+	width=&#34;917&#34;
+	height=&#34;810&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/bootkey_hub970e8625364093799464fdc03066952_118899_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/bootkey_hub970e8625364093799464fdc03066952_118899_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;271px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在Welcome to checkn1x 界面按组合键 Alt+F2 进入 Checkra1n（使用笔记本自带的键盘则是先按住 Fn+Alt 后再按 F2）；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkn1xmode.png&#34;
+	width=&#34;644&#34;
+	height=&#34;415&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkn1xmode_hu749629f6354a37bd1a4f5d4fea4378ee_6667_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/easy-checkn1x/checkn1xmode_hu749629f6354a37bd1a4f5d4fea4378ee_6667_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;372px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;开始越狱&#34;&gt;开始越狱&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用键盘方向键选择右下角“Start”后按回车开始；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/linuxra1n.png&#34;
+	width=&#34;735&#34;
+	height=&#34;393&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/easy-checkn1x/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意：如果提示“Sorry,iPhone (5s-X) is supported,but iOS is not.&amp;ldquo;导致“Start”按钮无法选取，请进入左侧“Options”选项，然后开启“Allow untested iOS/ iPadOS/tvOS versions”项，然后返回即可选取“Start”。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用键盘方向键选择右下角“Start”后按回车，根据屏幕提示将设备进入 DFU 模式；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/startcheckra1n.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2137&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;452px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进入 DFU 模式后自动执行越狱步骤，无需其他操作；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting.jpg&#34;
+	width=&#34;3613&#34;
+	height=&#34;2185&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;越狱完成后，Checkra1n 会提示“All Done”，如果越狱失败请再尝试几次；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkra1ndone.jpg&#34;
+	width=&#34;3756&#34;
+	height=&#34;2254&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;越狱完成&#34;&gt;越狱完成：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;此时 iPhone 桌面会有 checkra1n 图标生成，打开桌面的 checkra1n，点击 Cydia 并安装；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/easy-checkn1x/installcydia.jpg&#34;
+	width=&#34;2085&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/easy-checkn1x/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/easy-checkn1x/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;260&#34;
+		data-flex-basis=&#34;625px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;成功安装 Cydia 后本次越狱完成；&lt;/li&gt;
+&lt;li&gt;重启电脑，断开数据线、U 盘。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;补充&#34;&gt;补充：&lt;/h2&gt;
+&lt;p&gt;按照以上方式越狱后，如果重启 iPhone 越狱环境将会失效，需要按照以上步骤重新越狱才能恢复。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>使用爱思助手制作越狱U盘</title>
+        <link>https://blog.linsnow.cn/p/i4tool-flash-jailbreak/</link>
+        <pubDate>Wed, 11 Nov 2020 17:25:53 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/i4tool-flash-jailbreak/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1n.png" alt="Featured image of post 使用爱思助手制作越狱U盘" /&gt;&lt;h1 id=&#34;使用爱思助手制作越狱u盘&#34;&gt;使用爱思助手制作越狱U盘&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;CheckRa1n 越狱工具需要在 macOS 系统上进行安装，借助电脑端爱思助手制作越狱 U 盘后，即可在 Windows 电脑上使用 CheckRa1n 进行越狱。&lt;/p&gt;
+&lt;p&gt;支持设备：iPhone 5S - iPhone X&lt;/p&gt;
+&lt;p&gt;兼容系统：iOS 12.3 及以上&lt;/p&gt;
+&lt;h2 id=&#34;越狱-u-盘制作步骤&#34;&gt;&lt;strong&gt;越狱 U 盘制作步骤&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;准备好一个 1GB 以上的 U 盘，然后将 U 盘连接至电脑，打开电脑端爱思助手，在“刷机越狱 - 一键越狱”中点击“制作越狱 U  盘”，此时会弹出功能说明并显示已插入的 U 盘，选择用于制作的 U 盘后点击“开始制作”按钮。注意，该步骤会清空当前 U  盘上储存的所有数据，请务必提请备份好个人数据；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash.jpg&#34;
+	width=&#34;999&#34;
+	height=&#34;721&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash_hu67dba1dfe0d5a1941b2a8440f1c732cb_63729_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash_hu67dba1dfe0d5a1941b2a8440f1c732cb_63729_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;随后，爱思助手会自动制作越狱 U 盘，制作完成后点击提示框的“关闭”按钮即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone.jpg&#34;
+	width=&#34;1002&#34;
+	height=&#34;722&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone_hud236b466914da9e10a0e1a6c8a34b5e5_50956_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone_hud236b466914da9e10a0e1a6c8a34b5e5_50956_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;333px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用-u-盘越狱步骤&#34;&gt;**使用 U 盘越狱步骤&lt;/h2&gt;
+&lt;p&gt;重启电脑，进入 BIOS 模式并选择以 U 盘启动（这里选择 Generic Flash Disk），使用数据线将 iPhone 连接至电脑；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice.jpg&#34;
+	width=&#34;768&#34;
+	height=&#34;452&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（不同型号电脑、主板进入 BIOS 方法不同，以下提供部分配置参考）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey.jpg&#34;
+	width=&#34;917&#34;
+	height=&#34;810&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey_hub970e8625364093799464fdc03066952_118899_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey_hub970e8625364093799464fdc03066952_118899_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;271px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在Welcome to checkn1x 界面按组合键 Alt+F2 进入 Checkra1n（使用笔记本自带的键盘则是先按住 Fn+Alt 后再按 F2）；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/C:%5cUsers%5cl1nsn%5cDesktop%5csite%5cblog%5ccontent%5cpost%5ceasy-checkn1x%5ccheckn1xmode.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;使用键盘方向键选择右下角“Start”后按回车开始；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n.png&#34;
+	width=&#34;735&#34;
+	height=&#34;393&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;注意：如果提示“Sorry,iPhone (5s-X) is supported,but iOS is not.&amp;ldquo;导致“Start”按钮无法选取，请进入左侧“Options”选项，然后开启“Allow untested iOS/ iPadOS/tvOS versions”项，然后返回即可选取“Start”。&lt;/p&gt;
+&lt;p&gt;使用键盘方向键选择右下角“Start”后按回车，根据屏幕提示将设备进入 DFU 模式；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2137&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;452px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;进入 DFU 模式后自动执行越狱步骤，无需其他操作；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting.jpg&#34;
+	width=&#34;3613&#34;
+	height=&#34;2185&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;越狱完成后，Checkra1n 会提示“All Done”，如果越狱失败请再尝试几次；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone.jpg&#34;
+	width=&#34;3756&#34;
+	height=&#34;2254&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;此时 iPhone 桌面会有 checkra1n 图标生成，打开桌面的 checkra1n，点击 Cydia 并安装；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia.jpg&#34;
+	width=&#34;2085&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;260&#34;
+		data-flex-basis=&#34;625px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;成功安装 Cydia 后本次越狱完成；&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;重启电脑，断开数据线、U 盘。&lt;/p&gt;
+&lt;p&gt;按照以上方式越狱后，如果重启 iPhone 越狱环境将会失效，需要按照以上步骤重新越狱才能恢复。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

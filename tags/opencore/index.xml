@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>opencore on L1nSn0w&#39;s Blog</title>
+        <link>https://blog.linsnow.cn/tags/opencore/</link>
+        <description>Recent content in opencore on L1nSn0w&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 02 Oct 2021 20:47:44 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/opencore/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的OpenCore与Hackintosh</title>
+        <link>https://blog.linsnow.cn/p/my-opencore-hackintosh/</link>
+        <pubDate>Sat, 02 Oct 2021 20:47:44 +0800</pubDate>
+        
+        <guid>https://blog.linsnow.cn/p/my-opencore-hackintosh/</guid>
+        <description>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintosh.png" alt="Featured image of post 我的OpenCore与Hackintosh" /&gt;&lt;h1 id=&#34;我的opencore与hackintosh&#34;&gt;我的OpenCore与Hackintosh&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;趁着国庆，我花了一天的时间来学习opencore文件的配置。&lt;/p&gt;
+&lt;p&gt;在这里十分感谢黑苹果大佬国光的文档及教程，目前配好的EFI可以说是完美黑苹果了。顺便写下这篇文章，&lt;/p&gt;
+&lt;p&gt;我已经将EFI开源至GitHub，整个EFI全部为2021-10-02最新的驱动及open core版本，opencore不定期会更新一下，可以到GitHub点个star&amp;hellip;.&lt;/p&gt;
+&lt;h2 id=&#34;我的配置&#34;&gt;我的配置&lt;/h2&gt;
+&lt;p&gt;这里简要的写一下&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主板：华硕PRIME H310M-K&lt;/p&gt;
+&lt;p&gt;CPU： intel core i3 8100&lt;/p&gt;
+&lt;p&gt;硬盘：金士顿sata 128G&lt;/p&gt;
+&lt;p&gt;声卡 ：Realtek ALC887&lt;/p&gt;
+&lt;p&gt;独立显卡： 英伟达 丽台k600&lt;/p&gt;
+&lt;p&gt;核心显卡: UHD630&lt;/p&gt;
+&lt;p&gt;网卡： Realtek 8111&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;上几张图片&#34;&gt;上几张图片&lt;/h2&gt;
+&lt;h3 id=&#34;macos里的简介&#34;&gt;macos里的简介&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/macos.png&#34;
+	width=&#34;636&#34;
+	height=&#34;401&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/macos_hu40caa775a0c2dba809f4559931cad335_28841_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/macos_hu40caa775a0c2dba809f4559931cad335_28841_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hackintool概要&#34;&gt;hackintool概要&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool.png&#34;
+	width=&#34;732&#34;
+	height=&#34;1022&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool_hu28182fad723d87a6528bde7949eabd1a_44477_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool_hu28182fad723d87a6528bde7949eabd1a_44477_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;71&#34;
+		data-flex-basis=&#34;171px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;opencore引导界面&#34;&gt;opencore引导界面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui_huf7e6e00f5c081ade4bcb483b242607bb_25854_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui_huf7e6e00f5c081ade4bcb483b242607bb_25854_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;整个efi结构&#34;&gt;整个EFI结构&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI.png&#34;
+	width=&#34;853&#34;
+	height=&#34;819&#34;
+	srcset=&#34;https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI_hu618f6ac09e5decfd8a7164e2dc69d74f_36369_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI_hu618f6ac09e5decfd8a7164e2dc69d74f_36369_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;249px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;项目地址&#34;&gt;项目地址&lt;/h2&gt;
+&lt;p&gt;GitHub：https://github.com/lin-snow/hackintosh-h310-i38100&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
