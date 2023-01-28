@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigSur on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/bigsur/</link><description>Recent content in BigSur on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Aug 2021 14:59:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/bigsur/index.xml" rel="self" type="application/rss+xml"/><item><title>当iOS遇上Big Sur</title><link>https://blog.linsnow.cn/p/ios-with-bigsur/</link><pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-with-bigsur/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/iosbigsur.png" alt="Featured image of post 当iOS遇上Big Sur" />&lt;h1 id="当ios遇上big-sur">当iOS遇上Big Sur&lt;/h1>
+&lt;h2 id="效果图">效果图&lt;/h2>
+&lt;p>这是效果图，压缩后有点模糊，你忍一下&amp;hellip;&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/1.jpg"
+width="1214"
+height="1080"
+srcset="https://blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>&lt;/p>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>对于越狱的 iPhone 来说换主题是折腾手机的必经之路，好看的主题会让 iPhone 焕然一新。这是一款由社区玩家Jabi开发的免费主题。采用big sur的图标设计，目前支持两百多款常用软件的图标&amp;hellip;&amp;hellip;..本文使用的手机为iOS14.7.1的iPhone6s.并且已经越狱完了（这是一句废话&lt;/p>
+&lt;h2 id="正文">正文&lt;/h2>
+&lt;h3 id="前提条件">前提条件&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">一部越狱好了的手机&lt;/th>
+&lt;th style="text-align:center">&lt;del>一个可用的越狱商店&lt;/del>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;del>耐心&lt;/del>&lt;/td>
+&lt;td style="text-align:center">&lt;del>一双手&lt;/del>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="准备工作">准备工作&lt;/h3>
+&lt;blockquote>
+&lt;p>可在本站找到与越狱有关的文章&lt;/p>
+&lt;p>先搞懂越狱&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="安装主题平台">安装主题平台&lt;/h3>
+&lt;h4 id="简介">简介：&lt;/h4>
+&lt;blockquote>
+&lt;p>什么是主题平台？&lt;/p>
+&lt;blockquote>
+&lt;p>就是能够让你将主题挂载上去的工具&lt;/p>
+&lt;/blockquote>
+&lt;p>目前有哪些主题平台？&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Anemone3&lt;/strong>、&lt;strong>SnowBoard&lt;/strong>、&lt;strong>iThemer&lt;/strong>、&lt;strong>NeonBoard&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>本文使用的主题平台是SnowBoard（建议都是用这个，老牌稳定&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="如何安装snowboard">如何安装SnowBoard？&lt;/h4>
+&lt;blockquote>
+&lt;p>添加软件源：https://repo.dynastic.co/ （自带源）&lt;/p>
+&lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>SnowBoard&lt;/code>并下载下来&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/2.jpg"
+width="750"
+height="481"
+srcset="https://blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="155"
+data-flex-basis="374px"
+>&lt;/p>
+&lt;p>下载完之后在设置里就能看到snowboard的选项了&lt;/p>
+&lt;p>到这里就算是安装了（有手就行&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="获取big-sur主题">获取Big Sur主题&lt;/h3>
+&lt;blockquote>
+&lt;p>**添加软件源：**&lt;a class="link" href="https://jabizb.com/repo/" target="_blank" rel="noopener"
+>https://jabizb.com/repo/&lt;/a>&lt;/p>
+&lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>BigSur Jabi&lt;/code>并下载下来&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/3.jpg"
+width="750"
+height="480"
+srcset="https://blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="156"
+data-flex-basis="375px"
+>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="挂载bigsur主题">挂载BigSur主题&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;strong>文字教程&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>在设置里打开刚才安装的snowboard&lt;/strong>&lt;/li>
+&lt;li>将插件设置为启用&lt;/li>
+&lt;li>将BigSur Jabi主题设置为启用&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>图文教程&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/4.png"
+width="750"
+height="949"
+srcset="https://blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="79"
+data-flex-basis="189px"
+>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="至此完结">至此完结&lt;/h2>
+&lt;p>不懂评论区里留言，我也不一定会解答（就是这么勇&lt;/p></description></item></channel></rss>

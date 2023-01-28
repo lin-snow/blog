@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>opencore on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/opencore/</link><description>Recent content in opencore on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Oct 2021 20:47:44 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/opencore/index.xml" rel="self" type="application/rss+xml"/><item><title>我的OpenCore与Hackintosh</title><link>https://blog.linsnow.cn/p/my-opencore-hackintosh/</link><pubDate>Sat, 02 Oct 2021 20:47:44 +0800</pubDate><guid>https://blog.linsnow.cn/p/my-opencore-hackintosh/</guid><description>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintosh.png" alt="Featured image of post 我的OpenCore与Hackintosh" />&lt;h1 id="我的opencore与hackintosh">我的OpenCore与Hackintosh&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>趁着国庆，我花了一天的时间来学习opencore文件的配置。&lt;/p>
+&lt;p>在这里十分感谢黑苹果大佬国光的文档及教程，目前配好的EFI可以说是完美黑苹果了。顺便写下这篇文章，&lt;/p>
+&lt;p>我已经将EFI开源至GitHub，整个EFI全部为2021-10-02最新的驱动及open core版本，opencore不定期会更新一下，可以到GitHub点个star&amp;hellip;.&lt;/p>
+&lt;h2 id="我的配置">我的配置&lt;/h2>
+&lt;p>这里简要的写一下&lt;/p>
+&lt;blockquote>
+&lt;p>主板：华硕PRIME H310M-K&lt;/p>
+&lt;p>CPU： intel core i3 8100&lt;/p>
+&lt;p>硬盘：金士顿sata 128G&lt;/p>
+&lt;p>声卡 ：Realtek ALC887&lt;/p>
+&lt;p>独立显卡： 英伟达 丽台k600&lt;/p>
+&lt;p>核心显卡: UHD630&lt;/p>
+&lt;p>网卡： Realtek 8111&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="上几张图片">上几张图片&lt;/h2>
+&lt;h3 id="macos里的简介">macos里的简介&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/macos.png"
+width="636"
+height="401"
+srcset="https://blog.linsnow.cn/p/my-opencore-hackintosh/macos_hu40caa775a0c2dba809f4559931cad335_28841_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/macos_hu40caa775a0c2dba809f4559931cad335_28841_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="158"
+data-flex-basis="380px"
+>&lt;/p>
+&lt;h3 id="hackintool概要">hackintool概要&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool.png"
+width="732"
+height="1022"
+srcset="https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool_hu28182fad723d87a6528bde7949eabd1a_44477_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/hackintool_hu28182fad723d87a6528bde7949eabd1a_44477_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="71"
+data-flex-basis="171px"
+>&lt;/p>
+&lt;h3 id="opencore引导界面">opencore引导界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui.png"
+width="1920"
+height="1080"
+srcset="https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui_huf7e6e00f5c081ade4bcb483b242607bb_25854_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/ocgui_huf7e6e00f5c081ade4bcb483b242607bb_25854_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;h3 id="整个efi结构">整个EFI结构&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI.png"
+width="853"
+height="819"
+srcset="https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI_hu618f6ac09e5decfd8a7164e2dc69d74f_36369_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/my-opencore-hackintosh/EFI_hu618f6ac09e5decfd8a7164e2dc69d74f_36369_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="104"
+data-flex-basis="249px"
+>&lt;/p>
+&lt;h2 id="项目地址">项目地址&lt;/h2>
+&lt;p>GitHub：https://github.com/lin-snow/hackintosh-h310-i38100&lt;/p></description></item></channel></rss>

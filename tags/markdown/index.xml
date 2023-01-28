@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>markdown on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/markdown/</link><description>Recent content in markdown on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 30 Aug 2021 20:25:19 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown</title><link>https://blog.linsnow.cn/p/markdown/</link><pubDate>Mon, 30 Aug 2021 20:25:19 +0800</pubDate><guid>https://blog.linsnow.cn/p/markdown/</guid><description>&lt;img src="https://blog.linsnow.cn/p/markdown/markdown.png" alt="Featured image of post Markdown" />&lt;h1 id="markdown">Markdown&lt;/h1>
+&lt;p>这里引用百度百科对markdown的解释&lt;del>我太懒了&lt;/del>.&lt;/p>
+&lt;blockquote>
+&lt;p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML或者HTML.文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
+由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如GitHub、Diaspora、Stack Exchange、OpenStreetMap、SourceForge、简书等，甚至还能被使用来撰写电子书。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h1 id="markdown基本语法">markdown基本语法&lt;/h1>
+&lt;h2 id="标题">标题&lt;/h2>
+&lt;p>在想要设置为标题的文字前面加&lt;code>#&lt;/code>来表示&lt;br>
+一个&lt;code>#&lt;/code>是一级标题，二个&lt;code>#&lt;/code>是二级标题，以此类推。支持六级标题。&lt;/p>
+&lt;blockquote>
+&lt;p>注：标准语法一般在&lt;code>#&lt;/code>后跟个空格再写文字&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>示例：&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 这是一级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## 这是二级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">### 这是三级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#### 这是四级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">##### 这是五级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">###### 这是六级标题&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>效果&lt;/strong>&lt;/p>
+&lt;h1 id="这是一级标题">这是一级标题&lt;/h1>
+&lt;h2 id="这是二级标题">这是二级标题&lt;/h2>
+&lt;h3 id="这是三级标题">这是三级标题&lt;/h3>
+&lt;h4 id="这是四级标题">这是四级标题&lt;/h4>
+&lt;h5 id="这是五级标题">这是五级标题&lt;/h5>
+&lt;h6 id="这是六级标题">这是六级标题&lt;/h6>
+&lt;hr>
+&lt;h2 id="字体">字体&lt;/h2>
+&lt;h3 id="加粗">加粗&lt;/h3>
+&lt;p>要加粗的文字左右分别用两个*&lt;code>*&lt;/code>号包起来&lt;/p>
+&lt;h3 id="斜体">斜体&lt;/h3>
+&lt;p>要倾斜的文字左右分别用一个&lt;code>*&lt;/code>号包起来&lt;/p>
+&lt;h3 id="斜体加粗">斜体加粗&lt;/h3>
+&lt;p>要倾斜和加粗的文字左右分别用三个&lt;code>*&lt;/code>号包起来&lt;/p>
+&lt;h3 id="删除线">删除线&lt;/h3>
+&lt;p>要加删除线的文字左右分别用两个&lt;code>~~&lt;/code>号包起来&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">**这是加粗的文字**
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">*这是倾斜的文字*`
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">***这是斜体加粗的文字***
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">~~这是加删除线的文字~~
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>效果如下：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>这是加粗的文字&lt;/strong>&lt;br>
+&lt;em>这是倾斜的文字&lt;/em>&lt;br>
+&lt;strong>&lt;em>这是斜体加粗的文字&lt;/em>&lt;/strong>&lt;br>
+&lt;del>这是加删除线的文字&lt;/del>&lt;/p>
+&lt;hr>
+&lt;h2 id="引用">引用&lt;/h2>
+&lt;p>在引用的文字前加&lt;code>&amp;gt;&lt;/code>即可。引用也可以嵌套，如加两个&lt;code>&amp;gt;&amp;gt;&lt;/code>三个&lt;code>&amp;gt;&amp;gt;&amp;gt;&lt;/code>&lt;br>
+n个&amp;hellip;&lt;br>
+貌似可以一直加下去，但没神马卵用
+&lt;strong>效果如下：&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>这是引用的内容&lt;/p>
+&lt;blockquote>
+&lt;p>这是引用的内容&lt;/p>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;blockquote>
+&lt;p>这是引用的内容&lt;/p>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="分割线">分割线&lt;/h2>
+&lt;p>三个或者三个以上的 - 或者 * 都可以。&lt;/p>
+&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">----
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">***
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">*****
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>**效果如下： **&lt;/p>
+&lt;hr>
+&lt;hr>
+&lt;hr>
+&lt;hr>
+&lt;p>可以看到，显示效果是一样的。&lt;/p>
+&lt;hr>
+&lt;h2 id="图片">图片&lt;/h2>
+&lt;p>语法：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">!&lt;span class="o">[&lt;/span>图片alt&lt;span class="o">](&lt;/span>图片地址 &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>图片title&lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>效果如下：&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/markdown/markdown.png"
+width="1712"
+height="947"
+srcset="https://blog.linsnow.cn/p/markdown/markdown_huda5a9da55baf04c9d55b45b5c45a5821_59080_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/markdown/markdown_huda5a9da55baf04c9d55b45b5c45a5821_59080_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="markdown"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="433px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="超链接">超链接&lt;/h2>
+&lt;p>语法：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-csharp" data-lang="csharp">&lt;span class="line">&lt;span class="cl">&lt;span class="na">[超链接名]&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">超链接地址&lt;/span> &lt;span class="s">&amp;#34;超链接title&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">title可加可不加&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-csharp" data-lang="csharp">&lt;span class="line">&lt;span class="cl">&lt;span class="na">[bing]&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="c1">//bing.com)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">[百度]&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="c1">//baidu.com)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>效果如下：&lt;/p>
+&lt;p>&lt;a class="link" href="https://bing.com" target="_blank" rel="noopener"
+>bing&lt;/a>&lt;br>
+&lt;a class="link" href="https://baidu.com" target="_blank" rel="noopener"
+>百度&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="列表">列表&lt;/h2>
+&lt;h3 id="无序列表">无序列表&lt;/h3>
+&lt;p>语法：&lt;br>
+无序列表用 - + * 任何一种都可以&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">- 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+ 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">注意：- + * 跟内容之间都要有一个空格
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>效果如下：&lt;/p>
+&lt;ul>
+&lt;li>列表内容&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>列表内容&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>列表内容&lt;/li>
+&lt;/ul>
+&lt;h3 id="有序列表">有序列表&lt;/h3>
+&lt;p>语法：&lt;br>
+数字加点&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1. 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2. 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. 列表内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">注意：序号跟内容之间要有空格
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>效果如下：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>列表内容&lt;/li>
+&lt;li>列表内容&lt;/li>
+&lt;li>列表内容&lt;/li>
+&lt;/ol>
+&lt;h3 id="列表嵌套">列表嵌套&lt;/h3>
+&lt;p>&lt;strong>上一级和下一级之间敲三个空格即可&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>一级无序列表内容&lt;/p>
+&lt;ul>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>一级无序列表内容&lt;/p>
+&lt;ol>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>
+&lt;p>一级有序列表内容&lt;/p>
+&lt;ul>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;li>二级无序列表内容&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>一级有序列表内容&lt;/p>
+&lt;ol>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;li>二级有序列表内容&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="表格">表格&lt;/h2>
+&lt;p>语法：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-ruby" data-lang="ruby">&lt;span class="line">&lt;span class="cl">&lt;span class="err">表头&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">表头&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">表头&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">---|&lt;/span>&lt;span class="ss">:-&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="ss">:|&lt;/span>&lt;span class="o">---&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">内容&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">内容&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">内容&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">内容&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">内容&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">第二行分割表头和内容。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="err">有一个就行，为了对齐，多加了几个&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">文字默认居左&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span>&lt;span class="err">两边加：表示文字居中&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span>&lt;span class="err">右边加：表示文字居右&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">注：原生的语法两边都要用&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="err">包起来。此处省略&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>示例：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-ruby" data-lang="ruby">&lt;span class="line">&lt;span class="cl">&lt;span class="err">姓名&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">技能&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">排行&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">--|&lt;/span>&lt;span class="ss">:-&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="ss">:|&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">熊大&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">想&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">大哥&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">熊二&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">吃&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">老二&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">熊三&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">玩&lt;/span>&lt;span class="o">|&lt;/span>&lt;span class="err">老三&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>效果如下：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>姓名&lt;/th>
+&lt;th style="text-align:center">技能&lt;/th>
+&lt;th style="text-align:right">排行&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>熊大&lt;/td>
+&lt;td style="text-align:center">想&lt;/td>
+&lt;td style="text-align:right">大哥&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>熊二&lt;/td>
+&lt;td style="text-align:center">吃&lt;/td>
+&lt;td style="text-align:right">老二&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>熊三&lt;/td>
+&lt;td style="text-align:center">玩&lt;/td>
+&lt;td style="text-align:right">老三&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="代码">代码&lt;/h2>
+&lt;p>语法：&lt;br>
+单行代码：代码之间分别用一个反引号包起来&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl"> &lt;span class="s">`代码内容`&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl"> &lt;span class="p">(&lt;/span>&lt;span class="s">```)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> 代码...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> 代码...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> 代码...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> (```&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>&lt;strong>注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>示例：&lt;/p>
+&lt;p>单行代码&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="s">`create database hero;`&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>代码块&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="err">```&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">function&lt;/span> &lt;span class="k">fun&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">echo&lt;/span> &lt;span class="s2">&amp;#34;这是一句没有bug的代码&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">fun&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">```&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>效果如下：&lt;/strong>&lt;/p>
+&lt;p>&lt;em>单行代码&lt;/em>&lt;/p>
+&lt;p>&lt;code>create database hero;&lt;/code>&lt;/p>
+&lt;p>&lt;em>代码块&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="n">function&lt;/span> &lt;span class="k">fun&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">echo&lt;/span> &lt;span class="s2">&amp;#34;这是一句非常牛逼的代码&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="流程图">流程图&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="sb">```flow
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">st=&amp;gt;start: 开始
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">op=&amp;gt;operation: My Operation
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">cond=&amp;gt;condition: Yes or No?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">e=&amp;gt;end
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">st-&amp;gt;op-&amp;gt;cond
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">cond(yes)-&amp;gt;e
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">cond(no)-&amp;gt;op
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">```&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>效果如下：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">st=&amp;gt;start: 开始框
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">op=&amp;gt;operation: 处理框
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cond=&amp;gt;condition: 判断框(是或否?)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sub1=&amp;gt;subroutine: 子流程
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">io=&amp;gt;inputoutput: 输入输出框
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e=&amp;gt;end: 结束框
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">st-&amp;gt;op-&amp;gt;cond
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cond(yes)-&amp;gt;io-&amp;gt;e
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cond(no)-&amp;gt;sub1(right)-&amp;gt;op
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

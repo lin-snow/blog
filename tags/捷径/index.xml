@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>捷径 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/%E6%8D%B7%E5%BE%84/</link><description>Recent content in 捷径 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 16 Aug 2021 16:01:20 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E6%8D%B7%E5%BE%84/index.xml" rel="self" type="application/rss+xml"/><item><title>如何把玩iOS捷径</title><link>https://blog.linsnow.cn/p/ios-jiejin/</link><pubDate>Mon, 16 Aug 2021 16:01:20 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-jiejin/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/jiejin.png" alt="Featured image of post 如何把玩iOS捷径" />&lt;h2 id="ios利用捷径设置充电提示音">IOS利用捷径设置充电提示音&lt;/h2>
+&lt;h3 id="前因">😀前因&lt;/h3>
+&lt;p>在一次偶然间，我突然发现了手机没了充电提示音，不知道是bug还是，经过一番思索，突然有了这个想法，正好是越狱的iPhone，以为改系统文件可以解决，不过还是不行，突然我就想到了把提示音改成自己喜欢的，一举两得，岂不美哉，利用捷径app就能轻松搞定&lt;/p>
+&lt;h3 id="手机要求">🧨手机要求&lt;/h3>
+&lt;p>带有快捷指令app和自动化就行了&lt;/p>
+&lt;h3 id="正文">👻正文&lt;/h3>
+&lt;h4 id="创建提取音频编码的指令">创建提取音频编码的指令&lt;/h4>
+&lt;p>创建一个捷径，内容设置成这样子就行&lt;/p>
+&lt;p>嫌麻烦就用我直接分享的做好的指令，&lt;a class="link" href="getsound.shortcut" >&lt;strong>快捷指令链接&lt;/strong>&lt;/a>，点击后下载下来，然后点击打开即会跳转到捷径app,添加不了的在设置里找到&lt;code>快捷指令app&lt;/code>，打开&lt;code>允许不受信任的快捷指令&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge3.jpg"
+width="750"
+height="3197"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="23"
+data-flex-basis="56px"
+>&lt;/p>
+&lt;h4 id="获取充电提示音的文本">获取充电提示音的文本&lt;/h4>
+&lt;p>把提示音以录屏方式保存在相册。首先找到含有自己喜欢的充电提示音视频通过手机录屏的方式或者直接保存到相册中。如果是音频同样可以使用录屏的方式存储到相册中，通过刚才运行刚才制作的指令，运行后会提示选择相册里一个带有想要的充电声音的视频就行了，指令会自动拷贝到粘贴板&lt;/p>
+&lt;h4 id="创建自动化">创建自动化&lt;/h4>
+&lt;ol>
+&lt;li>打开快捷指令app&lt;/li>
+&lt;li>选择下面的自动化&lt;/li>
+&lt;li>点击右上角的+号&lt;/li>
+&lt;li>选择创建个人自动化&lt;/li>
+&lt;li>选择充电器&lt;/li>
+&lt;li>选择已连接，然后下一步&lt;/li>
+&lt;li>点击&lt;code>添加操作&lt;/code>&lt;/li>
+&lt;li>搜索文本并添加文本，文本里粘贴刚才运行指令获得的文本（直接粘贴就行）&lt;/li>
+&lt;li>再点击加号，搜索base64编码并添加，修改编码为解码&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge2.jpg"
+width="720"
+height="519"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="332px"
+>&lt;/li>
+&lt;li>最后点击加号，搜索播放声音并添加就好&lt;/li>
+&lt;li>然后选择下一步，关掉运行前询问&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge1.jpg"
+width="720"
+height="628"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="275px"
+>&lt;/li>
+&lt;li>点击完成就创建好了&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="制作一张属于你的memoji工牌">制作一张属于你的Memoji工牌&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/memojicover.png"
+width="1920"
+height="1080"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;h3 id="前言">🎉前言&lt;/h3>
+&lt;p>apple store里的员工好像都有一张工牌，刚好扎比大神也做了一个Memoji工牌制作的快捷指令，轻松Get一张属于自己的Memoji工牌。在这里感谢扎比分享的快捷指令。&lt;/p>
+&lt;h3 id="预见效果">🎈预见效果&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/memoji.jpg"
+width="1280"
+height="1280"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+>&lt;/p>
+&lt;h3 id="正文-1">😬正文&lt;/h3>
+&lt;h4 id="获取捷径">获取捷径&lt;/h4>
+&lt;blockquote>
+&lt;p>这里放出该捷径的文件&lt;/p>
+&lt;p>&lt;a class="link" href="memoji.shortcut" >点我下载&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>更详细的获取教程&lt;/strong>：&lt;/p>
+&lt;blockquote>
+&lt;p>点击上面的下载链接，手机会提示下载，同意下载后打开下载的文件，不出意外的话会跳转到捷径app并提示添加此捷径，over🎉,没错，就是这么简单！&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h4 id="使用捷径">使用捷径&lt;/h4>
+&lt;ol>
+&lt;li>打开手机的&lt;code>捷径指令app&lt;/code>，运行下载好的Memoji快捷指令&lt;/li>
+&lt;li>在弹出来的窗口中选择一张你做好的头像，&lt;/li>
+&lt;li>然后在提示框中输入你想在工牌上显示的名字，&lt;/li>
+&lt;li>然后选择你喜欢的颜色，&lt;/li>
+&lt;li>制作完成后会弹出一个窗口，&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/picsave.png"
+width="750"
+height="1334"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="134px"
+>&lt;/li>
+&lt;li>选择&lt;code>存储图像&lt;/code>即可&lt;/li>
+&lt;li>在相册里就可以看到了。&lt;/li>
+&lt;/ol>
+&lt;h3 id="结语">🎈结语&lt;/h3>
+&lt;p>做好了工牌，apple store没你不行哈哈哈哈哈，明天就可以去上班了🐟&lt;/p>
+&lt;hr>
+&lt;h2 id="get一张喜人的微信支付壁纸">Get一张喜人的微信支付壁纸&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/wepay.png"
+width="1920"
+height="1080"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="wepay.png"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;h3 id="前言-1">前言&lt;/h3>
+&lt;p>前几天偶然发现一个有趣的捷径，那就是制作一张极具个性化的微信收款码做未锁屏壁纸，当然，这只能在iOS中才能实现，同样要用到捷径app，目前比较新的iOS版本基本上都自带这个app了，如果还没有的话请自行百度解决吧，在正文还没开始之前首先要感谢提供此捷径的作者&lt;/p>
+&lt;h3 id="先上效果">📢先上效果&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/wepay.jpg"
+width="750"
+height="1334"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="134px"
+>&lt;/p>
+&lt;h3 id="正文教程">👌正文教程&lt;/h3>
+&lt;h4 id="获取捷径-1">获取捷径&lt;/h4>
+&lt;blockquote>
+&lt;p>这里放出该捷径的文件&lt;/p>
+&lt;p>&lt;a class="link" href="wepay.shortcut" >点我下载&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>更详细的获取教程&lt;/strong>：&lt;/p>
+&lt;blockquote>
+&lt;p>点击上面的下载链接，手机会提示下载，同意下载后打开下载的文件，不出意外的话会跳转到捷径app并提示添加此捷径，over🎉,没错，就是这么简单！&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="使用捷径-1">使用捷径&lt;/h4>
+&lt;ol>
+&lt;li>打开手机的&lt;code>捷径指令app&lt;/code>，运行下载好的Wepay快捷指令&lt;/li>
+&lt;li>在弹出来的提示框中选择&lt;code>大金额&lt;/code>、&lt;code>小金额&lt;/code>或者&lt;code>充值中&lt;/code>，&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/scchoose.jpg"
+width="750"
+height="450"
+srcset="https://blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="166"
+data-flex-basis="400px"
+>&lt;/li>
+&lt;li>然后选择事先在微信里保存的收款码,&lt;/li>
+&lt;li>等待自动制作完成即可在相册里看到了。&lt;/li>
+&lt;li>（补充：如何在微信里获取收款码，打开微信，一次点击“支付-收付款-二维码收款-保存收款码”即可）&lt;/li>
+&lt;/ol>
+&lt;h3 id="结语-1">🤑结语&lt;/h3>
+&lt;p>做好了但是谁给我转账啊哈哈哈哈&lt;/p></description></item></channel></rss>

@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/</link><description>Recent content in 软件 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Oct 2021 07:30:35 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>适合win11的开源哔哩哔哩客户端</title><link>https://blog.linsnow.cn/p/win11-bili/</link><pubDate>Sat, 02 Oct 2021 07:30:35 +0800</pubDate><guid>https://blog.linsnow.cn/p/win11-bili/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili.png" alt="Featured image of post 适合win11的开源哔哩哔哩客户端" />&lt;h1 id="适合win11的开源哔哩哔哩客户端">适合win11的开源哔哩哔哩客户端&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>b站，现在几乎成了许多人每天闭上的网站之一。在电脑端，b站使用网页提供服务，当时在微软商店貌似也有uwp版的客户端，但使用体验并不好，功能少的可怜，设计界面也不是很好看，这么久了官方也不更新一下。。。。&lt;/p>
+&lt;p>不过还有，前阵子刚好逛b站的时候发现了一款名为——哔哩 的开源软件，接下来隆重介绍这款nb的软件。&lt;/p>
+&lt;h2 id="什么是哔哩">什么是哔哩&lt;/h2>
+&lt;blockquote>
+&lt;p>软件简介：&lt;code>哔哩&lt;/code>是一款设计精美的第三方UWP应用.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="引用该项目的声明">引用该项目的声明&lt;/h3>
+&lt;blockquote>
+&lt;p>我做这个应用一方面是出于对B站的喜爱，另一方面是对自己的一个挑战。我想尝试将一款移动应用解构并移植到桌面上，这能让我对移动交互与桌面交互有更深的理解。&lt;/p>
+&lt;p>但该项目由于一些不可抗力，已经停止开发。不再主动尝试修复bug（除非我自己遇到），也不再开发新的功能，目前已经在 &lt;strong>Microsoft Store&lt;/strong> 中下架。&lt;/p>
+&lt;p>本应用出于学习的目的进行开发，不进行任何商业相关的行为。同时尽管应用能显示4K清晰度选项，但如果你不是大会员，则片源也不会是 4K。&lt;/p>
+&lt;p>尽管是原生 UWP ，但应用在 ARM 设备，比如&lt;code> Surface Pro X&lt;/code> 上可能无法运行，我也不知道具体原因，可能要等有相关设备了才能测试。&lt;/p>
+&lt;p>应用不提供观看直播及视频下载的功能，原因固然是多方面的，但主要原因还是我没这需求。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="软件截图">软件截图&lt;/h2>
+&lt;h3 id="软件主界面">软件主界面&lt;/h3>
+&lt;blockquote>
+&lt;p>未缩放侧边栏&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili1.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>缩放侧边栏&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili2.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="播放界面">播放界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili5.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="番剧界面">番剧界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili3.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="设置界面">设置界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili4.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="平板模式">平板模式&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili6.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="如何使用及安装">如何使用及安装&lt;/h2>
+&lt;p>GitHub下载地址：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://github.com/Richasy/BiliBili-UWP/releases/" target="_blank" rel="noopener"
+>https://github.com/Richasy/BiliBili-UWP/releases/&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>下载软件的安装包&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解压到随便一个文件夹中&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>用&lt;code>powershell&lt;/code>打开&lt;code>Add-AppDevPackage.ps1&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili7.png"
+width="850"
+height="658"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="129"
+data-flex-basis="310px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据提示运行完&lt;code>Add-AppDevPackage.ps1&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行文件夹里的&lt;code>Install.ps1&lt;/code>文件，同样使用powershell.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>等待安装完成后在开始菜单里打开app&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="结尾">结尾&lt;/h2>
+&lt;p>感觉开发者无私的奉献，喜欢的可以去GitHub点个star，为开发者助力。&lt;/p></description></item><item><title>我认为的最强markdown笔记软件obsidian</title><link>https://blog.linsnow.cn/p/opensource-best-obsidian/</link><pubDate>Tue, 31 Aug 2021 09:58:22 +0800</pubDate><guid>https://blog.linsnow.cn/p/opensource-best-obsidian/</guid><description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/obsidian.png" alt="Featured image of post 我认为的最强markdown笔记软件obsidian" />&lt;h1 id="我认为的最强markdown笔记软件obsidian">我认为的最强markdown笔记软件obsidian&lt;/h1>
+&lt;h2 id="什么是obsidian">什么是obsidian？&lt;/h2>
+&lt;p>obsidian的中文名：黑曜石/黑石
+obsidian的简介（引用自官网：&lt;/p>
+&lt;blockquote>
+&lt;p>黑石是一个强大的&lt;strong>知识库&lt;/strong>之上的&lt;br>
+&lt;strong>本地文件夹&lt;/strong>的纯文本标记文件。&lt;/p>
+&lt;/blockquote>
+&lt;p>obsidian的特性：&lt;/p>
+&lt;blockquote>
+&lt;p>这是一款支持 Markdown 的本地应用（不同于notion，笔记掌握在自己手里，更安全
+支持全平台的操作系统（包含移动端
+文件夹式管理
+支持各种插件
+支持自定义css
+思维脑图式的笔记管理
+能够记忆上一次编辑
+支持云同步
+个人用户免费
+&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;p>功能多到数不过来了，就简单的列了一些常用的功能
+Obsidian生成的文件全是Markdown格式。如果你已经用过markdown语法，那很棒，Obsidian对你来说几乎没有门槛。&lt;/p>
+&lt;h2 id="我的obsidian工作流">我的obsidian工作流&lt;/h2>
+&lt;p>&lt;strong>以hugo博客写作为例&lt;/strong>
+我只需要在终端中用hugo命令创建好markdown文件
+并使用的obsidian进行编辑即可&lt;/p>
+&lt;h3 id="obsidian的设置">obsidian的设置&lt;/h3>
+&lt;p>以下全是我个人比较喜欢推荐的一种设置
+仅供参考，可以根据自己喜好更改&lt;/p>
+&lt;h4 id="外观设置">外观设置&lt;/h4>
+&lt;p>入口位置：&lt;/p>
+&lt;blockquote>
+&lt;p>打开软件
+找到左下角的设置齿轮
+选择外观选项&lt;/p>
+&lt;/blockquote>
+&lt;p>将外观设置为黑暗、开启半透明的效果
+&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/1.png"
+width="1502"
+height="703"
+srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="213"
+data-flex-basis="512px"
+>&lt;/p>
+&lt;h4 id="编辑设置">编辑设置&lt;/h4>
+&lt;p>&lt;strong>目的/作用&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>达成边写作边预览的效果
+方便即使纠错
+方便文章排版&lt;/p>
+&lt;/blockquote>
+&lt;p>首先打开某个markdown文件
+如图：
+打开软件页面的右上角上的三个点
+&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/2.png"
+width="1920"
+height="1021"
+srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>
+在弹出的选项页面打开&lt;code>与其他面板同步&lt;/code>、&lt;code>左右拆分&lt;/code>
+&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/3.png"
+width="300"
+height="264"
+srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="113"
+data-flex-basis="272px"
+>
+将其中一边设置为预览模式：
+可以直接在右上角设置
+也可以使用快捷键&lt;code>ctrl + E&lt;/code>设置
+&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/4.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;p>到这里基本上都设置完了&lt;/p>
+&lt;p>接下来演示一些其他的功能&lt;/p>
+&lt;h2 id="查看关系图谱">查看关系图谱&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/5.png"
+width="1920"
+height="1017"
+srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="453px"
+>
+其他的一些功能就不展示了&lt;/p>
+&lt;h2 id="软件获取">软件获取&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>官网地址&lt;/strong>：&lt;a class="link" href="https://obsidian.md/" target="_blank" rel="noopener"
+>黑曜石&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>为typora安装vue风格主题</title><link>https://blog.linsnow.cn/p/vue-typora/</link><pubDate>Thu, 19 Aug 2021 14:58:23 +0800</pubDate><guid>https://blog.linsnow.cn/p/vue-typora/</guid><description>&lt;img src="https://blog.linsnow.cn/p/vue-typora/typoravue.png" alt="Featured image of post 为typora安装vue风格主题" />&lt;h1 id="为typora安装vue风格主题">为typora安装vue风格主题&lt;/h1>
+&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.typora.io/" target="_blank" rel="noopener"
+>Typora&lt;/a>是一款支持实时预览的 Markdown 编辑器和阅读器，支持&lt;code>Windows&lt;/code>、&lt;code>macOS&lt;/code>、&lt;code>Linux&lt;/code>三大平台。Typora 作为一款合格的 Markdown 编辑器，支持图片、列表、表格、代码、公式、目录等功能，同时这款软件还支持（一键）动态预览功能，让一切都变得如此干净、纯粹。&lt;/p>
+&lt;h2 id="主题仓库">主题仓库&lt;/h2>
+&lt;p>&lt;a class="link" href="https://github.com/blinkfox/typora-vue-theme" target="_blank" rel="noopener"
+>https://github.com/blinkfox/typora-vue-theme&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>在这里十分感谢&lt;strong>blinkfox&lt;/strong>大佬开发的主题&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="安装主题">安装主题&lt;/h2>
+&lt;ol>
+&lt;li>从主题仓库克隆到本地并获取主题中的&lt;code>vue.css&lt;/code>、&lt;code>vue-dark.css&lt;/code>文件和包含字体的&lt;code>vue&lt;/code>文件夹；&lt;/li>
+&lt;li>打开 Typora，点击“&lt;strong>偏好设置&lt;/strong>” =&amp;gt; “&lt;strong>打开主题文件夹&lt;/strong>”按钮，将弹出 Typora 的主题文件夹；&lt;/li>
+&lt;li>将下载好的&lt;code>vue.css&lt;/code>和&lt;code>vue-dark.css&lt;/code>文件和包含字体的&lt;code>vue&lt;/code>文件夹放到 Typora 的主题文件夹中；&lt;/li>
+&lt;li>关闭并重新打开 Typora，从菜单栏中选择 “&lt;strong>主题&lt;/strong>” =&amp;gt; “&lt;strong>Vue&lt;/strong>” 或者 “&lt;strong>Vue Dark&lt;/strong>” 即可。&lt;/li>
+&lt;/ol>
+&lt;h2 id="效果图">效果图&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/vue-typora/vuetypora.png"
+width="955"
+height="874"
+srcset="https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="typora"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="262px"
+>&lt;/p></description></item><item><title>我认为的最强开源下载软件之Motrix</title><link>https://blog.linsnow.cn/p/opensource-best-motrix/</link><pubDate>Mon, 16 Aug 2021 15:04:18 +0800</pubDate><guid>https://blog.linsnow.cn/p/opensource-best-motrix/</guid><description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix.png" alt="Featured image of post 我认为的最强开源下载软件之Motrix" />&lt;h1 id="我认为的最强开源下载软件之motrix">我认为的最强开源下载软件之Motrix&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>好的软件不应该被埋没，今天分享一个开源的下载软件&amp;ndash;Motrix。说到下载器，你首先想到什么？&lt;/p>
+&lt;p>某雷？某雷的确很强大，但是由于种种原因，并不可靠；IDM？IDM牛逼是牛逼，可惜不支持BT。&lt;/p>
+&lt;p>&lt;strong>Motrix&lt;/strong>，可以支持 HTTP、FTP、BT、磁力链接、&lt;strong>百度云网盘下载&lt;/strong>等等，基本能覆盖所有的资源下载需求。&lt;/p>
+&lt;h2 id="motrix的特点">Motrix的特点&lt;/h2>
+&lt;blockquote>
+&lt;ul>
+&lt;li>简单明了的用户界面&lt;/li>
+&lt;li>支持BT种子磁力链&lt;/li>
+&lt;li>种子选择性下载&lt;/li>
+&lt;li>每天自动更新跟踪列表&lt;/li>
+&lt;li>UPnp = 纳特 - Pmp 端口映射&lt;/li>
+&lt;li>最多 10 个任务同时下载&lt;/li>
+&lt;li>单个任务最大支持 64 线程下载&lt;/li>
+&lt;li>下载进度图形动态显示&lt;/li>
+&lt;li>模拟用户代理&lt;/li>
+&lt;li>下载已完成的通知&lt;/li>
+&lt;li>用于快速操作的居民系统托盘&lt;/li>
+&lt;li>黑暗模式&lt;/li>
+&lt;li>删除任务时删除相关文件（可选）&lt;/li>
+&lt;li>I18n&lt;/li>
+&lt;li>&amp;hellip;&amp;hellip;.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Motrix使用aria2作为内核，下载速度非常快，Motrix也可以接管你的浏览器（需要Chromium内核浏览器）下载，成为你的默认下载器，不用担心下载不了扩展，它的扩展也可以在GitHub上下载到，简直十分的良心。软件代码基于 Electron + Vue + VueX + Element 等技术编写而来，对开发感兴趣的同学可以参考学习一下。&lt;/p>
+&lt;h2 id="跨平台">跨平台&lt;/h2>
+&lt;p>Motrix支持Windows、Linux和macos。并且跨平台界面统一，在 Windows、&lt;a class="link" href="https://www.iplaysoft.com/os/mac-platform" target="_blank" rel="noopener"
+>macOS&lt;/a>、&lt;a class="link" href="https://www.iplaysoft.com/os/linux-platform" target="_blank" rel="noopener"
+>Linux&lt;/a> 三大平台上都有着一致的使用体验。&lt;/p>
+&lt;h2 id="软件界面">软件界面&lt;/h2>
+&lt;p>&lt;strong>下载界面&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page.png"
+width="1147"
+height="716"
+srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="384px"
+>&lt;/p>
+&lt;p>&lt;strong>其他界面&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting.png"
+width="1443"
+height="900"
+srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="384px"
+>&lt;/p>
+&lt;h2 id="口说无凭">口说无凭&lt;/h2>
+&lt;p>&lt;strong>以下载GitHub上的软件做测试&lt;/strong>&lt;/p>
+&lt;p>以下载GitHub上的Motrix做测试&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload.png"
+width="1163"
+height="582"
+srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="199"
+data-flex-basis="479px"
+>&lt;/p>
+&lt;p>好家伙，还好我截图快，差点就下载完了&lt;/p>
+&lt;h2 id="软件地址">软件地址&lt;/h2>
+&lt;blockquote>
+&lt;p>官网网站：&lt;a class="link" href="https://motrix.app/" target="_blank" rel="noopener"
+>莫特里克斯 (motrix.app)&lt;/a>&lt;/p>
+&lt;p>GitHub仓库地址：https://github.com/agalwood/Motrix&lt;/p>
+&lt;/blockquote></description></item><item><title>PR常用快捷键</title><link>https://blog.linsnow.cn/p/pr-key/</link><pubDate>Thu, 19 Aug 2021 14:22:50 +0800</pubDate><guid>https://blog.linsnow.cn/p/pr-key/</guid><description>&lt;img src="https://blog.linsnow.cn/p/pr-key/pr.png" alt="Featured image of post PR常用快捷键" />&lt;h1 id="pr常用快捷键">PR常用快捷键&lt;/h1>
+&lt;h2 id="基本快捷键操作">&lt;strong>基本快捷键操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Ctrl+Alt+N&lt;/th>
+&lt;th>新建项目&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ctrl+O&lt;/td>
+&lt;td>打开项目&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+shift+w&lt;/td>
+&lt;td>关闭项目&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + W&lt;/td>
+&lt;td>关闭&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + S&lt;/td>
+&lt;td>保存&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + shift+ S&lt;/td>
+&lt;td>另存为&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + I&lt;/td>
+&lt;td>导入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + N&lt;/td>
+&lt;td>新建序列&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Z&lt;/td>
+&lt;td>还原&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + X&lt;/td>
+&lt;td>剪切&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + C&lt;/td>
+&lt;td>复制&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + V&lt;/td>
+&lt;td>粘贴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + A&lt;/td>
+&lt;td>全选&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + A&lt;/td>
+&lt;td>取消全选&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + F&lt;/td>
+&lt;td>查找&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + K&lt;/td>
+&lt;td>剪切&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + K&lt;/td>
+&lt;td>所有&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="剪辑操作">&lt;strong>剪辑操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Delete&lt;/th>
+&lt;th>删除素材&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Shift+Delete&lt;/td>
+&lt;td>单段素材删除，后面素材自动跟上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>剃刀工具&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+C&lt;/td>
+&lt;td>所有轨道剪断&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+K&lt;/td>
+&lt;td>快速剪断素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ctrl+shif+K&lt;/td>
+&lt;td>所有轨道快速剪切素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>W&lt;/td>
+&lt;td>删除本段素材时间线后面素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Q&lt;/td>
+&lt;td>删除本段素材时间线前面素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Q&lt;/td>
+&lt;td>改变时间线前面剪辑点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+W&lt;/td>
+&lt;td>改变时间线后面剪辑点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>A&lt;/td>
+&lt;td>向前选择轨道工具&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>shift&lt;/td>
+&lt;td>向前选择单独选中单个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="标记">&lt;strong>标记&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>I&lt;/th>
+&lt;th>标记入点&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>O&lt;/td>
+&lt;td>标记出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>X&lt;/td>
+&lt;td>标记素材入出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + /&lt;/td>
+&lt;td>标记素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + \&lt;/td>
+&lt;td>在项目窗口查看形式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + *&lt;/td>
+&lt;td>返回媒体浏览&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>/&lt;/td>
+&lt;td>标记选择&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + I&lt;/td>
+&lt;td>跳转入点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + O&lt;/td>
+&lt;td>跳转出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + I&lt;/td>
+&lt;td>清除入点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + Q&lt;/td>
+&lt;td>清除出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + X&lt;/td>
+&lt;td>清除入出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>M&lt;/td>
+&lt;td>添加标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + M&lt;/td>
+&lt;td>转到下一个标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + M&lt;/td>
+&lt;td>转到上一个标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + M&lt;/td>
+&lt;td>清除当前标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + Shift + M&lt;/td>
+&lt;td>清除所有标记&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="字幕">&lt;strong>字幕&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Ctrl + T&lt;/th>
+&lt;th>新建字幕&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ctrl + Shift +L&lt;/td>
+&lt;td>左对齐&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + C&lt;/td>
+&lt;td>居中&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + R&lt;/td>
+&lt;td>右对齐&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + T&lt;/td>
+&lt;td>制表符设置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + J&lt;/td>
+&lt;td>模板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + ]&lt;/td>
+&lt;td>上一层的下一个对象&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + [&lt;/td>
+&lt;td>下一层的下一个对象&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + ]&lt;/td>
+&lt;td>放到最上层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + ]&lt;/td>
+&lt;td>上移一层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + [&lt;/td>
+&lt;td>放到最下层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + [&lt;/td>
+&lt;td>下移一层&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="素材操作">&lt;strong>素材操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Shift+E&lt;/th>
+&lt;th>隐藏素材&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>AIt+Ctrl+拖动&lt;/td>
+&lt;td>前后两段素材互换位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Home&lt;/td>
+&lt;td>回到第一帧的位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>End&lt;/td>
+&lt;td>回到最后一帧的位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ctrl+D&lt;/td>
+&lt;td>默认交叉转场效果&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + D&lt;/td>
+&lt;td>默认音频转场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + D&lt;/td>
+&lt;td>默认音视频转场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + V&lt;/td>
+&lt;td>粘贴属性&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alt+拖动&lt;/td>
+&lt;td>直接拖拽复制&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + V&lt;/td>
+&lt;td>粘贴插入&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>PS常用快捷键</title><link>https://blog.linsnow.cn/p/ps-key/</link><pubDate>Thu, 19 Aug 2021 14:20:32 +0800</pubDate><guid>https://blog.linsnow.cn/p/ps-key/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ps-key/ps.png" alt="Featured image of post PS常用快捷键" />&lt;h1 id="ps常用快捷键">PS常用快捷键&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>工具箱&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>矩形、椭圆选框工具 【M】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>裁剪工具 【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>移动工具 【V】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>套索、多边形套索、磁性套索 【L】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>魔棒工具 【W】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>喷枪工具 【J】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>画笔工具 【B】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>橡皮图章、图案图章 【S】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>历史记录画笔工具 【Y】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>橡皮擦工具 【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>铅笔、直线工具 【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>模糊、锐化、涂抹工具 【R】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>减淡、加深、海绵工具 【O】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>钢笔、自由钢笔、磁性钢笔 【P】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>添加（删除）锚点工具 【+】（【-】）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>直接选取工具 【A】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>文字、文字蒙板、直排文字、直排文字蒙板 【T】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>度量工具 【U】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>油漆桶工具 【K】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>吸管、颜色取样器 【I】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>抓手工具 【H】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>缩放工具 【Z】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>默认前景色和背景色 【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>切换前景色和背景色 【X】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>切换标准模式和快速蒙板模式 【Q】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>标准屏幕模式、带有菜单栏的全屏模式、全屏模式 【F】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>临时使用移动工具 【Ctrl】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>临时使用吸色工具 【Alt】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>临时使用抓手工具 【空格】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开工具选项面板 【Enter】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>文件操作&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>新建图形文件 【Ctrl】+【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>用默认设置创建新文件 【Ctrl】+【Alt】+【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开已有的图像 【Ctrl】+【O】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开为&amp;hellip; 【Ctrl】+【Alt】+【O】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>关闭当前图像 【Ctrl】+【W】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>保存当前图像 【Ctrl】+【S】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>另存为&amp;hellip; 【Ctrl】+【Shift】+【S】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>存储副本 【Ctrl】+【Alt】+【S】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>页面设置 【Ctrl】+【Shift】+【P】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打印 【Ctrl】+【P】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开“预置”对话框 【Ctrl】+【K】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示最后一次显示的“预置”对话框 【Alt】+【Ctrl】+【K】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“常规”选项(在预置对话框中) 【Ctrl】+【1】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“存储文件”(在预置对话框中) 【Ctrl】+【2】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“显示和光标”(在预置对话框中) 【Ctrl】+【3】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“透明区域与色域”(在预置对话框中) 【Ctrl】+【4】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“单位与标尺”(在预置对话框中) 【Ctrl】+【5】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“参考线与网格”(在预置对话框中) 【Ctrl】+【6】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“增效工具与暂存盘”(在预置对话框中) 【Ctrl】+【7】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>设置“内存与图像高速缓存”(在预置对话框中) 【Ctrl】+【8】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>编辑操作&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>还原/重做前一步操作 【Ctrl】+【Z】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>还原两步以上操作 【Ctrl】+【Alt】+【Z】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>重做两步以上操作 【Ctrl】+【Shift】+【Z】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>剪切选取的图像或路径 【Ctrl】+【X】或【F2】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>拷贝选取的图像或路径 【Ctrl】+【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>合并拷贝 【Ctrl】+【Shift】+【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将剪贴板的内容粘到当前图形中 【Ctrl】+【V】或【F4】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将剪贴板的内容粘到选框中 【Ctrl】+【Shift】+【V】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自由变换 【Ctrl】+【T】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>应用自由变换(在自由变换模式下) 【Enter】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>从中心或对称点开始变换 (在自由变换模式下) 【Alt】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>限制(在自由变换模式下) 【Shift】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>扭曲(在自由变换模式下) 【Ctrl】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>取消变形(在自由变换模式下) 【Esc】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自由变换复制的像素数据 【Ctrl】+【Shift】+【T】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>再次变换复制的像素数据并建立一个副本 【Ctrl】+【Shift】+【Alt】+【T】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>删除选框中的图案或选取的路径 【DEL】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>用背景色填充所选区域或整个图层 【Ctrl】+【BackSpace】或【Ctrl】+【Del】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>用前景色填充所选区域或整个图层 【Alt】+【BackSpace】或【Alt】+【Del】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>弹出“填充”对话框 【Shift】+【BackSpace】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>从历史记录中填充 【Alt】+【Ctrl】+【Backspace】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>图像调整&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>调整色阶 【Ctrl】+【L】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动调整色阶 【Ctrl】+【Shift】+【L】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开曲线调整对话框 【Ctrl】+【M】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>在所选通道的曲线上添加新的点(‘曲线’对话框中) 在图像中【Ctrl】加点按&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加点按移动所选点(‘曲线’对话框中) 【↑】/【↓】/【←】/【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>以10点为增幅移动所选点以10点为增幅(‘曲线’对话框中) 【Shift】+【箭头】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>选择多个控制点(‘曲线’对话框中) 【Shift】加点按&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前移控制点(‘曲线’对话框中) 【Ctrl】+【Tab】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后移控制点(‘曲线’对话框中) 【Ctrl】+【Shift】+【Tab】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>添加新的点(‘曲线’对话框中) 点按网格&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>删除点(‘曲线’对话框中) 【Ctrl】加点按点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>取消选择所选通道上的所有点(‘曲线’对话框中) 【Ctrl】+【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>使曲线网格更精细或更粗糙(‘曲线’对话框中) 【Alt】加点按网格&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>选择彩色通道(‘曲线’对话框中) 【Ctrl】+【~】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>选择单色通道(‘曲线’对话框中) 【Ctrl】+【数字】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开“色彩平衡”对话框 【Ctrl】+【B】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开“色相/饱和度”对话框 【Ctrl】+【U】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>全图调整(在色相/饱和度”对话框中) 【Ctrl】+【~】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整红色(在色相/饱和度”对话框中) 【Ctrl】+【1】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整黄色(在色相/饱和度”对话框中) 【Ctrl】+【2】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整绿色(在色相/饱和度”对话框中) 【Ctrl】+【3】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整青色(在色相/饱和度”对话框中) 【Ctrl】+【4】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整蓝色(在色相/饱和度”对话框中) 【Ctrl】+【5】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>只调整洋红(在色相/饱和度”对话框中) 【Ctrl】+【6】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>去色 【Ctrl】+【Shift】+【U】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>反相 【Ctrl】+【I】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>图层操作&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>从对话框新建一个图层 【Ctrl】+【Shift】+【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>以默认选项建立一个新的图层 【Ctrl】+【Alt】+【Shift】+【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>通过拷贝建立一个图层 【Ctrl】+【J】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>通过剪切建立一个图层 【Ctrl】+【Shift】+【J】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>与前一图层编组 【Ctrl】+【G】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>取消编组 【Ctrl】+【Shift】+【G】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向下合并或合并连接图层 【Ctrl】+【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>合并可见图层 【Ctrl】+【Shift】+【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盖印或盖印连接图层 【Ctrl】+【Alt】+【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盖印可见图层 【Ctrl】+【Alt】+【Shift】+【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将当前层下移一层 【Ctrl】+【[】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将当前层上移一层 【Ctrl】+【]】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将当前层移到最下面 【Ctrl】+【Shift】+【[】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将当前层移到最上面 【Ctrl】+【Shift】+【]】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激活下一个图层 【Alt】+【[】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激活上一个图层 【Alt】+【]】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激活底部图层 【Shift】+【Alt】+【[】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激活顶部图层 【Shift】+【Alt】+【]】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>调整当前图层的透明度(当前工具为无数字参数的,如移动工具) 【0】至【9】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>保留当前图层的透明区域(开关) 【/】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>投影效果(在”效果”对话框中) 【Ctrl】+【1】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>内阴影效果(在”效果”对话框中) 【Ctrl】+【2】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>外发光效果(在”效果”对话框中) 【Ctrl】+【3】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>内发光效果(在”效果”对话框中) 【Ctrl】+【4】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>斜面和浮雕效果(在”效果”对话框中) 【Ctrl】+【5】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>应用当前所选效果并使参数可调(在”效果”对话框中) 【A】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>图层混合模式&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>循环选择混合模式 【Alt】+【-】或【+】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>正常 【Ctrl】+【Alt】+【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>阈值（位图模式） 【Ctrl】+【Alt】+【L】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>溶解 【Ctrl】+【Alt】+【I】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>背后 【Ctrl】+【Alt】+【Q】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>清除 【Ctrl】+【Alt】+【R】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>正片叠底 【Ctrl】+【Alt】+【M】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>屏幕 【Ctrl】+【Alt】+【S】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>叠加 【Ctrl】+【Alt】+【O】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>柔光 【Ctrl】+【Alt】+【F】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>强光 【Ctrl】+【Alt】+【H】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>颜色减淡 【Ctrl】+【Alt】+【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>颜色加深 【Ctrl】+【Alt】+【B】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>变暗 【Ctrl】+【Alt】+【K】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>变亮 【Ctrl】+【Alt】+【G】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>差值 【Ctrl】+【Alt】+【E】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>排除 【Ctrl】+【Alt】+【X】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>色相 【Ctrl】+【Alt】+【U】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>饱和度 【Ctrl】+【Alt】+【T】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>颜色 【Ctrl】+【Alt】+【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>光度 【Ctrl】+【Alt】+【Y】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>去色 海棉工具+【Ctrl】+【Alt】+【J】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加色 海棉工具+【Ctrl】+【Alt】+【A】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>暗调 减淡/加深工具+【Ctrl】+【Alt】+【W】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>中间调 减淡/加深工具+【Ctrl】+【Alt】+【V】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>高光 减淡/加深工具+【Ctrl】+【Alt】+【Z】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>选择功能&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>全部选取 【Ctrl】+【A】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>取消选择 【Ctrl】+【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>重新选择 【Ctrl】+【Shift】+【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>羽化选择 【Ctrl】+【Alt】+【D】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>反向选择 【Ctrl】+【Shift】+【I】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>路径变选区 数字键盘的【Enter】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>载入选区 【Ctrl】+点按图层、路径、通道面板中的缩约图&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>滤镜&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>按上次的参数再做一次上次的滤镜 【Ctrl】+【F】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>选择工具(在“3D变化”滤镜中) 【V】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>立方体工具(在“3D变化”滤镜中) 【M】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>球体工具(在“3D变化”滤镜中) 【N】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>柱体工具(在“3D变化”滤镜中) 【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>轨迹球(在“3D变化”滤镜中) 【R】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>全景相机工具(在“3D变化”滤镜中) 【E】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>视图操作&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>显示彩色通道 【Ctrl】+【~】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示单色通道 【Ctrl】+【数字】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示复合通道 【~】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>以CMYK方式预览(开关) 【Ctrl】+【Y】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打开/关闭色域警告 【Ctrl】+【Shift】+【Y】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>放大视图 【Ctrl】+【+】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>缩小视图 【Ctrl】+【-】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>满画布显示 【Ctrl】+【0】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>实际象素显示 【Ctrl】+【Alt】+【0】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向上卷动一屏 【PageUp】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向下卷动一屏 【PageDown】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向左卷动一屏 【Ctrl】+【PageUp】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向右卷动一屏 【Ctrl】+【PageDown】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向上卷动10 个单位 【Shift】+【PageUp】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向下卷动10 个单位 【Shift】+【PageDown】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向左卷动10 个单位 【Shift】+【Ctrl】+【PageUp】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>向右卷动10 个单位 【Shift】+【Ctrl】+【PageDown】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将视图移到左上角 【Home】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>将视图移到右下角 【End】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏选择区域 【Ctrl】+【H】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏路径 【Ctrl】+【Shift】+【H】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏标尺 【Ctrl】+【R】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏参考线 【Ctrl】+【;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏网格 【Ctrl】+【”】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>贴紧参考线 【Ctrl】+【Shift】+【;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>锁定参考线 【Ctrl】+【Alt】+【;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>贴紧网格 【Ctrl】+【Shift】+【”】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏“画笔”面板 【F5】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏“颜色”面板 【F6】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏“图层”面板 【F7】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏“信息”面板 【F8】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏“动作”面板 【F9】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示/隐藏所有命令面板 【TAB】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>显示或隐藏工具箱以外的所有调板 【Shift】+【TAB】&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">文字处理&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">左对齐或顶对齐 【Ctrl】+【Shift】+【L】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">中对齐 【Ctrl】+【Shift】+【C】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">右对齐或底对齐 【Ctrl】+【Shift】+【R】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">左／右选择 1 个字符 【Shift】+【←】/【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">下／上选择 1 行 【Shift】+【↑】/【↓】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">选择所有字符 【Ctrl】+【A】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">选择从插入点到鼠标点按点的字符 【Shift】加点按&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">左／右移动 1 个字符 【←】/【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">下／上移动 1 行 【↑】/【↓】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">左／右移动1个字 【Ctrl】+【←】/【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将所选文本的文字大小减小2 点象素 【Ctrl】+【Shift】+【&amp;lt;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将所选文本的文字大小增大2 点象素 【Ctrl】+【Shift】+【&amp;gt;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将所选文本的文字大小减小10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;lt;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将所选文本的文字大小增大10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;gt;】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将行距减小2点象素 【Alt】+【↓】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将行距增大2点象素 【Alt】+【↑】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将基线位移减小2点象素 【Shift】+【Alt】+【↓】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将基线位移增加2点象素 【Shift】+【Alt】+【↑】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将字距微调或字距调整减小20/1000ems 【Alt】+【←】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将字距微调或字距调整增加20/1000ems 【Alt】+【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将字距微调或字距调整减小100/1000ems 【Ctrl】+【Alt】+【←】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">将字距微调或字距调整增加100/1000ems 【Ctrl】+【Alt】+【→】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">切换图层模式 【shift】+【 + 】或【 - 】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">双击面板=Open file&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+双击面板=New file&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">shift+双击面板=Save&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">alt+双击面板=Open as&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+shift+=Save as&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+alt+o=实际像素显示&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+h=隐藏选定区域&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+d=取消选定区域&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+w=关闭文件&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ctrl+q=退出photoshop&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">F=标准显示模式→带菜单的全屏显示模式→全屏显示模式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">按Tab键可以显示或隐藏工具箱和调色板，按“Shift+Tab&amp;quot;键可以显示或隐藏除工具箱外的其它调色板。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ESC=取消操作&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>

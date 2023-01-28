@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jailbreak on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/jailbreak/</link><description>Recent content in jailbreak on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Aug 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/jailbreak/index.xml" rel="self" type="application/rss+xml"/><item><title>越狱常见问题指北手册</title><link>https://blog.linsnow.cn/p/jb-question/</link><pubDate>Thu, 26 Aug 2021 07:28:27 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-question/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-question/jbzhibei.png" alt="Featured image of post 越狱常见问题指北手册" />&lt;h1 id="越狱常见问题指北手册">越狱常见问题指北手册&lt;/h1>
+&lt;h3 id="ios更新屏蔽">iOS更新屏蔽&lt;/h3>
+&lt;p>Unc0ver越狱自带更新屏蔽&lt;/p>
+&lt;p>Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新&lt;/p>
+&lt;blockquote>
+&lt;p>OTADisabler 官方源https://cydia.ichitaso.com/&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="dpkg-中断卸载不掉插件">Dpkg 中断/卸载不掉插件&lt;/h3>
+&lt;p>一般情況都是因为安装了盗版源引起的，建议清除越狱，重新越狱。&lt;/p>
+&lt;hr>
+&lt;h3 id="sileo-刷新源报错404552">Sileo 刷新源报错404/552&lt;/h3>
+&lt;p>一般情況都是网络問題，科学上网即可解決，也可以开加速器或者开数据试试，不過也有可能是作者服务器出錯了（但是可能性不大）。&lt;/p>
+&lt;hr>
+&lt;h3 id="逃离sileo拥抱cydia">逃离Sileo，拥抱Cydia&lt;/h3>
+&lt;p>假如你使用unc0ver或者checkra1n越狱，那么一开始便可直接选择安装cydia&lt;/p>
+&lt;p>但是如果你是Taurine，Odyssey，Chimera，Odysseyra1n 越狱想用 Cydia 怎么办，在自带的软件源 Procursus 源里安裝 Cydia Installer 即可，但是着并不建议，因为配套使用会更加稳定些，且切换过程可能会出现问题&lt;/p>
+&lt;hr>
+&lt;h3 id="人手必备实用工具">人手必备实用工具&lt;/h3>
+&lt;p>&lt;strong>三大使用工具&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>涉及软件源：&lt;/p>
+&lt;p>&lt;a class="link" href="http://tigisoftware.com/cydia/" target="_blank" rel="noopener"
+>http://tigisoftware.com/cydia/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://cydia.angelxwind.net/" target="_blank" rel="noopener"
+>https://cydia.angelxwind.net/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://repo.chariz.com/" target="_blank" rel="noopener"
+>https://repo.chariz.com/&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/threetool.png"
+width="750"
+height="741"
+srcset="https://blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="101"
+data-flex-basis="242px"
+>&lt;/p>
+&lt;h4 id="filza-file-manager">Filza File Manager&lt;/h4>
+&lt;blockquote>
+&lt;p>你能想象没有了资源文件管理器的Windows系统吗？&lt;/p>
+&lt;p>是的，有了这个宝物，你就能够像安卓或windows一样用文件管理器访问任意目录以及文件，并且支持对多种文件进行修改与编辑，可以说是相当的使用&lt;/p>
+&lt;p>这里有个好百度网盘羊毛的技巧：利用这个插件找到百度网盘下载的文件就能随意解压缩而不需要充会员&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="icleaner-pro">iCleaner Pro&lt;/h4>
+&lt;blockquote>
+&lt;p>越狱界老牌清理工具，还能够给插件排错。&lt;/p>
+&lt;p>建议人手一个，用来清理垃圾效果简直不要太好&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="newterm-2">NewTerm 2&lt;/h4>
+&lt;blockquote>
+&lt;p>对小白不是很友好的神器，他就类似于Linux上的shell，能够执行各种命令，并且与Ubuntu的命令基本都是一样的&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="newterm-2常用命令">NewTerm 2常用命令&lt;/h3>
+&lt;p>在输入大部分命令前需要获取 root 权限，请输入su 或者 su root 密码默认是 alpine（你输入的時候看不见，沒事，直接输入然后回车即可）&lt;/p>
+&lt;p>如果你想省事那就先输入 sudo 加上你想要的命令，sudo 后面有空格&lt;/p>
+&lt;h5 id="注销这个命令好像不用root也能执行">注销（这个命令好像不用root也能执行）&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> killall SpringBoard/sbreload/uicache -r
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="清理图标缓存这个命令好像不用root也能执行">清理图标缓存（这个命令好像不用root也能执行）&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">uicache -a
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 安裝成功插件发现沒有 App 图标出现就可以用这个命令 &lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">uicache -p 你的 app 目录
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#这个是单独清除特定 App 的图标缓存&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="软重启">软重启&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">ldrestart
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="重启手机">重启手机&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> reboot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="关机">关机&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> halt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="重启使用者空间">重启使用者空间&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">launchctl reboot userspace
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="安全模式">安全模式&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> killall -SEGV SpringBoard
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="进阶命令">进阶命令&lt;/h3>
+&lt;blockquote>
+&lt;p>需要获取 root&lt;/p>
+&lt;p>必要是需要获取插件的bundleid&lt;/p>
+&lt;/blockquote>
+&lt;h5 id="获取插件bundleid">获取插件bundleid&lt;/h5>
+&lt;p>一般划到插件底部就可以看到插件的bundleid&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/bundleid.png"
+width="750"
+height="444"
+srcset="https://blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="bundleid"
+class="gallery-image"
+data-flex-grow="168"
+data-flex-basis="405px"
+>&lt;/p>
+&lt;h5 id="安裝本地-deb-插件">安裝本地 deb 插件&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dpkg -i 你的deb路径
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#例如 &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#dpkg -i /var/mobile/Documents/aaa.deb&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="在线安裝插件">在线安裝插件&lt;/h5>
+&lt;blockquote>
+&lt;p>前提是你已经把这个插件的源添加到 源列表上了&lt;/p>
+&lt;p>建议安裝插件之前先输入 apt update（类似于刷新软件源）&lt;/p>
+&lt;p>这对Linux用户十分友好&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> apt install 插件的bundleid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="卸载插件">卸载插件&lt;/h5>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> dpkg -r 插件的bundleid
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> or
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> apt remove 插件的bundleid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="更新所有插件">更新所有插件&lt;/h5>
+&lt;blockquote>
+&lt;p>建议更新插件之前先输入 apt update（类似于刷新软件源）&lt;/p>
+&lt;/blockquote>
+&lt;p>然后输入&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt upgrade
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>如果让你确认就输入&lt;code>y&lt;/code>然后回车就行&lt;/p>
+&lt;hr></description></item><item><title>Cydia和Sileo插件源地址整理</title><link>https://blog.linsnow.cn/p/jb-source/</link><pubDate>Mon, 16 Aug 2021 16:42:21 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-source/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-source/repo.png" alt="Featured image of post Cydia和Sileo插件源地址整理" />&lt;h1 id="cydia和sileo插件源地址整理">Cydia和Sileo插件源地址整理&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>为了设备越狱后能得到一个良好稳定的越狱环境和解决各种插件以来问题，使用官方作者源是一个最佳的解决方案，这里整理一下一些常用的作者源，地址很多，建议使用网站的本地搜索快速查找对应的源地址&lt;/p>
+&lt;h2 id="三大收费源地址">三大收费源地址&lt;/h2>
+&lt;p>&lt;strong>Chariz&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://repo.chariz.io/" target="_blank" rel="noopener"
+>https://repo.chariz.io/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dynastic&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://repo.dynastic.co/" target="_blank" rel="noopener"
+>https://repo.dynastic.co/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Packix&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.packix.com/" target="_blank" rel="noopener"
+>https://repo.packix.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Chariz 部分插件已与 Packix 合并。&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="国外开发者源地址">国外开发者源地址&lt;/h2>
+&lt;h3 id="aesthyrica">&lt;strong>Aesthyrica&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://aesthyrica.com/repo/" target="_blank" rel="noopener"
+>https://aesthyrica.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Spotify 相关插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="akusio-repo">&lt;strong>akusio repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://akusio.github.io/" target="_blank" rel="noopener"
+>https://akusio.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>MilkyWay &amp;amp; Backgrounder Action for CCSupport，多任务插件、保持后台运行插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="appcake">&lt;strong>AppCake&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://cydia.iphonecake.com/" target="_blank" rel="noopener"
+>https://cydia.iphonecake.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>CrackerXI+ 砸壳工具&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="apptapp-repository">&lt;strong>AppTapp Repository&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apptapp.me/repo/" target="_blank" rel="noopener"
+>https://apptapp.me/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Installer 插件管理器&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="apt-alfhaily">&lt;strong>APT Alfhaily&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://apt.alfhaily.me/" target="_blank" rel="noopener"
+>http://apt.alfhaily.me/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Cercube for YouTube、Rocket for Instagram 两大多媒体文件下载插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="arx8xs-repo">&lt;strong>ARX8x&amp;rsquo;s repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.xninja.xyz/" target="_blank" rel="noopener"
+>https://apt.xninja.xyz/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>System Info 关于显示更多系统信息插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="autotouch">&lt;strong>AutoTouch&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://apt.autotouch.net/" target="_blank" rel="noopener"
+>http://apt.autotouch.net/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>制作自动点击脚本插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="baw-repo">&lt;strong>Baw Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://repo.rpgfarm.com/" target="_blank" rel="noopener"
+>http://repo.rpgfarm.com/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://repo.co.kr/" target="_blank" rel="noopener"
+>http://repo.co.kr/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>A-Bypass 屏蔽越狱、Slices 3 应用分身&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="bigboss">&lt;strong>BigBoss&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://apt.thebigboss.org/repofiles/cydia/" target="_blank" rel="noopener"
+>http://apt.thebigboss.org/repofiles/cydia/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Cydia 插件平台自带&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="bigboss-1">&lt;strong>BigBoss+&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repounclutter.coolstar.org/" target="_blank" rel="noopener"
+>https://repounclutter.coolstar.org/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>BigBoss 的克隆&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="bingnerelucubratus">&lt;strong>Bingner/Elucubratus&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.bingner.com/" target="_blank" rel="noopener"
+>https://apt.bingner.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>unc0ver 自带源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="candoizos-lab">&lt;strong>candoizo&amp;rsquo;s lab&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ndoizo.ca/" target="_blank" rel="noopener"
+>https://ndoizo.ca/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Bolders 强大的文件夹插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="c1d3rs-repo">&lt;strong>c1d3r&amp;rsquo;s repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://c1d3r.com/repo/" target="_blank" rel="noopener"
+>http://c1d3r.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Pullover Pro 多任务操作&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="cemck">&lt;strong>cemck&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://cemck.github.io/repo/" target="_blank" rel="noopener"
+>https://cemck.github.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>KillX 多任务下拉一键清理&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="checkra1n-substrate-repo">&lt;strong>checkra1n Substrate Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://checkra.in/assets/mobilesubstrate" target="_blank" rel="noopener"
+>https://checkra.in/assets/mobilesubstrate&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>兼容 checkra1n 越狱的 Cydia Substrate 基板&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="cokepokes">&lt;strong>CokePokes&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://cokepokes.github.io/" target="_blank" rel="noopener"
+>https://cokepokes.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>AppStore++ 应用降级&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="creaturecoding-repo">&lt;strong>CreatureCoding Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://creaturecoding.com/repo/" target="_blank" rel="noopener"
+>https://creaturecoding.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>FLEXer 在手机上创建 Flex 补丁，shuffle 系统设置、插件设置、App 归类&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="delta">&lt;strong>Delta&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://getdelta.co/" target="_blank" rel="noopener"
+>http://getdelta.co/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Flex 3 给 iOS 系统、App 打补丁&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="diatrusmisceo">&lt;strong>Diatrus/Misceo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://diatr.us/apt/" target="_blank" rel="noopener"
+>https://diatr.us/apt/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>在 Sileo 上安装 Cydia，使之共存&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dylan-duffs-repo">&lt;strong>Dylan Duff&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://dylanduff.com/repo/" target="_blank" rel="noopener"
+>https://dylanduff.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>MissionControl 控制中心自定义插件，收费&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="electras-ios-utilities">&lt;strong>Electra&amp;rsquo;s iOS Utilities&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://electrarepo64.coolstar.org/" target="_blank" rel="noopener"
+>https://electrarepo64.coolstar.org/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>iOS 11 越狱工具 Electra 自带源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="emojiport-fonts-repo">&lt;strong>EmojiPort Fonts Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://vxbakerxv.github.io/repo/" target="_blank" rel="noopener"
+>https://vxbakerxv.github.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>让低版本的 iOS 系统使用最新的 Emoji 表情&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="esquillidev-repo">&lt;strong>EsquilliDev Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://esquillidev.github.io/" target="_blank" rel="noopener"
+>https://esquillidev.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Lisa 锁屏通知聚合&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="evelyns-collection">&lt;strong>Evelyn&amp;rsquo;s Collection&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://evynw.github.io/" target="_blank" rel="noopener"
+>https://evynw.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>各种字体、主屏幕锁屏挂件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="fouads-apt">&lt;strong>Fouad&amp;rsquo;s APT&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.fouadraheb.com/" target="_blank" rel="noopener"
+>https://apt.fouadraheb.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>AlarmGroups（闹钟扩展插件）、Banks Patch（屏蔽对银行 App 的越狱检测）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="geometric-store">&lt;strong>Geometric Store&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.geometricsoftware.se/" target="_blank" rel="noopener"
+>https://apt.geometricsoftware.se/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>几款收费插件（Amour、IntelligentPass、LendMyPhone）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="hackyouriphone-repo">&lt;strong>HackYouriPhone Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.hackyouriphone.org/" target="_blank" rel="noopener"
+>https://repo.hackyouriphone.org/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>大量破解插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="hacx-repository">&lt;strong>hAcx Repository&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://hacx.org/repo/" target="_blank" rel="noopener"
+>http://hacx.org/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Call Recorder X+ (iOS 12)、Super Recorder X+ (iOS 12) 通话录音插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="iarrays">&lt;strong>IArrays&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://apt.iarrays.com/" target="_blank" rel="noopener"
+>http://apt.iarrays.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>CallLogPro、eSim+&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ichitaso-repository">&lt;strong>ichitaso repository&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://cydia.ichitaso.com/" target="_blank" rel="noopener"
+>http://cydia.ichitaso.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>PowerSelector (iOS 11 &amp;amp; 12) 关机增强插件、Spectrogram 音量键增强插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="icrazes-repo">&lt;strong>iCraze&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.icrazeios.com/" target="_blank" rel="noopener"
+>https://repo.icrazeios.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Gestures13（在非 iPhone X 设备上使用 iPhone X 手势）、Slyd13（锁屏样式插件）、Status12（iPhone 上使用 iPad 状态栏）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="igg">&lt;strong>iGG&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://aquawu.github.io/igg/" target="_blank" rel="noopener"
+>https://aquawu.github.io/igg/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://twjacy.github.io/repo/" target="_blank" rel="noopener"
+>https://twjacy.github.io/repo/&lt;/a> （适配 Sileo 插件平台）&lt;/p>
+&lt;blockquote>
+&lt;p>iGG 是一个内存编辑器&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ivano-bilenchis-repo">Ivano Bilenchi&amp;rsquo;s Repo&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ib-soft.net/cydia/" target="_blank" rel="noopener"
+>https://ib-soft.net/cydia/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ib-soft.net/cydia/beta/" target="_blank" rel="noopener"
+>https://ib-soft.net/cydia/beta/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>iCleaner Pro 系统清理插件，也有排除插件冲突作用&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="jakeashacks">&lt;strong>Jakeashacks&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://jakeashacks.net/cydia/" target="_blank" rel="noopener"
+>https://jakeashacks.net/cydia/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>使部分 Sileo 专用插件可以在 Cydia 平台中安装使用，比如 Anemone、ClassicFolders、Ventana&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="jailbreak365s-repo">&lt;strong>jailbreak365&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://jb365.github.io/" target="_blank" rel="noopener"
+>https://jb365.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>CCModules 控制中心扩展插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="jjolanos-ios-tweaks">&lt;strong>jjolano&amp;rsquo;s iOS Tweaks&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ios.jjolano.me/" target="_blank" rel="noopener"
+>https://ios.jjolano.me/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Shadow 屏蔽越狱插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="jpet26-source">&lt;strong>jpet26 Source&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://jpet26.yourepo.com/" target="_blank" rel="noopener"
+>https://jpet26.yourepo.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>YouTube Tools，YouTube 优化工具&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="julioverne">&lt;strong>julioverne&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://julio.hackyouriphone.org/" target="_blank" rel="noopener"
+>https://julio.hackyouriphone.org/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>CrackTool4 (iOS 12) 破解插件收费、Cydown 下载备份插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="juliovernes-repo">&lt;strong>julioverne&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://julioverne.github.io/" target="_blank" rel="noopener"
+>http://julioverne.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>NtSpeed 显示网速悬浮窗、fastUpRepo2 快速刷新源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="junesiphone">&lt;strong>junesiphone&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://junesiphone.com/supersecret/" target="_blank" rel="noopener"
+>http://junesiphone.com/supersecret/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>各种美化插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="karens-repo">Karen&amp;rsquo;s Repo&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://cydia.akemi.ai/" target="_blank" rel="noopener"
+>https://cydia.akemi.ai/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://cydia.angelxwind.net/" target="_blank" rel="noopener"
+>https://cydia.angelxwind.net/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>蔡明美的 AppSync Unified 安装 IPA 文件必备、PreferenceOrganizer 2 插件归类&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kritanta">&lt;strong>Kritanta&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://repo.kritanta.me/" target="_blank" rel="noopener"
+>http://repo.kritanta.me/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Pivot(任意横屏)、Exo (Beta)、Axon（通知聚合插件）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kurrts-repo">&lt;strong>Kurrt&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://kurrt.com/repo/" target="_blank" rel="noopener"
+>https://kurrt.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>SafeShutdown 关机注销插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kunderscores-repo">&lt;strong>Kunderscore&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://kunderscore.gitlab.io/repo/" target="_blank" rel="noopener"
+>https://kunderscore.gitlab.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Priority Hub 通知按 App 分类显示&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="lakr-aream">&lt;strong>Lakr Aream&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://lakrowo.gitee.io/repo/" target="_blank" rel="noopener"
+>https://lakrowo.gitee.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Saily Store 插件管理器&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="limneos-repo">&lt;strong>Limneos Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://limneos.net/repo/" target="_blank" rel="noopener"
+>http://limneos.net/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>AudioRecorder XS (iOS 12)、BioProtect XS (iOS 12)、CallBar XS (iOS 12)、NFCWriter XS，通话录音、App 锁、迷你电话界面、NFC 拓展等。&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="lonestarxs-repo">&lt;strong>LonestarX&amp;rsquo;s repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.lonestarx.net/" target="_blank" rel="noopener"
+>https://repo.lonestarx.net/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>ShowTouch 点击屏幕就会出现圆点&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="matchstic">&lt;strong>Matchstic&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.incendo.ws/" target="_blank" rel="noopener"
+>https://repo.incendo.ws/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>ReProvision 续签插件（开发者已弃坑，等待其他开发者接手）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="matchstic-xen">&lt;strong>Matchstic (Xen)&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://xenpublic.incendo.ws/" target="_blank" rel="noopener"
+>http://xenpublic.incendo.ws/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Xen HTML、Xen Lockscreen&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="maxwell-dauschs-repo">&lt;strong>Maxwell Dausch&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.daus.ch/" target="_blank" rel="noopener"
+>https://repo.daus.ch/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>LatchKey 修改 iPhone 锁屏界面&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="menushkas-repo">&lt;strong>Menushka&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.menushka.ca/" target="_blank" rel="noopener"
+>https://repo.menushka.ca/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>HideYourApps 隐藏 App 图标、FaceIDForHiddenPhotos 查看隐藏照片需要验证 Face ID&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="mtacs-repo">&lt;strong>MTAC&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.mtac.app/" target="_blank" rel="noopener"
+>https://repo.mtac.app/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>3DPercentage 3D Touch 显示更多信息、NoShareXI 应用程序 3D Touch 菜单没有分享&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="nepeta">&lt;strong>Nepeta&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://nepeta.ignition.fun/" target="_blank" rel="noopener"
+>https://nepeta.ignition.fun/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://Chr0nicT.github.io/Nepeta-Mirror/" target="_blank" rel="noopener"
+>https://Chr0nicT.github.io/Nepeta-Mirror/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Nepeta 克隆源，Copypasta（剪贴板）、Relocate（虚拟定位）、UnSub（屏蔽越狱）&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Nexus&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://nexusrepo.kro.kr/" target="_blank" rel="noopener"
+>https://nexusrepo.kro.kr/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Xeon 运营商自定义&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>NoisyFlake&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.noisyflake.com/" target="_blank" rel="noopener"
+>https://apt.noisyflake.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Goodges 2 应用通知数显示在应用名称上&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Nosskirneh&amp;rsquo;s repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://henrikssonbrothers.com/cydia/repo/" target="_blank" rel="noopener"
+>https://henrikssonbrothers.com/cydia/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>NextUp 2（显示下一首播放歌曲）、SpringArtwork（歌曲专辑封面变成壁纸），均为收费插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>nullpixel&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://repo.nullpixel.uk/" target="_blank" rel="noopener"
+>http://repo.nullpixel.uk/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>TSSSaver 手机端保存 SHSH2&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>opa334&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://opa334.github.io/" target="_blank" rel="noopener"
+>https://opa334.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Safari Plus (Safari 增强插件)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>PoomSmart&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://poomsmart.github.io/repo/" target="_blank" rel="noopener"
+>https://poomsmart.github.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>EmojiPort 更新系统的 Emoji&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Pulandres Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.pulandres.me/" target="_blank" rel="noopener"
+>https://repo.pulandres.me/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>大量破解插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>pxcex Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://paxcex.github.io/" target="_blank" rel="noopener"
+>https://paxcex.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>各种 App 内购插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Rejail Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://rejail.ru/" target="_blank" rel="noopener"
+>https://rejail.ru/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>大量破解插件，更新及时&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Revulate&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://revulate.dev/" target="_blank" rel="noopener"
+>https://revulate.dev/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>CrashReporter (记录插件问题，便于排查)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="rpetrich-repo">rpetrich repo&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://rpetri.ch/repo/" target="_blank" rel="noopener"
+>http://rpetri.ch/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Activator 手势插件、PreferenceLoader、RocketBootstrap、Flipswitch 重要依赖插件，必备源地址。&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Ryley&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ryleyangus.com/repo/" target="_blank" rel="noopener"
+>https://ryleyangus.com/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Liberty 屏蔽越狱检测&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Samg_is_a_Ninja&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://samgisaninja.github.io/" target="_blank" rel="noopener"
+>https://samgisaninja.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Succession 平刷工具开发者源&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Secura Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.securarepo.io/" target="_blank" rel="noopener"
+>https://apt.securarepo.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Edge 屏幕圆角加渐变彩条&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Sileo (checkra1n)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.getsileo.app/" target="_blank" rel="noopener"
+>https://repo.getsileo.app/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>使用 checkra1n 越狱设备安装 Sileo 插件管理器&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Skitty&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://skitty.xyz/repo/" target="_blank" rel="noopener"
+>https://skitty.xyz/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Dune 黑暗模式、Six (LS) 模仿 iOS 6 锁屏、LightsOut、DarkShot&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>SparkDev&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://sparkdev.me/" target="_blank" rel="noopener"
+>https://sparkdev.me/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>SnowBoard 主题管理插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>subdiox&amp;rsquo;s Source&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://subdiox.com/cydia/" target="_blank" rel="noopener"
+>http://subdiox.com/cydia/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>StoreSwitcher 2 应用商店多账号切换&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Supercharge Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.supercharge.app/" target="_blank" rel="noopener"
+>https://repo.supercharge.app/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>类似 Flex，给 App、Tweaks 创建补丁的工具，官网：https://www.supercharge.app/&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>tateu&amp;rsquo;s repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://tateu.net/repo/" target="_blank" rel="noopener"
+>http://tateu.net/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>DebKeeper12 保存下载的插件、OpenNotifier12&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>The Reedpo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://cydia.r333d.com/" target="_blank" rel="noopener"
+>http://cydia.r333d.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Cylinder 主屏幕翻页动画&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>TheComputerWhisperer&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://legitcomputerwhisperer.github.io/" target="_blank" rel="noopener"
+>https://legitcomputerwhisperer.github.io/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>EZTweakList (Cydia 平台导出源地址以及插件列表)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="tigi-software">TIGI Software&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://tigisoftware.com/cydia/" target="_blank" rel="noopener"
+>http://tigisoftware.com/cydia/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Filza File Manager 64-bit 文件管理器&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>TWickd&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.twickd.com/" target="_blank" rel="noopener"
+>https://repo.twickd.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Tacitus（蓝牙设备连接）、3DBadgeClear，部分插件收费&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>UnlimApps&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://beta.unlimapps.com/" target="_blank" rel="noopener"
+>http://beta.unlimapps.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>App Admin 应用程序降级&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>X4 Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.x4-applegate.com/" target="_blank" rel="noopener"
+>https://repo.x4-applegate.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Sileo Remover 移除 Sileo&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>XsF1re&amp;rsquo;s Repo&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://xsf1re.github.io/repo/" target="_blank" rel="noopener"
+>https://xsf1re.github.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>FlyJB 屏蔽越狱插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="zebra">Zebra&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://getzbra.com/repo/" target="_blank" rel="noopener"
+>https://getzbra.com/repo/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://getzbra.com/beta/" target="_blank" rel="noopener"
+>https://getzbra.com/beta/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Zebra Package Manager 斑马插件管理器，斑马官网：https://getzbra.com/&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="国内开发者源地址">国内开发者源地址&lt;/h2>
+&lt;h3 id="电话助手">&lt;strong>电话助手&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.htv123.com/" target="_blank" rel="noopener"
+>https://apt.htv123.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>电话助手官方源&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="老牌猫源">&lt;strong>老牌猫源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.25mao.com/" target="_blank" rel="noopener"
+>https://apt.25mao.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>微信助手、微信助手密友、微信斗图助手、SuDial - T9 拨号&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="威锋精品源">&lt;strong>威锋精品源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.feng.com/" target="_blank" rel="noopener"
+>https://repo.feng.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>大量原创汉化补丁&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="abxyaps-repo">&lt;strong>abxyap&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://abxyap.github.io/repo/" target="_blank" rel="noopener"
+>https://abxyap.github.io/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>HomeX 旧机型使用 iPhone X 手势&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ibreak">&lt;strong>iBreak&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://ibreak.yourepo.com/" target="_blank" rel="noopener"
+>https://ibreak.yourepo.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>WeChat Callkit、QQ Callkit、Cydia 增强插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kanams-repo">&lt;strong>Kanam&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://kanam.me/repo/" target="_blank" rel="noopener"
+>https://kanam.me/repo/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>NoMoreClassicApps(让没有适配 iPad 的 App 自动适配)、WeChat CallKit&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="kingmehu">&lt;strong>kingmehu&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://kingmehu.yourepo.com/" target="_blank" rel="noopener"
+>https://kingmehu.yourepo.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>PerfectTimeXS 官方源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="niceios">&lt;strong>NiceiOS&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.niceios.com/" target="_blank" rel="noopener"
+>https://apt.niceios.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>NiceBarX、NiceCaller 官方源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="alice-源">&lt;strong>Alice 源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.coolstar.xyz/" target="_blank" rel="noopener"
+>https://apt.coolstar.xyz/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>多功能小助手官方源地址&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="soda">&lt;strong>Soda&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://soda-ldz.yourepo.com" target="_blank" rel="noopener"
+>https://soda-ldz.yourepo.com&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>苏兔微信主题&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="a-壹筒天下">&lt;strong>A 壹筒天下&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://yttxcs.com/" target="_blank" rel="noopener"
+>https://yttxcs.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，部分原创及汉化，主题、字体、系统增强等&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="abc-野心源">&lt;strong>ABC 野心源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.ambier.cn/" target="_blank" rel="noopener"
+>https://apt.ambier.cn/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>大量字体，以及插件收集整理&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="aaa-知网少年">&lt;strong>AAA 知网少年&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.iphoneba.cn/" target="_blank" rel="noopener"
+>https://apt.iphoneba.cn/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，美化、字体、系统增强等&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-小苹果">&lt;strong>Ai-小苹果&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.cydiabc.top/" target="_blank" rel="noopener"
+>https://repo.cydiabc.top/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，有会员机制&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-小麻瓜">&lt;strong>Ai-小麻瓜&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.margua.cn/" target="_blank" rel="noopener"
+>https://apt.margua.cn/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="acresons-repo">&lt;strong>Acreson&amp;rsquo;s Repo&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.sileo.xyz/" target="_blank" rel="noopener"
+>https://repo.sileo.xyz/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，部分原创及汉化&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="a-lenglengyu">&lt;strong>A-lenglengyu&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.lenglengyu.top/" target="_blank" rel="noopener"
+>https://repo.lenglengyu.top/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>主打 App 内购破解、去广告&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="bi-源">&lt;strong>Bi 源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://apt.cydia.bi/" target="_blank" rel="noopener"
+>http://apt.cydia.bi/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="cydiakk-中文源">&lt;strong>Cydiakk 中文源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://apt.cydiakk.com/" target="_blank" rel="noopener"
+>https://apt.cydiakk.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="netskao">&lt;strong>Netskao&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://repo.netskao.cn/" target="_blank" rel="noopener"
+>https://repo.netskao.cn/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，部分原创插件&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="93-嗨客源">&lt;strong>93 嗨客源&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="http://repo.qqtlr.com/" target="_blank" rel="noopener"
+>http://repo.qqtlr.com/&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>插件收集整理，主打汉化补丁&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="其他说明">其他说明&lt;/h2>
+&lt;p>如果发现&lt;code>https&lt;/code>开头无法添加，请尝试&lt;code>http&lt;/code>开头添加。&lt;/p>
+&lt;p>再次增加很多源地址，但是依旧无法收集全&lt;/p></description></item><item><title>一键更新Odyssey/Taurine越狱内核</title><link>https://blog.linsnow.cn/p/onekey-jbupdate/</link><pubDate>Sat, 17 Apr 2021 10:01:34 +0800</pubDate><guid>https://blog.linsnow.cn/p/onekey-jbupdate/</guid><description>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/jbupdate.png" alt="Featured image of post 一键更新Odyssey/Taurine越狱内核" />&lt;h1 id="一键更新odysseytaurine越狱内核">一键更新Odyssey/Taurine越狱内核&lt;/h1>
+&lt;h2 id="jailebreak-update">Jailebreak Update&lt;/h2>
+&lt;p>Odyssey/Taurine 首席开发者 CoolStar 发布了一款插件，名字为 Jailebreak Update，在 Odyssey Repo 源内可以安装，介绍显示更新 Odyssey/Taurine 无需重启与再次越狱。&lt;/p>
+&lt;p>该方式仅升级越狱内核，即更新 CoolStar 发布的新版 Odyssey/Taurine 越狱工具的更新日志内容，无法更新越狱工具版本，如果关机重启再次越狱，依然还是旧版越狱工具的内核。&lt;/p>
+&lt;h2 id="安装-jailbreak-update">安装 Jailbreak Update&lt;/h2>
+&lt;p>安装 Odyssey Repo 源内 Jailbreak Update 插件。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1.webp"
+width="1080"
+height="2036"
+srcset="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_1024x0_resize_q75_h2_box_2.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="53"
+data-flex-basis="127px"
+> &lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2.webp"
+width="1080"
+height="2036"
+srcset="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_1024x0_resize_q75_h2_box_2.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="53"
+data-flex-basis="127px"
+>&lt;/p>
+&lt;h2 id="终端更新">终端更新&lt;/h2>
+&lt;p>安装终端插件，输入命令进行更新 Odyssey/Taurine 越狱内核。&lt;/p>
+&lt;h3 id="步骤一">步骤一&lt;/h3>
+&lt;p>安装 Chariz 源内终端插件 NewTerm 2。&lt;/p>
+&lt;h3 id="步骤二">步骤二&lt;/h3>
+&lt;p>打开终端插件 NewTerm 2 输入以下命令，等待更新完成后重启用户空间即可。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo jbupdate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">alpine（密码默认不显示）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>通过 libhooker Configurator 可以查看 Taurine 内核版本，但是打开 Taurine 提示有更新。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="heading">&lt;/h2></description></item><item><title>iOS13.0至13.6Succession平刷教程</title><link>https://blog.linsnow.cn/p/succession-shuaji/</link><pubDate>Sat, 21 Nov 2020 17:21:22 +0800</pubDate><guid>https://blog.linsnow.cn/p/succession-shuaji/</guid><description>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/succsion.png" alt="Featured image of post iOS13.0至13.6Succession平刷教程" />&lt;h1 id="ios130至136succession平刷教程">iOS13.0至13.6Succession平刷教程&lt;/h1>
+&lt;h2 id="succession刷机简介">Succession刷机简介：&lt;/h2>
+&lt;p>众所周知 iOS 一旦关闭系统验证，意味着不能正常刷机对当前系统平刷，而这款工具则可以解决这个难题，而越狱后设备，就可以利用 Succession 插件实现平刷了，这款插件它不依赖SHSH，也不依赖SEP，只需要你当前系统越狱，就能对当前系统平刷，但它不能降级和升级！！！&lt;/p>
+&lt;h3 id="关于-succession-平刷插件信息">关于 Succession 平刷插件信息：&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">插件&lt;/th>
+&lt;th style="text-align:center">Succession&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">开发者&lt;/td>
+&lt;td style="text-align:center">Samg_is_a_Ninja&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">用途&lt;/td>
+&lt;td style="text-align:center">平刷当前系统&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">系统支持&lt;/td>
+&lt;td style="text-align:center">iOS 10 至 13.7&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="教程开始">教程开始&lt;/h2>
+&lt;p>本教程为导入固件法,会全部清除掉里面的所有内容，succession平刷的和Un快照+抹除还原差不多一样，但是有些情况下确实还是使用succession较全面。本次平刷在未删除本机任何一个插件直接进行，，建议平刷前***&lt;code>退出ID&lt;/code>***&lt;/p>
+&lt;hr>
+&lt;h2 id="准备工作">准备工作：&lt;/h2>
+&lt;p>当然，手机应该是已经越狱的才行，先在越狱商店下载插件succession&lt;/p>
+&lt;p>作者源下载：&lt;/p>
+&lt;p>https//:samgisaninja.github.io/beta&lt;/p>
+&lt;p>自带源下载：&lt;/p>
+&lt;p>检查一下BigBOSS源是否空白，如果空白请「科学上网」刷新，检查有插件&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/installsuccession.jpg"
+width="747"
+height="413"
+srcset="https://blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="434px"
+>&lt;/p>
+&lt;p>再去搜索：Succession并下载&lt;/p>
+&lt;hr>
+&lt;h2 id="方法一">方法一&lt;/h2>
+&lt;h3 id="下载固件">下载固件&lt;/h3>
+&lt;p>&lt;strong>下载你手机系统版本的固件（注意别下载错了）。&lt;/strong>&lt;/p>
+&lt;p>下载系统固件：可以在线下载或从爱思助手下载然后导入，从爱思助手导入则需要事先安装afc2补丁下载好导入到手机/var/mobile/Media/Succession目录下（注意给固件改名为ipsw.ipsw）。如果没有Succession这个目录就在/var/mobile/Media 下新建一个文件夹（注意大小写）&lt;/p>
+&lt;h3 id="系统固件放入手机">系统固件放入手机：&lt;/h3>
+&lt;ul>
+&lt;li>爱思助手下载完固件，右上角下载&lt;/li>
+&lt;li>选择固件，右上角打开文件夹&lt;/li>
+&lt;li>然后爱思助手-我的设备-文件管理&lt;/li>
+&lt;li>找到Succession文件夹，把刚下载固件拉进去&lt;/li>
+&lt;li>然后把固件改名为：ipsw.ipsw&lt;/li>
+&lt;/ul>
+&lt;h2 id="开始平刷">开始平刷：&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>手机桌面打开Succession&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择「Download clean filesystem」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择「Use开头」，正在解压耐心等待几秒&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/startsuccession.png"
+width="1079"
+height="736"
+srcset="https://blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="146"
+data-flex-basis="351px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解压完成后，选择 Back 按钮&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>再选择「Prepare for restore」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>再点击「Erase iPhone」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>这样就开始准备了&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据导入完成，Succession会闪退&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>然后等待几秒钟，手机会自动进入刷机模式&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>注意平刷途中不能息屏和退出&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/successioning.png"
+width="1080"
+height="550"
+srcset="https://blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="196"
+data-flex-basis="471px"
+>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>等了很久，还是卡主了，你可以强制重启手机!&lt;/p>
+&lt;p>平刷完成后，会进入引导激活界面，你就跟着提示操作就行，很简单，这样就能恢复干净的系统了。&lt;/p>
+&lt;h2 id="方法二">方法二&lt;/h2>
+&lt;p>**
+1.打开succession**&lt;/p>
+&lt;p>&lt;strong>2.点击Download clean filesytem&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>3.点击Start Download（在线下载）&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>4.等进度条走完 点击back&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>5.然后点击红字Prepare for restore！&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>6.点击Erase iphone&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>注意 1.&lt;/strong> 国行机器可能会出现没办法下载，原因是succession没获得联网权限，需要在Cydia搜索下载“连个锤子”修复一下&lt;/p>
+&lt;p>​ &lt;strong>2.&lt;/strong> 安全起见打开飞行模式连接wifi，防止刷机过程中有电话。&lt;/p>
+&lt;p>​ &lt;strong>3.&lt;/strong> A12以下（包含A12）可以正常使用，succession平刷类似dfu刷机（黑解机不要用）&lt;/p>
+&lt;hr>
+&lt;p>iOS13.3平刷后通用软件更新显示无法检查更新&lt;strong>BUG&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>解决办法&lt;/strong>&lt;/p>
+&lt;p>1.平刷后再次安装un4.3.1打开Restore RootFS清除越狱状态。&lt;/p>
+&lt;p>2.平刷前手机关机重新启动 打开un4.3.1激活越狱前 记得关闭Disable Updates选项 再在激活越狱环境。步骤还是上面的1-6&lt;/p>
+&lt;hr>
+&lt;p>教程完结！！！&lt;/p></description></item></channel></rss>

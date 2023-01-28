@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pr on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/pr/</link><description>Recent content in pr on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 19 Aug 2021 14:22:50 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/pr/index.xml" rel="self" type="application/rss+xml"/><item><title>PR常用快捷键</title><link>https://blog.linsnow.cn/p/pr-key/</link><pubDate>Thu, 19 Aug 2021 14:22:50 +0800</pubDate><guid>https://blog.linsnow.cn/p/pr-key/</guid><description>&lt;img src="https://blog.linsnow.cn/p/pr-key/pr.png" alt="Featured image of post PR常用快捷键" />&lt;h1 id="pr常用快捷键">PR常用快捷键&lt;/h1>
+&lt;h2 id="基本快捷键操作">&lt;strong>基本快捷键操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Ctrl+Alt+N&lt;/th>
+&lt;th>新建项目&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ctrl+O&lt;/td>
+&lt;td>打开项目&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+shift+w&lt;/td>
+&lt;td>关闭项目&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + W&lt;/td>
+&lt;td>关闭&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + S&lt;/td>
+&lt;td>保存&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + shift+ S&lt;/td>
+&lt;td>另存为&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + I&lt;/td>
+&lt;td>导入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + N&lt;/td>
+&lt;td>新建序列&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Z&lt;/td>
+&lt;td>还原&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + X&lt;/td>
+&lt;td>剪切&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + C&lt;/td>
+&lt;td>复制&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + V&lt;/td>
+&lt;td>粘贴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + A&lt;/td>
+&lt;td>全选&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + A&lt;/td>
+&lt;td>取消全选&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + F&lt;/td>
+&lt;td>查找&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + K&lt;/td>
+&lt;td>剪切&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + K&lt;/td>
+&lt;td>所有&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="剪辑操作">&lt;strong>剪辑操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Delete&lt;/th>
+&lt;th>删除素材&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Shift+Delete&lt;/td>
+&lt;td>单段素材删除，后面素材自动跟上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>剃刀工具&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+C&lt;/td>
+&lt;td>所有轨道剪断&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl+K&lt;/td>
+&lt;td>快速剪断素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ctrl+shif+K&lt;/td>
+&lt;td>所有轨道快速剪切素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>W&lt;/td>
+&lt;td>删除本段素材时间线后面素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Q&lt;/td>
+&lt;td>删除本段素材时间线前面素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+Q&lt;/td>
+&lt;td>改变时间线前面剪辑点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift+W&lt;/td>
+&lt;td>改变时间线后面剪辑点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>A&lt;/td>
+&lt;td>向前选择轨道工具&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>shift&lt;/td>
+&lt;td>向前选择单独选中单个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="标记">&lt;strong>标记&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>I&lt;/th>
+&lt;th>标记入点&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>O&lt;/td>
+&lt;td>标记出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>X&lt;/td>
+&lt;td>标记素材入出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + /&lt;/td>
+&lt;td>标记素材&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + \&lt;/td>
+&lt;td>在项目窗口查看形式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + *&lt;/td>
+&lt;td>返回媒体浏览&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>/&lt;/td>
+&lt;td>标记选择&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + I&lt;/td>
+&lt;td>跳转入点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + O&lt;/td>
+&lt;td>跳转出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + I&lt;/td>
+&lt;td>清除入点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + Q&lt;/td>
+&lt;td>清除出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + X&lt;/td>
+&lt;td>清除入出点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>M&lt;/td>
+&lt;td>添加标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + M&lt;/td>
+&lt;td>转到下一个标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + M&lt;/td>
+&lt;td>转到上一个标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + M&lt;/td>
+&lt;td>清除当前标记&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + Shift + M&lt;/td>
+&lt;td>清除所有标记&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="字幕">&lt;strong>字幕&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Ctrl + T&lt;/th>
+&lt;th>新建字幕&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ctrl + Shift +L&lt;/td>
+&lt;td>左对齐&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + C&lt;/td>
+&lt;td>居中&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + R&lt;/td>
+&lt;td>右对齐&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + T&lt;/td>
+&lt;td>制表符设置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + J&lt;/td>
+&lt;td>模板&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + ]&lt;/td>
+&lt;td>上一层的下一个对象&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + [&lt;/td>
+&lt;td>下一层的下一个对象&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + ]&lt;/td>
+&lt;td>放到最上层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + ]&lt;/td>
+&lt;td>上移一层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + [&lt;/td>
+&lt;td>放到最下层&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + [&lt;/td>
+&lt;td>下移一层&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="素材操作">&lt;strong>素材操作&lt;/strong>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Shift+E&lt;/th>
+&lt;th>隐藏素材&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>AIt+Ctrl+拖动&lt;/td>
+&lt;td>前后两段素材互换位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Home&lt;/td>
+&lt;td>回到第一帧的位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>End&lt;/td>
+&lt;td>回到最后一帧的位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ctrl+D&lt;/td>
+&lt;td>默认交叉转场效果&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + D&lt;/td>
+&lt;td>默认音频转场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shift + D&lt;/td>
+&lt;td>默认音视频转场&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Alt + V&lt;/td>
+&lt;td>粘贴属性&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alt+拖动&lt;/td>
+&lt;td>直接拖拽复制&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ctrl + Shift + V&lt;/td>
+&lt;td>粘贴插入&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>

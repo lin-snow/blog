@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>图片压缩 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/</link><description>Recent content in 图片压缩 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Aug 2021 09:10:34 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>好用的图片压缩工具</title><link>https://blog.linsnow.cn/p/pic-yasuo/</link><pubDate>Thu, 26 Aug 2021 09:10:34 +0800</pubDate><guid>https://blog.linsnow.cn/p/pic-yasuo/</guid><description>&lt;img src="https://blog.linsnow.cn/p/pic-yasuo/yasuo.png" alt="Featured image of post 好用的图片压缩工具" />&lt;h1 id="好用的图片压缩工具">好用的图片压缩工具&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>对于一个网站来说，图片体积越小，加载速度就越快，因此，人手一个图片压缩工具是很有必要的。&lt;/p>
+&lt;h3 id="tinypng">&lt;strong>Tinypng&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>地址：https://tinypng.com/&lt;/p>
+&lt;/blockquote>
+&lt;p>这款工具我实在是太喜欢了，是我最经常用的，十分方便，秩序将图片拖进去就行，速度很快，能够最大限度的做到对画质无损的进行压缩&lt;/p>
+&lt;h3 id="squoosh">&lt;strong>Squoosh&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>在线地址：https://squoosh.app/&lt;/p>
+&lt;p>开源项目地址：https://github.com/GoogleChromeLabs/squoosh&lt;/p>
+&lt;/blockquote>
+&lt;p>一款由 Google 开源的图片压缩器 - &lt;strong>Squoosh&lt;/strong>。&lt;/p>
+&lt;p>Squoosh 使用起来也非常简单，在浏览器中打开页面后，可点击选择或直接往里面拖图片，在左下方可选择想要生成的图片格式，右下方选择图片质量，再下载即可。&lt;/p>
+&lt;p>而且Squoosh 用实时对比来展示压缩效果，你可以左右拖动滑块来比较，效果肉眼可见&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>有了这两款图片压缩工具,博客访问速度快了，人也精神了，妈妈再也不用担心我压缩不了图片了&amp;hellip;&amp;hellip;&amp;hellip;&lt;/p></description></item></channel></rss>

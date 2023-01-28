@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>内网穿透 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link><description>Recent content in 内网穿透 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 May 2021 21:51:06 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>带你玩转内网穿透</title><link>https://blog.linsnow.cn/p/dingding-net/</link><pubDate>Sat, 22 May 2021 21:51:06 +0800</pubDate><guid>https://blog.linsnow.cn/p/dingding-net/</guid><description>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingding.png" alt="Featured image of post 带你玩转内网穿透" />&lt;h1 id="带你玩转内网穿透">带你玩转内网穿透&lt;/h1>
+&lt;h2 id="前言">前言：&lt;/h2>
+&lt;p>内网穿透,又叫NAT穿透，是计算机用语，翻译过来就是 你的电脑可以直接被你朋友访问。 通常我们的电脑是无法自己被访问的。因为我们的电脑缺少自己的独立的ip地址。现在ip稀缺，电信运营商已经不会随便分配固定ip给个人。&lt;/p>
+&lt;p>通常实现内网穿透，是通过路由器上端口映射来实现的。但是路由器通常不是每个人都有权限可以访问和设置,而且可能存在多级路由器较为复杂的网络结构。端口映射也无法实现。&lt;/p>
+&lt;h2 id="钉钉穿透">钉钉穿透&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">&lt;a class="link" href="https://ding-doc.dingtalk.com/doc#/kn6zg7/hb7000" target="_blank" rel="noopener"
+>官方文档地址&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;a class="link" href="https://github.com/open-dingtalk/pierced.git" target="_blank" rel="noopener"
+>Github下载地址&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="在windows使用">在Windows使用：&lt;/h3>
+&lt;p>下载完文件后进行解压，找到名为&lt;code>windows_64&lt;/code>的文件夹, 找到以下文件,本教程将其放在桌面:&lt;code>C:\Users\l1nsn0w\Desktop\windows_64&lt;/code>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingnetapp.jpg"
+width="822"
+height="147"
+srcset="https://blog.linsnow.cn/p/dingding-net/dingnetapp_hua80e97af803f7c626b0f1101d8d6d197_17207_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/dingnetapp_hua80e97af803f7c626b0f1101d8d6d197_17207_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="559"
+data-flex-basis="1342px"
+>&lt;/p>
+&lt;p>接着打开&lt;code>cmd&lt;/code>&lt;/p>
+&lt;p>CMD命令，进入到当前目录，输入如下参数&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingcmd.jpg"
+width="1223"
+height="639"
+srcset="https://blog.linsnow.cn/p/dingding-net/dingcmd_hu541cf5f45b1d018f185a9e7a7289edae_37499_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/dingcmd_hu541cf5f45b1d018f185a9e7a7289edae_37499_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="459px"
+>&lt;/p>
+&lt;h4 id="详细的指令">详细的指令&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> C:&lt;span class="se">\U&lt;/span>sers&lt;span class="se">\l&lt;/span>1nsn0w&lt;span class="se">\D&lt;/span>esktop&lt;span class="se">\w&lt;/span>indows_64
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ding.exe -config&lt;span class="o">=&lt;/span>./ding.cfg -subdomain&lt;span class="o">=&lt;/span>l1nsn0w &lt;span class="m">8080&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输入每行指令并回车&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingcommand.jpg"
+width="1201"
+height="280"
+srcset="https://blog.linsnow.cn/p/dingding-net/dingcommand_hucb66f68334aa794f867a807792ba9f85_34928_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/dingcommand_hucb66f68334aa794f867a807792ba9f85_34928_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="428"
+data-flex-basis="1029px"
+>&lt;/p>
+&lt;p>看到以上图片则表示已经穿透成功&lt;/p>
+&lt;p>执行后的结果&lt;/p>
+&lt;p>上图表示域名&lt;code>http://l1nsn0w.vaiwan.com&lt;/code>映射到你本地的`&lt;a class="link" href="http://127.0.0.1:8080/" target="_blank" rel="noopener"
+>http://127.0.0.1:8080&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h4 id="开启本地端口">开启本地端口&lt;/h4>
+&lt;p>这里以我的博客项目为例。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingduankou.jpg"
+width="937"
+height="392"
+srcset="https://blog.linsnow.cn/p/dingding-net/dingduankou_hu22f2158cbe5ba0e9f1b21a0f17823ffe_27902_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/dingduankou_hu22f2158cbe5ba0e9f1b21a0f17823ffe_27902_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="239"
+data-flex-basis="573px"
+>&lt;/p>
+&lt;p>启动成功后，打开浏览器&lt;/p>
+&lt;p>下图为本地端口预览&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/dingding-net/duankoucheck.jpg"
+width="723"
+height="530"
+srcset="https://blog.linsnow.cn/p/dingding-net/duankoucheck_hud23c276f53f3ef72b84d55684faf1c2a_17404_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/duankoucheck_hud23c276f53f3ef72b84d55684faf1c2a_17404_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="327px"
+>&lt;/p>
+&lt;p>下图为穿透后的域名&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/dingding-net/dingyuming.jpg"
+width="720"
+height="547"
+srcset="https://blog.linsnow.cn/p/dingding-net/dingyuming_huc9691d33d7d7b9643f7a4c1219a89c87_20576_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/dingding-net/dingyuming_huc9691d33d7d7b9643f7a4c1219a89c87_20576_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="315px"
+>&lt;/p>
+&lt;p>成功访问域名。&lt;/p></description></item></channel></rss>

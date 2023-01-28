@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shsh2 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/shsh2/</link><description>Recent content in shsh2 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 17 Aug 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/shsh2/index.xml" rel="self" type="application/rss+xml"/><item><title>IOS备份shsh2指南</title><link>https://blog.linsnow.cn/p/ios-save-shsh2/</link><pubDate>Tue, 17 Aug 2021 11:00:39 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-save-shsh2/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-save-shsh2/shsh.png" alt="Featured image of post IOS备份shsh2指南" />&lt;h1 id="ios备份shsh2指南">IOS备份shsh2指南&lt;/h1>
+&lt;h2 id="什么是shsh2">什么是shsh2&lt;/h2>
+&lt;p>SHSH Blob 是非官方为便于今后 iDevice 设备降级而准备的备用数字签名字符串；&lt;/p>
+&lt;p>如何通过 Tsssaver 及 Telegram 来查找 Blob 并下载备份保存&lt;/p>
+&lt;p>SHSH 是基于缩写: signed hash 和 binary large object。为签名序列和二进制对象。也称为 ECID SHSH。每个 Blob 都与一个特定的设备绑定在一起，数据使用设备的 ECID 进行编码。&lt;/p>
+&lt;p>SHSH Blob 是一个非官方术语，指的是苹果生成并用于个性化每个 iOS 设备的 IPSW 固件文件的数字签名。它们是 Apple 协议的一部分，旨在确保在设备上安装受信任的软件，通常仅允许安装最新的 iOS 版本。苹果对此过程的公开名称是系统软件授权。&lt;/p>
+&lt;p>SHSH 是 iOS 10 之前的名称，之后称为 SHSH2。&lt;/p>
+&lt;h2 id="shsh的作用">shsh的作用&lt;/h2>
+&lt;p>iOS升级与降级的必需品，但是也会受到sep的限制&lt;/p>
+&lt;h2 id="备份shsh">备份shsh&lt;/h2>
+&lt;h3 id="爱思助手备份">爱思助手备份&lt;/h3>
+&lt;ol>
+&lt;li>手机连接电脑&lt;/li>
+&lt;li>电脑打开爱思助手-刷机越狱-专业刷机&lt;/li>
+&lt;li>点击【查询适配版本】即可备份&lt;/li>
+&lt;li>点击【下载SHSH】即可查询是否备份成功&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="tss-saver备份">&lt;strong>TSS Saver备份&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>对于未越狱的设备，您将需要使用“计算机”方法。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="使用-tss-saver-app-保存-blob">&lt;strong>使用 TSS Saver App 保存 Blob&lt;/strong>&lt;/h4>
+&lt;ol>
+&lt;li>在您首选的&lt;a class="link" href="https://ios.cfw.guide/package-managers" target="_blank" rel="noopener"
+>包管理器&lt;/a>&lt;a class="link" href="https://repo.1conan.com/" target="_blank" rel="noopener"
+>中将 repo.1conan.com&lt;/a>添加到您的源中&lt;/li>
+&lt;li>下载并安装 TSS Saver&lt;/li>
+&lt;li>如果您在 iOS 14 上使用 unc0ver，请下载并安装 libkrw&lt;/li>
+&lt;li>如果您在 iOS 14 上使用 Taurine。请下载并安装 libkernrw&lt;/li>
+&lt;li>点击“保存 Blob”&lt;/li>
+&lt;li>收到确认信息后，点击“打开”&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>出现新的 blob 可能需要一些时间，尤其是在服务器负载不足的情况下。一般都需要科学上网。&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h4 id="使用-tss-saver-网站保存-blob">使用 TSS Saver 网站保存 Blob&lt;/h4>
+&lt;blockquote>
+&lt;p>A12+ 用户将需要他们的 ApNonce 和 Generator 对来使用此方法。&lt;/p>
+&lt;/blockquote>
+&lt;p>获取 Generator 和 ApNonce（仅限越狱 A12+）&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>如果您在 iOS 14 上使用 unc0ver，请安装 libkrw&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果您在 iOS 14 上使用 Taurine，请安装 libkernrw&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开终端应用程序并运行&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span class="line">&lt;span class="cl">sudo dimentio &amp;gt; dimentio.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>或者，您可以从 TSS Saver App 的 Generator 选项卡中获取您的 Generator 和 ApNonce&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>转到 Filza 中的 /var/mobile 并打开 dimentio.txt&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>复制&lt;code>Current nonce is&lt;/code>文本文件底部后面的 0x 数字以及&lt;code>entangled nonce:&lt;/code>. 0x 数是你的 Generator，纠缠的 nonce 数是你的 ApNonce。把这些东西放在安全的地方，以后你会用到&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>开始保存 Blob&lt;/p>
+&lt;ol>
+&lt;li>将您的 iOS 设备连接到 Mac 或 PC&lt;/li>
+&lt;li>打开 iTunes 或 Finder
+&lt;ul>
+&lt;li>Windows 用户必须下载&lt;a class="link" href="https://www.apple.com/itunes/" target="_blank" rel="noopener"
+>普通版本而&lt;/a>不是 Windows 应用商店版本&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>导航到设备摘要页面&lt;/li>
+&lt;li>单击序列号字段两次
+&lt;ul>
+&lt;li>这应该会更改以显示您的 ECID 号码&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>记下此 ECID 号码，以便稍后阅读&lt;/li>
+&lt;li>打开&lt;a class="link" href="https://tsssaver.1conan.com/v2/" target="_blank" rel="noopener"
+>TSS Saver 网站&lt;/a>&lt;/li>
+&lt;li>输入您的设备 ECID&lt;/li>
+&lt;li>选择您的设备
+&lt;ul>
+&lt;li>iPhone 6S、6S Plus 和 iPhone SE 用户需要通过&lt;a class="link" href="https://itunes.apple.com/us/app/ax-cpu/id1048174418?mt=8" target="_blank" rel="noopener"
+>下载此应用程序&lt;/a>来获取他们的主板配置&lt;/li>
+&lt;li>A12+ 用户需要输入 ApNonce 和 Generator 对&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>点击提交&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h4 id="使用-blobsaver-保存-blob">使用 blobsaver 保存 Blob&lt;/h4>
+&lt;p>&lt;strong>blobsaver&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>下载、安装和启动最新版本的&lt;a class="link" href="https://github.com/airsquared/blobsaver/releases" target="_blank" rel="noopener"
+>blobsaver&lt;/a>&lt;/li>
+&lt;li>将您的 iOS 设备连接到您的计算机并确保它已解锁&lt;/li>
+&lt;li>单击第一个“从设备读取”按钮，该按钮将填写您的 ECID 和设备信息&lt;/li>
+&lt;li>如果您的 iOS 设备不是 A12 或更高版本，则不需要获取 APNonce，您可以跳过下一步&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>获取特定于设备的 APNonce 和生成器&lt;/strong>&lt;/p>
+&lt;p>确保您的设备在整个过程中已连接并解锁。&lt;/p>
+&lt;ol>
+&lt;li>单击 APNonce 字段旁边的第二个“从设备读取”按钮&lt;/li>
+&lt;li>如果您已越狱或已在您的设备上设置了生成器/apnonce 对，您想保留，请选择“越狱”。否则，选择“越狱”&lt;/li>
+&lt;/ol>
+&lt;p>您的设备将多次重启进入恢复模式。当您重新启动到正常操作系统模式时，解锁您的 iOS 设备。&lt;/p>
+&lt;p>如果您陷入恢复模式，请尝试使用 blobsaver 中“帮助”菜单中的“退出恢复模式”选项。&lt;/p>
+&lt;p>无论您是否越狱，都可以随时重复使用这些值来保存 blob。&lt;/p>
+&lt;p>&lt;strong>保存 Blob&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>填写完所有信息后，单击“Go”以保存 blob&lt;/li>
+&lt;li>也可以单击“保存设备”来保存您当前设备的信息，以便以后再次为其保存 blob&lt;/li>
+&lt;/ol></description></item></channel></rss>

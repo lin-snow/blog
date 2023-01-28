@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bilibili on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/bilibili/</link><description>Recent content in bilibili on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Oct 2021 07:30:35 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/bilibili/index.xml" rel="self" type="application/rss+xml"/><item><title>适合win11的开源哔哩哔哩客户端</title><link>https://blog.linsnow.cn/p/win11-bili/</link><pubDate>Sat, 02 Oct 2021 07:30:35 +0800</pubDate><guid>https://blog.linsnow.cn/p/win11-bili/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili.png" alt="Featured image of post 适合win11的开源哔哩哔哩客户端" />&lt;h1 id="适合win11的开源哔哩哔哩客户端">适合win11的开源哔哩哔哩客户端&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>b站，现在几乎成了许多人每天闭上的网站之一。在电脑端，b站使用网页提供服务，当时在微软商店貌似也有uwp版的客户端，但使用体验并不好，功能少的可怜，设计界面也不是很好看，这么久了官方也不更新一下。。。。&lt;/p>
+&lt;p>不过还有，前阵子刚好逛b站的时候发现了一款名为——哔哩 的开源软件，接下来隆重介绍这款nb的软件。&lt;/p>
+&lt;h2 id="什么是哔哩">什么是哔哩&lt;/h2>
+&lt;blockquote>
+&lt;p>软件简介：&lt;code>哔哩&lt;/code>是一款设计精美的第三方UWP应用.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="引用该项目的声明">引用该项目的声明&lt;/h3>
+&lt;blockquote>
+&lt;p>我做这个应用一方面是出于对B站的喜爱，另一方面是对自己的一个挑战。我想尝试将一款移动应用解构并移植到桌面上，这能让我对移动交互与桌面交互有更深的理解。&lt;/p>
+&lt;p>但该项目由于一些不可抗力，已经停止开发。不再主动尝试修复bug（除非我自己遇到），也不再开发新的功能，目前已经在 &lt;strong>Microsoft Store&lt;/strong> 中下架。&lt;/p>
+&lt;p>本应用出于学习的目的进行开发，不进行任何商业相关的行为。同时尽管应用能显示4K清晰度选项，但如果你不是大会员，则片源也不会是 4K。&lt;/p>
+&lt;p>尽管是原生 UWP ，但应用在 ARM 设备，比如&lt;code> Surface Pro X&lt;/code> 上可能无法运行，我也不知道具体原因，可能要等有相关设备了才能测试。&lt;/p>
+&lt;p>应用不提供观看直播及视频下载的功能，原因固然是多方面的，但主要原因还是我没这需求。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="软件截图">软件截图&lt;/h2>
+&lt;h3 id="软件主界面">软件主界面&lt;/h3>
+&lt;blockquote>
+&lt;p>未缩放侧边栏&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili1.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>缩放侧边栏&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili2.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="播放界面">播放界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili5.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="番剧界面">番剧界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili3.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="设置界面">设置界面&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili4.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;h3 id="平板模式">平板模式&lt;/h3>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili6.png"
+width="1920"
+height="1020"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="188"
+data-flex-basis="451px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="如何使用及安装">如何使用及安装&lt;/h2>
+&lt;p>GitHub下载地址：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://github.com/Richasy/BiliBili-UWP/releases/" target="_blank" rel="noopener"
+>https://github.com/Richasy/BiliBili-UWP/releases/&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>下载软件的安装包&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解压到随便一个文件夹中&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>用&lt;code>powershell&lt;/code>打开&lt;code>Add-AppDevPackage.ps1&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili7.png"
+width="850"
+height="658"
+srcset="https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="129"
+data-flex-basis="310px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据提示运行完&lt;code>Add-AppDevPackage.ps1&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行文件夹里的&lt;code>Install.ps1&lt;/code>文件，同样使用powershell.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>等待安装完成后在开始菜单里打开app&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="结尾">结尾&lt;/h2>
+&lt;p>感觉开发者无私的奉献，喜欢的可以去GitHub点个star，为开发者助力。&lt;/p></description></item></channel></rss>

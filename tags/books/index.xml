@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>books on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/books/</link><description>Recent content in books on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 02 Jan 2022 16:31:57 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/books/index.xml" rel="self" type="application/rss+xml"/><item><title>如何用apple自带图书app搭建个人专属阅读库</title><link>https://blog.linsnow.cn/p/setup-apple-books/</link><pubDate>Sun, 02 Jan 2022 16:31:57 +0800</pubDate><guid>https://blog.linsnow.cn/p/setup-apple-books/</guid><description>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/applebooks.webp" alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库" />&lt;h2 id="一些废话">🍉一些废话&lt;/h2>
+&lt;p>这是一篇关于一个屑博主想读书后水的一篇文章，并试图拉你一起下水（bushi) 😅.&lt;/p>
+&lt;p>我会写的尽量详细，但这只是一个我认为可行的一个方案，或许你也可以直接摸索适合你自己的阅读方案。&lt;/p>
+&lt;p>在b站上面看到了一个up主分享的英文原著阅读，瞬间感觉又行了🤣，恰好iOS系统自带了 &lt;code>Apple Books&lt;/code>，于是乎新一轮的折腾便开始，害~🤔&lt;/p>
+&lt;h2 id="开始之前">🎉开始之前&lt;/h2>
+&lt;p>在开始之前，你应该先有所准备，Follow：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>硬件&lt;/th>
+&lt;th>软件&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>装有较新OS的iPhone（或者iPad、Mac)&lt;/td>
+&lt;td>Apple Books&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;hellip;&amp;hellip;&lt;/td>
+&lt;td>浏览器&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="理论知识">🧀理论知识&lt;/h3>
+&lt;blockquote>
+&lt;p>&lt;code>Apple Books&lt;/code>貌似只支持导入 &lt;code>epub&lt;/code>格式的电子书.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="软件获取">🍥软件获取&lt;/h3>
+&lt;blockquote>
+&lt;p>如果已经安装完apple books了的话就可以跳过了不看了&lt;/p>
+&lt;p>一般一个完整OS都自带apple books，但不排除有人把它删了&lt;/p>
+&lt;/blockquote>
+&lt;p>从官网获取最新版 &lt;code>apple books&lt;/code>,几乎每个区域的 &lt;code>app store&lt;/code>都提供了软件下载，可以直接搜索下载&lt;/p>
+&lt;p>&lt;strong>官网地址&lt;/strong>：&lt;a class="link" href="https://apps.apple.com/us/app/apple-books/id364709193" target="_blank" rel="noopener"
+>Apple Books on the App Store&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/applebookpage.png"
+width="1034"
+height="657"
+srcset="https://blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="157"
+data-flex-basis="377px"
+>&lt;/p>
+&lt;hr>
+&lt;h2 id="正文">📄正文&lt;/h2>
+&lt;h3 id="核心思想">🎃核心思想&lt;/h3>
+&lt;blockquote>
+&lt;p>通过获取各种想要的书籍的epub格式并使用apple books打开即可成功导入并使用。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="书籍来源">📢书籍来源&lt;/h3>
+&lt;blockquote>
+&lt;p>这里我只推荐几个常用的获取电子书的地方，不能保证稳定不掉，如果掉了，你也可以自行Google一些资源&lt;/p>
+&lt;/blockquote>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>电子书资源链接&lt;/th>
+&lt;th>简介&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.shuzhou.cc/" target="_blank" rel="noopener"
+>书舟搜索&lt;/a>&lt;/td>
+&lt;td>基本上能满足大部分书籍了&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://b-ok.xyz/" target="_blank" rel="noopener"
+>Z-Library&lt;/a>&lt;/td>
+&lt;td>号称世界最大的电子图书馆&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.jiumodiary.com/" target="_blank" rel="noopener"
+>鸠摩搜索 &lt;/a>&lt;/td>
+&lt;td>界面可爱又简洁，提供各种电子书格式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;hellip;&lt;/td>
+&lt;td>&amp;hellip;&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>注：Z-library主站貌似要魔法才能用,这里提供几个Z站“子站点”，资源全部互通，访问没有限制。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Z-library子站点&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="http://b-ok.com/" target="_blank" rel="noopener"
+>http://b-ok.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://hk1lib.org/" target="_blank" rel="noopener"
+>https://hk1lib.org&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://zh.1lib.pl/" target="_blank" rel="noopener"
+>https://zh.1lib.pl&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://1lib.tw/" target="_blank" rel="noopener"
+>https://1lib.tw&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>虽说是国外站点，但适配了中文界面（如果打开是英文，可拉到页面最底部，english那里选chinese），全站无广告，也无强制登录。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="进阶">进阶:&lt;/h4>
+&lt;p>通过Telegram一些电子书频道能够快速获得想要的epub电子书，当然使用telegram存在一些门槛&lt;/p>
+&lt;hr>
+&lt;h3 id="使用方法">📌使用方法&lt;/h3>
+&lt;p>&lt;strong>通过获取epub格式的电子书，使用你的设备并将需要的书籍导入到 &lt;code>apple books&lt;/code>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/books2.jpg"
+width="749"
+height="618"
+srcset="https://blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="290px"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="同步书籍">🎄同步书籍&lt;/h3>
+&lt;p>&lt;strong>同步你的书籍很方便，只需要在你的iCloud里开启books同步按钮即可&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/booksbackup.jpg"
+width="750"
+height="530"
+srcset="https://blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="141"
+data-flex-basis="339px"
+>&lt;/p>
+&lt;h3 id="软件的一些界面">🃏软件的一些界面&lt;/h3>
+&lt;p>这里展示一张软件使用的界面，大概看看就行&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/books.jpg"
+width="1446"
+height="1280"
+srcset="https://blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="271px"
+>&lt;/p>
+&lt;h3 id="管理你的图书">🔮管理你的图书&lt;/h3>
+&lt;p>简单粗暴，你可以直接在 &lt;code>apple books&lt;/code>里管理你的书籍&lt;/p>
+&lt;h3 id="阅读分享非必要">✏阅读分享（非必要&lt;/h3>
+&lt;p>这个其实有很多有很多种方法，比如b站有up用notion来搭建，当然也可以使用你的blog来分享，这个可以自行发挥。&lt;/p>
+&lt;h2 id="more">📕more&lt;/h2>
+&lt;p>In Writing&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.&lt;/p></description></item></channel></rss>

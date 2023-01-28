@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>typora;vue on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/typoravue/</link><description>Recent content in typora;vue on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 19 Aug 2021 14:58:23 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/typoravue/index.xml" rel="self" type="application/rss+xml"/><item><title>为typora安装vue风格主题</title><link>https://blog.linsnow.cn/p/vue-typora/</link><pubDate>Thu, 19 Aug 2021 14:58:23 +0800</pubDate><guid>https://blog.linsnow.cn/p/vue-typora/</guid><description>&lt;img src="https://blog.linsnow.cn/p/vue-typora/typoravue.png" alt="Featured image of post 为typora安装vue风格主题" />&lt;h1 id="为typora安装vue风格主题">为typora安装vue风格主题&lt;/h1>
+&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.typora.io/" target="_blank" rel="noopener"
+>Typora&lt;/a>是一款支持实时预览的 Markdown 编辑器和阅读器，支持&lt;code>Windows&lt;/code>、&lt;code>macOS&lt;/code>、&lt;code>Linux&lt;/code>三大平台。Typora 作为一款合格的 Markdown 编辑器，支持图片、列表、表格、代码、公式、目录等功能，同时这款软件还支持（一键）动态预览功能，让一切都变得如此干净、纯粹。&lt;/p>
+&lt;h2 id="主题仓库">主题仓库&lt;/h2>
+&lt;p>&lt;a class="link" href="https://github.com/blinkfox/typora-vue-theme" target="_blank" rel="noopener"
+>https://github.com/blinkfox/typora-vue-theme&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>在这里十分感谢&lt;strong>blinkfox&lt;/strong>大佬开发的主题&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="安装主题">安装主题&lt;/h2>
+&lt;ol>
+&lt;li>从主题仓库克隆到本地并获取主题中的&lt;code>vue.css&lt;/code>、&lt;code>vue-dark.css&lt;/code>文件和包含字体的&lt;code>vue&lt;/code>文件夹；&lt;/li>
+&lt;li>打开 Typora，点击“&lt;strong>偏好设置&lt;/strong>” =&amp;gt; “&lt;strong>打开主题文件夹&lt;/strong>”按钮，将弹出 Typora 的主题文件夹；&lt;/li>
+&lt;li>将下载好的&lt;code>vue.css&lt;/code>和&lt;code>vue-dark.css&lt;/code>文件和包含字体的&lt;code>vue&lt;/code>文件夹放到 Typora 的主题文件夹中；&lt;/li>
+&lt;li>关闭并重新打开 Typora，从菜单栏中选择 “&lt;strong>主题&lt;/strong>” =&amp;gt; “&lt;strong>Vue&lt;/strong>” 或者 “&lt;strong>Vue Dark&lt;/strong>” 即可。&lt;/li>
+&lt;/ol>
+&lt;h2 id="效果图">效果图&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/vue-typora/vuetypora.png"
+width="955"
+height="874"
+srcset="https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="typora"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="262px"
+>&lt;/p></description></item></channel></rss>

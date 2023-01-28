@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>插件 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/%E6%8F%92%E4%BB%B6/</link><description>Recent content in 插件 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Aug 2021 06:01:12 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>越狱后的必备依赖插件</title><link>https://blog.linsnow.cn/p/jb-dependence/</link><pubDate>Thu, 26 Aug 2021 06:01:12 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-dependence/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/yilai.png" alt="Featured image of post 越狱后的必备依赖插件" />&lt;h1 id="越狱后的必备依赖插件">越狱后的必备依赖插件&lt;/h1>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>以下内容主要面向sileo用户。越狱成功后，越狱环境还缺少有一些重要的依赖插件，没有这些依赖插件，等下会有各种红字与报错，但是安装上依赖就行了。但是，千万不要在依赖还没有安装之前添加一些不好的第三方软件源，否则依赖被劫持就完蛋了&amp;hellip;.&lt;/p>
+&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>一般先刷新一下软件源列表，以便加载出需要更新的插件，要是刷新不了或着出现软件源里空白的现象就直接科学上网或开个加速器吧，也可以试试开数据来刷新。刷新完之后将能更新的插件全部更新就完事了。但是还有一些依赖插件需要手动安装。&lt;/p>
+&lt;h3 id="安装越狱基板">&lt;strong>安装越狱基板&lt;/strong>&lt;/h3>
+&lt;blockquote>
+&lt;p>涉及软件源地址：https://repo.theodyssey.dev/ (自带源)&lt;/p>
+&lt;p>插件名称: &lt;strong>libhooker&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/libhooker.png"
+width="1213"
+height="1079"
+srcset="https://blog.linsnow.cn/p/jb-dependence/libhooker_hud8b85430ec7f21cff6b6d73d548946c9_269700_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/jb-dependence/libhooker_hud8b85430ec7f21cff6b6d73d548946c9_269700_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="libhooker"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>&lt;/p>
+&lt;h3 id="安装pra三件套">安装P.R.A三件套&lt;/h3>
+&lt;blockquote>
+&lt;p>涉及软件源地址：https://repo.theodyssey.dev/ (自带源)、&lt;/p>
+&lt;p>&lt;a class="link" href="http://apt.thebigboss.org/repofiles/cydia/" target="_blank" rel="noopener"
+>http://apt.thebigboss.org/repofiles/cydia/&lt;/a> （自带源）&lt;/p>
+&lt;p>插件名称: &lt;strong>PerferenceLoader&lt;/strong>、&lt;strong>RocketBootstrap&lt;/strong>、&lt;strong>AppList&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/pra.png"
+width="1214"
+height="1080"
+srcset="https://blog.linsnow.cn/p/jb-dependence/pra_hu81b7ddfca8cc344ae45a96e7f83d1ece_297401_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/jb-dependence/pra_hu81b7ddfca8cc344ae45a96e7f83d1ece_297401_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="pra"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>&lt;/p>
+&lt;p>&lt;strong>安装完以上插件之后就算安装完必备依赖插件了&lt;/strong>&lt;/p>
+&lt;h3 id="拓展">拓展&lt;/h3>
+&lt;h4 id="什么是基板">什么是基板？&lt;/h4>
+&lt;blockquote>
+&lt;p>允许第三方的开发者在系统的方法里打一些运行时补丁，也是绝大部分插件正常工作的基础。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="现在有几种基板">现在有几种基板？&lt;/h4>
+&lt;blockquote>
+&lt;p>目前算是有三个吧&lt;/p>
+&lt;p>第一个是substrate，一个是substitute，还有一个libhooker&lt;/p>
+&lt;p>其中substrate是大胡子的，也就是最老的那个，但是容易被一些app检测到&lt;/p>
+&lt;p>substitute是coolstar团队的，相对于substrate封号几率低点（部分插件可能不兼容这个基板）但是这个是大趋势&lt;/p>
+&lt;p>libhooker 也是coolstar的作品，压缩了substitute+substrate+tweakinjecter提高了转换率，并且表示支持：Android、ios、win、Linux、switch&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

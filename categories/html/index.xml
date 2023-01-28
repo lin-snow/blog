@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Html笔记 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/categories/html/</link><description>Recent content in Html笔记 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 28 Jul 2021 18:16:58 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/html/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML5和CSS3新增特性</title><link>https://blog.linsnow.cn/p/html5-css3-new/</link><pubDate>Wed, 28 Jul 2021 18:16:58 +0800</pubDate><guid>https://blog.linsnow.cn/p/html5-css3-new/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html5-css3-new/h5c3.png" alt="Featured image of post HTML5和CSS3新增特性" />&lt;h1 id="七html5与css3新增特性">（七）HTML5与CSS3新增特性&lt;/h1>
+&lt;h2 id="1-html5新特性">1. HTML5新特性&lt;/h2>
+&lt;h3 id="11-html5新增语义化标签">1.1 HTML5新增语义化标签&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>&amp;lt;header&amp;gt;&lt;/code>：头部标签&lt;/li>
+&lt;li>&lt;code>&amp;lt;nav&amp;gt;&lt;/code>：导航标签&lt;/li>
+&lt;li>&lt;code>&amp;lt;article&amp;gt;&lt;/code>：内容标签&lt;/li>
+&lt;li>&lt;code>&amp;lt;section&amp;gt;&lt;/code>：定义文档某个区域&lt;/li>
+&lt;li>&lt;code>&amp;lt;asider&amp;gt;&lt;/code>：侧边栏标签&lt;/li>
+&lt;li>&lt;code>&amp;lt;footer&amp;gt;&lt;/code>：尾部标签&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-html5新增多媒体标签">1.2 HTML5新增多媒体标签&lt;/h3>
+&lt;h4 id="1-视频">1. 视频&lt;/h4>
+&lt;p>所有浏览器支持 mp4 格式。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>autoplay=&amp;quot;autoplay&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>controls=&amp;quot;controls&amp;quot;&lt;/code> 显示控件&lt;/li>
+&lt;li>&lt;code>width&lt;/code> 设置宽度&lt;/li>
+&lt;li>&lt;code>height&lt;/code> 设置高度&lt;/li>
+&lt;li>&lt;code>loop=loop&lt;/code> 设置循环播放&lt;/li>
+&lt;li>&lt;code>preload=&amp;quot;auto/none&amp;quot;&lt;/code> 是否预加载&lt;/li>
+&lt;li>&lt;code>src=url&lt;/code> 视频地址&lt;/li>
+&lt;li>&lt;code>poster=url&lt;/code> 封面图片&lt;/li>
+&lt;li>&lt;code>muted=muted&lt;/code> 静音播放&lt;/li>
+&lt;/ul>
+&lt;h4 id="2-音频">2. 音频&lt;/h4>
+&lt;p>所有浏览器支持 mp3 格式。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>controls&lt;/code>：显示控件&lt;/li>
+&lt;li>&lt;code>autoplay&lt;/code>：（谷歌禁用）&lt;/li>
+&lt;li>&lt;code>loop=loop&lt;/code> 设置循环播放&lt;/li>
+&lt;/ul>
+&lt;h3 id="13-html5-新增-input-类型">1.3 HTML5 新增 input 类型&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>type=&amp;quot;email&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;url&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;date&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;time&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;month&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;week&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;number&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;tel&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;search&amp;quot;&lt;/code>&lt;/li>
+&lt;li>&lt;code>type=&amp;quot;color&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="14-html5新增的表单属性">1.4 HTML5新增的表单属性&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>值&lt;/th>
+&lt;th>说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>required&lt;/td>
+&lt;td>required&lt;/td>
+&lt;td>表单拥有该属性表示其内容不能为空，必填&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>placeholder&lt;/td>
+&lt;td>提示文本&lt;/td>
+&lt;td>表单的提示信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>autofocus&lt;/td>
+&lt;td>autofocus&lt;/td>
+&lt;td>自动聚焦属性，页面加载完成自动聚焦到指定表单&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>autocomplete&lt;/td>
+&lt;td>off/on&lt;/td>
+&lt;td>当用户在字段开始键入时，浏览器基于之前键入过的值，应该显示出在字段中填写的选项默认已经打开,如autocomplete=&amp;ldquo;on&amp;rdquo;,关闭autocomplete =&amp;ldquo;off&amp;rdquo; 需要放在表单内，同时加上name属性，同时成功提交&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>multiple&lt;/td>
+&lt;td>multiple&lt;/td>
+&lt;td>可以多选文件&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>可以通过以下设置方式修改placeholder里面的字体颜色：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">input&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">placeholder&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pink&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="2-css3-新特性">2. CSS3 新特性&lt;/h2>
+&lt;h3 id="21-css3-新增选择器">2.1 CSS3 新增选择器&lt;/h3>
+&lt;p>CSS3给我们新增了选择器，可以更加便捷，更加自由的选择元素。&lt;/p>
+&lt;ol>
+&lt;li>属性选择器&lt;/li>
+&lt;li>结构伪类选择器&lt;/li>
+&lt;li>伪元素选择器&lt;/li>
+&lt;/ol>
+&lt;h3 id="22-属性选择器">2.2 属性选择器&lt;/h3>
+&lt;p>属性选择器可以根据元素特定属性的来选择元素。这样就可以不用借助于类或者id选择器。 |简介| 选择| |-|-| |&lt;code>E[att]&lt;/code>|选择具有att属性的E元素| |&lt;code>E[att:val&lt;/code>|选择具有att属性且属性值等于val的E元素| |&lt;code>E[att^=val]&lt;/code>|匹配具有att属性且值以val开头的E元素| |&lt;code>E[att$=val]&lt;/code>|匹配具有att属性且值以val结尾的E元素| |&lt;code>E[att*=val]&lt;/code>|匹配具有att属性且值中含有val的E元素|&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">input&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nt">text&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">green&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="nt">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;password&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="nt">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>类选择器、属性选择器、伪类选择器的权重都为 10&lt;/p>
+&lt;h3 id="23-结构伪类选择器">2.3 结构伪类选择器&lt;/h3>
+&lt;p>结构伪类选择器主要根据文档结构来选择器元素，常用于根据父级选择器里面的子元素。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>选择符&lt;/th>
+&lt;th>简介&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>E: first-child&lt;/code>&lt;/td>
+&lt;td>匹配父元素中的第一个子元素E&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>E: last-child&lt;/code>&lt;/td>
+&lt;td>匹配父元素中最后一个E元素&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>E: nth-child(n)&lt;/code>&lt;/td>
+&lt;td>匹配父元素中的第n个子元素E&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>E: first-of-type&lt;/code>&lt;/td>
+&lt;td>指定类型E的第一个&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>E: last-of-type&lt;/code>&lt;/td>
+&lt;td>指定类型E的最后一个&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>E: nth-of-type(n)&lt;/code>&lt;/td>
+&lt;td>指定类型E的第n个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">ul&lt;/span> &lt;span class="nt">li&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">first-child&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pink&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">ul&lt;/span> &lt;span class="nt">li&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">last-child&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pink&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">ul&lt;/span> &lt;span class="nt">li&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">nth-child&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">5&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">skyblue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>重点：&lt;code>E: nth-child(key)&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>key&lt;/code> 可以是整数、关键字（&lt;code>even/odd&lt;/code>）、公式（&lt;code>n/2n/2n+1&lt;/code>）&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>公式&lt;/th>
+&lt;th>取值&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2n&lt;/td>
+&lt;td>偶数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2n-1&lt;/td>
+&lt;td>奇数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5n&lt;/td>
+&lt;td>5 10 15 &amp;hellip;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>n+&lt;/td>
+&lt;td>5 6 7 8 &amp;hellip;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-n+5&lt;/td>
+&lt;td>前五个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>关于 &lt;code>nth-of-type&lt;/code> 与 &lt;code>nth-of-child&lt;/code>&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>div: nth-child&lt;/code> 会把所有的盒子都排列序号 执行的时候首先看 &lt;code>:nth-child(1)&lt;/code> 之后回去看 前面 &lt;code>div&lt;/code>&lt;/li>
+&lt;li>&lt;code>div: nth-of-type&lt;/code> 会把指定元素的盒子排列序号 执行的时候首先看 div指定的元素 之后回去看 &lt;code>:nth-of-type(1)&lt;/code> 第几个孩子&lt;/li>
+&lt;/ol>
+&lt;p>区别：&lt;/p>
+&lt;ol>
+&lt;li>nth—child对父元素里面所有孩子排序选择（序号是固定的）先找到第n个孩子，然后看看是否和E匹配&lt;/li>
+&lt;li>nth—of—type对父元素里面指定子元素进行排序选择。先去匹配E ，然后再根据E找第n个孩子&lt;/li>
+&lt;/ol>
+&lt;h3 id="24-伪元素选择器">2.4 伪元素选择器&lt;/h3>
+&lt;p>==伪元素选择器可以帮助我们利用CSS创建新标签元素，而不需要HTML标签，从而简化HTML结构。==&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>选择符&lt;/th>
+&lt;th>简介&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>::before&lt;/code>&lt;/td>
+&lt;td>在元素内部的前面插入内容&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>::after&lt;/code>&lt;/td>
+&lt;td>在元素内部的后面插入内容&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>注意：&lt;/p>
+&lt;ul>
+&lt;li>before 和 after 创建一个元素，但是属于行内元素&lt;/li>
+&lt;li>新创建的这个元素在文档树中是找不到的，所以我们称为伪元素&lt;/li>
+&lt;li>语法：&lt;code>element：before{}&lt;/code>&lt;/li>
+&lt;li>before 和 after 必须有 content 属性&lt;/li>
+&lt;li>before 在父元素内容的前面创建元素， after 在父元素内容的后面插入元素&lt;/li>
+&lt;li>伪元素选择器和标签选择器一样，权重为 1&lt;/li>
+&lt;/ul>
+&lt;h4 id="案例一伪元素字体图标">案例一：伪元素字体图标&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">div&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">absolute&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">top&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">right&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;icomoon&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;\e91b&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">red&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">18&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="案例二伪元素遮罩层">案例二：伪元素遮罩层&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">tudou&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">before&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">position&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">absolute&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">top&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">rgba&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mf">.3&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nb">url&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sx">images/arr.png&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="kc">no-repeat&lt;/span> &lt;span class="kc">center&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="案例三伪元素清除浮动">案例三：伪元素清除浮动&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">clearfix&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">block&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">clear&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">both&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">visibility&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">hidden&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>双伪元素清除浮动&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">clearfix&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">before&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">clearfix&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">block&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">clearfix&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">clear&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">both&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="25-css3盒子模型">2.5 CSS3盒子模型&lt;/h3>
+&lt;p>CSS3中可以通过 box-sizing 来指定盒模型，有2个值：即可指定为 content-box，border-box ，这样我们计算盒子大小的方式就发生了改变。&lt;/p>
+&lt;p>可以分成两种情况：&lt;/p>
+&lt;ol>
+&lt;li>==box-sizing：content-box== 盒子大小为 width + padding + border （以前默认的）&lt;/li>
+&lt;li>==box-sizing: border-box== 盒子大小为width 如果盒子模型我们改为了 box-sizing： border-box ，那padding 和 border就不会撑大盒子了（前提 padding 和 border 不会超过 width 宽度）&lt;/li>
+&lt;/ol>
+&lt;h3 id="26-css3-的其他特性">2.6 CSS3 的其他特性&lt;/h3>
+&lt;h4 id="1-css3-滤镜-filter">1. CSS3 滤镜 filter&lt;/h4>
+&lt;p>filter CSS属性将模糊或颜色偏移等图形效果应用于元素。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">filter&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">函数&lt;/span>&lt;span class="o">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如： &lt;code>filter： blur(5px);&lt;/code> blur 模糊处理数值越大越模糊&lt;/p>
+&lt;h4 id="2-css3-calc函数">2. CSS3 calc函数&lt;/h4>
+&lt;p>此 CSS 函数让你在声明CSS属性值时执行一些计算。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">calc&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">100&lt;/span>&lt;span class="o">%&lt;/span>&lt;span class="nt">-30px&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* 子盒子永远比父盒子小30px */&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>括号里面可以使用 &lt;code>+ - * /&lt;/code> 来进行计算。&lt;/p>
+&lt;h4 id="3-css3-还有一些-2d3d效果">3. CSS3 还有一些 2D、3D效果。。。&lt;/h4>
+&lt;h3 id="27-css3过渡重点">2.7 CSS3过渡（重点）&lt;/h3>
+&lt;p>过渡（transition）是CSS3中具有颠覆性的特征之一，我们可以在不使用Flash动画或JavaScript的情况下，当元素从一种样式变换为另一种样式时为元素添加效果。&lt;/p>
+&lt;p>过渡动画：是从一个状态渐渐的过渡到另外一个状态 可以让我们页面更好看，更动感十足，虽然低版本浏览器不支持（ie9以下版本）但是不会影响页面布局。&lt;/p>
+&lt;p>==我们现在经常和 :hover 一起搭配使用。==&lt;/p>
+&lt;h4 id="transition-的使用">transition 的使用&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transition&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">要过渡的属性&lt;/span> &lt;span class="nt">花费时间&lt;/span> &lt;span class="nt">运动曲线&lt;/span> &lt;span class="nt">何时开始&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>属性：想要变化的css属性，宽度高度背景颜色内外边距都可以。如果想要所有的属性都变化过渡，写一个all就可以。&lt;/li>
+&lt;li>花费时间：单位是秒（==必须写单位==）比如 0.5s&lt;/li>
+&lt;li>运动曲线：默认是ease （可以省略）&lt;/li>
+&lt;li>何时开始：单位是秒（==必须写单位==）可以设置延迟触发时间默认是Os （可以省略）&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">div&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pink&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* transition: width .5s, height .5s; */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">transition&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">all&lt;/span> &lt;span class="mf">.5&lt;/span>&lt;span class="kt">s&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">div&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">hover&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">400&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">skyblue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="3-2d-转换">3. 2D 转换&lt;/h2>
+&lt;p>转换（&lt;code>transform&lt;/code>）是 CSS3 中具有颠覆性的特征之一，可以实现元素的位移、旋转、缩放等效果。&lt;/p>
+&lt;p>转换可以理解为变形。&lt;/p>
+&lt;ul>
+&lt;li>移动：&lt;code>translate&lt;/code>&lt;/li>
+&lt;li>旋转：&lt;code>rotate&lt;/code>&lt;/li>
+&lt;li>缩放：&lt;code>scale&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="31-二维坐标系">3.1 二维坐标系&lt;/h3>
+&lt;h3 id="32-移动-translate">3.2 移动 translate&lt;/h3>
+&lt;p>语法&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">translate&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">x&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nt">y&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">translateX&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">x&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">translateY&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">y&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>参数 &lt;code>x, y&lt;/code> 可以是百分数，为盒子自身的宽度或高度。&lt;/li>
+&lt;/ul>
+&lt;p>重点&lt;/p>
+&lt;ul>
+&lt;li>定义 2D 转换中的移动，沿着X和Y轴移动元素&lt;/li>
+&lt;li>==translate 最大的优点：不会影响到其他元素的位置==&lt;/li>
+&lt;li>translate 中的百分比单位是相对于 ==自身元素== 的 &lt;code>trainslate:(50%，50%)&lt;/code>&lt;/li>
+&lt;li>对行内标签没有效果&lt;/li>
+&lt;/ul>
+&lt;h3 id="33-让盒子实现水平和垂直居中">3.3 让盒子实现水平和垂直居中&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="c">/*子绝父相*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">position&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">absolute&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">top&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">50&lt;/span>&lt;span class="o">%;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">left&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">50&lt;/span>&lt;span class="o">%;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">translate&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">-50&lt;/span>&lt;span class="o">%,&lt;/span> &lt;span class="nt">-50&lt;/span>&lt;span class="o">%);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="34-旋转-rotate">3.4 旋转 rotate&lt;/h3>
+&lt;p>值为正数则顺时针旋转，为负数则逆时针旋转。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">rotate&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">45deg&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="35-2d-转换中心点-transform-origin">3.5 2D 转换中心点 transform-origin&lt;/h3>
+&lt;p>我们可以通过设置 &lt;code>transform-origin&lt;/code> 设置元素转换的中心点。&lt;/p>
+&lt;h4 id="1-语法">1. 语法&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform-origin&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">x&lt;/span> &lt;span class="nt">y&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="2-重点">2. 重点&lt;/h4>
+&lt;ul>
+&lt;li>注意后面的参数 x 和 y 用空格隔开&lt;/li>
+&lt;li>x y 默认转换的中心点是元素的中心点（50% 50%）&lt;/li>
+&lt;li>还可以给 x y 设置像素或者方位名词（top bottom left right center）&lt;/li>
+&lt;/ul>
+&lt;h3 id="36-2d-转换之缩放-scale">3.6 2D 转换之缩放 scale&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">scale&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">x&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nt">y&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>x, y&lt;/code> 不跟单位的话，是指缩放的倍数。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">scale&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">2&lt;/span>&lt;span class="o">,&lt;/span>&lt;span class="nt">1&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>参数大于 &lt;code>1&lt;/code> 则放大，小于 &lt;code>1&lt;/code> 则缩小。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>可以配合 &lt;code>transform-origin&lt;/code> 使用，改变缩放中心。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">scale
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>的优势：&lt;/p>
+&lt;ol>
+&lt;li>不占空间&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="37-2d转换综合写法">3.7 2D转换综合写法&lt;/h3>
+&lt;p>注意：&lt;/p>
+&lt;ol>
+&lt;li>同时使用多个转换，其格式为： &lt;code>transform: translate(), rotate() scale()&lt;/code>&lt;/li>
+&lt;li>其顺序会影转换的效果。（先旋转会改变坐标轴方向）&lt;/li>
+&lt;li>当我们同时有位移和其他属性的时候，记得要将位移放到最前.&lt;/li>
+&lt;/ol>
+&lt;h2 id="4-动画">4. 动画&lt;/h2>
+&lt;p>动画( animation ) 是 CSS3 中具有颠覆性的特征之一，可通过设置多个节点来精确控制一个或一组动画，常用来实现复杂的动画效果。 相比较过渡，动画可以实现更多变化，更多控制，连续自动播放等效果。&lt;/p>
+&lt;h3 id="41-动画的基本使用空格隔开">4.1 动画的基本使用空格隔开&lt;/h3>
+&lt;p>分为两步：&lt;/p>
+&lt;ol>
+&lt;li>定义动画 (动画序列 &lt;code>%α&lt;/code>)&lt;/li>
+&lt;li>使用动画&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* 1. 定义动画 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">keyframes&lt;/span> &lt;span class="nt">move&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/*开始状态*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">0&lt;/span>&lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">transform&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">translateX&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/*结束状态*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">100&lt;/span>&lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">transform&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">translateX&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1000&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">div&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pink&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* 2. 调用动画 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* 动画名称 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">animation-name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">move&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* 持续时间 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">animation-duration&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="kt">s&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>动画序列&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>0% 是动画的开始，100% 是动画的完成。这样的规则就是动画序列。&lt;/li>
+&lt;li>在 @keyframes 中规定某项 CSS 样式，就能创建由当前样式逐渐改为新样式的动画效果。&lt;/li>
+&lt;li>动画是使元素从一种样式逐渐变化为另一种样式的效果。您可以改变任意多的样式任意多的次数。&lt;/li>
+&lt;li>请用百分比来规定变化发生的时间，或用关键词&amp;quot;from&amp;quot;和“to”，等同于0%和100%。&lt;/li>
+&lt;/ul>
+&lt;p>注意:&lt;/p>
+&lt;ol>
+&lt;li>可以做多个状态的变化 &lt;code>keyframes&lt;/code> 关键帧&lt;/li>
+&lt;li>百分比必须是整数&lt;/li>
+&lt;li>百分比是总时间 &lt;code>animation-duration&lt;/code> 的划分&lt;/li>
+&lt;/ol>
+&lt;h3 id="42-动画常用属性">4.2 动画常用属性&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>keyframes&lt;/code>&lt;/td>
+&lt;td>规定动画。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation&lt;/code>&lt;/td>
+&lt;td>所有动画属性的简写属性,除了animation-play-state属性。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-name&lt;/code>&lt;/td>
+&lt;td>规定@keyframes动画的名称。(必须的)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-duration&lt;/code>&lt;/td>
+&lt;td>规定动画完成一个周期所花费的秒或毫秒，默认是0。（必须的)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-timing-function&lt;/code>&lt;/td>
+&lt;td>规定动画的速度曲线，默认是“ease” .&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-delay&lt;/code>&lt;/td>
+&lt;td>规定动画何时开始，默认是0.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-iteration-count&lt;/code>&lt;/td>
+&lt;td>规定动画被播放的次数，默认是1，还有infinite&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-direction&lt;/code>&lt;/td>
+&lt;td>规定动画是否在下一周期逆向播放，默认是 &amp;ldquo;normal&amp;rdquo;,alternate逆播放&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-play-state&lt;/code>&lt;/td>
+&lt;td>规定动画是否正在运行或暂停。默认是&amp;quot;running&amp;quot;,还有&amp;quot;paused&amp;quot;.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>animation-fill-mode&lt;/code>&lt;/td>
+&lt;td>规定动画结束后状态,保持forwards回到起始backwards&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="43-动画简写属性">4.3 动画简写属性&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">animation&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">动画名称&lt;/span> &lt;span class="nt">持续时间&lt;/span> &lt;span class="nt">运动曲线&lt;/span> &lt;span class="nt">何时开始&lt;/span> &lt;span class="nt">播放次数&lt;/span> &lt;span class="nt">是否反方向&lt;/span> &lt;span class="nt">动画起始或者结束的状态&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">animation&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">myfirst&lt;/span> &lt;span class="nt">5s&lt;/span> &lt;span class="nt">linear&lt;/span> &lt;span class="nt">2s&lt;/span> &lt;span class="nt">infinite&lt;/span> &lt;span class="nt">alternate&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>简写属性里面不包含 &lt;code>animation-play-state&lt;/code>&lt;/li>
+&lt;li>暂停动画: &lt;code>animation-play-state: puased;&lt;/code>&lt;/li>
+&lt;li>经常和鼠标经过等其他配合使用想要动画走回来，而不是直接跳回来: &lt;code>animation-direction: alternate&lt;/code>&lt;/li>
+&lt;li>盒子动画结束后，停在结束位置: &lt;code> animation-fill-mode: forwards&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-浏览器私有属性">5. 浏览器私有属性&lt;/h2>
+&lt;p>浏览器私有前缀是为了兼容老版本的写法，比较新版本的浏览器无须添加。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>私有前缀&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>-moz-&lt;/code>: 代表firefox浏览器私有属性&lt;/li>
+&lt;li>&lt;code>-ms-&lt;/code>: 代表ie浏览器私有属性&lt;/li>
+&lt;li>&lt;code>-webkit-&lt;/code>: 代表safari、chrome私有属性-o-∶代表Opera私有属性&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>提倡的写法&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">-moz-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">10px&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">-webkit-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">10px&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">-o-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">10px&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">10px&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h2 id="6-css3-新特性">6. CSS3 新特性&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/html5-css3-new/CSS3new.png"
+width="1579"
+height="1543"
+srcset="https://blog.linsnow.cn/p/html5-css3-new/CSS3new_hu20fc5764b79e4892e84c7f1b025483dc_54031_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/html5-css3-new/CSS3new_hu20fc5764b79e4892e84c7f1b025483dc_54031_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="CSS3"
+class="gallery-image"
+data-flex-grow="102"
+data-flex-basis="245px"
+>&lt;/p></description></item><item><title>(二)Html之SEO优化</title><link>https://blog.linsnow.cn/p/html-seo/</link><pubDate>Mon, 28 Jun 2021 17:22:23 +0800</pubDate><guid>https://blog.linsnow.cn/p/html-seo/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html-seo/html.png" alt="Featured image of post (二)Html之SEO优化" />&lt;h1 id="二html之seo优化">(二)Html之SEO优化&lt;/h1>
+&lt;h2 id="1-tdk-标签-seo-优化">1. TDK 标签 SEO 优化&lt;/h2>
+&lt;p>SEO（Search Engine Optimization），即搜索引擎优化，是一种利用搜索引擎的规则提高网站在有关搜索引擎内自然排名的方式。&lt;/p>
+&lt;p>SEO 的目的是对网站进行深度优化，从而帮助网站获得免费流量，进而在搜索引擎上提升网站排名，提高网站知名度。&lt;/p>
+&lt;p>页面必须有三个标签用来进行 SEO 优化。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>title&lt;/code>&lt;/li>
+&lt;li>&lt;code>description&lt;/code>&lt;/li>
+&lt;li>&lt;code>keyword&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 网站标题 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 网站说明 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;description&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 网站关键词 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;keywords&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="11-title-网站标题">1.1 title 网站标题&lt;/h3>
+&lt;p>&lt;code>title&lt;/code> 具有不可替代性，是我们内页的第一个重要标签，是搜索引擎了解网页的入口和对网页主题归属的最佳判断点。&lt;/p>
+&lt;p>建议：网站名（产品名）- 网站的介绍（尽量不要超过30个汉字）&lt;/p>
+&lt;p>例如：&lt;/p>
+&lt;ul>
+&lt;li>京东(JD.COM) - 综合网购首选-正品低价、品质保障、配送及时、轻松购物！&lt;/li>
+&lt;li>小米商城 - 小米5s、红米Note 4、小米MIX、小米笔记本官方网站&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-description-网站说明">1.2 description 网站说明&lt;/h3>
+&lt;p>简要说明我们网站主要是做什么的。&lt;/p>
+&lt;p>我们提倡，description 作为网站的总体业务和主题概括，多采用“我们是…”、“我们提供…”、“×××网作为…”、“电话：010…”之类语句。&lt;/p>
+&lt;p>例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;description&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">体验!&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="13-keywords-关键字">1.3 keywords 关键字&lt;/h3>
+&lt;ul>
+&lt;li>keywords 是页面关键词，是搜索引擎的关注点之一。&lt;/li>
+&lt;li>keywords 最好限制为6～8 个关键词，关键词之间用英文逗号隔开，采用关键词1,关键词2 的形式。&lt;/li>
+&lt;/ul>
+&lt;p>例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="s">&amp;#34; keywords&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">件,手表,存储卡,京东&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="2-logo-seo-优化">2. LOGO SEO 优化&lt;/h2>
+&lt;ol>
+&lt;li>logo 里面首先放一个h1 标签，目的是为了提权，告诉搜索引擎，这个地方很重要。&lt;/li>
+&lt;li>h1 里面再放一个链接，可以返回首页的，把logo 的背景图片给链接即可。&lt;/li>
+&lt;li>为了搜索引擎收录我们，我们链接里面要放文字（网站名称），但是文字不要显示出来。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>方法1：text-indent 移到盒子外面（text-indent: -9999px) ，然后overflow:hidden ，淘宝的做法。&lt;/li>
+&lt;li>方法2：直接给font-size: 0; 就看不到文字了，京东的做法。&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>最后给链接一个title 属性，这样鼠标放到 logo 上就可以看到提示文字了。&lt;/li>
+&lt;/ol></description></item><item><title>(二)HTML标签（下）</title><link>https://blog.linsnow.cn/p/html-biaoqian-next/</link><pubDate>Mon, 28 Jun 2021 17:00:01 +0800</pubDate><guid>https://blog.linsnow.cn/p/html-biaoqian-next/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html-biaoqian-next/html.png" alt="Featured image of post (二)HTML标签（下）" />&lt;h1 id="二html-标签下">（二）HTML 标签（下）&lt;/h1>
+&lt;h2 id="1-表格标签">1. 表格标签&lt;/h2>
+&lt;h3 id="11-表格的主要作用">1.1 表格的主要作用&lt;/h3>
+&lt;p>表格主要用于显示、展示数据，因为可以让数据显示非常规整，可读性好。 表格不是来布局的，而是来展示数据的。&lt;/p>
+&lt;h3 id="12-表格基本语法">1.2 表格基本语法&lt;/h3>
+&lt;ol>
+&lt;li>&lt;code>&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code> 用于定义表格的标签。&lt;/li>
+&lt;li>&lt;code>&amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt;&lt;/code> 标签用于定义表格中的行，必须嵌套在 &lt;code>&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code>中。&lt;/li>
+&lt;li>&lt;code>&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&lt;/code> 用于定义表格中的单元格，必须嵌套在 &lt;code>&amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt;&lt;/code> 中。&lt;/li>
+&lt;li>字母 td 指表格数据（table data），即单元格的内容。&lt;/li>
+&lt;/ol>
+&lt;h3 id="13-表头单元格标签-th">1.3 表头单元格标签 th&lt;/h3>
+&lt;p>一般单元格位于表格的第一行或第一列，表格单元格里面的文本内容 &lt;strong>加粗显示&lt;/strong>。 &lt;code>&amp;lt;th&amp;gt;&lt;/code> 标签表示 HTML 表格的表头部分（table head 的缩写） 表头单元格(&lt;code>&amp;lt;th&amp;gt;&lt;/code>)也是单元格，常用于表格第一行，突出重要性，表头单元格里面的文字会加粗居中显示。&lt;/p>
+&lt;h3 id="14-表格属性">1.4 表格属性&lt;/h3>
+&lt;p>只作了解，后期通过 CSS 来设置。 这些属性都要写到 &lt;code>&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code> 标签中&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性名&lt;/th>
+&lt;th>属性值&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>align&lt;/code>&lt;/td>
+&lt;td>left、center、right&lt;/td>
+&lt;td>表格元素对齐方式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>border&lt;/code>&lt;/td>
+&lt;td>1 或&amp;quot;&amp;quot;&lt;/td>
+&lt;td>规定是否有边框，默认为&lt;code>&amp;quot;&amp;quot;&lt;/code>，表示没有边框&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>cellpadding&lt;/code>&lt;/td>
+&lt;td>像素值&lt;/td>
+&lt;td>规定单元边沿与其内容之间空白，默认 1px&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>cellspacing&lt;/code>&lt;/td>
+&lt;td>像素值&lt;/td>
+&lt;td>规定单元格之间的空白，默认为 2px&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>width&lt;/code>&lt;/td>
+&lt;td>像素值或百分比&lt;/td>
+&lt;td>规定表格宽度&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>hight&lt;/code>&lt;/td>
+&lt;td>像素&lt;/td>
+&lt;td>表格高度&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="15-表格结构标签">1.5 表格结构标签&lt;/h3>
+&lt;p>场景：表格可能很长，将表格分割为表格头部和表格主题两大部分。&lt;/p>
+&lt;p>加强语义化：&lt;code>&amp;lt;thead&amp;gt;&lt;/code> 表示头部区域，&lt;code>&amp;lt;tbody&amp;gt;&lt;/code> 表示主体区域，更好区分表格结构。&lt;/p>
+&lt;p>注意：&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>&amp;lt;thead&amp;gt;&amp;lt;/thead&amp;gt;&lt;/code>：定义表格头部，且内部必须有&lt;code>&amp;lt;tr&amp;gt;&lt;/code>标签。&lt;/li>
+&lt;li>&lt;code>&amp;lt;tbody&amp;gt;&amp;lt;/tbody&amp;gt;&lt;/code>：定义表格主体，存放数据。&lt;/li>
+&lt;li>以上标签都放在 &lt;code>&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;&lt;/code> 里面。&lt;/li>
+&lt;/ol>
+&lt;h3 id="16-合并单元格">1.6 合并单元格&lt;/h3>
+&lt;p>&lt;strong>合并单元格方式：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>跨行合并：rowspan=&amp;ldquo;合并单元格个数&amp;rdquo;&lt;/li>
+&lt;li>跨列合并：colspan=&amp;ldquo;合并单元格个数&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>合并三部曲：&lt;/p>
+&lt;ol>
+&lt;li>确定跨行 or 跨列。&lt;/li>
+&lt;li>找到目标单元格：跨行取最上面为目标单元格，跨列取最左边为目标单元格。&lt;code>&amp;lt;td colspan=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;/td&amp;gt;&lt;/code>&lt;/li>
+&lt;li>删除多余单元格。&lt;/li>
+&lt;/ol>
+&lt;h2 id="2-列表标签">2. 列表标签&lt;/h2>
+&lt;p>表格展示数据，列表则用来布局。 列表特点是整齐、整洁、有序，作为布局更方便自由。 根据使用场景不同，列表分为三大类：&lt;/p>
+&lt;ul>
+&lt;li>无序列表&lt;/li>
+&lt;li>有序列表&lt;/li>
+&lt;li>自定义列表。&lt;/li>
+&lt;/ul>
+&lt;h3 id="21-无序列表重要">2.1 无序列表（重要）&lt;/h3>
+&lt;p>&lt;code>&amp;lt;ul&amp;gt;&lt;/code> 标签标识 HTML 页面项目中的无序列表，一般以项目符号呈现列表项。&lt;/p>
+&lt;p>语法格式:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项3&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>注意:&lt;/p>
+&lt;ol>
+&lt;li>各个列表项之间无需，并列关系。&lt;/li>
+&lt;li>&lt;code>&amp;lt;ul&amp;gt;&amp;lt;/ul&amp;gt;&lt;/code>中只能包含&lt;code>&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/code>，写入其他标签或文字是不允许的。&lt;/li>
+&lt;li>无序列表带有自己的属性，可用 CSS 修改样式属性。&lt;/li>
+&lt;/ol>
+&lt;h3 id="22-有序列表理解">2.2 有序列表（理解）&lt;/h3>
+&lt;p>使用 &lt;code>&amp;lt;ol&amp;gt;&lt;/code> 标签来定义有序列表，&lt;code>&amp;lt;li&amp;gt;&lt;/code> 来定义列表项。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ol&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项3&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ol&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>与无需列表类似，有自己的样式属性，通过 CSS 设置。&lt;/p>
+&lt;h3 id="23-自定义列表重点">2.3 自定义列表（重点）&lt;/h3>
+&lt;p>&lt;code>&amp;lt;dl&amp;gt;&lt;/code> 定义描述列表，与 &lt;code>&amp;lt;dt&amp;gt;&lt;/code> 和 &lt;code>&amp;lt;dd&amp;gt;&lt;/code> 标签配合使用。&lt;/p>
+&lt;p>基本语法：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">dl&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">dt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>名词1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">dt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">dd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>名词1解释1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">dd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">dd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>名词1解释2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">dd&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">dl&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>注意&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>dl 里面只能包含 dt 和 dd。&lt;/li>
+&lt;/ol>
+&lt;h2 id="3-表头标签">3. 表头标签&lt;/h2>
+&lt;h3 id="31-为什么需要表达">3.1 为什么需要表达&lt;/h3>
+&lt;p>收集用户信息。 和用户进行交互，收集用户资料。&lt;/p>
+&lt;h3 id="32-表达组成">3.2 表达组成&lt;/h3>
+&lt;ul>
+&lt;li>表单域&lt;/li>
+&lt;li>表单控件（元素）&lt;/li>
+&lt;li>提示信息&lt;/li>
+&lt;/ul>
+&lt;h3 id="33-表单域">3.3 表单域&lt;/h3>
+&lt;p>表单域是一个包含表单元素的区域。 使用 &lt;code>&amp;lt;form&amp;gt;&lt;/code> 标签用于定义表单域，手机和传递用户信息。 form 标签会将它范围内的表单元素信息提交给服务器。&lt;/p>
+&lt;p>目前而言，暂时不需要用表单域提交数据，只需要写上 &lt;code>form&lt;/code> 标签即可。&lt;/p>
+&lt;p>&lt;strong>语法格式&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">form&lt;/span> &lt;span class="na">action&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;url地址&amp;#34;&lt;/span> &lt;span class="na">method&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;提交方式&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;表单域名称&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 各种表单元素控件
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">form&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>常用属性：&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>属性值&lt;/th>
+&lt;th>作用&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>action&lt;/td>
+&lt;td>url 地址&lt;/td>
+&lt;td>指定接受并处理表单数据的服务器的 url 地址&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>method&lt;/td>
+&lt;td>get/post&lt;/td>
+&lt;td>设置表单数据的提交方式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>名称&lt;/td>
+&lt;td>用于指定表单名称，区分同一个页面中的多个表单域&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>注意：&lt;/p>
+&lt;ol>
+&lt;li>写表单元素之前需要有表单域将其包含。&lt;/li>
+&lt;li>表单域是 &lt;code>form&lt;/code> 标签。&lt;/li>
+&lt;/ol>
+&lt;h3 id="34-表单控件表单元素">3.4 表单控件（表单元素）&lt;/h3>
+&lt;p>在表单域中定义各种表单元素，允许用户在表单中输入或选择的内容控件。&lt;/p>
+&lt;h4 id="341-表单元素">3.4.1 表单元素&lt;/h4>
+&lt;p>&lt;code>&amp;lt;input&amp;gt;&lt;/code> 标签用于收集用户信息。&lt;/p>
+&lt;p>&lt;code>input&lt;/code> 标签包含 &lt;code>type&lt;/code> 属性，决定了输入字段的不同形式：文本字段、复选框、掩码后的文本控件、单选按钮、按钮等。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;属性值&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>input&lt;/code> 标签为单标签&lt;/li>
+&lt;li>&lt;code>type&lt;/code> 属性设置不同属性值来指定不同控件类型&lt;/li>
+&lt;/ul>
+&lt;p>type 常用属性值&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性值&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>button&lt;/td>
+&lt;td>定义可点击按钮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>chekbox&lt;/td>
+&lt;td>复选框&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>file&lt;/td>
+&lt;td>定义输入字段和“浏览”按钮，供文件上传&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>hidden&lt;/td>
+&lt;td>定义隐藏的输入字段&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>image&lt;/td>
+&lt;td>定义图像形式的提交按钮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>password&lt;/td>
+&lt;td>定义密码字段。字符被掩码。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>radio&lt;/td>
+&lt;td>定义单选按钮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reset&lt;/td>
+&lt;td>定义重置按钮，清除表单所有数据。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>submit&lt;/td>
+&lt;td>定义提交按钮。重置按钮会清除表单所有数据。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>text&lt;/td>
+&lt;td>定义输入字段。用户可输入文本，默认宽度为 20 个字符。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>input 的其他属性&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>属性值&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>自定义&lt;/td>
+&lt;td>定义 input 元素名称&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>value&lt;/td>
+&lt;td>自定义&lt;/td>
+&lt;td>规定 input 元素的值&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>checked&lt;/td>
+&lt;td>checked&lt;/td>
+&lt;td>规定此 input 元素首次加载时应当被选中&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>maxlength&lt;/td>
+&lt;td>正整数&lt;/td>
+&lt;td>规定输入字段字符的最大长度&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>注意&lt;/p>
+&lt;ol>
+&lt;li>对于 &lt;code>radio&lt;/code> 单选框，必须使 &lt;code>input&lt;/code> 的 &lt;code>name&lt;/code> 具有相同的属性值，才能实现多选一。 同理，复选框也要有相同的&lt;code>name&lt;/code>值。&lt;/li>
+&lt;li>单选框和复选框可以设置 &lt;code>checked&lt;/code> 属性，页面打开默认选择按钮。&lt;/li>
+&lt;li>设置 &lt;code>type&lt;/code> 的值为 &lt;code>submit&lt;/code>，点击按钮后可以把表单域 form 里面的表单元素里面的值提交给后台。&lt;/li>
+&lt;li>设置 &lt;code>type=&amp;quot;button&amp;quot;&lt;/code>，普通按钮，后期结合 js 使用&lt;/li>
+&lt;/ol>
+&lt;h4 id="342-label-标签">3.4.2 label 标签&lt;/h4>
+&lt;p>&lt;code>&amp;lt;label&amp;gt;&lt;/code> 标签为 input 元素定义标注。 &lt;code>&amp;lt;label&amp;gt;&lt;/code> 标签用于绑定一个表单源深路，当点击 label 标签内的文本时，浏览器自动将焦点转到或者选择对应的表单元素上，提升用户体验。 &lt;strong>语法：&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sex&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>男&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sex&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">=&amp;#34;sex&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>核心：&lt;/strong> &lt;code>&amp;lt;lable&amp;gt;&lt;/code>标签的 for 属性与相关元素的 id 属性相同。&lt;/p>
+&lt;h4 id="343-select-下拉表单元素">3.4.3 select 下拉表单元素&lt;/h4>
+&lt;p>&lt;code>select&lt;/code> 标签设置多个选项让用户选择，节约页面空间。 &lt;strong>语法&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>选项1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>选项2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>选项3&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>注意&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>select 中至少包含一对 option。&lt;/li>
+&lt;li>在 option 中定义属性&lt;code>selected=selected&lt;/code>，当前项即为默认选项。&lt;/li>
+&lt;/ol>
+&lt;h4 id="344-textarea-文本域表单元素">3.4.4 textarea 文本域表单元素&lt;/h4>
+&lt;p>场景：输入内容较多时。&lt;/p>
+&lt;p>&lt;strong>语法：&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">textarea&lt;/span> &lt;span class="na">rows&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;3&amp;#34;&lt;/span> &lt;span class="na">cols&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;20&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 文本内容
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">textarea&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>注意&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>cols=&amp;ldquo;每行字符数&amp;rdquo;，rows=&amp;ldquo;显示的行数&amp;rdquo;&lt;/li>
+&lt;/ol></description></item><item><title>（二）HTML标签（上）</title><link>https://blog.linsnow.cn/p/html-biaoqian-first/</link><pubDate>Mon, 28 Jun 2021 16:59:44 +0800</pubDate><guid>https://blog.linsnow.cn/p/html-biaoqian-first/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html-biaoqian-first/html.png" alt="Featured image of post （二）HTML标签（上）" />&lt;h1 id="二html-标签上">（二）HTML 标签（上）&lt;/h1>
+&lt;h2 id="1-html-语法规范">1. HTML 语法规范&lt;/h2>
+&lt;h3 id="11-基本语法规范">1.1 基本语法规范&lt;/h3>
+&lt;ol>
+&lt;li>HTML 标签是由尖括号包围的关键词，例如&lt;code>&amp;lt;html&amp;gt;&lt;/code>。&lt;/li>
+&lt;li>HTML 标签通常是成对出现的，例如&lt;code>&amp;lt;html&amp;gt;&lt;/code>和&lt;code>&amp;lt;html/&amp;gt;&lt;/code>，称为双标签。第一个是开始标签，第二个是结束标签。&lt;/li>
+&lt;li>有些特殊标签必须是单个标签（极少情况），例如&lt;code>&amp;lt;br/&amp;gt;&lt;/code>，我们称之为单标签。&lt;/li>
+&lt;/ol>
+&lt;h3 id="12-标签关系">1.2 标签关系&lt;/h3>
+&lt;p>标签关系可以分为两类：包含关系和并列关系&lt;/p>
+&lt;h2 id="2-html-基本结构标签">2. HTML 基本结构标签&lt;/h2>
+&lt;p>每个网页都会有一个基本的结构标签，页面内容都是在这些基本标签上书写。 HTML 页面也叫 HTML 文档。&lt;/p>
+&lt;h2 id="3-开发工具">3. 开发工具&lt;/h2>
+&lt;h3 id="31-文档类型声明标签">3.1 文档类型声明标签&lt;/h3>
+&lt;p>&lt;code>!&amp;lt;DOCTYPE&amp;gt;&lt;/code> 文档类型声明，告诉浏览器使用何种 HTML 版本来显示网页。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>这句话的意思是：当前页面采用的是 HTML5 版本来显示网页。&lt;/strong> &lt;strong>注意：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>&amp;lt;!DOCTYPE&amp;gt;&lt;/code> 声明位于文档最前面的位置，处于&lt;code>&amp;lt;html&amp;gt;&lt;/code>标签之前。&lt;/li>
+&lt;li>&lt;code>&amp;lt;!DOCTYPE&amp;gt;&lt;/code> 不是一个 HTML 标签，他就是文档类型声明标签。&lt;/li>
+&lt;/ol>
+&lt;h3 id="32-lang-语言种类">3.2 lang 语言种类&lt;/h3>
+&lt;p>用来显示当前文档显示的语言。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;zh-CN&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>&lt;code>en&lt;/code> 定义语言为英文。&lt;/li>
+&lt;li>&lt;code>zh-CN&lt;/code> 定义语言为中文。&lt;/li>
+&lt;/ol>
+&lt;p>这个属性对浏览器和搜索引擎（谷歌/百度）还是有作用的。&lt;/p>
+&lt;h3 id="33-charset-字符集">3.3 charset 字符集&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;UTF-8&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>字符集（character set）是多个字符的集合，以便计算机能够识别和存储各种文字。&lt;/p>
+&lt;p>在&lt;code>&amp;lt;head&amp;gt;&lt;/code>标签内，可以通过&lt;code>&amp;lt;meta&amp;gt;&lt;/code>标签的&lt;code>charset&lt;/code> 属性来设置文档使用何种字符编码。&lt;/p>
+&lt;p>&lt;code>charset&lt;/code>常用的值有：GBK、UTF-8，其中UTF-8被称为万国码，基本包含了全世界所有国家需要用到的字符。&lt;/p>
+&lt;h2 id="4-html-常用标签">4. HTML 常用标签&lt;/h2>
+&lt;h3 id="41-标签语义">4.1 标签语义&lt;/h3>
+&lt;p>标签语义就是标签的含义。&lt;/p>
+&lt;p>根据标签的语义，再合适的地方给一个最合理的标签，可以让页面结构更清晰。&lt;/p>
+&lt;h3 id="42-标题标签-h1-h6重要">4.2 标题标签 h1-h6（重要）&lt;/h3>
+&lt;p>为了使网页具有语义化，经常使用标题标签，HTML 提供 6 个等级的网页标题标签即 &lt;code>&amp;lt;h1&amp;gt;-&amp;lt;h6&amp;gt;&lt;/code>。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>标题标签&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>标题一共六级选,&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>文字加粗一行显。&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h3&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>由大到小依次减，&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h3&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>从重到轻随之变。&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h5&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>语法规范书写后，&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h5&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>具体效果刷新见。&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>单词为 head 简写，从 h1-h6 依据重要性递减。&lt;/p>
+&lt;h3 id="43-段落和换行标签重要">4.3 段落和换行标签（重要）&lt;/h3>
+&lt;p>&lt;code>p&lt;/code> 指&lt;strong>paragraph&lt;/strong>，意为段落。把文字有条理的显示出来就需要将文字分段显示。在 html 中，&lt;code>&amp;lt;p&amp;gt;&lt;/code> 标签用于定义段落，将整个网页分成若干个段落。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>我是一个段落标签&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>标签语义: 把 HTML 文档分割为若干段落。&lt;/p>
+&lt;p>&lt;strong>特点：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>文本在一个段落中会根据浏览器窗口的大小自动换行。&lt;/li>
+&lt;li>段落和段落之间保有空隙。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;code>&amp;lt;br/&amp;gt;&lt;/code> 是 break 缩写，意为打断、换行。&lt;/p>
+&lt;p>标签语义： 强制换行&lt;/p>
+&lt;p>&lt;strong>特点：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>&amp;lt;br/&amp;gt;&lt;/code> 是个单标签。&lt;/li>
+&lt;li>&lt;code>&amp;lt;br/&amp;gt;&lt;/code> 标签只是简单地开始新的一行，跟段落不一样，段落之间会插入一些垂直的间距。&lt;/li>
+&lt;/ol>
+&lt;p>课堂案例&lt;/p>
+&lt;p>体育新闻显示页面——基本标签的使用&lt;/p>
+&lt;h3 id="44-文本格式化标签">4.4 文本格式化标签&lt;/h3>
+&lt;p>在网页中，有时候需要为文字设置&lt;strong>粗体&lt;/strong>、&lt;em>斜体&lt;/em>或下划线等效果，需要使用 HTML 中的文本格式化标签，使文字以特殊方式显示。&lt;/p>
+&lt;p>标签语义： 突出重要性，比普通文字重要。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>语义&lt;/th>
+&lt;th>标签&lt;/th>
+&lt;th>说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>加粗&lt;/td>
+&lt;td>&lt;code>&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code>或&lt;code>&amp;lt;b&amp;gt;&amp;lt;/b&amp;gt;&lt;/code>&lt;/td>
+&lt;td>更推荐&lt;code>&amp;lt;strong&amp;gt;&lt;/code>，语义更强烈&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>斜体&lt;/td>
+&lt;td>&lt;code>&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;&lt;/code>或&lt;code>&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&lt;/code>&lt;/td>
+&lt;td>更推荐使用&lt;code>&amp;lt;em&amp;gt;&lt;/code>，语义更强烈&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>删除线&lt;/td>
+&lt;td>&lt;code>&amp;lt;del&amp;gt;&amp;lt;/del&amp;gt;&lt;/code>或&lt;code>&amp;lt;s&amp;gt;&amp;lt;s/&amp;gt;&lt;/code>&lt;/td>
+&lt;td>更推荐使用&lt;code>&amp;lt;del&amp;gt;&lt;/code>，语义更强烈&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>下划线&lt;/td>
+&lt;td>&lt;code>&amp;lt;ins&amp;gt;&amp;lt;/ins&amp;gt;&lt;/code>或&lt;code>&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;&lt;/code>&lt;/td>
+&lt;td>更推荐使用&lt;code>&amp;lt;ins&amp;gt;&lt;/code>，语义更强烈&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="45-div-和-span-标签">4.5 div 和 span 标签&lt;/h3>
+&lt;div> 和 &lt;span> 是没有语义的，它们是一个盒子，用来装内容的。
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>这是头部&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>今日价格&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>div 是 division 的缩写，表示分割、分区。span 意思是跨度、跨距。&lt;/p>
+&lt;p>&lt;strong>特点：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>div 标签用来布局，但是现在一行只能放一个 div，大盒子。&lt;/li>
+&lt;li>span 标签用来布局，一行可以多个 span，小盒子。&lt;/li>
+&lt;/ol>
+&lt;h3 id="46-图像标签和路径重点">4.6 图像标签和路径（重点）&lt;/h3>
+&lt;h4 id="461-图像标签">4.6.1 图像标签&lt;/h4>
+&lt;p>在 HTML 标签中，&lt;code>&amp;lt;img /&amp;gt;&lt;/code> 标签用于定义 HTML 标签页面中的图像。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;图像url&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>单词 image 的缩写，意为图像。&lt;/p>
+&lt;p>src 是标签的 必须属性，用于指定图像文件的路径和文件名。&lt;/p>
+&lt;p>&lt;strong>属性：&lt;/strong> 属于这个图像标签的特性。&lt;/p>
+&lt;p>&lt;strong>图像标签的其他属性&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>属性值&lt;/th>
+&lt;th>说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>src&lt;/code>&lt;/td>
+&lt;td>图片路径&lt;/td>
+&lt;td>必须属性&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>alt&lt;/code>&lt;/td>
+&lt;td>文本&lt;/td>
+&lt;td>替换文本，当图片不显示时显示文字&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>title&lt;/code>&lt;/td>
+&lt;td>文本&lt;/td>
+&lt;td>提示文本。鼠标放到图像上显示文字&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>width&lt;/code>&lt;/td>
+&lt;td>像素&lt;/td>
+&lt;td>图像宽度&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>height&lt;/code>&lt;/td>
+&lt;td>像素&lt;/td>
+&lt;td>图像高度&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>border&lt;/code>&lt;/td>
+&lt;td>像素&lt;/td>
+&lt;td>图像边框粗细&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="462-路径">4.6.2 路径&lt;/h4>
+&lt;ul>
+&lt;li>相对路径&lt;/li>
+&lt;li>绝对路径&lt;/li>
+&lt;/ul>
+&lt;h5 id="1-相对路径">1. 相对路径&lt;/h5>
+&lt;p>相对路径： 以引用文件位置为参考基础，而建立出来的目录路径。是相对于 HTML 页面的位置。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>分类&lt;/th>
+&lt;th>符号&lt;/th>
+&lt;th>说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>同级路径&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>同一级&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>下一级路径&lt;/td>
+&lt;td>&lt;code>/&lt;/code>&lt;/td>
+&lt;td>位于 HTML 文件上一级&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>上一级路径&lt;/td>
+&lt;td>&lt;code>../&lt;/code>&lt;/td>
+&lt;td>位于 HTML 文件下一级&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h5 id="2-绝对路径">2. 绝对路径&lt;/h5>
+&lt;p>绝对路径： 是指目录下的绝对位置，直接到达目标位置，通常是从盘符开始的路径或者完整的网络地址。&lt;/p>
+&lt;h3 id="47-超链接标签">4.7 超链接标签&lt;/h3>
+&lt;p>在 HTML 标签中，&lt;code>&amp;lt;a/&amp;gt;&lt;/code> 标签用于从一个页面链接到另一个页面。&lt;/p>
+&lt;h4 id="471-链接的语法格式">4.7.1 链接的语法格式&lt;/h4>
+&lt;p>a 是单词 anchor 的简写，是锚的意思。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;跳转目标&amp;#34;&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;目标窗口的弹出方式&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>文本或图像&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>属性&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>属性&lt;/th>
+&lt;th>作用&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>href&lt;/code>&lt;/td>
+&lt;td>指定链接地址 url，为必须属性。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>target&lt;/code>&lt;/td>
+&lt;td>指定页面打开方式，&lt;code>_self&lt;/code>为默认值，&lt;code>_blank&lt;/code>为在新窗口中打开&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="472-超链接分类">4.7.2 超链接分类&lt;/h4>
+&lt;ol>
+&lt;li>
+&lt;p>外部链接&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>内部链接：网站内部页面之间的相互链接。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>空链接: &lt;code>#&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载链接：地址链接的是文件.exe、压缩包.zip 等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>网页元素链接：在网页中的各种网页元素。如文本、图像、表格、音频、视频等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>锚点链接：&lt;/p>
+&lt;p>点击链接，可以快速定位到页面中的某个位置。&lt;/p>
+&lt;ul>
+&lt;li>在链接文本的&lt;code>href&lt;/code>属性中，设置属性为 #名字的形式&lt;/li>
+&lt;li>找到目标位置标签，里面添加一个 id 属性 = 名字&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-html-中的注释和特殊字符号">5. HTML 中的注释和特殊字符号&lt;/h2>
+&lt;ol>
+&lt;li>注释: &lt;code>&amp;lt;!--注释--&amp;gt;&lt;/code> VSCode 中快捷键：Ctrk + /&lt;/li>
+&lt;li>字符实体&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>字符&lt;/th>
+&lt;th>显示&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code> &lt;/code>&lt;/td>
+&lt;td>空格&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>&amp;lt;&lt;/code>&lt;/td>
+&lt;td>＜&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>&amp;gt;&lt;/code>&lt;/td>
+&lt;td>＞&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>©]\&lt;/code>&lt;/td>
+&lt;td>©&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>（三）HTML常用标签之综合案例</title><link>https://blog.linsnow.cn/p/html-all-example/</link><pubDate>Mon, 28 Jun 2021 16:44:57 +0800</pubDate><guid>https://blog.linsnow.cn/p/html-all-example/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html-all-example/html.png" alt="Featured image of post （三）HTML常用标签之综合案例" />&lt;h1 id="三html常用标签之综合案例">（三）HTML常用标签之综合案例&lt;/h1>
+&lt;h2 id="html常用标签综合案例">Html常用标签综合案例&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt"> 10
+&lt;/span>&lt;span class="lnt"> 11
+&lt;/span>&lt;span class="lnt"> 12
+&lt;/span>&lt;span class="lnt"> 13
+&lt;/span>&lt;span class="lnt"> 14
+&lt;/span>&lt;span class="lnt"> 15
+&lt;/span>&lt;span class="lnt"> 16
+&lt;/span>&lt;span class="lnt"> 17
+&lt;/span>&lt;span class="lnt"> 18
+&lt;/span>&lt;span class="lnt"> 19
+&lt;/span>&lt;span class="lnt"> 20
+&lt;/span>&lt;span class="lnt"> 21
+&lt;/span>&lt;span class="lnt"> 22
+&lt;/span>&lt;span class="lnt"> 23
+&lt;/span>&lt;span class="lnt"> 24
+&lt;/span>&lt;span class="lnt"> 25
+&lt;/span>&lt;span class="lnt"> 26
+&lt;/span>&lt;span class="lnt"> 27
+&lt;/span>&lt;span class="lnt"> 28
+&lt;/span>&lt;span class="lnt"> 29
+&lt;/span>&lt;span class="lnt"> 30
+&lt;/span>&lt;span class="lnt"> 31
+&lt;/span>&lt;span class="lnt"> 32
+&lt;/span>&lt;span class="lnt"> 33
+&lt;/span>&lt;span class="lnt"> 34
+&lt;/span>&lt;span class="lnt"> 35
+&lt;/span>&lt;span class="lnt"> 36
+&lt;/span>&lt;span class="lnt"> 37
+&lt;/span>&lt;span class="lnt"> 38
+&lt;/span>&lt;span class="lnt"> 39
+&lt;/span>&lt;span class="lnt"> 40
+&lt;/span>&lt;span class="lnt"> 41
+&lt;/span>&lt;span class="lnt"> 42
+&lt;/span>&lt;span class="lnt"> 43
+&lt;/span>&lt;span class="lnt"> 44
+&lt;/span>&lt;span class="lnt"> 45
+&lt;/span>&lt;span class="lnt"> 46
+&lt;/span>&lt;span class="lnt"> 47
+&lt;/span>&lt;span class="lnt"> 48
+&lt;/span>&lt;span class="lnt"> 49
+&lt;/span>&lt;span class="lnt"> 50
+&lt;/span>&lt;span class="lnt"> 51
+&lt;/span>&lt;span class="lnt"> 52
+&lt;/span>&lt;span class="lnt"> 53
+&lt;/span>&lt;span class="lnt"> 54
+&lt;/span>&lt;span class="lnt"> 55
+&lt;/span>&lt;span class="lnt"> 56
+&lt;/span>&lt;span class="lnt"> 57
+&lt;/span>&lt;span class="lnt"> 58
+&lt;/span>&lt;span class="lnt"> 59
+&lt;/span>&lt;span class="lnt"> 60
+&lt;/span>&lt;span class="lnt"> 61
+&lt;/span>&lt;span class="lnt"> 62
+&lt;/span>&lt;span class="lnt"> 63
+&lt;/span>&lt;span class="lnt"> 64
+&lt;/span>&lt;span class="lnt"> 65
+&lt;/span>&lt;span class="lnt"> 66
+&lt;/span>&lt;span class="lnt"> 67
+&lt;/span>&lt;span class="lnt"> 68
+&lt;/span>&lt;span class="lnt"> 69
+&lt;/span>&lt;span class="lnt"> 70
+&lt;/span>&lt;span class="lnt"> 71
+&lt;/span>&lt;span class="lnt"> 72
+&lt;/span>&lt;span class="lnt"> 73
+&lt;/span>&lt;span class="lnt"> 74
+&lt;/span>&lt;span class="lnt"> 75
+&lt;/span>&lt;span class="lnt"> 76
+&lt;/span>&lt;span class="lnt"> 77
+&lt;/span>&lt;span class="lnt"> 78
+&lt;/span>&lt;span class="lnt"> 79
+&lt;/span>&lt;span class="lnt"> 80
+&lt;/span>&lt;span class="lnt"> 81
+&lt;/span>&lt;span class="lnt"> 82
+&lt;/span>&lt;span class="lnt"> 83
+&lt;/span>&lt;span class="lnt"> 84
+&lt;/span>&lt;span class="lnt"> 85
+&lt;/span>&lt;span class="lnt"> 86
+&lt;/span>&lt;span class="lnt"> 87
+&lt;/span>&lt;span class="lnt"> 88
+&lt;/span>&lt;span class="lnt"> 89
+&lt;/span>&lt;span class="lnt"> 90
+&lt;/span>&lt;span class="lnt"> 91
+&lt;/span>&lt;span class="lnt"> 92
+&lt;/span>&lt;span class="lnt"> 93
+&lt;/span>&lt;span class="lnt"> 94
+&lt;/span>&lt;span class="lnt"> 95
+&lt;/span>&lt;span class="lnt"> 96
+&lt;/span>&lt;span class="lnt"> 97
+&lt;/span>&lt;span class="lnt"> 98
+&lt;/span>&lt;span class="lnt"> 99
+&lt;/span>&lt;span class="lnt">100
+&lt;/span>&lt;span class="lnt">101
+&lt;/span>&lt;span class="lnt">102
+&lt;/span>&lt;span class="lnt">103
+&lt;/span>&lt;span class="lnt">104
+&lt;/span>&lt;span class="lnt">105
+&lt;/span>&lt;span class="lnt">106
+&lt;/span>&lt;span class="lnt">107
+&lt;/span>&lt;span class="lnt">108
+&lt;/span>&lt;span class="lnt">109
+&lt;/span>&lt;span class="lnt">110
+&lt;/span>&lt;span class="lnt">111
+&lt;/span>&lt;span class="lnt">112
+&lt;/span>&lt;span class="lnt">113
+&lt;/span>&lt;span class="lnt">114
+&lt;/span>&lt;span class="lnt">115
+&lt;/span>&lt;span class="lnt">116
+&lt;/span>&lt;span class="lnt">117
+&lt;/span>&lt;span class="lnt">118
+&lt;/span>&lt;span class="lnt">119
+&lt;/span>&lt;span class="lnt">120
+&lt;/span>&lt;span class="lnt">121
+&lt;/span>&lt;span class="lnt">122
+&lt;/span>&lt;span class="lnt">123
+&lt;/span>&lt;span class="lnt">124
+&lt;/span>&lt;span class="lnt">125
+&lt;/span>&lt;span class="lnt">126
+&lt;/span>&lt;span class="lnt">127
+&lt;/span>&lt;span class="lnt">128
+&lt;/span>&lt;span class="lnt">129
+&lt;/span>&lt;span class="lnt">130
+&lt;/span>&lt;span class="lnt">131
+&lt;/span>&lt;span class="lnt">132
+&lt;/span>&lt;span class="lnt">133
+&lt;/span>&lt;span class="lnt">134
+&lt;/span>&lt;span class="lnt">135
+&lt;/span>&lt;span class="lnt">136
+&lt;/span>&lt;span class="lnt">137
+&lt;/span>&lt;span class="lnt">138
+&lt;/span>&lt;span class="lnt">139
+&lt;/span>&lt;span class="lnt">140
+&lt;/span>&lt;span class="lnt">141
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">HTML
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;UTF-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">http-equiv&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;X-UA-Compatible&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;IE=edge&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;viewport&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;width=&amp;lt;&amp;gt;, initial-scale=1.0&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>青春不常在，抓紧谈恋爱&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;500&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 性别:&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sex&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;man&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;images/男.png&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;16&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;man&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>男&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sex&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;woman&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;images/女.png&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;16&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;woman&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>女&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 生日:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1985&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1986&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1987&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1988&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1989&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>1990&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span> &lt;span class="na">selected&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;selected&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>-请选择年-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>01&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>02&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>03&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>04&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>05&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>06&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span> &lt;span class="na">selected&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;selected&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>-请选择月-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>01&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>02&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>03&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>04&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>05&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>06&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">option&lt;/span> &lt;span class="na">selected&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;selected&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>-请选择日-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">option&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">select&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- 第三行 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;dq&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>所在地区:&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;adress&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;dq&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- 第四行 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 婚姻状况
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;marry&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;m&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;m&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>未婚&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;marry&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;li&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;li&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>离婚&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- 第五行 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;degree&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>学历&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;de&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;degree&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- 第六行 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 喜欢的类型
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;k&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;k&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>可爱的&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;k&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;k&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>可爱的&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;ki&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;ki&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>妩媚的&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;xiao&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;xiao&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>小鲜肉&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lao&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lao&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>老腊肉&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;radio&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;kind&amp;#34;&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;all&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">label&lt;/span> &lt;span class="na">for&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;all&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>都喜欢&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">label&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 自我介绍
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">textarea&lt;/span> &lt;span class="na">cols&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;50&amp;#34;&lt;/span> &lt;span class="na">rows&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;5&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 自我介绍
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">textarea&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;submit&amp;#34;&lt;/span> &lt;span class="na">value&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;免费注册&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;checkbox&amp;#34;&lt;/span> &lt;span class="na">checked&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;checked&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>我同意服务条款&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>我是会员，立即登录&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">br&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>我承诺&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>年满18，单身&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>抱着严肃的态度&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>真诚寻找另一半&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">form&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">form&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>（一）HTML简介</title><link>https://blog.linsnow.cn/p/html-biaoqian/</link><pubDate>Mon, 28 Jun 2021 16:28:10 +0800</pubDate><guid>https://blog.linsnow.cn/p/html-biaoqian/</guid><description>&lt;img src="https://blog.linsnow.cn/p/html-biaoqian/html.png" alt="Featured image of post （一）HTML简介" />&lt;h1 id="一html简介">（一）HTML简介&lt;/h1>
+&lt;h3 id="网页">网页&lt;/h3>
+&lt;h4 id="什么是网页">什么是网页&lt;/h4>
+&lt;p>网页是根据因特网上一定的规则，使用html等制作的用于展示特定内容的网页集合。&lt;/p>
+&lt;p>网页是构成网站的基本元素。&lt;/p>
+&lt;p>网页是图片、链接、文字、声音、视频等源深路组成，其实就是一个html文件。&lt;/p>
+&lt;h4 id="什么是html">什么是HTML&lt;/h4>
+&lt;p>HTML指的是超文本标记语言（Hyper Text Markup Language）,它是用来描述网页的一种语言。&lt;/p>
+&lt;p>HTML不是一种编程语言，而是一种标记语言（markup language）。 标记语言是一套标记标签（markup tag）。&lt;/p>
+&lt;p>&lt;strong>超文本的含义：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>它可以加入图片、声音、动画、多媒体等内容（超越文本限制）。&lt;/li>
+&lt;li>它可以从一个文件跳转到另一个文件，于世界各地主机的文件连接（超级链接文本）。&lt;/li>
+&lt;/ol>
+&lt;h4 id="网页的形成">网页的形成&lt;/h4>
+&lt;p>网页由网页元素组成，这些元素通过html标签描述出来，然后通过浏览器解析并显示出来。&lt;/p>
+&lt;h3 id="常用浏览器及其内核">常用浏览器及其内核&lt;/h3>
+&lt;h4 id="常用浏览器">常用浏览器&lt;/h4>
+&lt;p>浏览器是网页显示、运行的平台。&lt;/p>
+&lt;p>五大浏览器有 IE、Firefox、Chrome、Safari 和 Opera。&lt;/p>
+&lt;p>四大内核：Trident, Gecko, Webkit, Blink&lt;/p>
+&lt;h4 id="浏览器内核">浏览器内核&lt;/h4>
+&lt;p>浏览器内核（渲染引擎）：负责读取网页内容，整理讯息，计算网页的显示方式并显示页面。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>浏览器&lt;/th>
+&lt;th>内核&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>IE&lt;/td>
+&lt;td>Trident&lt;/td>
+&lt;td>IE、猎豹安全、360、百度浏览器&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>firefox&lt;/td>
+&lt;td>Gecko&lt;/td>
+&lt;td>火狐浏览器内核&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Safari&lt;/td>
+&lt;td>Webkit&lt;/td>
+&lt;td>苹果浏览器内核&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Chrome/Opera&lt;/td>
+&lt;td>Blink&lt;/td>
+&lt;td>chrome/opera 浏览器内核&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="web标准">Web标准&lt;/h3>
+&lt;p>Web标准是由W3C组织和其他标准化组织制定的一系列标准的集合。&lt;/p>
+&lt;h4 id="为什么需要web标准">为什么需要Web标准&lt;/h4>
+&lt;p>浏览器不同，它们显示的页面或者排版有些许差异。&lt;/p>
+&lt;p>遵循Web标准除了可以让不同的开发人员写出的页面更标准、更统一外，还有以下优点：&lt;/p>
+&lt;ol>
+&lt;li>让Web标准发展前景更为广阔&lt;/li>
+&lt;li>内容能被更广泛的设备访问。&lt;/li>
+&lt;li>更容易被搜索引擎了搜索。&lt;/li>
+&lt;li>降低网站流量费用。&lt;/li>
+&lt;li>易于维护。&lt;/li>
+&lt;li>提高页面浏览速度。&lt;/li>
+&lt;/ol>
+&lt;h4 id="web标准的构成">Web标准的构成&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>标准&lt;/th>
+&lt;th>说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>结构&lt;/td>
+&lt;td>结构对网页元素进行整理和分类，现阶段主要是HTML&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>表现&lt;/td>
+&lt;td>表现用于设置网页元素的版式、颜色、大小等外观样式，主要是指CSS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行为&lt;/td>
+&lt;td>行为是指网页模型的定义以及交互的编写，现阶段主要是JS&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Web标准提出的最佳体验方案：结构、表现、行为相分离。&lt;/p></description></item></channel></rss>

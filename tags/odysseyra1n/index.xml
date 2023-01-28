@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>odysseyra1n on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/odysseyra1n/</link><description>Recent content in odysseyra1n on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 May 2021 21:45:54 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/odysseyra1n/index.xml" rel="self" type="application/rss+xml"/><item><title>Odysseyra1n图形化安装工具Betelguese</title><link>https://blog.linsnow.cn/p/betelguese-install-ody/</link><pubDate>Sat, 22 May 2021 21:45:54 +0800</pubDate><guid>https://blog.linsnow.cn/p/betelguese-install-ody/</guid><description>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguese.png" alt="Featured image of post Odysseyra1n图形化安装工具Betelguese" />&lt;h1 id="odysseyra1n图形化安装工具betelguese">Odysseyra1n图形化安装工具Betelguese&lt;/h1>
+&lt;h2 id="betelguese-与-odysseyra1n">&lt;strong>Betelguese 与 Odysseyra1n&lt;/strong>&lt;/h2>
+&lt;p>Odysseyra1n 是一个越狱安装脚本工具，通过执行它会把 checkra1n 越狱环境转变为 Odyssey 越狱环境，这意味着你的设备将使用 Procursus 引导程序，其中 Sileo 作为默认程序包管理器，而 libhooker 作为调整注入方法。这些将替换 Cydia 和 Cydia Substrate 进行调整注入以及处理越狱调整的过程。&lt;/p>
+&lt;p>安装 Odysseyra1n 引导程序将删除 checkra1n 越狱默认安装的 Cydia 程序包管理器，并用与 Odyssey 越狱相关的那些默认的引导程序依赖项替换了一些越狱的默认引导程序依赖项，因此也称为 Odysseyra1n。&lt;/p>
+&lt;h2 id="下载betelgeuese">下载Betelgeuese&lt;/h2>
+&lt;p>Betelguese 安装 Odysseyra1n 的过程十分简单。可以使用两种安装方法，如果你使用的是Brew，则可以简单地通过终端运行 brew install Betelguese 命令。如果不希望命令模式，只需转到 GitHub 官方页面即可获得下载链接。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/23Aaron/Betelguese/releases" target="_blank" rel="noopener"
+>https://github.com/23Aaron/Betelguese/releases&lt;/a>&lt;/p>
+&lt;h2 id="使用betelgeuese">使用Betelgeuese&lt;/h2>
+&lt;p>&lt;strong>注意&lt;/strong>：如果你已经通过 checkra1 n越狱并安装了 Cydia，则需要使用 checkra1n Loader 应用程序的「Restore System」功能来删除现有的越狱。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>启动 Betelguese 应用。单击「install Odysseyra1n」按钮。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installody.jpg"
+width="1080"
+height="759"
+srcset="https://blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="341px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Betelguese 应用会提示警告，在安装 Odysseyra1n 之前，需要通过 checkra1n Loader 应用程序执行还原系统。如果你跳过步骤 1-2，请立即执行。如果你已执行步骤 1-2，请单击蓝色的「Continue」按钮继续进行。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn.jpg"
+width="1080"
+height="759"
+srcset="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="341px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Betelguese 将开始在你的设备上安装 Odysseyra1n 的过程。此过程大约需要一到两分钟时间。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installingody.jpg"
+width="1080"
+height="759"
+srcset="https://blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="341px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>完成后，只需单击蓝色的「OK」确定按钮&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone.jpg"
+width="1080"
+height="759"
+srcset="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="341px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>现在查看你的 iPhone 或 iPad，那么应该在主屏幕上看到 Sileo。&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/checksileo.jpg"
+width="750"
+height="599"
+srcset="https://blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="125"
+data-flex-basis="300px"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>开始享受sileo吧&lt;/p></description></item><item><title>使用OdysseyRa1n安装Sileo</title><link>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link><pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid><description>&lt;img src="https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" />&lt;h1 id="使用odysseyra1n安装sileo">使用OdysseyRa1n安装Sileo&lt;/h1>
+&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>Odysseyra1n 是来自 Coolstar 的一个新的处理计划，并附带了来自 Diatrus 新的、开源的 Procursus bootstrap。&lt;/p>
+&lt;p>Odysseyra1n 能够让你的设施运转齐全自力的 libhooker。Libhooker 是 Coolstar 从零开端打造的一个以速率和稳固性为条件的 substrate/substitute。Libhooker 对 iOS 13 进行了完美的适配。&lt;/p>
+&lt;p>Procursus 从零开端就被计划为开源，一切人都能够拜访，并附带 Diatrus 不断在开辟的 133 个软件包，此中包含 wget2，这是一切 iOS Boostrap 的第一个软件包。Procursus 的计划目标是能够轻松地增加就任何越狱中，以便疾速、轻松地增加成为越狱依赖，而且依赖是古代化的、最新的。&lt;/p>
+&lt;p>Odysseyra1n 仅允从应用 checkra1n 越狱的设施，不允从 unc0ver 越狱设施。&lt;/p>
+&lt;h2 id="macos-平台">macOS 平台&lt;/h2>
+&lt;p>在 macOS 的终端输入以下命令安装 homebrew，使用国内镜像源安装，如果电脑没有安装 Xcode 需要输入两次命令。第一次输入会提示安装系统更新，系统更新安装完成后，再次输入命令进行安装 homebrew，请耐心等待安装完成。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">/bin/zsh -c &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>安装 homebrew 完成之后，再次输入命令安装 iproxy，请耐心等待安装完成。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">brew install usbmuxd
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="linux-平台">Linux 平台&lt;/h2>
+&lt;p>终端输入命令安装 iproxy&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt install libusbmuxd-tools
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h3 id="checkra1n-越狱">checkra1n 越狱&lt;/h3>
+&lt;p>首先使用 checkra1n 越狱，如何越狱就不再赘述了。&lt;/p>
+&lt;blockquote>
+&lt;p>如果已经使用 checkra1n 越狱，请先 rootfs 清理越狱环境再使用 checkra1n 越狱一次。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="安装-sileo">安装 Sileo&lt;/h3>
+&lt;p>注意事项：使用 CoolStar 提供的脚本及国内分流脚本，不需要打开 SSH 通道，checkra1n 越狱后，&lt;strong>不要打开 checkra1n 安装 Cydia&lt;/strong>。&lt;/p>
+&lt;h3 id="coolstar-原版脚本">CoolStar 原版脚本&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">/bin/bash -c &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="安装完后">安装完后&lt;/h2>
+&lt;h3 id="更新插件必须">更新插件（必须）&lt;/h3>
+&lt;p>Sileo 刷新完成后，会提示更新插件，直接更新即可。&lt;/p>
+&lt;h3 id="安装-libhooker必须">安装 libhooker（必须）&lt;/h3>
+&lt;p>Sileo 切换至开发者模式（慢慢找，一个圆圆的按钮，不要找不到就说没有）&lt;/p>
+&lt;p>进入Odyssey Repo 安装 PreferenceLoader和libhook&lt;/p>
+&lt;p>&lt;strong>libhooker 安装完成后，请使用 checkra1n 重新引导越狱一次，或者安装 NewTerm (iOS 10 - 13) 终端插件，使用命令。&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">su /etc/rc.d/libhooker
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
