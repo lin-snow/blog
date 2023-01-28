@@ -929,7 +929,7 @@ data-flex-basis="254px"
 &lt;hr>
 &lt;h2 id="hugo博客配合action部署到github">🏐Hugo博客配合Action部署到Github&lt;/h2>
 &lt;h3 id="注册github">🎈注册GitHub&lt;/h3>
-&lt;p>打开&lt;code>https://github.com/&lt;/code>,(打不开的可能需要科学上网,或者换个时间点打开,具体怎么操作就不细说了,懂得都懂😶),注册一个GitHub账号,如果不会注册那你还来看这篇文章干嘛.&lt;/p>
+&lt;p>打开&lt;code>https://github.com/&lt;/code>,(打不开的可能需要魔法,或者换个时间点打开,具体怎么操作就不细说了,懂得都懂😶),注册一个GitHub账号,如果不会注册那你还来看这篇文章干嘛.&lt;/p>
 &lt;h3 id="创建github仓库">🎈创建Github仓库&lt;/h3>
 &lt;p>为了使用&lt;code>GitHub Action&lt;/code>自动部署,加上便于管理,所以创建两个仓库,虽然一个也行.&lt;/p>
 &lt;ol>
