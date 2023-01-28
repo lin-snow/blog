@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>L1nSn0w's Blog</title><link>https://blog.linsnow.cn/</link><description>Recent content on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 17 Dec 2022 22:17:06 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>拥抱最好用的hugo之stack</title><link>https://blog.linsnow.cn/p/join-hugo-and-stack/</link><pubDate>Sat, 17 Dec 2022 22:17:06 +0800</pubDate><guid>https://blog.linsnow.cn/p/join-hugo-and-stack/</guid><description>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/hugostack.webp" alt="Featured image of post 拥抱最好用的hugo之stack" />&lt;h2 id="缘起">&lt;em>🙃缘起:&lt;/em>&lt;/h2>
-&lt;p>&lt;em>进坑Hugo这么久了,是时候也开一篇记录一下建站过程了.&lt;/em>&lt;/p>
+&lt;p>*进坑Hugo这么久了,是时候也开一篇记录一下建站过程了.*本教程是面向小白而写的,所以可能有些东西写的很罗嗦,所以大佬手下留情.本文稍微有点长,所以请保持耐心.😅&lt;/p>
 &lt;p>&lt;em>写这篇的一个主要原因有三:&lt;/em>&lt;/p>
 &lt;blockquote>
 &lt;ol>
@@ -933,18 +933,42 @@ data-flex-basis="254px"
 &lt;h3 id="创建github仓库">🎈创建Github仓库&lt;/h3>
 &lt;p>为了使用&lt;code>GitHub Action&lt;/code>自动部署,加上便于管理,所以创建两个仓库,虽然一个也行.&lt;/p>
 &lt;ol>
-&lt;li>我们先创建一个名字为&lt;code>blog&lt;/code>的仓库用于存放hugo生成的文件,打开右上角的&lt;code>+号&lt;/code>,然后选择&lt;code>New repository&lt;/code>以新建仓库&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_19-09-19.png"
+&lt;li>
+&lt;p>我们先创建一个名字为&lt;code>blog&lt;/code>的仓库用于存放hugo生成的文件,打开右上角的&lt;code>+号&lt;/code>,然后选择&lt;code>New repository&lt;/code>以新建仓库&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/newrepo.webp"
+width="411"
+height="286"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/newrepo_hu64d37a85fc9ed95fec6e2688bff11f1f_6946_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/newrepo_hu64d37a85fc9ed95fec6e2688bff11f1f_6946_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_19-09-19"
->&lt;/li>
-&lt;li>跟着图片里的步骤操作,先给仓库取个名字,叫做&lt;code>blog&lt;/code>(小白最好将仓库名字跟我起一样的),然后勾选&lt;code>public&lt;/code>,接着勾选&lt;code>Add a REAMME file&lt;/code>,最后点击&lt;code>Create repository&lt;/code>完成创建.&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_19-12-55.png"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="344px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>跟着图片里的步骤操作,先给仓库取个名字,叫做&lt;code>blog&lt;/code>(小白最好将仓库名字跟我起一样的),然后勾选&lt;code>public&lt;/code>,接着勾选&lt;code>Add a REAMME file&lt;/code>,最后点击&lt;code>Create repository&lt;/code>完成创建.&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/newblog.webp"
+width="1022"
+height="858"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/newblog_hub44b5b978cf48bc7548e7523a0d3c088_30398_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/newblog_hub44b5b978cf48bc7548e7523a0d3c088_30398_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_19-12-55"
->&lt;/li>
-&lt;li>接下来我们按照刚才那样依葫芦画瓢,再创建一个名为&lt;code>blog-file&lt;/code>的仓库&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_19-15-39.png"
+class="gallery-image"
+data-flex-grow="119"
+data-flex-basis="285px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>接下来我们按照刚才那样依葫芦画瓢,再创建一个名为&lt;code>blog-file&lt;/code>的仓库&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/newblogfile.webp"
+width="1044"
+height="860"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/newblogfile_hub155e085aa80f05fd79e8f25b468d71a_32940_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/newblogfile_hub155e085aa80f05fd79e8f25b468d71a_32940_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_19-15-39"
->&lt;/li>
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="291px"
+>&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;h3 id="获取ssh-key密钥">🎈获取SSH Key密钥&lt;/h3>
 &lt;p>ssh密钥可以是我们推送文件到仓库时不需要每次都输入密码,大大的提高我们的效率.所以我们首先需要在我们的电脑生成ssh密钥&lt;/p>
@@ -1006,20 +1030,45 @@ data-flex-grow="144"
 data-flex-basis="346px"
 >&lt;/p>
 &lt;p>用记事本打开生成目录下&lt;code>id_rsa.pub&lt;/code>,其中的内容即为公钥,&lt;code>id_rsa&lt;/code>即为私钥.这两个待会要用到.&lt;/p>
-&lt;p>3.将将公钥配置到&lt;code>GitHub&lt;/code>账户中,先打开设置,即&lt;code>Settings&lt;/code>&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_18-35-50.png"
+&lt;p>3.将将公钥配置到&lt;code>GitHub&lt;/code>账户中,先打开设置,即&lt;code>Settings&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/setting.webp"
+width="875"
+height="704"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/setting_hu0379377d39850b98607acff407aeb35b_14002_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/setting_hu0379377d39850b98607acff407aeb35b_14002_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="124"
+data-flex-basis="298px"
 >&lt;/p>
-&lt;p>进入&lt;code>SSH and GPG key&lt;/code>配置项里,点击&lt;code>SSH keys&lt;/code>下的&lt;code>New SHH key&lt;/code>进行添加&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_18-36-38.png"
+&lt;p>进入&lt;code>SSH and GPG key&lt;/code>配置项里,点击&lt;code>SSH keys&lt;/code>下的&lt;code>New SHH key&lt;/code>进行添加&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/sshkey.webp"
+width="1609"
+height="761"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/sshkey_hud3e8373a105effd8d34b17f1b5c21d54_26400_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/sshkey_hud3e8373a105effd8d34b17f1b5c21d54_26400_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_18-36-38"
+class="gallery-image"
+data-flex-grow="211"
+data-flex-basis="507px"
 >&lt;/p>
-&lt;p>4.然后随便在&lt;code>Title&lt;/code>项里随便起一个名字,在&lt;code>Key&lt;/code>里填入刚才得到的&lt;code>id_rsa.pub&lt;/code>里的内容,然后点击&lt;code>Add SSH key&lt;/code>就添加好了.&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_18-43-10.png"
+&lt;p>4.然后随便在&lt;code>Title&lt;/code>项里随便起一个名字,在&lt;code>Key&lt;/code>里填入刚才得到的&lt;code>id_rsa.pub&lt;/code>里的内容,然后点击&lt;code>Add SSH key&lt;/code>就添加好了.&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/addssh.webp"
+width="1012"
+height="624"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/addssh_hu422486d9ba757fe3ffe7e13c33a5740b_27340_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/addssh_hu422486d9ba757fe3ffe7e13c33a5740b_27340_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_18-43-10"
+class="gallery-image"
+data-flex-grow="162"
+data-flex-basis="389px"
 >&lt;/p>
-&lt;p>5.接下来我们需要往刚才创建的名为&lt;code>blog-file&lt;/code>的仓库里添加&lt;code>id_rsa密钥&lt;/code>,点击&lt;code>Settings&lt;/code>,然后找到&lt;code>Secrets and variables&lt;/code>,点击&lt;code>Actions&lt;/code>,然后点击&lt;code>New repository secret&lt;/code>&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_19-27-24.png"
+&lt;p>5.接下来我们需要往刚才创建的名为&lt;code>blog-file&lt;/code>的仓库里添加&lt;code>id_rsa密钥&lt;/code>,点击&lt;code>Settings&lt;/code>,然后找到&lt;code>Secrets and variables&lt;/code>,点击&lt;code>Actions&lt;/code>,然后点击&lt;code>New repository secret&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/secret.webp"
+width="1869"
+height="881"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/secret_huc6651b4612ed5665477aca6d7ee98238_28404_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/secret_huc6651b4612ed5665477aca6d7ee98238_28404_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_19-27-24"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="509px"
 >&lt;/p>
 &lt;hr>
 &lt;h3 id="部署hugo博客">🎈部署hugo博客&lt;/h3>
@@ -1126,9 +1175,15 @@ alt="Snipaste_2023-01-28_19-27-24"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>2.然后在博客根目录文件夹下新建一个名为&lt;code>deploy.sh&lt;/code>的文件用于一键部署博客,在&lt;code>deploy.sh&lt;/code>中填入如下内容,其中最后一行代码里的&lt;code>git@github.com:lin-snow/blog-file.git&lt;/code>需要更改为你自己仓库的地址,可以通过如下图片中的操作获得该地址&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_20-05-10.png"
+&lt;/div>&lt;p>2.然后在博客根目录文件夹下新建一个名为&lt;code>deploy.sh&lt;/code>的文件用于一键部署博客,在&lt;code>deploy.sh&lt;/code>中填入如下内容,其中最后一行代码里的&lt;code>git@github.com:lin-snow/blog-file.git&lt;/code>需要更改为你自己仓库的地址,可以通过如下图片中的操作获得该地址&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/codessh.webp"
+width="1167"
+height="583"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/codessh_huce434b3049690aee9a6100debf148228_19694_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/codessh_huce434b3049690aee9a6100debf148228_19694_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_20-05-10"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="480px"
 >&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1157,13 +1212,41 @@ alt="Snipaste_2023-01-28_20-05-10"
 &lt;/div>&lt;p>然后双击打开运行&lt;code>deploy.sh&lt;/code>即可自动推送文件到仓库,以后写完博客或修改博客后都需要运行一下&lt;code>deploy.sh&lt;/code>,才能部署到云端&lt;/p>
 &lt;p>3.接下来我们先运行&lt;code>deploy.sh&lt;/code>推送一下文件到仓库,等推送上去之后,我们才能完成接下来的操作.&lt;/p>
 &lt;blockquote>
-&lt;p>注意,第一次运行deploy.sh可能会出现如图这种情况,直接输入yes回车即可,如果仓库里没发现上传的文件可以再运行一次&lt;code>deploy.sh&lt;/code>&lt;img src="https://blog.linsnow.cn/C:%5cUsers%5cl1nsn0w%5cDesktop%5cSnipaste_2023-01-28_20-21-52.png"
+&lt;p>注意,第一次运行deploy.sh可能会出现如图这种情况,直接输入yes回车即可,如果仓库里没发现上传的文件可以再运行一次&lt;code>deploy.sh&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/deployyes.webp"
+width="745"
+height="449"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/deployyes_hu1735d9c92009dacc0d6c85a27c530628_18394_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/deployyes_hu1735d9c92009dacc0d6c85a27c530628_18394_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
-alt="Snipaste_2023-01-28_20-21-52"
+class="gallery-image"
+data-flex-grow="165"
+data-flex-basis="398px"
 >&lt;/p>
 &lt;/blockquote>
+&lt;p>这里贴出我的GitHub Action运行状况&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/actionstatus.webp"
+width="1045"
+height="464"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/actionstatus_hu1acc05713435fbcc0671a9a226938fac_10126_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/actionstatus_hu1acc05713435fbcc0671a9a226938fac_10126_1024x0_resize_q75_h2_box_2.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="225"
+data-flex-basis="540px"
+>&lt;/p>
 &lt;hr>
-&lt;h3 id="开启github-action">🎈开启Github Action&lt;/h3>
+&lt;h3 id="开启github-page">🎈开启Github Page&lt;/h3>
+&lt;p>等待&lt;code>Github Action&lt;/code>完成后,我们需要开启&lt;code>GitHub page&lt;/code>,首先进入blog这个仓库,然后打开设置,找到&lt;code>page&lt;/code>项,根据如下设置即可.&lt;/p>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/githubpage.webp"
+width="1535"
+height="830"
+srcset="https://blog.linsnow.cn/p/join-hugo-and-stack/githubpage_hu8080848c8ce1a3ac172a6a904b566d3f_37162_480x0_resize_q75_h2_box_2.webp 480w, https://blog.linsnow.cn/p/join-hugo-and-stack/githubpage_hu8080848c8ce1a3ac172a6a904b566d3f_37162_1024x0_resize_q75_h2_box_2.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="184"
+data-flex-basis="443px"
+>&lt;/p>
+&lt;p>到这里我们就成功上线我们的博客了.至于自定义域名可以在网上找到很多教程,这里就不写了,毕竟我比较懒.&lt;/p>
+&lt;hr>
 &lt;h2 id="hugo主题魔改">🍥Hugo主题魔改&lt;/h2>
 &lt;h3 id="基础理论重要">🍀基础理论(重要):&lt;/h3>
 &lt;p>hugo的魔改不可以直接修改&lt;code>themes&lt;/code>文件夹下的主题文件,正确的魔改方式是在博客根目录下创建对应的文件进行覆盖修改,举个栗子:&lt;/p>
@@ -2083,10 +2166,7 @@ alt="Snipaste_2023-01-28_20-21-52"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">footer&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;hr>
-&lt;h3 id="雪花特效">🎈雪花特效&lt;/h3>
-&lt;p>in writing&amp;hellip;&lt;/p>
-&lt;h3 id="样式一">🎈样式一&lt;/h3>
+&lt;/div>&lt;h3 id="样式一">🎈样式一&lt;/h3>
 &lt;p>in writing&amp;hellip;&lt;/p>
 &lt;h3 id="样式二">🎈样式二&lt;/h3>
 &lt;p>in writing&amp;hellip;&lt;/p>
