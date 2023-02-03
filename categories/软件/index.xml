@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/</link><description>Recent content in 软件 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Oct 2021 07:30:35 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>适合win11的开源哔哩哔哩客户端</title><link>https://blog.linsnow.cn/p/win11-bili/</link><pubDate>Sat, 02 Oct 2021 07:30:35 +0800</pubDate><guid>https://blog.linsnow.cn/p/win11-bili/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili.png" alt="Featured image of post 适合win11的开源哔哩哔哩客户端" />&lt;h1 id="适合win11的开源哔哩哔哩客户端">适合win11的开源哔哩哔哩客户端&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件 on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/</link><description>Recent content in 软件 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 02 Oct 2021 07:30:35 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/categories/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>适合win11的开源哔哩哔哩客户端</title><link>https://.blog.linsnow.cn/p/win11-bili/</link><pubDate>Sat, 02 Oct 2021 07:30:35 +0800</pubDate><guid>https://.blog.linsnow.cn/p/win11-bili/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili.png" alt="Featured image of post 适合win11的开源哔哩哔哩客户端" />&lt;h1 id="适合win11的开源哔哩哔哩客户端">适合win11的开源哔哩哔哩客户端&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>b站，现在几乎成了许多人每天闭上的网站之一。在电脑端，b站使用网页提供服务，当时在微软商店貌似也有uwp版的客户端，但使用体验并不好，功能少的可怜，设计界面也不是很好看，这么久了官方也不更新一下。。。。&lt;/p>
 &lt;p>不过还有，前阵子刚好逛b站的时候发现了一款名为——哔哩 的开源软件，接下来隆重介绍这款nb的软件。&lt;/p>
@@ -19,10 +19,10 @@
 &lt;blockquote>
 &lt;p>未缩放侧边栏&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili1.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili1.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili1_hudde6c327bc9282e2c7f2edc40d53b159_254938_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
@@ -31,50 +31,50 @@ data-flex-basis="451px"
 &lt;blockquote>
 &lt;p>缩放侧边栏&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili2.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili2.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili2_hud92d4e6326cdd5c1ef5bf095bc2d1c6f_244152_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="451px"
 >&lt;/p>
 &lt;h3 id="播放界面">播放界面&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili5.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili5.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili5_huf721f91fb8827c9032dd8b4652804537_368423_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="451px"
 >&lt;/p>
 &lt;h3 id="番剧界面">番剧界面&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili3.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili3.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili3_hu3cbbe2b1be9c2fc986c59f58434a11f6_328872_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="451px"
 >&lt;/p>
 &lt;h3 id="设置界面">设置界面&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili4.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili4.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili4_hu9823f1694ed639692bccb340702d18de_164404_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="451px"
 >&lt;/p>
 &lt;h3 id="平板模式">平板模式&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili6.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili6.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili6_hu4d12818b9fbc6d29334e436b4fd0eeaf_532045_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
@@ -96,10 +96,10 @@ data-flex-basis="451px"
 &lt;/li>
 &lt;li>
 &lt;p>用&lt;code>powershell&lt;/code>打开&lt;code>Add-AppDevPackage.ps1&lt;/code>&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-bili/bili7.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-bili/bili7.png"
 width="850"
 height="658"
-srcset="https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-bili/bili7_hu18a08876a9586f673e504bdcbf5435cc_52894_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="129"
@@ -117,7 +117,7 @@ data-flex-basis="310px"
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="结尾">结尾&lt;/h2>
-&lt;p>感觉开发者无私的奉献，喜欢的可以去GitHub点个star，为开发者助力。&lt;/p></description></item><item><title>我认为的最强markdown笔记软件obsidian</title><link>https://blog.linsnow.cn/p/opensource-best-obsidian/</link><pubDate>Tue, 31 Aug 2021 09:58:22 +0800</pubDate><guid>https://blog.linsnow.cn/p/opensource-best-obsidian/</guid><description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/obsidian.png" alt="Featured image of post 我认为的最强markdown笔记软件obsidian" />&lt;h1 id="我认为的最强markdown笔记软件obsidian">我认为的最强markdown笔记软件obsidian&lt;/h1>
+&lt;p>感觉开发者无私的奉献，喜欢的可以去GitHub点个star，为开发者助力。&lt;/p></description></item><item><title>我认为的最强markdown笔记软件obsidian</title><link>https://.blog.linsnow.cn/p/opensource-best-obsidian/</link><pubDate>Tue, 31 Aug 2021 09:58:22 +0800</pubDate><guid>https://.blog.linsnow.cn/p/opensource-best-obsidian/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/obsidian.png" alt="Featured image of post 我认为的最强markdown笔记软件obsidian" />&lt;h1 id="我认为的最强markdown笔记软件obsidian">我认为的最强markdown笔记软件obsidian&lt;/h1>
 &lt;h2 id="什么是obsidian">什么是obsidian？&lt;/h2>
 &lt;p>obsidian的中文名：黑曜石/黑石
 obsidian的简介（引用自官网：&lt;/p>
@@ -155,10 +155,10 @@ Obsidian生成的文件全是Markdown格式。如果你已经用过markdown语�
 选择外观选项&lt;/p>
 &lt;/blockquote>
 &lt;p>将外观设置为黑暗、开启半透明的效果
-&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/1.png"
+&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/1.png"
 width="1502"
 height="703"
-srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-obsidian/1_hu5f3eb03b3b67d34d182f551036ccb352_28139_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="213"
@@ -174,20 +174,20 @@ data-flex-basis="512px"
 &lt;p>首先打开某个markdown文件
 如图：
 打开软件页面的右上角上的三个点
-&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/2.png"
+&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/2.png"
 width="1920"
 height="1021"
-srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-obsidian/2_hu60f2f46a2804870733cc00de7aab25a7_411378_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="451px"
 >
 在弹出的选项页面打开&lt;code>与其他面板同步&lt;/code>、&lt;code>左右拆分&lt;/code>
-&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/3.png"
+&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/3.png"
 width="300"
 height="264"
-srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-obsidian/3_hu7c9ba55695e1b5ef2f126d337c55a419_6335_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="113"
@@ -196,10 +196,10 @@ data-flex-basis="272px"
 将其中一边设置为预览模式：
 可以直接在右上角设置
 也可以使用快捷键&lt;code>ctrl + E&lt;/code>设置
-&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/4.png"
+&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/4.png"
 width="1920"
 height="1020"
-srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-obsidian/4_hu628610acd7644eaa2e82fe4005d10a5b_360511_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
@@ -208,10 +208,10 @@ data-flex-basis="451px"
 &lt;p>到这里基本上都设置完了&lt;/p>
 &lt;p>接下来演示一些其他的功能&lt;/p>
 &lt;h2 id="查看关系图谱">查看关系图谱&lt;/h2>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-obsidian/5.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-obsidian/5.png"
 width="1920"
 height="1017"
-srcset="https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-obsidian/5_hu89989d76a694d60eb40fc825e0cdb991_308509_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
@@ -222,7 +222,7 @@ data-flex-basis="453px"
 &lt;blockquote>
 &lt;p>&lt;strong>官网地址&lt;/strong>：&lt;a class="link" href="https://obsidian.md/" target="_blank" rel="noopener"
 >黑曜石&lt;/a>&lt;/p>
-&lt;/blockquote></description></item><item><title>为typora安装vue风格主题</title><link>https://blog.linsnow.cn/p/vue-typora/</link><pubDate>Thu, 19 Aug 2021 14:58:23 +0800</pubDate><guid>https://blog.linsnow.cn/p/vue-typora/</guid><description>&lt;img src="https://blog.linsnow.cn/p/vue-typora/typoravue.png" alt="Featured image of post 为typora安装vue风格主题" />&lt;h1 id="为typora安装vue风格主题">为typora安装vue风格主题&lt;/h1>
+&lt;/blockquote></description></item><item><title>为typora安装vue风格主题</title><link>https://.blog.linsnow.cn/p/vue-typora/</link><pubDate>Thu, 19 Aug 2021 14:58:23 +0800</pubDate><guid>https://.blog.linsnow.cn/p/vue-typora/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/vue-typora/typoravue.png" alt="Featured image of post 为typora安装vue风格主题" />&lt;h1 id="为typora安装vue风格主题">为typora安装vue风格主题&lt;/h1>
 &lt;h2 id="简介">简介&lt;/h2>
 &lt;p>&lt;a class="link" href="https://www.typora.io/" target="_blank" rel="noopener"
 >Typora&lt;/a>是一款支持实时预览的 Markdown 编辑器和阅读器，支持&lt;code>Windows&lt;/code>、&lt;code>macOS&lt;/code>、&lt;code>Linux&lt;/code>三大平台。Typora 作为一款合格的 Markdown 编辑器，支持图片、列表、表格、代码、公式、目录等功能，同时这款软件还支持（一键）动态预览功能，让一切都变得如此干净、纯粹。&lt;/p>
@@ -240,16 +240,16 @@ data-flex-basis="453px"
 &lt;li>关闭并重新打开 Typora，从菜单栏中选择 “&lt;strong>主题&lt;/strong>” =&amp;gt; “&lt;strong>Vue&lt;/strong>” 或者 “&lt;strong>Vue Dark&lt;/strong>” 即可。&lt;/li>
 &lt;/ol>
 &lt;h2 id="效果图">效果图&lt;/h2>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/vue-typora/vuetypora.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/vue-typora/vuetypora.png"
 width="955"
 height="874"
-srcset="https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/vue-typora/vuetypora_hu6c7734a47fb435583ab156f43ed8e607_52224_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="typora"
 class="gallery-image"
 data-flex-grow="109"
 data-flex-basis="262px"
->&lt;/p></description></item><item><title>我认为的最强开源下载软件之Motrix</title><link>https://blog.linsnow.cn/p/opensource-best-motrix/</link><pubDate>Mon, 16 Aug 2021 15:04:18 +0800</pubDate><guid>https://blog.linsnow.cn/p/opensource-best-motrix/</guid><description>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix.png" alt="Featured image of post 我认为的最强开源下载软件之Motrix" />&lt;h1 id="我认为的最强开源下载软件之motrix">我认为的最强开源下载软件之Motrix&lt;/h1>
+>&lt;/p></description></item><item><title>我认为的最强开源下载软件之Motrix</title><link>https://.blog.linsnow.cn/p/opensource-best-motrix/</link><pubDate>Mon, 16 Aug 2021 15:04:18 +0800</pubDate><guid>https://.blog.linsnow.cn/p/opensource-best-motrix/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-motrix/motrix.png" alt="Featured image of post 我认为的最强开源下载软件之Motrix" />&lt;h1 id="我认为的最强开源下载软件之motrix">我认为的最强开源下载软件之Motrix&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>好的软件不应该被埋没，今天分享一个开源的下载软件&amp;ndash;Motrix。说到下载器，你首先想到什么？&lt;/p>
 &lt;p>某雷？某雷的确很强大，但是由于种种原因，并不可靠；IDM？IDM牛逼是牛逼，可惜不支持BT。&lt;/p>
@@ -281,20 +281,20 @@ data-flex-basis="262px"
 >Linux&lt;/a> 三大平台上都有着一致的使用体验。&lt;/p>
 &lt;h2 id="软件界面">软件界面&lt;/h2>
 &lt;p>&lt;strong>下载界面&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-page.png"
 width="1147"
 height="716"
-srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-page_hu14e7b7f3b00b34184b8ad4af6d1b6409_17554_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="160"
 data-flex-basis="384px"
 >&lt;/p>
 &lt;p>&lt;strong>其他界面&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-setting.png"
 width="1443"
 height="900"
-srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-motrix/motrix-setting_huef136bd99b6513115e91e010950fca4f_25093_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="160"
@@ -303,10 +303,10 @@ data-flex-basis="384px"
 &lt;h2 id="口说无凭">口说无凭&lt;/h2>
 &lt;p>&lt;strong>以下载GitHub上的软件做测试&lt;/strong>&lt;/p>
 &lt;p>以下载GitHub上的Motrix做测试&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/opensource-best-motrix/motrixdownload.png"
 width="1163"
 height="582"
-srcset="https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/opensource-best-motrix/motrixdownload_hu5e22cefef6645e130334ec8825fdf978_12235_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="199"
@@ -318,7 +318,7 @@ data-flex-basis="479px"
 &lt;p>官网网站：&lt;a class="link" href="https://motrix.app/" target="_blank" rel="noopener"
 >莫特里克斯 (motrix.app)&lt;/a>&lt;/p>
 &lt;p>GitHub仓库地址：https://github.com/agalwood/Motrix&lt;/p>
-&lt;/blockquote></description></item><item><title>PR常用快捷键</title><link>https://blog.linsnow.cn/p/pr-key/</link><pubDate>Thu, 19 Aug 2021 14:22:50 +0800</pubDate><guid>https://blog.linsnow.cn/p/pr-key/</guid><description>&lt;img src="https://blog.linsnow.cn/p/pr-key/pr.png" alt="Featured image of post PR常用快捷键" />&lt;h1 id="pr常用快捷键">PR常用快捷键&lt;/h1>
+&lt;/blockquote></description></item><item><title>PR常用快捷键</title><link>https://.blog.linsnow.cn/p/pr-key/</link><pubDate>Thu, 19 Aug 2021 14:22:50 +0800</pubDate><guid>https://.blog.linsnow.cn/p/pr-key/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/pr-key/pr.png" alt="Featured image of post PR常用快捷键" />&lt;h1 id="pr常用快捷键">PR常用快捷键&lt;/h1>
 &lt;h2 id="基本快捷键操作">&lt;strong>基本快捷键操作&lt;/strong>&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -625,7 +625,7 @@ data-flex-basis="479px"
 &lt;td>粘贴插入&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>PS常用快捷键</title><link>https://blog.linsnow.cn/p/ps-key/</link><pubDate>Thu, 19 Aug 2021 14:20:32 +0800</pubDate><guid>https://blog.linsnow.cn/p/ps-key/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ps-key/ps.png" alt="Featured image of post PS常用快捷键" />&lt;h1 id="ps常用快捷键">PS常用快捷键&lt;/h1>
+&lt;/table></description></item><item><title>PS常用快捷键</title><link>https://.blog.linsnow.cn/p/ps-key/</link><pubDate>Thu, 19 Aug 2021 14:20:32 +0800</pubDate><guid>https://.blog.linsnow.cn/p/ps-key/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/ps-key/ps.png" alt="Featured image of post PS常用快捷键" />&lt;h1 id="ps常用快捷键">PS常用快捷键&lt;/h1>
 &lt;table>
 &lt;thead>
 &lt;tr>

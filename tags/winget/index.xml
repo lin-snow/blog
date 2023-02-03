@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>winget on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/winget/</link><description>Recent content in winget on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 15 Aug 2021 13:42:53 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/winget/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows包管理器Winget快速入门</title><link>https://blog.linsnow.cn/p/winget-start/</link><pubDate>Sun, 15 Aug 2021 13:42:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/winget-start/</guid><description>&lt;img src="https://blog.linsnow.cn/p/winget-start/winget.png" alt="Featured image of post Windows包管理器Winget快速入门" />&lt;h1 id="windows包管理器winget快速入门">Windows包管理器Winget快速入门&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>winget on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/winget/</link><description>Recent content in winget on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Aug 2021 13:42:53 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/winget/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows包管理器Winget快速入门</title><link>https://.blog.linsnow.cn/p/winget-start/</link><pubDate>Sun, 15 Aug 2021 13:42:53 +0800</pubDate><guid>https://.blog.linsnow.cn/p/winget-start/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/winget-start/winget.png" alt="Featured image of post Windows包管理器Winget快速入门" />&lt;h1 id="windows包管理器winget快速入门">Windows包管理器Winget快速入门&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>微软 Windows 软件包管理器 winget已经发布了，winget 是 Windows 软件包管理器的 CLI（命令行界面），类似于 Linux 上的软件包管理器，用户可以通过 winget 命令行工具发现、安装、升级、删除和配置特选应用程序集。安装后，用户可以通过 Windows Terminal、PowerShell 或 CMD 访问 winget。假如你已经习惯了使用Linux的包管理器，那么winget就可以快速上手，运用winget可以快速给Windows安装软件&amp;hellip;.&lt;/p>
 &lt;hr>
@@ -27,10 +27,10 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">winget &lt;span class="o">[&lt;/span>&amp;lt;命令&amp;gt;&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>&amp;lt;选项&amp;gt;&lt;span class="o">]&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://blog.linsnow.cn/p/winget-start/wingetuse.png"
+&lt;/div>&lt;p>&lt;img src="https://.blog.linsnow.cn/p/winget-start/wingetuse.png"
 width="1302"
 height="725"
-srcset="https://blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/winget-start/wingetuse_hu2cdb50ea28803bde52a3e7e0e2827492_37872_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="179"
@@ -47,10 +47,10 @@ data-flex-basis="431px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;strong>输出结果&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/winget-start/wingetsearch.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/winget-start/wingetsearch.png"
 width="841"
 height="358"
-srcset="https://blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/winget-start/wingetsearch_huc9e13b2995cefe085e9953028e1d2b0f_11725_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="234"

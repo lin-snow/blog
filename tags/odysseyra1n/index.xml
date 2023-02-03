@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>odysseyra1n on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/odysseyra1n/</link><description>Recent content in odysseyra1n on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 May 2021 21:45:54 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/odysseyra1n/index.xml" rel="self" type="application/rss+xml"/><item><title>Odysseyra1n图形化安装工具Betelguese</title><link>https://blog.linsnow.cn/p/betelguese-install-ody/</link><pubDate>Sat, 22 May 2021 21:45:54 +0800</pubDate><guid>https://blog.linsnow.cn/p/betelguese-install-ody/</guid><description>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguese.png" alt="Featured image of post Odysseyra1n图形化安装工具Betelguese" />&lt;h1 id="odysseyra1n图形化安装工具betelguese">Odysseyra1n图形化安装工具Betelguese&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>odysseyra1n on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/odysseyra1n/</link><description>Recent content in odysseyra1n on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 May 2021 21:45:54 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/odysseyra1n/index.xml" rel="self" type="application/rss+xml"/><item><title>Odysseyra1n图形化安装工具Betelguese</title><link>https://.blog.linsnow.cn/p/betelguese-install-ody/</link><pubDate>Sat, 22 May 2021 21:45:54 +0800</pubDate><guid>https://.blog.linsnow.cn/p/betelguese-install-ody/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguese.png" alt="Featured image of post Odysseyra1n图形化安装工具Betelguese" />&lt;h1 id="odysseyra1n图形化安装工具betelguese">Odysseyra1n图形化安装工具Betelguese&lt;/h1>
 &lt;h2 id="betelguese-与-odysseyra1n">&lt;strong>Betelguese 与 Odysseyra1n&lt;/strong>&lt;/h2>
 &lt;p>Odysseyra1n 是一个越狱安装脚本工具，通过执行它会把 checkra1n 越狱环境转变为 Odyssey 越狱环境，这意味着你的设备将使用 Procursus 引导程序，其中 Sileo 作为默认程序包管理器，而 libhooker 作为调整注入方法。这些将替换 Cydia 和 Cydia Substrate 进行调整注入以及处理越狱调整的过程。&lt;/p>
 &lt;p>安装 Odysseyra1n 引导程序将删除 checkra1n 越狱默认安装的 Cydia 程序包管理器，并用与 Odyssey 越狱相关的那些默认的引导程序依赖项替换了一些越狱的默认引导程序依赖项，因此也称为 Odysseyra1n。&lt;/p>
@@ -11,10 +11,10 @@
 &lt;ol>
 &lt;li>
 &lt;p>启动 Betelguese 应用。单击「install Odysseyra1n」按钮。&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installody.jpg"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/installody.jpg"
 width="1080"
 height="759"
-srcset="https://blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -23,10 +23,10 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>Betelguese 应用会提示警告，在安装 Odysseyra1n 之前，需要通过 checkra1n Loader 应用程序执行还原系统。如果你跳过步骤 1-2，请立即执行。如果你已执行步骤 1-2，请单击蓝色的「Continue」按钮继续进行。&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn.jpg"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn.jpg"
 width="1080"
 height="759"
-srcset="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -35,10 +35,10 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>Betelguese 将开始在你的设备上安装 Odysseyra1n 的过程。此过程大约需要一到两分钟时间。&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installingody.jpg"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/installingody.jpg"
 width="1080"
 height="759"
-srcset="https://blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -47,10 +47,10 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>完成后，只需单击蓝色的「OK」确定按钮&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone.jpg"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone.jpg"
 width="1080"
 height="759"
-srcset="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -59,10 +59,10 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>现在查看你的 iPhone 或 iPad，那么应该在主屏幕上看到 Sileo。&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/checksileo.jpg"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo.jpg"
 width="750"
 height="599"
-srcset="https://blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_480x0_resize_q75_box.jpg 480w, https://blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="125"
@@ -70,7 +70,7 @@ data-flex-basis="300px"
 >&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>开始享受sileo吧&lt;/p></description></item><item><title>使用OdysseyRa1n安装Sileo</title><link>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link><pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid><description>&lt;img src="https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" />&lt;h1 id="使用odysseyra1n安装sileo">使用OdysseyRa1n安装Sileo&lt;/h1>
+&lt;p>开始享受sileo吧&lt;/p></description></item><item><title>使用OdysseyRa1n安装Sileo</title><link>https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link><pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate><guid>https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" />&lt;h1 id="使用odysseyra1n安装sileo">使用OdysseyRa1n安装Sileo&lt;/h1>
 &lt;h2 id="简介">简介&lt;/h2>
 &lt;p>Odysseyra1n 是来自 Coolstar 的一个新的处理计划，并附带了来自 Diatrus 新的、开源的 Procursus bootstrap。&lt;/p>
 &lt;p>Odysseyra1n 能够让你的设施运转齐全自力的 libhooker。Libhooker 是 Coolstar 从零开端打造的一个以速率和稳固性为条件的 substrate/substitute。Libhooker 对 iOS 13 进行了完美的适配。&lt;/p>

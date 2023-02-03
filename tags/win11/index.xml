@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Win11 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/win11/</link><description>Recent content in Win11 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 15 Aug 2021 10:17:21 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/win11/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows11从入门到入土</title><link>https://blog.linsnow.cn/p/win11-start/</link><pubDate>Sun, 15 Aug 2021 10:17:21 +0800</pubDate><guid>https://blog.linsnow.cn/p/win11-start/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-start/win11.png" alt="Featured image of post Windows11从入门到入土" />&lt;h1 id="windows11从入门到入土">Windows11从入门到入土&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Win11 on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/win11/</link><description>Recent content in Win11 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Aug 2021 10:17:21 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/win11/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows11从入门到入土</title><link>https://.blog.linsnow.cn/p/win11-start/</link><pubDate>Sun, 15 Aug 2021 10:17:21 +0800</pubDate><guid>https://.blog.linsnow.cn/p/win11-start/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/win11-start/win11.png" alt="Featured image of post Windows11从入门到入土" />&lt;h1 id="windows11从入门到入土">Windows11从入门到入土&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>Why？为什么有这篇文章，因为电脑win10系统出问题了&amp;hellip;&amp;hellip;..其实在Windows11泄露到dev频道开放测试的时候我就已经开始使用了，后来由于amd显卡驱动在windows11上突然奔溃了就有回到了Windows10，真是反反复复，现在Windows11也测试差不多两个月了，体验应该不会太差了，今天就冲了，奥里给哈哈哈哈。顺便就记录一下这个过程吧。&lt;/p>
 &lt;hr>
@@ -9,10 +9,10 @@
 &lt;p>工具地址：https://github.com/rcmaehl/WhyNotWin11&lt;/p>
 &lt;/blockquote>
 &lt;p>下面是我电脑的检测结果&lt;/p>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/whynotwin11.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/whynotwin11.png"
 width="1002"
 height="752"
-srcset="https://blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
@@ -33,20 +33,20 @@ data-flex-basis="319px"
 &lt;p>打开设置-隐私-诊断和反馈-将诊断数据改为可选诊断数据就行了&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="注册完成">注册完成&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/wininsider.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/wininsider.png"
 width="642"
 height="287"
-srcset="https://blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="223"
 data-flex-basis="536px"
 >&lt;/p>
 &lt;h3 id="开始更新windows11">开始更新Windows11&lt;/h3>
-&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/win11update.png"
+&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/win11update.png"
 width="542"
 height="248"
-srcset="https://blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="218"
@@ -61,10 +61,10 @@ data-flex-basis="524px"
 &lt;p>网络上的pe一大堆，怎么顺手怎么来呗&lt;/p>
 &lt;/blockquote>
 &lt;p>获取Windows11镜像，由于MSDN目前无法获取到镜像，官网也不行，所以我们可以采用国外镜像源获取&amp;ndash;&lt;a class="link" href="https://uupdump.net/" target="_blank" rel="noopener"
->&lt;strong>UUP Dump&lt;/strong>&lt;/a>,打开这个网站，&lt;img src="https://blog.linsnow.cn/p/win11-start/uupdump.png"
+>&lt;strong>UUP Dump&lt;/strong>&lt;/a>,打开这个网站，&lt;img src="https://.blog.linsnow.cn/p/win11-start/uupdump.png"
 width="1672"
 height="822"
-srcset="https://blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_480x0_resize_box_3.png 480w, https://blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_1024x0_resize_box_3.png 1024w"
+srcset="https://.blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="203"
