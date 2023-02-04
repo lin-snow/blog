@@ -1,21 +1,806 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学"><title>浅谈DDoS</title><link rel=canonical href=https://.blog.linsnow.cn/p/ddos/><link rel=stylesheet href=/scss/style.min.56cdef0b58ea61aecd465ce6bc1afe92fc1a4016dc7d916f9fe8d9593d400932.css><meta property="og:title" content="浅谈DDoS"><meta property="og:description" content="浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学"><meta property="og:url" content="https://.blog.linsnow.cn/p/ddos/"><meta property="og:site_name" content="L1nSn0w's Blog"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="ddos"><meta property="article:published_time" content="2021-09-10T16:50:15+08:00"><meta property="article:modified_time" content="2021-09-10T16:50:15+08:00"><meta property="og:image" content="https://.blog.linsnow.cn/p/ddos/ddos.png"><meta name=twitter:title content="浅谈DDoS"><meta name=twitter:description content="浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://.blog.linsnow.cn/p/ddos/ddos.png"><link rel="shortcut icon" href=/img/favicon.ico><script src=/source/jquery.min.js></script><style>:root{--article-font-family:"LXGW WenKai Screen", sans-serif}</style><link rel=stylesheet href=https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css media=print onload='this.media="all"'></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
-<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/avatar_huc4ee539f708b3764d0a4718d2170118a_9562_300x0_resize_box_3.png width=300 height=300 class=site-logo loading=lazy alt=Avatar></a>
-<span class=emoji>🍥</span></figure><div class=site-meta><h1 class=site-name><a href=/>L1nSn0w's Blog</a></h1><h2 class=site-description>无限进步.✍️</h2></div></header><ol class=social-menu><li><a href=https://travellings.link/ title=aTravelling rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-train" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 13c0-3.87-3.37-7-10-7H3"/><path d="M3 15h16a2 2 0 002-2"/><path d="M3 6v5h17.5"/><line x1="3" y1="10" x2="3" y2="14"/><line x1="8" y1="11" x2="8" y2="6"/><line x1="13" y1="11" x2="13" y2="6.5"/><line x1="3" y1="19" x2="21" y2="19"/></svg></a></li><li><a href=https://www.foreverblog.cn/go.html title=aWormhole rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-debian" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 17c-2.397-.943-4-3.153-4-5.635.0-2.19 1.039-3.14 1.604-3.595C12.25 5.637 16 7.5 16 11c0 2.5-2.905 2.121-3.5 1.5s-1-1.5-.5-2.5"/><circle cx="12" cy="12" r="9"/></svg></a></li><li><a href=/log title=bLog rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg></a></li><li><a href=/index.xml target=_blank title=cRSS rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="5" cy="19" r="1"/><path d="M4 4a16 16 0 0116 16"/><path d="M4 11a9 9 0 019 9"/></svg></a></li><li><a href=https://github.com/lin-snow target=_blank title=dGitHub rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg><span>主页</span></a></li><li><a href=/archives/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg><span>归档</span></a></li><li><a href=/about/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ghost" width="48" height="48" viewBox="0 0 24 24" stroke-width="1" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 11a7 7 0 0114 0v7a1.78 1.78.0 01-3.1 1.4 1.65 1.65.0 00-2.6.0 1.65 1.65.0 01-2.6.0 1.65 1.65.0 00-2.6.0A1.78 1.78.0 015 18v-7"/><line x1="10" y1="10" x2="10.01" y2="10"/><line x1="14" y1="10" x2="14.01" y2="10"/><path d="M10 14a3.5 3.5.0 004 0"/></svg><span>关于</span></a></li><li><a href=/search/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg><span>搜索</span></a></li><li><a href=/links/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pokeball" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="9" cy="9" r="9" transform="translate(3 3)"/><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></svg><span>友链</span></a></li><li><a href=/message/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-messenger" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 20l1.3-3.9A9 8 0 117.7 19L3 20"/><path d="M8 13l3-2 2 2 3-2"/></svg><span>留言</span></a></li><div class=menu-bottom-section><li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg><span>暗色模式</span></li></div></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目录</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#闲言碎语>闲言碎语</a></li><li><a href=#什么是ddos>什么是DDos？</a></li><li><a href=#ddos攻击原理>DDoS攻击原理</a></li><li><a href=#ddos攻击方式>DDoS攻击方式</a><ol><li><a href=#ip-flood>Ip flood</a></li><li><a href=#icmp-flood>Icmp Flood</a></li><li><a href=#syn-flood>Syn Flood</a></li><li><a href=#udp-flood>UDP Flood</a></li><li><a href=#ip-scan>IP scan</a></li><li><a href=#port-scan>Port scan</a></li><li><a href=#ping-of-death>ping of death</a></li><li><a href=#cc攻击>CC攻击</a></li></ol></li><li><a href=#ddos的危害>DDoS的危害</a></li><li><a href=#总结与感想>总结与感想</a></li></ol></nav></div></section></aside><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/p/ddos/><img src=/p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_800x0_resize_box_3.png srcset="/p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_800x0_resize_box_3.png 800w, /p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_1600x0_resize_box_3.png 1600w" width=800 height=450 loading=lazy alt="Featured image of post 浅谈DDoS"></a></div><div class=article-details><header class=article-category><a href=/categories/%E9%9A%8F%E7%AC%94/>随笔</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/ddos/>浅谈DDoS</a></h2></div><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Sep 10, 2021</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>阅读时长: 4 分钟</time></div></footer></div></header><section class=article-content><h1 id=浅谈ddos>浅谈DDoS</h1><h2 id=闲言碎语>闲言碎语</h2><p>今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学课就回家了。其实我也不懂什么网络安全，但是还是抱又好奇心的了解了一下，所以就有了今天这篇关于DDoS的介绍了.就看看DDoS的大概就行了，不会是硬核科普&mldr;.</p><h2 id=什么是ddos>什么是DDos？</h2><p>DDoS是英文Distributed Denial of Service的缩写，意即"分布式拒绝服务",DDoS的中文名叫分布式拒绝服务攻击，俗称洪水攻击。</p><h2 id=ddos攻击原理>DDoS攻击原理</h2><p><strong>做个比喻</strong>：
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学'>
+<title>浅谈DDoS</title>
+
+<link rel='canonical' href='https://.blog.linsnow.cn/p/ddos/'>
+
+<link rel="stylesheet" href="/scss/style.min.8ab0009e717371ac531b8f686fd80f49dc015537b2e0d541155930a3655780dd.css"><meta property='og:title' content='浅谈DDoS'>
+<meta property='og:description' content='浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学'>
+<meta property='og:url' content='https://.blog.linsnow.cn/p/ddos/'>
+<meta property='og:site_name' content='L1nSn0w&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ddos' /><meta property='article:published_time' content='2021-09-10T16:50:15&#43;08:00'/><meta property='article:modified_time' content='2021-09-10T16:50:15&#43;08:00'/><meta property='og:image' content='https://.blog.linsnow.cn/p/ddos/ddos.png' />
+<meta name="twitter:title" content="浅谈DDoS">
+<meta name="twitter:description" content="浅谈DDoS 闲言碎语 今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://.blog.linsnow.cn/p/ddos/ddos.png' />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+<script src="/source/jquery.min.js"></script>
+
+
+<style>
+	 
+    :root {
+        --article-font-family: "LXGW WenKai Screen", sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+
+
+    </head>
+    
+
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huc4ee539f708b3764d0a4718d2170118a_9562_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">L1nSn0w&#39;s Blog</a></h1>
+            <h2 class="site-description">无限进步.✍️</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://travellings.link/'
+                        
+                        title="aTravelling"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-train" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 13c0 -3.87 -3.37 -7 -10 -7h-8" />
+  <path d="M3 15h16a2 2 0 0 0 2 -2" />
+  <path d="M3 6v5h17.5" />
+  <line x1="3" y1="10" x2="3" y2="14" />
+  <line x1="8" y1="11" x2="8" y2="6" />
+  <line x1="13" y1="11" x2="13" y2="6.5" />
+  <line x1="3" y1="19" x2="21" y2="19" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.foreverblog.cn/go.html'
+                        
+                        title="aWormhole"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-debian" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 17c-2.397 -.943 -4 -3.153 -4 -5.635c0 -2.19 1.039 -3.14 1.604 -3.595c2.646 -2.133 6.396 -.27 6.396 3.23c0 2.5 -2.905 2.121 -3.5 1.5c-.595 -.621 -1 -1.5 -.5 -2.5" />
+  <circle cx="12" cy="12" r="9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/log'
+                        
+                        title="bLog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="cRSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/lin-snow'
+                        target="_blank"
+                        title="dGitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ghost" width="48" height="48" viewBox="0 0 24 24" stroke-width="1" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7" />
+  <line x1="10" y1="10" x2="10.01" y2="10" />
+  <line x1="14" y1="10" x2="14.01" y2="10" />
+  <path d="M10 14a3.5 3.5 0 0 0 4 0" />
+</svg>
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pokeball" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="9" cy="9" r="9" transform="translate(3 3)" />
+  <circle cx="12" cy="12" r="3" />
+  <path d="M3 12h6m6 0h6" />
+</svg>
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/message/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-messenger" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+  <path d="M8 13l3 -2l2 2l3 -2" />
+</svg>
+                
+                <span>留言</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#闲言碎语">闲言碎语</a></li>
+    <li><a href="#什么是ddos">什么是DDos？</a></li>
+    <li><a href="#ddos攻击原理">DDoS攻击原理</a></li>
+    <li><a href="#ddos攻击方式">DDoS攻击方式</a>
+      <ol>
+        <li><a href="#ip-flood">Ip flood</a></li>
+        <li><a href="#icmp-flood">Icmp Flood</a></li>
+        <li><a href="#syn-flood">Syn Flood</a></li>
+        <li><a href="#udp-flood">UDP Flood</a></li>
+        <li><a href="#ip-scan">IP scan</a></li>
+        <li><a href="#port-scan">Port scan</a></li>
+        <li><a href="#ping-of-death">ping of death</a></li>
+        <li><a href="#cc攻击">CC攻击</a></li>
+      </ol>
+    </li>
+    <li><a href="#ddos的危害">DDoS的危害</a></li>
+    <li><a href="#总结与感想">总结与感想</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/ddos/">
+                <img src="/p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_800x0_resize_box_3.png"
+                        srcset="/p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_800x0_resize_box_3.png 800w, /p/ddos/ddos_hua6753b3ca8750c90aa6178b166572179_37747_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 浅谈DDoS" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E9%9A%8F%E7%AC%94/" >
+                随笔
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/ddos/">浅谈DDoS</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 10, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="浅谈ddos">浅谈DDoS</h1>
+<h2 id="闲言碎语">闲言碎语</h2>
+<p>今天是2021年9月10号。很开心的迎来了教师节，也是第一次遇到教师节放假，祝各位老师们快乐呀。一早上上了一节早读和数学课就回家了。其实我也不懂什么网络安全，但是还是抱又好奇心的了解了一下，所以就有了今天这篇关于DDoS的介绍了.就看看DDoS的大概就行了，不会是硬核科普&hellip;.</p>
+<h2 id="什么是ddos">什么是DDos？</h2>
+<p>DDoS是英文Distributed Denial of Service的缩写，意即&quot;分布式拒绝服务&quot;,DDoS的中文名叫分布式拒绝服务攻击，俗称洪水攻击。</p>
+<h2 id="ddos攻击原理">DDoS攻击原理</h2>
+<p><strong>做个比喻</strong>：
 有一家店铺正在营业（网站），但有人想让这家店铺无法营业，甚至倒闭。于是就找了一些人堵在店铺中不走，而且把所有通道都堵死。真正的客户却堵在门外无法进入。而且这些人在店里不断地找茬，散布假信息。让商铺上下忙成一团但却是一场空。最终不仅没有做成生意，反而把所有的购物者都拒之门外，损失惨重。
-但是大型企业或组织往往具有较强的服务提供能力(例如腾讯云或者阿里巴巴，GitHub等)，足以处理单个攻击者发起的所有请求。于是，攻击者会组织很多协作的同伴（或计算机），从不同的位置同时提出服务请求，直到服务无法被访问，这就是<code>分布式</code>。现实中，攻击者往往没有那么多同伴，所以他们通常利用<code>僵尸网络</code>来控制大量计算机进行攻击。</p><h2 id=ddos攻击方式>DDoS攻击方式</h2><p><del>（笑死，有些我根本不懂</del>
+但是大型企业或组织往往具有较强的服务提供能力(例如腾讯云或者阿里巴巴，GitHub等)，足以处理单个攻击者发起的所有请求。于是，攻击者会组织很多协作的同伴（或计算机），从不同的位置同时提出服务请求，直到服务无法被访问，这就是<code>分布式</code>。现实中，攻击者往往没有那么多同伴，所以他们通常利用<code>僵尸网络</code>来控制大量计算机进行攻击。</p>
+<h2 id="ddos攻击方式">DDoS攻击方式</h2>
+<p><del>（笑死，有些我根本不懂</del>
 这里引用网络上一些比较易懂的介绍
-DDOS攻击主要分为三类：<strong>流量型攻击；连接型攻击；特殊协议缺陷</strong></p><h3 id=ip-flood>Ip flood</h3><p>攻击原理：<br>此攻击以多个随机的源主机地址向目的主机发送超大量的随机或特定的IP包，造成目标主机不能处理其他正常的IP报文。</p><h3 id=icmp-flood>Icmp Flood</h3><p>攻击原理：<br>icmp flood 也就是 ping flood，此攻击<strong>在短时间内向目的主机发送大量的ping的echo报文</strong>，主机不断响应，造成网络堵塞、主机资源耗尽。</p><h3 id=syn-flood>Syn Flood</h3><p>攻击原理：
+DDOS攻击主要分为三类：<strong>流量型攻击；连接型攻击；特殊协议缺陷</strong></p>
+<h3 id="ip-flood">Ip flood</h3>
+<p>攻击原理：<br>
+此攻击以多个随机的源主机地址向目的主机发送超大量的随机或特定的IP包，造成目标主机不能处理其他正常的IP报文。</p>
+<h3 id="icmp-flood">Icmp Flood</h3>
+<p>攻击原理：<br>
+icmp flood 也就是 ping flood，此攻击<strong>在短时间内向目的主机发送大量的ping的echo报文</strong>，主机不断响应，造成网络堵塞、主机资源耗尽。</p>
+<h3 id="syn-flood">Syn Flood</h3>
+<p>攻击原理：
 依据 tcp建立连接的三次握手。此攻击以多个随机的源主机地址向目的主机发送syn包，而在收到目的主机的syn＋ack包后并不回应，目的主机就为这些源主机建立大量的连接队列，由于没有收到ack一直维护这些连接队列，造成资源的大量消耗而不能向正常的请求提供服务。
-与之类似的攻击方式还有ack-flood、s-ack-flood、fin-flood、rst-flood、tcp-flood</p><h3 id=udp-flood>UDP Flood</h3><p>攻击原理：<br>此攻击在短时间内 <strong>模拟随机的源端口地址向随机的目的端口发送大量的udp包，造成目标主机不能处理其他udp的请求</strong></p><h3 id=ip-scan>IP scan</h3><p>攻击原理：<br>攻击者 <strong>通过IP扫描可以迅速服务器网络情况及服务器主机信息，为后面的攻击做好准备。通过发送IP扫描探测包探测存在的服务器主机。</strong></p><h3 id=port-scan>Port scan</h3><p>攻击原理：<br><strong>当一个源ip地址在规定的时间间隔内将tcp syn包发送给一个目标地址的多个不同端口时，就是一次端口扫描</strong>，目的是扫描 可用的服务，从而识别目标的服务。</p><h3 id=ping-of-death>ping of death</h3><p>攻击原理：<br>根据tcp/ip的规范，<strong>一个包的长度最大为65535字节</strong>。攻击向<strong>一个目标地址发送icmp echo包的大于65535字节</strong>（这需要多个分片叠加才能做到），<strong>当主机重组这些分片发现包大于65535字节时，就会导致宕机</strong>。</p><h3 id=cc攻击>CC攻击</h3><p>攻击原理：<br>利用 代理服务器 向 受害者 发起大量HTTP Get 请求；<strong>主要请求动态页面，涉及到数据库访问操作；数据库负载以及数据库连接池负载极高，无法响应正常请求</strong></p><hr><h2 id=ddos的危害>DDoS的危害</h2><p>最简单的就是网站崩了，访问不了，甚至服务器也坏了&mldr;.
+与之类似的攻击方式还有ack-flood、s-ack-flood、fin-flood、rst-flood、tcp-flood</p>
+<h3 id="udp-flood">UDP Flood</h3>
+<p>攻击原理：<br>
+此攻击在短时间内 <strong>模拟随机的源端口地址向随机的目的端口发送大量的udp包，造成目标主机不能处理其他udp的请求</strong></p>
+<h3 id="ip-scan">IP scan</h3>
+<p>攻击原理：<br>
+攻击者 <strong>通过IP扫描可以迅速服务器网络情况及服务器主机信息，为后面的攻击做好准备。通过发送IP扫描探测包探测存在的服务器主机。</strong></p>
+<h3 id="port-scan">Port scan</h3>
+<p>攻击原理：<br>
+<strong>当一个源ip地址在规定的时间间隔内将tcp syn包发送给一个目标地址的多个不同端口时，就是一次端口扫描</strong>，目的是扫描 可用的服务，从而识别目标的服务。</p>
+<h3 id="ping-of-death">ping of death</h3>
+<p>攻击原理：<br>
+根据tcp/ip的规范，<strong>一个包的长度最大为65535字节</strong>。攻击向<strong>一个目标地址发送icmp echo包的大于65535字节</strong>（这需要多个分片叠加才能做到），<strong>当主机重组这些分片发现包大于65535字节时，就会导致宕机</strong>。</p>
+<h3 id="cc攻击">CC攻击</h3>
+<p>攻击原理：<br>
+利用 代理服务器 向 受害者 发起大量HTTP Get 请求；<strong>主要请求动态页面，涉及到数据库访问操作；数据库负载以及数据库连接池负载极高，无法响应正常请求</strong></p>
+<hr>
+<h2 id="ddos的危害">DDoS的危害</h2>
+<p>最简单的就是网站崩了，访问不了，甚至服务器也坏了&hellip;.
 历史上一些比较经典的DDoS攻击案例
 美国东部时间 2018年2月28日，GitHub 在一瞬间遭到高达 1.35Tbps 的带宽攻击。这次 DDoS 攻击几乎可以堪称是互联网有史以来规模最大、威力最大的 DDoS 攻击了。
-在 GitHub 遭到攻击后，事件并没有停歇，仅仅一周后，DDoS 攻击又开始对 Google、亚马逊甚至 Pornhub 等网站进行了 DDoS 攻击。后续的 DDoS 攻击带宽最高也达到了 1Tbps。</p><h2 id=总结与感想>总结与感想</h2><p>天晴了雨停了，我感觉我又行了hhhh.DDoS确实很强，又是一个坐牢小技巧。互联网发展了这么久，现在的防御做的也很不错了，而且ddos攻击也是需要成本的，比如组成僵尸网络，理论上成本越高攻击力越强。最后，希望我的blog没事&mldr;&mldr;&mldr;.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/ddos/>ddos</a></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>相关文章</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/p/epic/><div class=article-image><img src=/p/epic/epic.f253d1fda66df5cebb6d793872d41e90_hue9e897316f05956e276bc520f8e63e3a_23505_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy alt="Featured image of post E宝-yyds！！！" data-key=epic data-hash="md5-8lPR/aZt9c67bXk4ctQekA=="></div><div class=article-details><h2 class=article-title>E宝-yyds！！！</h2></div></a></article><article class=has-image><a href=/p/stevejob/><div class=article-image><img src=/p/stevejob/mac.cf12316037af729bb37c12724ed57475_hudd807483c4c9fcb94b5688dab1b38f82_26045_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy alt="Featured image of post 乔布斯逝世十周年" data-key=stevejob data-hash="md5-zxIxYDevcpuzfBJyTtV0dQ=="></div><div class=article-details><h2 class=article-title>乔布斯逝世十周年</h2></div></a></article><article class=has-image><a href=/p/gta5/><div class=article-image><img src=/p/gta5/gta5.e373125c315d4e3c68416c8340e9fec1_huff88b8c0571b684171b3a6c1cd208373_164265_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy alt="Featured image of post 浅谈gta5的两个主角" data-key=gta5 data-hash="md5-43MSXDFdTjxoQWyDQOn+wQ=="></div><div class=article-details><h2 class=article-title>浅谈gta5的两个主角</h2></div></a></article><article class=has-image><a href=/p/pvz-share/><div class=article-image><img src=/p/pvz-share/pvz.1a1096a4c85e562546187ce464ae70c8_hua3f476129cfb519474873104b6b9c131_100998_250x150_fill_box_smart1_3.png width=250 height=150 loading=lazy alt="Featured image of post PvZ巨佬的养老心得分享" data-key=pvz-share data-hash="md5-GhCWpMheViVGGHzkZK5wyA=="></div><div class=article-details><h2 class=article-title>PvZ巨佬的养老心得分享</h2></div></a></article></div></div></aside><script src=//unpkg.com/@waline/client@v2/dist/waline.js></script>
-<link href=//unpkg.com/@waline/client@v2/dist/waline.css rel=stylesheet><div id=waline class=waline-container></div><style>.waline-container{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding);--waline-font-size:var(--article-font-size)}.waline-container .wl-count{color:var(--card-text-color-main)}</style><script>Waline.init({dark:'html[data-scheme="dark"]',el:"#waline",emoji:["https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/"],locale:{admin:"👻屑博主",placeholder:"🎉留下你的脚印."},pageview:!0,requiredMeta:["name","email"],serverURL:"https://waline.linsnow.cn/"})</script><footer class=site-footer><section class=copyright>&copy;
-2020 -
-2023 L1nSn0w's Blog</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>主题 <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.16.0>Stack</a></b> 由 <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> 设计
-<span>• 由L1nSn0w用❤️魔改</span></section><section class=powerby><img src=/img/icp.png alt width=15px height=15px><a href=https://beian.miit.gov.cn/ target=_blank>粤ICP备2023006542号</a></section><section class=powerby><img src=/img/moeicp.png alt width=15px height=15px><a href="https://icp.gov.moe/?keyword=20222117" target=_blank>萌ICP备20222117号</a></section></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-<button class="pswp__button pswp__button--share" title=Share></button>
-<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script>
-<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
+在 GitHub 遭到攻击后，事件并没有停歇，仅仅一周后，DDoS 攻击又开始对 Google、亚马逊甚至 Pornhub 等网站进行了 DDoS 攻击。后续的 DDoS 攻击带宽最高也达到了 1Tbps。</p>
+<h2 id="总结与感想">总结与感想</h2>
+<p>天晴了雨停了，我感觉我又行了hhhh.DDoS确实很强，又是一个坐牢小技巧。互联网发展了这么久，现在的防御做的也很不错了，而且ddos攻击也是需要成本的，比如组成僵尸网络，理论上成本越高攻击力越强。最后，希望我的blog没事&hellip;&hellip;&hellip;.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/ddos/">ddos</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/epic/">
+        
+        
+            <div class="article-image">
+                <img src="/p/epic/epic.f253d1fda66df5cebb6d793872d41e90_hue9e897316f05956e276bc520f8e63e3a_23505_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post E宝-yyds！！！"
+                        data-key="epic" 
+                        data-hash="md5-8lPR/aZt9c67bXk4ctQekA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">E宝-yyds！！！</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/stevejob/">
+        
+        
+            <div class="article-image">
+                <img src="/p/stevejob/mac.cf12316037af729bb37c12724ed57475_hudd807483c4c9fcb94b5688dab1b38f82_26045_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 乔布斯逝世十周年"
+                        data-key="stevejob" 
+                        data-hash="md5-zxIxYDevcpuzfBJyTtV0dQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">乔布斯逝世十周年</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/gta5/">
+        
+        
+            <div class="article-image">
+                <img src="/p/gta5/gta5.e373125c315d4e3c68416c8340e9fec1_huff88b8c0571b684171b3a6c1cd208373_164265_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 浅谈gta5的两个主角"
+                        data-key="gta5" 
+                        data-hash="md5-43MSXDFdTjxoQWyDQOn&#43;wQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">浅谈gta5的两个主角</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/pvz-share/">
+        
+        
+            <div class="article-image">
+                <img src="/p/pvz-share/pvz.1a1096a4c85e562546187ce464ae70c8_hua3f476129cfb519474873104b6b9c131_100998_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post PvZ巨佬的养老心得分享"
+                        data-key="pvz-share" 
+                        data-hash="md5-GhCWpMheViVGGHzkZK5wyA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">PvZ巨佬的养老心得分享</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/"],"locale":{"admin":"👻屑博主","placeholder":"🎉留下你的脚印."},"pageview":true,"requiredMeta":["name","email"],"serverURL":"https://waline.linsnow.cn/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 L1nSn0w&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+
+
+
+    <span> • 由L1nSn0w用❤️魔改</span>
+    </section>
+    
+    <section class="powerby"><img src="/img/icp.png" alt="" width="15px" height="15px"><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2023006542号</a></section>
+    
+    <section class="powerby"><img src="/img/moeicp.png" alt="" width="15px" height="15px"><a href="https://icp.gov.moe/?keyword=20222117" target="_blank" >萌ICP备20222117号</a></section>
+
+
+
+    </section> 
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
