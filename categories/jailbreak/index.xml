@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JailBreak on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/categories/jailbreak/</link><description>Recent content in JailBreak on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 27 Aug 2021 14:59:39 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/categories/jailbreak/index.xml" rel="self" type="application/rss+xml"/><item><title>当iOS遇上Big Sur</title><link>https://.blog.linsnow.cn/p/ios-with-bigsur/</link><pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate><guid>https://.blog.linsnow.cn/p/ios-with-bigsur/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/iosbigsur.png" alt="Featured image of post 当iOS遇上Big Sur" />&lt;h1 id="当ios遇上big-sur">当iOS遇上Big Sur&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JailBreak on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/categories/jailbreak/</link><description>Recent content in JailBreak on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Aug 2021 14:59:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/jailbreak/index.xml" rel="self" type="application/rss+xml"/><item><title>当iOS遇上Big Sur</title><link>https://blog.linsnow.cn/p/ios-with-bigsur/</link><pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-with-bigsur/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/iosbigsur.png" alt="Featured image of post 当iOS遇上Big Sur" />&lt;h1 id="当ios遇上big-sur">当iOS遇上Big Sur&lt;/h1>
 &lt;h2 id="效果图">效果图&lt;/h2>
 &lt;p>这是效果图，压缩后有点模糊，你忍一下&amp;hellip;&amp;hellip;&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/1.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/1.jpg"
 width="1214"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="112"
@@ -50,10 +49,9 @@ data-flex-basis="269px"
 &lt;blockquote>
 &lt;p>添加软件源：https://repo.dynastic.co/ （自带源）&lt;/p>
 &lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>SnowBoard&lt;/code>并下载下来&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/2.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/2.jpg"
 width="750"
 height="481"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="155"
@@ -68,10 +66,9 @@ data-flex-basis="374px"
 &lt;p>**添加软件源：**&lt;a class="link" href="https://jabizb.com/repo/" target="_blank" rel="noopener"
 >https://jabizb.com/repo/&lt;/a>&lt;/p>
 &lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>BigSur Jabi&lt;/code>并下载下来&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/3.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/3.jpg"
 width="750"
 height="480"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="156"
@@ -87,10 +84,9 @@ data-flex-basis="375px"
 &lt;li>将BigSur Jabi主题设置为启用&lt;/li>
 &lt;/ol>
 &lt;p>&lt;strong>图文教程&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/4.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/4.png"
 width="750"
 height="949"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="79"
@@ -99,7 +95,7 @@ data-flex-basis="189px"
 &lt;/blockquote>
 &lt;hr>
 &lt;h2 id="至此完结">至此完结&lt;/h2>
-&lt;p>不懂评论区里留言，我也不一定会解答（就是这么勇&lt;/p></description></item><item><title>CheckRa1n On Linux</title><link>https://.blog.linsnow.cn/p/checkra1n-on-linux/</link><pubDate>Thu, 26 Aug 2021 12:53:59 +0800</pubDate><guid>https://.blog.linsnow.cn/p/checkra1n-on-linux/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/checkra1n-on-linux/c1linux.png" alt="Featured image of post CheckRa1n On Linux" />&lt;h1 id="checkra1n-on-linux">CheckRa1n On Linux&lt;/h1>
+&lt;p>不懂评论区里留言，我也不一定会解答（就是这么勇&lt;/p></description></item><item><title>CheckRa1n On Linux</title><link>https://blog.linsnow.cn/p/checkra1n-on-linux/</link><pubDate>Thu, 26 Aug 2021 12:53:59 +0800</pubDate><guid>https://blog.linsnow.cn/p/checkra1n-on-linux/</guid><description>&lt;img src="https://blog.linsnow.cn/p/checkra1n-on-linux/c1linux.png" alt="Featured image of post CheckRa1n On Linux" />&lt;h1 id="checkra1n-on-linux">CheckRa1n On Linux&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;blockquote>
 &lt;p>Windows版的checkra1n还是不要想了，有没有macos&lt;/p>
@@ -176,7 +172,7 @@ data-flex-basis="189px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>输入密码回车就行，输入的时候看不见，直接输入就完事了，输完回车&lt;/p>
-&lt;/blockquote></description></item><item><title>CheckRa1n越狱报错合集</title><link>https://.blog.linsnow.cn/p/checkra1n-error/</link><pubDate>Thu, 26 Aug 2021 12:28:52 +0800</pubDate><guid>https://.blog.linsnow.cn/p/checkra1n-error/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/checkra1n-error/c1err.png" alt="Featured image of post CheckRa1n越狱报错合集" />&lt;h1 id="checkra1n越狱报错合集">CheckRa1n越狱报错合集&lt;/h1>
+&lt;/blockquote></description></item><item><title>CheckRa1n越狱报错合集</title><link>https://blog.linsnow.cn/p/checkra1n-error/</link><pubDate>Thu, 26 Aug 2021 12:28:52 +0800</pubDate><guid>https://blog.linsnow.cn/p/checkra1n-error/</guid><description>&lt;img src="https://blog.linsnow.cn/p/checkra1n-error/c1err.png" alt="Featured image of post CheckRa1n越狱报错合集" />&lt;h1 id="checkra1n越狱报错合集">CheckRa1n越狱报错合集&lt;/h1>
 &lt;p>&lt;strong>Linux简易版报错解决方法&lt;/strong>&lt;/p>
 &lt;blockquote>
 &lt;p>出现 -77 或者 USB错误，请重启再来，换个usb接口。
@@ -204,7 +200,7 @@ Timed out waiting for bootstrap upload(Likely caused by an incompatible tweak, t
 &lt;p>&lt;strong>By the way&lt;/strong>&lt;/p>
 &lt;blockquote>
 &lt;p>前几天iOS14.7.1越狱的时候各种报错，心态都搞崩了，使用cli版越狱就会报31和79错误，但是用终端版就一边过，还有就是Ubuntu上越狱也会卡住&amp;hellip;&amp;hellip;害&lt;/p>
-&lt;/blockquote></description></item><item><title>越狱常见问题指北手册</title><link>https://.blog.linsnow.cn/p/jb-question/</link><pubDate>Thu, 26 Aug 2021 07:28:27 +0800</pubDate><guid>https://.blog.linsnow.cn/p/jb-question/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/jb-question/jbzhibei.png" alt="Featured image of post 越狱常见问题指北手册" />&lt;h1 id="越狱常见问题指北手册">越狱常见问题指北手册&lt;/h1>
+&lt;/blockquote></description></item><item><title>越狱常见问题指北手册</title><link>https://blog.linsnow.cn/p/jb-question/</link><pubDate>Thu, 26 Aug 2021 07:28:27 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-question/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-question/jbzhibei.png" alt="Featured image of post 越狱常见问题指北手册" />&lt;h1 id="越狱常见问题指北手册">越狱常见问题指北手册&lt;/h1>
 &lt;h3 id="ios更新屏蔽">iOS更新屏蔽&lt;/h3>
 &lt;p>Unc0ver越狱自带更新屏蔽&lt;/p>
 &lt;p>Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新&lt;/p>
@@ -233,10 +229,9 @@ Timed out waiting for bootstrap upload(Likely caused by an incompatible tweak, t
 &lt;p>&lt;a class="link" href="https://repo.chariz.com/" target="_blank" rel="noopener"
 >https://repo.chariz.com/&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-question/threetool.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/threetool.png"
 width="750"
 height="741"
-srcset="https://.blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="101"
@@ -342,10 +337,9 @@ data-flex-basis="242px"
 &lt;/blockquote>
 &lt;h5 id="获取插件bundleid">获取插件bundleid&lt;/h5>
 &lt;p>一般划到插件底部就可以看到插件的bundleid&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-question/bundleid.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/bundleid.png"
 width="750"
 height="444"
-srcset="https://.blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="bundleid"
 class="gallery-image"
@@ -406,7 +400,7 @@ data-flex-basis="405px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>如果让你确认就输入&lt;code>y&lt;/code>然后回车就行&lt;/p>
-&lt;hr></description></item><item><title>越狱后的必备依赖插件</title><link>https://.blog.linsnow.cn/p/jb-dependence/</link><pubDate>Thu, 26 Aug 2021 06:01:12 +0800</pubDate><guid>https://.blog.linsnow.cn/p/jb-dependence/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/jb-dependence/yilai.png" alt="Featured image of post 越狱后的必备依赖插件" />&lt;h1 id="越狱后的必备依赖插件">越狱后的必备依赖插件&lt;/h1>
+&lt;hr></description></item><item><title>越狱后的必备依赖插件</title><link>https://blog.linsnow.cn/p/jb-dependence/</link><pubDate>Thu, 26 Aug 2021 06:01:12 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-dependence/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/yilai.png" alt="Featured image of post 越狱后的必备依赖插件" />&lt;h1 id="越狱后的必备依赖插件">越狱后的必备依赖插件&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>以下内容主要面向sileo用户。越狱成功后，越狱环境还缺少有一些重要的依赖插件，没有这些依赖插件，等下会有各种红字与报错，但是安装上依赖就行了。但是，千万不要在依赖还没有安装之前添加一些不好的第三方软件源，否则依赖被劫持就完蛋了&amp;hellip;.&lt;/p>
 &lt;h2 id="正文">正文&lt;/h2>
@@ -416,10 +410,9 @@ data-flex-basis="405px"
 &lt;p>涉及软件源地址：https://repo.theodyssey.dev/ (自带源)&lt;/p>
 &lt;p>插件名称: &lt;strong>libhooker&lt;/strong>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-dependence/libhooker.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/libhooker.png"
 width="1213"
 height="1079"
-srcset="https://.blog.linsnow.cn/p/jb-dependence/libhooker_hud8b85430ec7f21cff6b6d73d548946c9_269700_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-dependence/libhooker_hud8b85430ec7f21cff6b6d73d548946c9_269700_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="libhooker"
 class="gallery-image"
@@ -433,10 +426,9 @@ data-flex-basis="269px"
 >http://apt.thebigboss.org/repofiles/cydia/&lt;/a> （自带源）&lt;/p>
 &lt;p>插件名称: &lt;strong>PerferenceLoader&lt;/strong>、&lt;strong>RocketBootstrap&lt;/strong>、&lt;strong>AppList&lt;/strong>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-dependence/pra.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-dependence/pra.png"
 width="1214"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/jb-dependence/pra_hu81b7ddfca8cc344ae45a96e7f83d1ece_297401_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-dependence/pra_hu81b7ddfca8cc344ae45a96e7f83d1ece_297401_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="pra"
 class="gallery-image"
@@ -456,7 +448,7 @@ data-flex-basis="269px"
 &lt;p>其中substrate是大胡子的，也就是最老的那个，但是容易被一些app检测到&lt;/p>
 &lt;p>substitute是coolstar团队的，相对于substrate封号几率低点（部分插件可能不兼容这个基板）但是这个是大趋势&lt;/p>
 &lt;p>libhooker 也是coolstar的作品，压缩了substitute+substrate+tweakinjecter提高了转换率，并且表示支持：Android、ios、win、Linux、switch&lt;/p>
-&lt;/blockquote></description></item><item><title>Cydia和Sileo插件源地址整理</title><link>https://.blog.linsnow.cn/p/jb-source/</link><pubDate>Mon, 16 Aug 2021 16:42:21 +0800</pubDate><guid>https://.blog.linsnow.cn/p/jb-source/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/jb-source/repo.png" alt="Featured image of post Cydia和Sileo插件源地址整理" />&lt;h1 id="cydia和sileo插件源地址整理">Cydia和Sileo插件源地址整理&lt;/h1>
+&lt;/blockquote></description></item><item><title>Cydia和Sileo插件源地址整理</title><link>https://blog.linsnow.cn/p/jb-source/</link><pubDate>Mon, 16 Aug 2021 16:42:21 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-source/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-source/repo.png" alt="Featured image of post Cydia和Sileo插件源地址整理" />&lt;h1 id="cydia和sileo插件源地址整理">Cydia和Sileo插件源地址整理&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>为了设备越狱后能得到一个良好稳定的越狱环境和解决各种插件以来问题，使用官方作者源是一个最佳的解决方案，这里整理一下一些常用的作者源，地址很多，建议使用网站的本地搜索快速查找对应的源地址&lt;/p>
 &lt;h2 id="三大收费源地址">三大收费源地址&lt;/h2>
@@ -1528,7 +1520,7 @@ data-flex-basis="269px"
 &lt;/ul>
 &lt;h2 id="其他说明">其他说明&lt;/h2>
 &lt;p>如果发现&lt;code>https&lt;/code>开头无法添加，请尝试&lt;code>http&lt;/code>开头添加。&lt;/p>
-&lt;p>再次增加很多源地址，但是依旧无法收集全&lt;/p></description></item><item><title>Odysseyra1n图形化安装工具Betelguese</title><link>https://.blog.linsnow.cn/p/betelguese-install-ody/</link><pubDate>Sat, 22 May 2021 21:45:54 +0800</pubDate><guid>https://.blog.linsnow.cn/p/betelguese-install-ody/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguese.png" alt="Featured image of post Odysseyra1n图形化安装工具Betelguese" />&lt;h1 id="odysseyra1n图形化安装工具betelguese">Odysseyra1n图形化安装工具Betelguese&lt;/h1>
+&lt;p>再次增加很多源地址，但是依旧无法收集全&lt;/p></description></item><item><title>Odysseyra1n图形化安装工具Betelguese</title><link>https://blog.linsnow.cn/p/betelguese-install-ody/</link><pubDate>Sat, 22 May 2021 21:45:54 +0800</pubDate><guid>https://blog.linsnow.cn/p/betelguese-install-ody/</guid><description>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguese.png" alt="Featured image of post Odysseyra1n图形化安装工具Betelguese" />&lt;h1 id="odysseyra1n图形化安装工具betelguese">Odysseyra1n图形化安装工具Betelguese&lt;/h1>
 &lt;h2 id="betelguese-与-odysseyra1n">&lt;strong>Betelguese 与 Odysseyra1n&lt;/strong>&lt;/h2>
 &lt;p>Odysseyra1n 是一个越狱安装脚本工具，通过执行它会把 checkra1n 越狱环境转变为 Odyssey 越狱环境，这意味着你的设备将使用 Procursus 引导程序，其中 Sileo 作为默认程序包管理器，而 libhooker 作为调整注入方法。这些将替换 Cydia 和 Cydia Substrate 进行调整注入以及处理越狱调整的过程。&lt;/p>
 &lt;p>安装 Odysseyra1n 引导程序将删除 checkra1n 越狱默认安装的 Cydia 程序包管理器，并用与 Odyssey 越狱相关的那些默认的引导程序依赖项替换了一些越狱的默认引导程序依赖项，因此也称为 Odysseyra1n。&lt;/p>
@@ -1541,10 +1533,9 @@ data-flex-basis="269px"
 &lt;ol>
 &lt;li>
 &lt;p>启动 Betelguese 应用。单击「install Odysseyra1n」按钮。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/installody.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installody.jpg"
 width="1080"
 height="759"
-srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/installody_huaa870b4bd31880db60d0870d319644a4_7480_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -1553,10 +1544,9 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>Betelguese 应用会提示警告，在安装 Odysseyra1n 之前，需要通过 checkra1n Loader 应用程序执行还原系统。如果你跳过步骤 1-2，请立即执行。如果你已执行步骤 1-2，请单击蓝色的「Continue」按钮继续进行。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn.jpg"
 width="1080"
 height="759"
-srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesewarn_hu115956569e2cd93e1dbe827238b9b4f6_20406_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -1565,10 +1555,9 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>Betelguese 将开始在你的设备上安装 Odysseyra1n 的过程。此过程大约需要一到两分钟时间。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/installingody.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/installingody.jpg"
 width="1080"
 height="759"
-srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/installingody_hu0f734e8f2f3ddaa7eae6dd97637529bf_17967_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -1577,10 +1566,9 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>完成后，只需单击蓝色的「OK」确定按钮&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/betelguesedone.jpg"
 width="1080"
 height="759"
-srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/betelguesedone_hud7bec5ca962d4d071096031749af5387_7266_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -1589,10 +1577,9 @@ data-flex-basis="341px"
 &lt;/li>
 &lt;li>
 &lt;p>现在查看你的 iPhone 或 iPad，那么应该在主屏幕上看到 Sileo。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/betelguese-install-ody/checksileo.jpg"
 width="750"
 height="599"
-srcset="https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/betelguese-install-ody/checksileo_hu3c0b96ad1d635df89de45e07c3fe825a_22438_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="125"
@@ -1600,24 +1587,22 @@ data-flex-basis="300px"
 >&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>开始享受sileo吧&lt;/p></description></item><item><title>一键更新Odyssey/Taurine越狱内核</title><link>https://.blog.linsnow.cn/p/onekey-jbupdate/</link><pubDate>Sat, 17 Apr 2021 10:01:34 +0800</pubDate><guid>https://.blog.linsnow.cn/p/onekey-jbupdate/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/jbupdate.png" alt="Featured image of post 一键更新Odyssey/Taurine越狱内核" />&lt;h1 id="一键更新odysseytaurine越狱内核">一键更新Odyssey/Taurine越狱内核&lt;/h1>
+&lt;p>开始享受sileo吧&lt;/p></description></item><item><title>一键更新Odyssey/Taurine越狱内核</title><link>https://blog.linsnow.cn/p/onekey-jbupdate/</link><pubDate>Sat, 17 Apr 2021 10:01:34 +0800</pubDate><guid>https://blog.linsnow.cn/p/onekey-jbupdate/</guid><description>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/jbupdate.png" alt="Featured image of post 一键更新Odyssey/Taurine越狱内核" />&lt;h1 id="一键更新odysseytaurine越狱内核">一键更新Odyssey/Taurine越狱内核&lt;/h1>
 &lt;h2 id="jailebreak-update">Jailebreak Update&lt;/h2>
 &lt;p>Odyssey/Taurine 首席开发者 CoolStar 发布了一款插件，名字为 Jailebreak Update，在 Odyssey Repo 源内可以安装，介绍显示更新 Odyssey/Taurine 无需重启与再次越狱。&lt;/p>
 &lt;p>该方式仅升级越狱内核，即更新 CoolStar 发布的新版 Odyssey/Taurine 越狱工具的更新日志内容，无法更新越狱工具版本，如果关机重启再次越狱，依然还是旧版越狱工具的内核。&lt;/p>
 &lt;h2 id="安装-jailbreak-update">安装 Jailbreak Update&lt;/h2>
 &lt;p>安装 Odyssey Repo 源内 Jailbreak Update 插件。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1.webp"
 width="1080"
 height="2036"
-srcset="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="53"
 data-flex-basis="127px"
-> &lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2.webp"
+> &lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2.webp"
 width="1080"
 height="2036"
-srcset="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="53"
@@ -1642,7 +1627,7 @@ data-flex-basis="127px"
 &lt;/div>&lt;blockquote>
 &lt;p>通过 libhooker Configurator 可以查看 Taurine 内核版本，但是打开 Taurine 提示有更新。&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="heading">&lt;/h2></description></item><item><title>超简易checkn1x越狱</title><link>https://.blog.linsnow.cn/p/easy-checkn1x/</link><pubDate>Sun, 22 Nov 2020 17:25:53 +0800</pubDate><guid>https://.blog.linsnow.cn/p/easy-checkn1x/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/checkn1x.png" alt="Featured image of post 超简易checkn1x越狱" />&lt;h1 id="超简易checkn1x越狱">超简易checkn1x越狱&lt;/h1>
+&lt;h2 id="heading">&lt;/h2></description></item><item><title>超简易checkn1x越狱</title><link>https://blog.linsnow.cn/p/easy-checkn1x/</link><pubDate>Sun, 22 Nov 2020 17:25:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/easy-checkn1x/</guid><description>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkn1x.png" alt="Featured image of post 超简易checkn1x越狱" />&lt;h1 id="超简易checkn1x越狱">超简易checkn1x越狱&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>CheckRa1n 越狱工具需要在 macOS 系统上进行安装，但借助民间大佬做的&lt;strong>checkn1x.iso&lt;/strong>镜像文件即可轻松在Windows电脑完成越狱。&lt;/p>
 &lt;hr>
@@ -1687,10 +1672,9 @@ data-flex-basis="127px"
 &lt;ul>
 &lt;li>
 &lt;p>打开&lt;strong>BalenaEtcher刻录工具&lt;/strong>（注意不要把刻录工具放在中文路径，如果不懂就直接放到桌面）&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/selectimage.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/selectimage.jpg"
 width="800"
 height="504"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/selectimage_hu48d69ee9a0bee57c01cdfcd152d2755e_6980_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/selectimage_hu48d69ee9a0bee57c01cdfcd152d2755e_6980_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="158"
@@ -1702,10 +1686,9 @@ data-flex-basis="380px"
 &lt;p>选择刚才下载&lt;strong>checkn1x.iso&lt;/strong>镜像文件并打开&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xiso.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkn1xiso.jpg"
 width="645"
 height="113"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xiso_hub3eb1601b09f2a56fb0021f6f39fddbd_2632_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xiso_hub3eb1601b09f2a56fb0021f6f39fddbd_2632_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="570"
@@ -1714,10 +1697,9 @@ data-flex-basis="1369px"
 &lt;ul>
 &lt;li>插入U盘（注意：该步骤会清空当前 U 盘上储存的所有数据，请务必提请备份好个人数据）&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/flash.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/flash.jpg"
 width="800"
 height="504"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/flash_hu066a2f89be4c1ff85e1e924e52fc6a65_7518_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/flash_hu066a2f89be4c1ff85e1e924e52fc6a65_7518_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="158"
@@ -1731,10 +1713,9 @@ data-flex-basis="380px"
 &lt;p>等待刻录成功&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/flashfinish.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/flashfinish.jpg"
 width="800"
 height="504"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/flashfinish_hu35bfc4dbbfa423c9135c8b78998bbbd2_15472_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/flashfinish_hu35bfc4dbbfa423c9135c8b78998bbbd2_15472_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="158"
@@ -1751,30 +1732,27 @@ data-flex-basis="380px"
 &lt;hr>
 &lt;h2 id="启动越狱工具">启动越狱工具：&lt;/h2>
 &lt;p>重启电脑，进入 BIOS 模式并选择以 U 盘启动，使用数据线将 iPhone 连接至电脑&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/selectbootdevice.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/selectbootdevice.jpg"
 width="768"
 height="452"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="169"
 data-flex-basis="407px"
 >&lt;/p>
 &lt;p>（不同型号电脑、主板进入 BIOS 方法不同，以下提供部分配置参考）&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/bootkey.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/bootkey.jpg"
 width="917"
 height="810"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/bootkey_hub970e8625364093799464fdc03066952_118899_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/bootkey_hub970e8625364093799464fdc03066952_118899_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="113"
 data-flex-basis="271px"
 >&lt;/p>
 &lt;p>在Welcome to checkn1x 界面按组合键 Alt+F2 进入 Checkra1n（使用笔记本自带的键盘则是先按住 Fn+Alt 后再按 F2）；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xmode.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkn1xmode.png"
 width="644"
 height="415"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xmode_hu749629f6354a37bd1a4f5d4fea4378ee_6667_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/easy-checkn1x/checkn1xmode_hu749629f6354a37bd1a4f5d4fea4378ee_6667_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="155"
@@ -1784,10 +1762,9 @@ data-flex-basis="372px"
 &lt;ul>
 &lt;li>
 &lt;p>使用键盘方向键选择右下角“Start”后按回车开始；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/linuxra1n.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/linuxra1n.png"
 width="735"
 height="393"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/easy-checkn1x/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="187"
@@ -1799,10 +1776,9 @@ data-flex-basis="448px"
 &lt;/li>
 &lt;li>
 &lt;p>使用键盘方向键选择右下角“Start”后按回车，根据屏幕提示将设备进入 DFU 模式；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/startcheckra1n.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/startcheckra1n.jpg"
 width="4032"
 height="2137"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
@@ -1811,10 +1787,9 @@ data-flex-basis="452px"
 &lt;/li>
 &lt;li>
 &lt;p>进入 DFU 模式后自动执行越狱步骤，无需其他操作；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting.jpg"
 width="3613"
 height="2185"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="165"
@@ -1823,10 +1798,9 @@ data-flex-basis="396px"
 &lt;/li>
 &lt;li>
 &lt;p>越狱完成后，Checkra1n 会提示“All Done”，如果越狱失败请再尝试几次；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/checkra1ndone.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/checkra1ndone.jpg"
 width="3756"
 height="2254"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
@@ -1839,10 +1813,9 @@ data-flex-basis="399px"
 &lt;ul>
 &lt;li>此时 iPhone 桌面会有 checkra1n 图标生成，打开桌面的 checkra1n，点击 Cydia 并安装；&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/easy-checkn1x/installcydia.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/easy-checkn1x/installcydia.jpg"
 width="2085"
 height="800"
-srcset="https://.blog.linsnow.cn/p/easy-checkn1x/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/easy-checkn1x/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="260"
@@ -1854,7 +1827,7 @@ data-flex-basis="625px"
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="补充">补充：&lt;/h2>
-&lt;p>按照以上方式越狱后，如果重启 iPhone 越狱环境将会失效，需要按照以上步骤重新越狱才能恢复。&lt;/p></description></item><item><title>iOS13.0至13.6Succession平刷教程</title><link>https://.blog.linsnow.cn/p/succession-shuaji/</link><pubDate>Sat, 21 Nov 2020 17:21:22 +0800</pubDate><guid>https://.blog.linsnow.cn/p/succession-shuaji/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/succsion.png" alt="Featured image of post iOS13.0至13.6Succession平刷教程" />&lt;h1 id="ios130至136succession平刷教程">iOS13.0至13.6Succession平刷教程&lt;/h1>
+&lt;p>按照以上方式越狱后，如果重启 iPhone 越狱环境将会失效，需要按照以上步骤重新越狱才能恢复。&lt;/p></description></item><item><title>iOS13.0至13.6Succession平刷教程</title><link>https://blog.linsnow.cn/p/succession-shuaji/</link><pubDate>Sat, 21 Nov 2020 17:21:22 +0800</pubDate><guid>https://blog.linsnow.cn/p/succession-shuaji/</guid><description>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/succsion.png" alt="Featured image of post iOS13.0至13.6Succession平刷教程" />&lt;h1 id="ios130至136succession平刷教程">iOS13.0至13.6Succession平刷教程&lt;/h1>
 &lt;h2 id="succession刷机简介">Succession刷机简介：&lt;/h2>
 &lt;p>众所周知 iOS 一旦关闭系统验证，意味着不能正常刷机对当前系统平刷，而这款工具则可以解决这个难题，而越狱后设备，就可以利用 Succession 插件实现平刷了，这款插件它不依赖SHSH，也不依赖SEP，只需要你当前系统越狱，就能对当前系统平刷，但它不能降级和升级！！！&lt;/p>
 &lt;h3 id="关于-succession-平刷插件信息">关于 Succession 平刷插件信息：&lt;/h3>
@@ -1890,10 +1863,9 @@ data-flex-basis="625px"
 &lt;p>https//:samgisaninja.github.io/beta&lt;/p>
 &lt;p>自带源下载：&lt;/p>
 &lt;p>检查一下BigBOSS源是否空白，如果空白请「科学上网」刷新，检查有插件&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/installsuccession.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/installsuccession.jpg"
 width="747"
 height="413"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="180"
@@ -1925,10 +1897,9 @@ data-flex-basis="434px"
 &lt;p>选择「Use开头」，正在解压耐心等待几秒&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/startsuccession.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/startsuccession.png"
 width="1079"
 height="736"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="146"
@@ -1957,10 +1928,9 @@ data-flex-basis="351px"
 &lt;p>注意平刷途中不能息屏和退出&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/successioning.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/successioning.png"
 width="1080"
 height="550"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="196"
@@ -1988,27 +1958,25 @@ data-flex-basis="471px"
 &lt;p>1.平刷后再次安装un4.3.1打开Restore RootFS清除越狱状态。&lt;/p>
 &lt;p>2.平刷前手机关机重新启动 打开un4.3.1激活越狱前 记得关闭Disable Updates选项 再在激活越狱环境。步骤还是上面的1-6&lt;/p>
 &lt;hr>
-&lt;p>教程完结！！！&lt;/p></description></item><item><title>使用爱思助手制作越狱U盘</title><link>https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/</link><pubDate>Wed, 11 Nov 2020 17:25:53 +0800</pubDate><guid>https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1n.png" alt="Featured image of post 使用爱思助手制作越狱U盘" />&lt;h1 id="使用爱思助手制作越狱u盘">使用爱思助手制作越狱U盘&lt;/h1>
+&lt;p>教程完结！！！&lt;/p></description></item><item><title>使用爱思助手制作越狱U盘</title><link>https://blog.linsnow.cn/p/i4tool-flash-jailbreak/</link><pubDate>Wed, 11 Nov 2020 17:25:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/i4tool-flash-jailbreak/</guid><description>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1n.png" alt="Featured image of post 使用爱思助手制作越狱U盘" />&lt;h1 id="使用爱思助手制作越狱u盘">使用爱思助手制作越狱U盘&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>CheckRa1n 越狱工具需要在 macOS 系统上进行安装，借助电脑端爱思助手制作越狱 U 盘后，即可在 Windows 电脑上使用 CheckRa1n 进行越狱。&lt;/p>
 &lt;p>支持设备：iPhone 5S - iPhone X&lt;/p>
 &lt;p>兼容系统：iOS 12.3 及以上&lt;/p>
 &lt;h2 id="越狱-u-盘制作步骤">&lt;strong>越狱 U 盘制作步骤&lt;/strong>&lt;/h2>
 &lt;p>准备好一个 1GB 以上的 U 盘，然后将 U 盘连接至电脑，打开电脑端爱思助手，在“刷机越狱 - 一键越狱”中点击“制作越狱 U 盘”，此时会弹出功能说明并显示已插入的 U 盘，选择用于制作的 U 盘后点击“开始制作”按钮。注意，该步骤会清空当前 U 盘上储存的所有数据，请务必提请备份好个人数据；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash.jpg"
 width="999"
 height="721"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash_hu67dba1dfe0d5a1941b2a8440f1c732cb_63729_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flash_hu67dba1dfe0d5a1941b2a8440f1c732cb_63729_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="138"
 data-flex-basis="332px"
 >&lt;/p>
 &lt;p>随后，爱思助手会自动制作越狱 U 盘，制作完成后点击提示框的“关闭”按钮即可。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone.jpg"
 width="1002"
 height="722"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone_hud236b466914da9e10a0e1a6c8a34b5e5_50956_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/i4flashdone_hud236b466914da9e10a0e1a6c8a34b5e5_50956_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="138"
@@ -2016,34 +1984,31 @@ data-flex-basis="333px"
 >&lt;/p>
 &lt;h2 id="使用-u-盘越狱步骤">**使用 U 盘越狱步骤&lt;/h2>
 &lt;p>重启电脑，进入 BIOS 模式并选择以 U 盘启动（这里选择 Generic Flash Disk），使用数据线将 iPhone 连接至电脑；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice.jpg"
 width="768"
 height="452"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/selectbootdevice_hu3731d0fcfd53c5057842d6388b63ee60_12390_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="169"
 data-flex-basis="407px"
 >&lt;/p>
 &lt;p>（不同型号电脑、主板进入 BIOS 方法不同，以下提供部分配置参考）&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey.jpg"
 width="917"
 height="810"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey_hub970e8625364093799464fdc03066952_118899_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/bootkey_hub970e8625364093799464fdc03066952_118899_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="113"
 data-flex-basis="271px"
 >&lt;/p>
 &lt;p>在Welcome to checkn1x 界面按组合键 Alt+F2 进入 Checkra1n（使用笔记本自带的键盘则是先按住 Fn+Alt 后再按 F2）；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/C:%5cUsers%5cl1nsn%5cDesktop%5csite%5cblog%5ccontent%5cpost%5ceasy-checkn1x%5ccheckn1xmode.png"
+&lt;p>&lt;img src="C:%5cUsers%5cl1nsn%5cDesktop%5csite%5cblog%5ccontent%5cpost%5ceasy-checkn1x%5ccheckn1xmode.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>使用键盘方向键选择右下角“Start”后按回车开始；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n.png"
 width="735"
 height="393"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/linuxra1n_hu75246e6f80abf200fa9da5e3f41565fb_14387_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="187"
@@ -2051,40 +2016,36 @@ data-flex-basis="448px"
 >&lt;/p>
 &lt;p>注意：如果提示“Sorry,iPhone (5s-X) is supported,but iOS is not.&amp;ldquo;导致“Start”按钮无法选取，请进入左侧“Options”选项，然后开启“Allow untested iOS/ iPadOS/tvOS versions”项，然后返回即可选取“Start”。&lt;/p>
 &lt;p>使用键盘方向键选择右下角“Start”后按回车，根据屏幕提示将设备进入 DFU 模式；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n.jpg"
 width="4032"
 height="2137"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/startcheckra1n_huf281617682fb52ebc48adba3adf962ea_439809_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="188"
 data-flex-basis="452px"
 >&lt;/p>
 &lt;p>进入 DFU 模式后自动执行越狱步骤，无需其他操作；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting.jpg"
 width="3613"
 height="2185"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1nbooting_hub27bfb23942fbae8221f4be2b0a4861b_433546_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="165"
 data-flex-basis="396px"
 >&lt;/p>
 &lt;p>越狱完成后，Checkra1n 会提示“All Done”，如果越狱失败请再尝试几次；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone.jpg"
 width="3756"
 height="2254"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/checkra1ndone_hu81f10f071f2481cc621c96fee805e728_370171_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
 data-flex-basis="399px"
 >&lt;/p>
 &lt;p>此时 iPhone 桌面会有 checkra1n 图标生成，打开桌面的 checkra1n，点击 Cydia 并安装；&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia.jpg"
 width="2085"
 height="800"
-srcset="https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/i4tool-flash-jailbreak/installcydia_hu68b42667baecdb1d8f4da6900083ed5f_34389_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="260"

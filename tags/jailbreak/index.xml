@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jailbreak on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/jailbreak/</link><description>Recent content in jailbreak on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/jailbreak/index.xml" rel="self" type="application/rss+xml"/><item><title>越狱常见问题指北手册</title><link>https://.blog.linsnow.cn/p/jb-question/</link><pubDate>Thu, 26 Aug 2021 07:28:27 +0800</pubDate><guid>https://.blog.linsnow.cn/p/jb-question/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/jb-question/jbzhibei.png" alt="Featured image of post 越狱常见问题指北手册" />&lt;h1 id="越狱常见问题指北手册">越狱常见问题指北手册&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jailbreak on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/jailbreak/</link><description>Recent content in jailbreak on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Aug 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/jailbreak/index.xml" rel="self" type="application/rss+xml"/><item><title>越狱常见问题指北手册</title><link>https://blog.linsnow.cn/p/jb-question/</link><pubDate>Thu, 26 Aug 2021 07:28:27 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-question/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-question/jbzhibei.png" alt="Featured image of post 越狱常见问题指北手册" />&lt;h1 id="越狱常见问题指北手册">越狱常见问题指北手册&lt;/h1>
 &lt;h3 id="ios更新屏蔽">iOS更新屏蔽&lt;/h3>
 &lt;p>Unc0ver越狱自带更新屏蔽&lt;/p>
 &lt;p>Taurine/Odyssey/Chimera/Electra 越獄成功以後是沒有自帶屏蔽系統更新的，建議去安裝 OTADisabler 來屏蔽更新&lt;/p>
@@ -27,10 +27,9 @@
 &lt;p>&lt;a class="link" href="https://repo.chariz.com/" target="_blank" rel="noopener"
 >https://repo.chariz.com/&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-question/threetool.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/threetool.png"
 width="750"
 height="741"
-srcset="https://.blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-question/threetool_huf0b00bf95a0ac6662dd07ae7e8d6e101_82485_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="101"
@@ -136,10 +135,9 @@ data-flex-basis="242px"
 &lt;/blockquote>
 &lt;h5 id="获取插件bundleid">获取插件bundleid&lt;/h5>
 &lt;p>一般划到插件底部就可以看到插件的bundleid&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/jb-question/bundleid.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/jb-question/bundleid.png"
 width="750"
 height="444"
-srcset="https://.blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/jb-question/bundleid_hu2cb9d352ce19c5c3f333bb2870f29cb4_40165_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="bundleid"
 class="gallery-image"
@@ -200,7 +198,7 @@ data-flex-basis="405px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>如果让你确认就输入&lt;code>y&lt;/code>然后回车就行&lt;/p>
-&lt;hr></description></item><item><title>Cydia和Sileo插件源地址整理</title><link>https://.blog.linsnow.cn/p/jb-source/</link><pubDate>Mon, 16 Aug 2021 16:42:21 +0800</pubDate><guid>https://.blog.linsnow.cn/p/jb-source/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/jb-source/repo.png" alt="Featured image of post Cydia和Sileo插件源地址整理" />&lt;h1 id="cydia和sileo插件源地址整理">Cydia和Sileo插件源地址整理&lt;/h1>
+&lt;hr></description></item><item><title>Cydia和Sileo插件源地址整理</title><link>https://blog.linsnow.cn/p/jb-source/</link><pubDate>Mon, 16 Aug 2021 16:42:21 +0800</pubDate><guid>https://blog.linsnow.cn/p/jb-source/</guid><description>&lt;img src="https://blog.linsnow.cn/p/jb-source/repo.png" alt="Featured image of post Cydia和Sileo插件源地址整理" />&lt;h1 id="cydia和sileo插件源地址整理">Cydia和Sileo插件源地址整理&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>为了设备越狱后能得到一个良好稳定的越狱环境和解决各种插件以来问题，使用官方作者源是一个最佳的解决方案，这里整理一下一些常用的作者源，地址很多，建议使用网站的本地搜索快速查找对应的源地址&lt;/p>
 &lt;h2 id="三大收费源地址">三大收费源地址&lt;/h2>
@@ -1272,24 +1270,22 @@ data-flex-basis="405px"
 &lt;/ul>
 &lt;h2 id="其他说明">其他说明&lt;/h2>
 &lt;p>如果发现&lt;code>https&lt;/code>开头无法添加，请尝试&lt;code>http&lt;/code>开头添加。&lt;/p>
-&lt;p>再次增加很多源地址，但是依旧无法收集全&lt;/p></description></item><item><title>一键更新Odyssey/Taurine越狱内核</title><link>https://.blog.linsnow.cn/p/onekey-jbupdate/</link><pubDate>Sat, 17 Apr 2021 10:01:34 +0800</pubDate><guid>https://.blog.linsnow.cn/p/onekey-jbupdate/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/jbupdate.png" alt="Featured image of post 一键更新Odyssey/Taurine越狱内核" />&lt;h1 id="一键更新odysseytaurine越狱内核">一键更新Odyssey/Taurine越狱内核&lt;/h1>
+&lt;p>再次增加很多源地址，但是依旧无法收集全&lt;/p></description></item><item><title>一键更新Odyssey/Taurine越狱内核</title><link>https://blog.linsnow.cn/p/onekey-jbupdate/</link><pubDate>Sat, 17 Apr 2021 10:01:34 +0800</pubDate><guid>https://blog.linsnow.cn/p/onekey-jbupdate/</guid><description>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/jbupdate.png" alt="Featured image of post 一键更新Odyssey/Taurine越狱内核" />&lt;h1 id="一键更新odysseytaurine越狱内核">一键更新Odyssey/Taurine越狱内核&lt;/h1>
 &lt;h2 id="jailebreak-update">Jailebreak Update&lt;/h2>
 &lt;p>Odyssey/Taurine 首席开发者 CoolStar 发布了一款插件，名字为 Jailebreak Update，在 Odyssey Repo 源内可以安装，介绍显示更新 Odyssey/Taurine 无需重启与再次越狱。&lt;/p>
 &lt;p>该方式仅升级越狱内核，即更新 CoolStar 发布的新版 Odyssey/Taurine 越狱工具的更新日志内容，无法更新越狱工具版本，如果关机重启再次越狱，依然还是旧版越狱工具的内核。&lt;/p>
 &lt;h2 id="安装-jailbreak-update">安装 Jailbreak Update&lt;/h2>
 &lt;p>安装 Odyssey Repo 源内 Jailbreak Update 插件。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1.webp"
 width="1080"
 height="2036"
-srcset="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate1_huac6732b544b145a770120b5e50aa0276_55376_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="53"
 data-flex-basis="127px"
-> &lt;img src="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2.webp"
+> &lt;img src="https://blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2.webp"
 width="1080"
 height="2036"
-srcset="https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/onekey-jbupdate/installjbupdate2_hub0685a1bf83e19f222cd8844d6291aa0_75818_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="53"
@@ -1314,7 +1310,7 @@ data-flex-basis="127px"
 &lt;/div>&lt;blockquote>
 &lt;p>通过 libhooker Configurator 可以查看 Taurine 内核版本，但是打开 Taurine 提示有更新。&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="heading">&lt;/h2></description></item><item><title>iOS13.0至13.6Succession平刷教程</title><link>https://.blog.linsnow.cn/p/succession-shuaji/</link><pubDate>Sat, 21 Nov 2020 17:21:22 +0800</pubDate><guid>https://.blog.linsnow.cn/p/succession-shuaji/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/succsion.png" alt="Featured image of post iOS13.0至13.6Succession平刷教程" />&lt;h1 id="ios130至136succession平刷教程">iOS13.0至13.6Succession平刷教程&lt;/h1>
+&lt;h2 id="heading">&lt;/h2></description></item><item><title>iOS13.0至13.6Succession平刷教程</title><link>https://blog.linsnow.cn/p/succession-shuaji/</link><pubDate>Sat, 21 Nov 2020 17:21:22 +0800</pubDate><guid>https://blog.linsnow.cn/p/succession-shuaji/</guid><description>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/succsion.png" alt="Featured image of post iOS13.0至13.6Succession平刷教程" />&lt;h1 id="ios130至136succession平刷教程">iOS13.0至13.6Succession平刷教程&lt;/h1>
 &lt;h2 id="succession刷机简介">Succession刷机简介：&lt;/h2>
 &lt;p>众所周知 iOS 一旦关闭系统验证，意味着不能正常刷机对当前系统平刷，而这款工具则可以解决这个难题，而越狱后设备，就可以利用 Succession 插件实现平刷了，这款插件它不依赖SHSH，也不依赖SEP，只需要你当前系统越狱，就能对当前系统平刷，但它不能降级和升级！！！&lt;/p>
 &lt;h3 id="关于-succession-平刷插件信息">关于 Succession 平刷插件信息：&lt;/h3>
@@ -1350,10 +1346,9 @@ data-flex-basis="127px"
 &lt;p>https//:samgisaninja.github.io/beta&lt;/p>
 &lt;p>自带源下载：&lt;/p>
 &lt;p>检查一下BigBOSS源是否空白，如果空白请「科学上网」刷新，检查有插件&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/installsuccession.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/installsuccession.jpg"
 width="747"
 height="413"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/succession-shuaji/installsuccession_hu21dbb5a7a2ac2501dc61733524c7f841_31700_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="180"
@@ -1385,10 +1380,9 @@ data-flex-basis="434px"
 &lt;p>选择「Use开头」，正在解压耐心等待几秒&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/startsuccession.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/startsuccession.png"
 width="1079"
 height="736"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/succession-shuaji/startsuccession_hucafc41d2aaf1d2d7072dd60f33967e14_51168_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="146"
@@ -1417,10 +1411,9 @@ data-flex-basis="351px"
 &lt;p>注意平刷途中不能息屏和退出&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/succession-shuaji/successioning.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/succession-shuaji/successioning.png"
 width="1080"
 height="550"
-srcset="https://.blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/succession-shuaji/successioning_hu95daddded686793b68528018cada1aeb_51231_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="196"

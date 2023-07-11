@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Win11 on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/win11/</link><description>Recent content in Win11 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Aug 2021 10:17:21 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/win11/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows11从入门到入土</title><link>https://.blog.linsnow.cn/p/win11-start/</link><pubDate>Sun, 15 Aug 2021 10:17:21 +0800</pubDate><guid>https://.blog.linsnow.cn/p/win11-start/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/win11-start/win11.png" alt="Featured image of post Windows11从入门到入土" />&lt;h1 id="windows11从入门到入土">Windows11从入门到入土&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Win11 on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/win11/</link><description>Recent content in Win11 on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 04 Apr 2023 00:51:54 -0700</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/win11/index.xml" rel="self" type="application/rss+xml"/><item><title>一份不迟不早Windows11使用体验报告</title><link>https://blog.linsnow.cn/p/win11-experience/</link><pubDate>Tue, 04 Apr 2023 00:51:54 -0700</pubDate><guid>https://blog.linsnow.cn/p/win11-experience/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-experience/win11experience.png" alt="Featured image of post 一份不迟不早Windows11使用体验报告" />&lt;h2 id="和windows11故事的开始">🙌和Windows11故事的开始&lt;/h2>
+&lt;p>像往日一样在网上冲浪，我偶然看到了一条关于Windows11镜像泄露的消息，🙄“什么！巨硬不是说Windows是最后一代Windows吗？不管了，先逝世再说”，准备好U盘，从一个还算靠谱的网站把镜像下载下来，一顿常规操作，Windows安装完毕。看着这所谓的Windows11的界面，不能说跟win10一模一样，可以说是只改了一个开始菜单，其他的几乎没变，其他几乎都没变，用起来还特别卡，只能等官方推正式版了。😂&lt;/p>
+&lt;h2 id="时至今日">😐时至今日&lt;/h2>
+&lt;p>时至今日，Windows11终于勉强好用一些了，虽然仍有一些不如人意，但是不妨碍我拿他&lt;del>水&lt;/del>一篇blog.&lt;/p>
+&lt;h2 id="颜值是第一生产力">🎉“颜值是第一生产力”&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/Windows11.webp"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Windows11"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>这里先小秀一下我的&lt;code>Windows Desktop&lt;/code>,照片经过压缩，有点小糊，你忍一下.&lt;/p>
+&lt;p>现在的Windows11采用的是Mica材质和圆角风格，比起早期的Windows11，现在圆角风格已经适配到了许多app，个人感觉还是很好看的。&lt;/p>
+&lt;h2 id="右键菜单">🤞右键菜单&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/youjian.png"
+width="483"
+height="548"
+loading="lazy"
+alt="右键菜单"
+class="gallery-image"
+data-flex-grow="88"
+data-flex-basis="211px"
+>
+&lt;img src="https://blog.linsnow.cn/p/win11-experience/erjicaidan.png"
+width="751"
+height="653"
+loading="lazy"
+alt="二级菜单"
+class="gallery-image"
+data-flex-grow="115"
+data-flex-basis="276px"
+>&lt;/p>
+&lt;p>虽然二级菜单可能影响效率，但是它整洁啊！我就喜欢的简洁的布局，安装带有右键菜单的软件增多后，Windows10的右键菜单就会很显示出弊端，长长的一端看起来特别难受。&lt;/p>
+&lt;h2 id="原生输入法">😅原生输入法&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/shurufa.png"
+width="1091"
+height="457"
+loading="lazy"
+alt="原生输入法"
+class="gallery-image"
+data-flex-grow="238"
+data-flex-basis="572px"
+>&lt;/p>
+&lt;p>带有Windows11风格的原生输入法比Windows10的小一点，接近macos的风格，win11输入法可以在设置中切换不同风格，但是我个人偏好win11默认dark风格，我一直是很喜欢使用原生输入法的，比起第三方输入法简洁很多。&lt;/p>
+&lt;h2 id="资源管理器">🙄资源管理器&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/fileman.webp"
+width="1286"
+height="770"
+loading="lazy"
+alt="原生资源管理器"
+class="gallery-image"
+data-flex-grow="167"
+data-flex-basis="400px"
+>&lt;/p>
+&lt;p>Windows11早期的版本的资源管理器可谓是&lt;code>3A大作&lt;/code>，打开要等很多久，而且拖拽也特别卡，不过随着巨硬的不断优化，现在的资源管理器有了明显的好转，动画速度也变快了，而且也优化了OneDrive的使用，原生支持了多标签页，内存占用算是比较低的。&lt;/p>
+&lt;h2 id="emoji">📎Emoji&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/emoji.png"
+width="450"
+height="500"
+loading="lazy"
+alt="Emoji"
+class="gallery-image"
+data-flex-grow="90"
+data-flex-basis="216px"
+>&lt;/p>
+&lt;p>自从微软推出3D风格的emoji,我就喜欢上了emoji的使用，win11上的emoji比较立体圆润，看着非常不错。&lt;/p>
+&lt;h2 id="开始菜单">😃开始菜单&lt;/h2>
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-experience/start.webp"
+width="1020"
+height="947"
+loading="lazy"
+alt="开始菜单"
+class="gallery-image"
+data-flex-grow="107"
+data-flex-basis="258px"
+>&lt;/p>
+&lt;p>Windows11的开始菜单在刚出的时候可以说是饱受诟病,不过现在好多了,同样是因为二级菜单的原因,缺少了点效率,但是勉强能接受,平时开始菜单用的不是很多,没什么好说的.&lt;/p>
+&lt;h2 id="more">🙌More&amp;hellip;&lt;/h2></description></item><item><title>Windows11从入门到入土</title><link>https://blog.linsnow.cn/p/win11-start/</link><pubDate>Sun, 15 Aug 2021 10:17:21 +0800</pubDate><guid>https://blog.linsnow.cn/p/win11-start/</guid><description>&lt;img src="https://blog.linsnow.cn/p/win11-start/win11.png" alt="Featured image of post Windows11从入门到入土" />&lt;h1 id="windows11从入门到入土">Windows11从入门到入土&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>Why？为什么有这篇文章，因为电脑win10系统出问题了&amp;hellip;&amp;hellip;..其实在Windows11泄露到dev频道开放测试的时候我就已经开始使用了，后来由于amd显卡驱动在windows11上突然奔溃了就有回到了Windows10，真是反反复复，现在Windows11也测试差不多两个月了，体验应该不会太差了，今天就冲了，奥里给哈哈哈哈。顺便就记录一下这个过程吧。&lt;/p>
 &lt;hr>
@@ -9,10 +89,9 @@
 &lt;p>工具地址：https://github.com/rcmaehl/WhyNotWin11&lt;/p>
 &lt;/blockquote>
 &lt;p>下面是我电脑的检测结果&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/whynotwin11.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/whynotwin11.png"
 width="1002"
 height="752"
-srcset="https://.blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/whynotwin11_hu1468ae7f905ae4d5ef045c11e9592548_73429_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
@@ -33,20 +112,18 @@ data-flex-basis="319px"
 &lt;p>打开设置-隐私-诊断和反馈-将诊断数据改为可选诊断数据就行了&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="注册完成">注册完成&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/wininsider.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/wininsider.png"
 width="642"
 height="287"
-srcset="https://.blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/wininsider_hu1d79e13eea1c98fc40ed601080c75d7a_11434_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="223"
 data-flex-basis="536px"
 >&lt;/p>
 &lt;h3 id="开始更新windows11">开始更新Windows11&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/win11-start/win11update.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/win11-start/win11update.png"
 width="542"
 height="248"
-srcset="https://.blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/win11update_hua87b81fbf59939e9245cd5213a646f26_5029_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="218"
@@ -61,10 +138,9 @@ data-flex-basis="524px"
 &lt;p>网络上的pe一大堆，怎么顺手怎么来呗&lt;/p>
 &lt;/blockquote>
 &lt;p>获取Windows11镜像，由于MSDN目前无法获取到镜像，官网也不行，所以我们可以采用国外镜像源获取&amp;ndash;&lt;a class="link" href="https://uupdump.net/" target="_blank" rel="noopener"
->&lt;strong>UUP Dump&lt;/strong>&lt;/a>,打开这个网站，&lt;img src="https://.blog.linsnow.cn/p/win11-start/uupdump.png"
+>&lt;strong>UUP Dump&lt;/strong>&lt;/a>,打开这个网站，&lt;img src="https://blog.linsnow.cn/p/win11-start/uupdump.png"
 width="1672"
 height="822"
-srcset="https://.blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/win11-start/uupdump_hu217ff3482caa868bed696a8a0baeb866_61162_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="203"

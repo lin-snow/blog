@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigSur on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/bigsur/</link><description>Recent content in BigSur on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 27 Aug 2021 14:59:39 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/bigsur/index.xml" rel="self" type="application/rss+xml"/><item><title>当iOS遇上Big Sur</title><link>https://.blog.linsnow.cn/p/ios-with-bigsur/</link><pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate><guid>https://.blog.linsnow.cn/p/ios-with-bigsur/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/iosbigsur.png" alt="Featured image of post 当iOS遇上Big Sur" />&lt;h1 id="当ios遇上big-sur">当iOS遇上Big Sur&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigSur on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/bigsur/</link><description>Recent content in BigSur on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Aug 2021 14:59:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/bigsur/index.xml" rel="self" type="application/rss+xml"/><item><title>当iOS遇上Big Sur</title><link>https://blog.linsnow.cn/p/ios-with-bigsur/</link><pubDate>Fri, 27 Aug 2021 14:59:39 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-with-bigsur/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/iosbigsur.png" alt="Featured image of post 当iOS遇上Big Sur" />&lt;h1 id="当ios遇上big-sur">当iOS遇上Big Sur&lt;/h1>
 &lt;h2 id="效果图">效果图&lt;/h2>
 &lt;p>这是效果图，压缩后有点模糊，你忍一下&amp;hellip;&amp;hellip;&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/1.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/1.jpg"
 width="1214"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/1_hu81737ee35a4f37606e26f53257606de2_144198_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="112"
@@ -50,10 +49,9 @@ data-flex-basis="269px"
 &lt;blockquote>
 &lt;p>添加软件源：https://repo.dynastic.co/ （自带源）&lt;/p>
 &lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>SnowBoard&lt;/code>并下载下来&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/2.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/2.jpg"
 width="750"
 height="481"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/2_hu8570d6833aac8fcc7f37684e5ebddb88_21819_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="155"
@@ -68,10 +66,9 @@ data-flex-basis="374px"
 &lt;p>**添加软件源：**&lt;a class="link" href="https://jabizb.com/repo/" target="_blank" rel="noopener"
 >https://jabizb.com/repo/&lt;/a>&lt;/p>
 &lt;p>在sileo/cydia/zebra的搜索栏中搜索&lt;code>BigSur Jabi&lt;/code>并下载下来&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/3.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/3.jpg"
 width="750"
 height="480"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/3_hub0d4565efd21d24bcbb320bc2aeea2c8_22070_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="156"
@@ -87,10 +84,9 @@ data-flex-basis="375px"
 &lt;li>将BigSur Jabi主题设置为启用&lt;/li>
 &lt;/ol>
 &lt;p>&lt;strong>图文教程&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-with-bigsur/4.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-with-bigsur/4.png"
 width="750"
 height="949"
-srcset="https://.blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/ios-with-bigsur/4_huc8ab24c2d8ab376fa71434f6d5a646df_79791_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="79"

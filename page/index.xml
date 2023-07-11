@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/page/</link><description>Recent content in Pages on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://.blog.linsnow.cn/page/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://.blog.linsnow.cn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/</guid><description/></item><item><title>『 Links 』友情链接</title><link>https://.blog.linsnow.cn/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/links/</guid><description>&lt;img src="https://.blog.linsnow.cn/img/page2.webp" alt="Featured image of post 『 Links 』友情链接" />&lt;h2 id="我自己的blog信息">我自己的blog信息🤡&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/page/</link><description>Recent content in Pages on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://blog.linsnow.cn/page/index.xml" rel="self" type="application/rss+xml"/><item><title>『 Links 』友情链接</title><link>https://blog.linsnow.cn/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.linsnow.cn/links/</guid><description>&lt;h2 id="我自己的blog信息">我自己的blog信息🤡&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -55,8 +55,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">😗有时可能为了保持友链页质量删除一些较低质量的友链,(添加友链前请知晓,如发现友链被删除,你也可以按我这么做).
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>『 Message 』留言</title><link>https://.blog.linsnow.cn/message/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/message/</guid><description>&lt;img src="https://.blog.linsnow.cn/img/page2.webp" alt="Featured image of post 『 Message 』留言" />&lt;h2 id="留言">👋『留言』&lt;/h2>
-&lt;p>&lt;strong>在这里可以留下你的足迹，切勿散布广告与不好的言论哦🎈.&lt;/strong>&lt;/p></description></item><item><title>关于</title><link>https://.blog.linsnow.cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/about/</guid><description>&lt;img src="https://.blog.linsnow.cn/img/page.webp" alt="Featured image of post 关于" />&lt;h1 id="关于">『关于』&lt;/h1>
+&lt;/div></description></item><item><title>关于</title><link>https://blog.linsnow.cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.linsnow.cn/about/</guid><description>&lt;img src="https://blog.linsnow.cn/img/page.webp" alt="Featured image of post 关于" />&lt;h1 id="关于">『关于』&lt;/h1>
 &lt;h3 id="我">😊我：&lt;/h3>
 &lt;p>目前是一名高三学生,喜欢折腾各种电子产品,爱打游戏,没事就写写博客,做这个博客是为了记录一些有的没的,还有就是装逼,由于目前还是个穷屌丝,整个博客花的费用主要是域名续费,部署在&lt;code>GitHub&lt;/code>上,配合&lt;code>GitHub action&lt;/code>和&lt;code>Vercel&lt;/code>,虽然偶尔会崩,但是能用就行,整个博客基本上是全静态,日常水文够用,选择&lt;code>hugo&lt;/code>而不用&lt;code>hexo&lt;/code>是考虑到稳定性和可持续性,&lt;code>hexo&lt;/code>过于依赖&lt;code>npm&lt;/code>,不同主题的配置差别太大,有时还可能因为node版本不适合报错,折腾不动,目前就用着hugo养老吧.&lt;/p>
 &lt;p>🙌自画像：&lt;/p>
@@ -98,12 +97,6 @@
 &lt;p>🌝喜欢旅游&lt;/p>
 &lt;p>🃏喜欢大自然和小动物&lt;/p>
 &lt;hr>
-&lt;h3 id="我的一些站点">🤪我的一些站点&lt;/h3>
-&lt;p>&lt;a class="link" href="https://www.linsnow.cn" target="_blank" rel="noopener"
->https://www.linsnow.cn&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://blog.linsnow.cn" target="_blank" rel="noopener"
->https://blog.linsnow.cn&lt;/a>&lt;/p>
-&lt;hr>
 &lt;h3 id="擅长">💪擅长：&lt;/h3>
 &lt;p>&lt;del>HTML5 、CSS、JS&lt;/del>&lt;/p>
 &lt;p>&lt;del>能够较熟练使用Windows，Linux，macos，iOS，Android&lt;/del>&lt;/p>
@@ -117,24 +110,8 @@
 &lt;p>邮箱：1909901779@qq.com&lt;/p>
 &lt;hr>
 &lt;h3 id="some-words">📃Some Words&lt;/h3>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;hr></description></item><item><title>归档</title><link>https://.blog.linsnow.cn/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/archives/</guid><description/></item><item><title>搜索</title><link>https://.blog.linsnow.cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/search/</guid><description/></item><item><title>网站日志</title><link>https://.blog.linsnow.cn/log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://.blog.linsnow.cn/log/</guid><description>&lt;img src="https://.blog.linsnow.cn/img/page.webp" alt="Featured image of post 网站日志" />&lt;h2 id="网站日志">📢网站日志：&lt;/h2>
-&lt;p>2022/12:&lt;/p>
-&lt;p>侧边栏添加gif与最新评论显示,添加虫洞与travelling,改用waline,使用vercel部署waline并配置deta base用于存放waline数据,加入萌备&amp;hellip;.&lt;/p>
-&lt;h3 id="2022101">2022/10/1:&lt;/h3>
-&lt;p>增加i18n支持，增加导航页，增加某些页面分i18n,增加主页上一些板块的显示，如公告板块，修改菜单使其适配多语言并支持选择高亮等等&lt;/p>
-&lt;h3 id="2022627">2022/6/27：&lt;/h3>
-&lt;p>对整个主题进行了大量修改，转向使用twikoo评论系统，在小屏手机使用圆角目录，友链分格更接近原主题，修改代码块样式，居中社交按钮，美化整个网站的侧边滑块，页脚增加总字数统计和运行天数，增加引用段代码&lt;/p>
-&lt;h3 id="202234">2022/3/4：&lt;/h3>
-&lt;p>更新了主题，优化了侧边栏.&lt;/p>
-&lt;h3 id="2022212">2022/2/12:&lt;/h3>
-&lt;p>更换了更加稳定的评论系统，为每篇post设置了自定义的链接，精简整个blog的结构，开启了图片的灯箱功能，侧边栏进行精简&lt;/p>
-&lt;h3 id="b20211225">b2021/12/25：&lt;/h3>
-&lt;p>为blog里文章图片显示增加了阴影与圆角&lt;/p>
-&lt;h3 id="20211225">2021/12/25:&lt;/h3>
-&lt;p>为blog更换了markdown引用块的样式&lt;/p>
-&lt;h3 id="2021117">2021/11/7：&lt;/h3>
-&lt;p>为blog增加了rss，并优化了一些图标，增加了加载进度条&lt;/p>
-&lt;h3 id="2021116">2021/11/6：&lt;/h3>
-&lt;p>更改了一些页面的工作&lt;/p></description></item></channel></rss>
+&lt;details>
+&lt;summary>📃展开详细信息：&lt;/summary>
+祝各位大佬在新的一年PHP全致命错误，fileinfo全装不上，npm/composer install全报错，Laravel Mix全报未知错误，服务器全部宕机，电脑开机报错，Linux rm rf，数据库被删除，CN2全绕路，线路全阻断，海外网站全被墙，服务器炸库，网关无响应，代理50O，网站502，RAID组几个一起炸几个，UPS爆炸，一年到头DDOS CC不断，流量几千个T，并发上亿，ping全超时，备案全重审，资源404，SSL全重定向，CDN全不回源，爬虫永远不来你家，收录零蛋，数据库超时，前端永远502，IP永远封80,443，windows开机蓝屏，linux开机Kernel Panic，macos开机五国，服务器iDRAC/iLO/IPMI/KVM全部失联，路由器全爆炸，路由表内存全溢出，交换机全环路，防火墙全阻断，无线信道全冲突,CC,DDOS全来，压接网线全短路，BGP全漏表，机柜全断电，RAiD全爆炸，NAS数据全丢，光模块全炸，光纤全不同，光猫全烫手，电表全倒转，空开全烧穿，Java空指针，Adobe全家保存失败+闪退，制作程序做一半全关机，差一分102，英语完形填空题目正文不在同一页、数学23题二次函数动点、语文作文跑题、政治答不到点上、历史小短文不会、生物遗传不知道、体育考试前骨折、踢足球踩到球上、阅读理解比喻说成拟人、寒假作业没写完、网络延迟=999，电压表电流表分不清、高锰酸钾不塞棉花，Windows update致命性错误，刷第三方固件必变砖，水冷漏液，CPU弯脚，风扇断叶，鼠标双击，键盘进水，显卡花屏，主板浪涌，电源烧毁，USB短路，固态掉盘，磁盘坏道，容麦受潮，内存出错，2345绑架，编译器抽风，github连不上，编译程序全错误，错误全都抛不出，多线程全都调不好，忘记保存必停电，内存全吃满，CPU高发热，调试全崩溃，封装全找不到主类，问题全无法解决，IDE全无响应，找人帮忙全不是大佬，有想法时全尿急，变量全接不到值，写过的代码全忘记，自己的注释全看不懂，程序编译后全是bug,bug越修越多，bug修到不想做，买英特尔CPU和AMD主板配、买到思杰马克丁的正版、开机账户错误，涂硅脂涂到针脚上、支付宝被自动扣费、忘记密码不重置、办理长城宽带、twrp卡刷必报错、download模式必掉、9008救砖救不过、黑苹果无兼容efi、数据线断掉
+&lt;/details>
+&lt;hr></description></item><item><title>归档</title><link>https://blog.linsnow.cn/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.linsnow.cn/archives/</guid><description/></item><item><title>搜索</title><link>https://blog.linsnow.cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.linsnow.cn/search/</guid><description/></item></channel></rss>

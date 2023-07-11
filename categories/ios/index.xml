@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iOS on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/categories/ios/</link><description>Recent content in iOS on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 17 Aug 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/categories/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>IOS备份shsh2指南</title><link>https://.blog.linsnow.cn/p/ios-save-shsh2/</link><pubDate>Tue, 17 Aug 2021 11:00:39 +0800</pubDate><guid>https://.blog.linsnow.cn/p/ios-save-shsh2/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/ios-save-shsh2/shsh.png" alt="Featured image of post IOS备份shsh2指南" />&lt;h1 id="ios备份shsh2指南">IOS备份shsh2指南&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iOS on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/categories/ios/</link><description>Recent content in iOS on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 17 Aug 2021 11:00:39 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/categories/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>IOS备份shsh2指南</title><link>https://blog.linsnow.cn/p/ios-save-shsh2/</link><pubDate>Tue, 17 Aug 2021 11:00:39 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-save-shsh2/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-save-shsh2/shsh.png" alt="Featured image of post IOS备份shsh2指南" />&lt;h1 id="ios备份shsh2指南">IOS备份shsh2指南&lt;/h1>
 &lt;h2 id="什么是shsh2">什么是shsh2&lt;/h2>
 &lt;p>SHSH Blob 是非官方为便于今后 iDevice 设备降级而准备的备用数字签名字符串；&lt;/p>
 &lt;p>如何通过 Tsssaver 及 Telegram 来查找 Blob 并下载备份保存&lt;/p>
@@ -119,7 +119,7 @@
 &lt;ol>
 &lt;li>填写完所有信息后，单击“Go”以保存 blob&lt;/li>
 &lt;li>也可以单击“保存设备”来保存您当前设备的信息，以便以后再次为其保存 blob&lt;/li>
-&lt;/ol></description></item><item><title>TestFlight打不开解决方法</title><link>https://.blog.linsnow.cn/p/testfight-error/</link><pubDate>Tue, 17 Aug 2021 10:20:25 +0800</pubDate><guid>https://.blog.linsnow.cn/p/testfight-error/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/testfight-error/testfight.png" alt="Featured image of post TestFlight打不开解决方法" />&lt;h1 id="testflight打不开解决方法">TestFlight打不开解决方法&lt;/h1>
+&lt;/ol></description></item><item><title>TestFlight打不开解决方法</title><link>https://blog.linsnow.cn/p/testfight-error/</link><pubDate>Tue, 17 Aug 2021 10:20:25 +0800</pubDate><guid>https://blog.linsnow.cn/p/testfight-error/</guid><description>&lt;img src="https://blog.linsnow.cn/p/testfight-error/testfight.png" alt="Featured image of post TestFlight打不开解决方法" />&lt;h1 id="testflight打不开解决方法">TestFlight打不开解决方法&lt;/h1>
 &lt;h2 id="前因">前因&lt;/h2>
 &lt;p>苹果的 TestFlight 应用属实听奇怪的，又是突然就打不开，导致想下载测试版的应用都下载不了。「无法接入」主要是因为苹果服务器的问题，而要解决这个问题其实非常简单。&lt;/p>
 &lt;h2 id="操作教程">&lt;strong>操作教程&lt;/strong>&lt;/h2>
@@ -127,29 +127,27 @@
 &lt;p>遇到这个问题可以尝试更换网络，但更换网络并不是百分百能解决。&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>iPhone 链接上 Wi-Fi 后，进入「设置」-「无线局域网」。点击已经链接 Wi-Fi 的蓝色「i」按钮。&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/testfight-error/wifisetting.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/testfight-error/wifisetting.png"
 width="750"
 height="737"
-srcset="https://.blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/testfight-error/wifisetting_huea4439061333aa5688a32c06c13cb790_27499_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="101"
 data-flex-basis="244px"
 >&lt;/p>
 &lt;p>&lt;strong>点击「配置 DNS」设置项，勾选「手动」。&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/testfight-error/dnssetting.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/testfight-error/dnssetting.png"
 width="1500"
 height="1334"
-srcset="https://.blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/testfight-error/dnssetting_hu4139a79f6bcc58af655fe326c05d2db6_139270_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="112"
 data-flex-basis="269px"
 >&lt;/p>
 &lt;p>&lt;strong>点击「添加服务器」，这里输入8.8.8.8后点击右上角的「存储」按钮。&lt;/strong>&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;img src="adddns.png" />
 &lt;p>&lt;strong>这时候打开 TsetFlight 应用就会发现它可以正常打开使用了。&lt;/strong>&lt;/p>
-&lt;p>如果你担心设置了 DNS 服务器后会影响网速，可以在 TestFlight 下载完应用后把 Wi-Fi 的 DNS 服务改回自动。&lt;/p></description></item><item><title>如何把玩iOS捷径</title><link>https://.blog.linsnow.cn/p/ios-jiejin/</link><pubDate>Mon, 16 Aug 2021 16:01:20 +0800</pubDate><guid>https://.blog.linsnow.cn/p/ios-jiejin/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/jiejin.png" alt="Featured image of post 如何把玩iOS捷径" />&lt;h2 id="ios利用捷径设置充电提示音">IOS利用捷径设置充电提示音&lt;/h2>
+&lt;p>如果你担心设置了 DNS 服务器后会影响网速，可以在 TestFlight 下载完应用后把 Wi-Fi 的 DNS 服务改回自动。&lt;/p></description></item><item><title>如何把玩iOS捷径</title><link>https://blog.linsnow.cn/p/ios-jiejin/</link><pubDate>Mon, 16 Aug 2021 16:01:20 +0800</pubDate><guid>https://blog.linsnow.cn/p/ios-jiejin/</guid><description>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/jiejin.png" alt="Featured image of post 如何把玩iOS捷径" />&lt;h2 id="ios利用捷径设置充电提示音">IOS利用捷径设置充电提示音&lt;/h2>
 &lt;h3 id="前因">😀前因&lt;/h3>
 &lt;p>在一次偶然间，我突然发现了手机没了充电提示音，不知道是bug还是，经过一番思索，突然有了这个想法，正好是越狱的iPhone，以为改系统文件可以解决，不过还是不行，突然我就想到了把提示音改成自己喜欢的，一举两得，岂不美哉，利用捷径app就能轻松搞定&lt;/p>
 &lt;h3 id="手机要求">🧨手机要求&lt;/h3>
@@ -158,10 +156,9 @@ data-flex-basis="269px"
 &lt;h4 id="创建提取音频编码的指令">创建提取音频编码的指令&lt;/h4>
 &lt;p>创建一个捷径，内容设置成这样子就行&lt;/p>
 &lt;p>嫌麻烦就用我直接分享的做好的指令，&lt;a class="link" href="getsound.shortcut" >&lt;strong>快捷指令链接&lt;/strong>&lt;/a>，点击后下载下来，然后点击打开即会跳转到捷径app,添加不了的在设置里找到&lt;code>快捷指令app&lt;/code>，打开&lt;code>允许不受信任的快捷指令&lt;/code>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/charge3.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge3.jpg"
 width="750"
 height="3197"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/charge3_hu3204c78dbb2aac68f50390bc6b829058_112192_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="23"
@@ -179,20 +176,18 @@ data-flex-basis="56px"
 &lt;li>选择已连接，然后下一步&lt;/li>
 &lt;li>点击&lt;code>添加操作&lt;/code>&lt;/li>
 &lt;li>搜索文本并添加文本，文本里粘贴刚才运行指令获得的文本（直接粘贴就行）&lt;/li>
-&lt;li>再点击加号，搜索base64编码并添加，修改编码为解码&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/charge2.jpg"
+&lt;li>再点击加号，搜索base64编码并添加，修改编码为解码&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge2.jpg"
 width="720"
 height="519"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/charge2_hu5a35dbed98453d212fd9e822ed3c429b_158027_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="138"
 data-flex-basis="332px"
 >&lt;/li>
 &lt;li>最后点击加号，搜索播放声音并添加就好&lt;/li>
-&lt;li>然后选择下一步，关掉运行前询问&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/charge1.jpg"
+&lt;li>然后选择下一步，关掉运行前询问&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/charge1.jpg"
 width="720"
 height="628"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/charge1_huededcb15a90d464f8350eb3795601d07_72557_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="114"
@@ -202,10 +197,9 @@ data-flex-basis="275px"
 &lt;/ol>
 &lt;hr>
 &lt;h2 id="制作一张属于你的memoji工牌">制作一张属于你的Memoji工牌&lt;/h2>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/memojicover.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/memojicover.png"
 width="1920"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/ios-jiejin/memojicover_huc9aaf6fc1a2d14a64149bcb6a2d20575_20250_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="177"
@@ -214,10 +208,9 @@ data-flex-basis="426px"
 &lt;h3 id="前言">🎉前言&lt;/h3>
 &lt;p>apple store里的员工好像都有一张工牌，刚好扎比大神也做了一个Memoji工牌制作的快捷指令，轻松Get一张属于自己的Memoji工牌。在这里感谢扎比分享的快捷指令。&lt;/p>
 &lt;h3 id="预见效果">🎈预见效果&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/memoji.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/memoji.jpg"
 width="1280"
 height="1280"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/memoji_hu4ee69e94cabd87ce3a5b3f841fd82541_30335_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="100"
@@ -240,10 +233,9 @@ data-flex-basis="240px"
 &lt;li>在弹出来的窗口中选择一张你做好的头像，&lt;/li>
 &lt;li>然后在提示框中输入你想在工牌上显示的名字，&lt;/li>
 &lt;li>然后选择你喜欢的颜色，&lt;/li>
-&lt;li>制作完成后会弹出一个窗口，&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/picsave.png"
+&lt;li>制作完成后会弹出一个窗口，&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/picsave.png"
 width="750"
 height="1334"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/ios-jiejin/picsave_hu5aaaa0392c274ea476a1c7c747c1fbbb_96849_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="56"
@@ -256,10 +248,9 @@ data-flex-basis="134px"
 &lt;p>做好了工牌，apple store没你不行哈哈哈哈哈，明天就可以去上班了🐟&lt;/p>
 &lt;hr>
 &lt;h2 id="get一张喜人的微信支付壁纸">Get一张喜人的微信支付壁纸&lt;/h2>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/wepay.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/wepay.png"
 width="1920"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/ios-jiejin/wepay_hu742381dcc620e6acd0557aa2893c64a1_32050_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="wepay.png"
 class="gallery-image"
@@ -269,10 +260,9 @@ data-flex-basis="426px"
 &lt;h3 id="前言-1">前言&lt;/h3>
 &lt;p>前几天偶然发现一个有趣的捷径，那就是制作一张极具个性化的微信收款码做未锁屏壁纸，当然，这只能在iOS中才能实现，同样要用到捷径app，目前比较新的iOS版本基本上都自带这个app了，如果还没有的话请自行百度解决吧，在正文还没开始之前首先要感谢提供此捷径的作者&lt;/p>
 &lt;h3 id="先上效果">📢先上效果&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/wepay.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/wepay.jpg"
 width="750"
 height="1334"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/wepay_hu1c438a0dff95679b7549eb6e0d937759_49171_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="56"
@@ -291,10 +281,9 @@ data-flex-basis="134px"
 &lt;h4 id="使用捷径-1">使用捷径&lt;/h4>
 &lt;ol>
 &lt;li>打开手机的&lt;code>捷径指令app&lt;/code>，运行下载好的Wepay快捷指令&lt;/li>
-&lt;li>在弹出来的提示框中选择&lt;code>大金额&lt;/code>、&lt;code>小金额&lt;/code>或者&lt;code>充值中&lt;/code>，&lt;img src="https://.blog.linsnow.cn/p/ios-jiejin/scchoose.jpg"
+&lt;li>在弹出来的提示框中选择&lt;code>大金额&lt;/code>、&lt;code>小金额&lt;/code>或者&lt;code>充值中&lt;/code>，&lt;img src="https://blog.linsnow.cn/p/ios-jiejin/scchoose.jpg"
 width="750"
 height="450"
-srcset="https://.blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/ios-jiejin/scchoose_huc79c9aafc6d73db5fc211ac018b95f60_13120_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
@@ -305,7 +294,7 @@ data-flex-basis="400px"
 &lt;li>（补充：如何在微信里获取收款码，打开微信，一次点击“支付-收付款-二维码收款-保存收款码”即可）&lt;/li>
 &lt;/ol>
 &lt;h3 id="结语-1">🤑结语&lt;/h3>
-&lt;p>做好了但是谁给我转账啊哈哈哈哈&lt;/p></description></item><item><title>签名ipa以在iOS下安装软件</title><link>https://.blog.linsnow.cn/p/sign-ipa/</link><pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate><guid>https://.blog.linsnow.cn/p/sign-ipa/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" />&lt;h1 id="签名ipa以在ios下安装软件">签名ipa以在iOS下安装软件&lt;/h1>
+&lt;p>做好了但是谁给我转账啊哈哈哈哈&lt;/p></description></item><item><title>签名ipa以在iOS下安装软件</title><link>https://blog.linsnow.cn/p/sign-ipa/</link><pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate><guid>https://blog.linsnow.cn/p/sign-ipa/</guid><description>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" />&lt;h1 id="签名ipa以在ios下安装软件">签名ipa以在iOS下安装软件&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>iOS或iPadOS安装第三方软件需要对其进行签名才能安装到设备上，但特殊情况如在iOS已经越狱的情况下可通过插件绕过签名直接安装，侧载的方法有很多，大概分为一下两个大的签名方式，但这次写的是关于利用个人免费开发者账号签名并安装到设备上&lt;/p>
 &lt;blockquote>
@@ -322,10 +311,9 @@ data-flex-basis="400px"
 &lt;/blockquote>
 &lt;h2 id="正文">正文：&lt;/h2>
 &lt;h3 id="爱思助手ipa签名">爱思助手ipa签名&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/i4sign.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/i4sign.jpg"
 width="1000"
 height="721"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="138"
@@ -364,10 +352,9 @@ data-flex-basis="332px"
 &lt;p>安装altstore并用数据线（充电线）将设备连接到电脑&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altstorewall.png"
+&lt;p>在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altstorewall.png"
 width="613"
 height="486"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="126"
@@ -384,10 +371,9 @@ data-flex-basis="302px"
 &lt;p>选择&lt;em>&lt;strong>install AltStore&lt;/strong>&lt;/em>，再选择你的的设备名称&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altappleid.png"
+&lt;p>在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altappleid.png"
 width="471"
 height="262"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="179"
@@ -395,10 +381,9 @@ data-flex-basis="431px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altstoredone.png"
+&lt;p>接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altstoredone.png"
 width="749"
 height="346"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="216"
@@ -429,18 +414,16 @@ data-flex-basis="519px"
 &lt;p>选择UTM.ipa安装包安装即可,等待安装完成&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/utmseipa.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/utmseipa.png"
 width="425"
 height="574"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="74"
 data-flex-basis="177px"
-> &lt;img src="https://.blog.linsnow.cn/p/sign-ipa/signutmse.png"
+> &lt;img src="https://blog.linsnow.cn/p/sign-ipa/signutmse.png"
 width="750"
 height="1334"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="56"
@@ -452,17 +435,16 @@ data-flex-basis="134px"
 &lt;hr>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/utmdone.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/utmdone.png"
 width="442"
 height="249"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>使用OdysseyRa1n安装Sileo</title><link>https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link><pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate><guid>https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" />&lt;h1 id="使用odysseyra1n安装sileo">使用OdysseyRa1n安装Sileo&lt;/h1>
+&lt;/ol></description></item><item><title>使用OdysseyRa1n安装Sileo</title><link>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</link><pubDate>Sat, 21 Nov 2020 17:25:53 +0800</pubDate><guid>https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/</guid><description>&lt;img src="https://blog.linsnow.cn/p/install-sileo-by-odysseyra1n/odysseyra1n.jpg" alt="Featured image of post 使用OdysseyRa1n安装Sileo" />&lt;h1 id="使用odysseyra1n安装sileo">使用OdysseyRa1n安装Sileo&lt;/h1>
 &lt;h2 id="简介">简介&lt;/h2>
 &lt;p>Odysseyra1n 是来自 Coolstar 的一个新的处理计划，并附带了来自 Diatrus 新的、开源的 Procursus bootstrap。&lt;/p>
 &lt;p>Odysseyra1n 能够让你的设施运转齐全自力的 libhooker。Libhooker 是 Coolstar 从零开端打造的一个以速率和稳固性为条件的 substrate/substitute。Libhooker 对 iOS 13 进行了完美的适配。&lt;/p>

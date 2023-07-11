@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>utm on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/utm/</link><description>Recent content in utm on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 13 Aug 2021 11:50:48 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/utm/index.xml" rel="self" type="application/rss+xml"/><item><title>签名ipa以在iOS下安装软件</title><link>https://.blog.linsnow.cn/p/sign-ipa/</link><pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate><guid>https://.blog.linsnow.cn/p/sign-ipa/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" />&lt;h1 id="签名ipa以在ios下安装软件">签名ipa以在iOS下安装软件&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>utm on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/utm/</link><description>Recent content in utm on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 13 Aug 2021 11:50:48 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/utm/index.xml" rel="self" type="application/rss+xml"/><item><title>签名ipa以在iOS下安装软件</title><link>https://blog.linsnow.cn/p/sign-ipa/</link><pubDate>Fri, 13 Aug 2021 11:50:48 +0800</pubDate><guid>https://blog.linsnow.cn/p/sign-ipa/</guid><description>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/ipa.png" alt="Featured image of post 签名ipa以在iOS下安装软件" />&lt;h1 id="签名ipa以在ios下安装软件">签名ipa以在iOS下安装软件&lt;/h1>
 &lt;h2 id="前言">前言&lt;/h2>
 &lt;p>iOS或iPadOS安装第三方软件需要对其进行签名才能安装到设备上，但特殊情况如在iOS已经越狱的情况下可通过插件绕过签名直接安装，侧载的方法有很多，大概分为一下两个大的签名方式，但这次写的是关于利用个人免费开发者账号签名并安装到设备上&lt;/p>
 &lt;blockquote>
@@ -15,10 +15,9 @@
 &lt;/blockquote>
 &lt;h2 id="正文">正文：&lt;/h2>
 &lt;h3 id="爱思助手ipa签名">爱思助手ipa签名&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/i4sign.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/i4sign.jpg"
 width="1000"
 height="721"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/sign-ipa/i4sign_hufa88b512b7ebfe920c21099d87e3757c_66414_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="138"
@@ -57,10 +56,9 @@ data-flex-basis="332px"
 &lt;p>安装altstore并用数据线（充电线）将设备连接到电脑&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altstorewall.png"
+&lt;p>在开始菜单找到altserver并打开，这是可能会提示防火墙信息，允许就好了&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altstorewall.png"
 width="613"
 height="486"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altstorewall_hu581ecb2949260fd0bc7c8c78fd9adaad_36043_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="126"
@@ -77,10 +75,9 @@ data-flex-basis="302px"
 &lt;p>选择&lt;em>&lt;strong>install AltStore&lt;/strong>&lt;/em>，再选择你的的设备名称&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altappleid.png"
+&lt;p>在弹出来的窗口中输入你的 apple id及密码并点击install&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altappleid.png"
 width="471"
 height="262"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altappleid_hub528525b8584a01c736e98bcbffc464f_5019_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="179"
@@ -88,10 +85,9 @@ data-flex-basis="431px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/altstoredone.png"
+&lt;p>接下来就会看见Installing AltStore to+你的设备名称 … ，代表AltStore正在签名安装中，请耐心等待安装完成，即可将altstore安装到设备&lt;img src="https://blog.linsnow.cn/p/sign-ipa/altstoredone.png"
 width="749"
 height="346"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/altstoredone_hu3d04750f188cb03ef4d7889d11e8c86e_96268_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="216"
@@ -122,18 +118,16 @@ data-flex-basis="519px"
 &lt;p>选择UTM.ipa安装包安装即可,等待安装完成&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/utmseipa.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/utmseipa.png"
 width="425"
 height="574"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/utmseipa_hu0dda8b02bac6740c308c8b3034523f19_60498_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="74"
 data-flex-basis="177px"
-> &lt;img src="https://.blog.linsnow.cn/p/sign-ipa/signutmse.png"
+> &lt;img src="https://blog.linsnow.cn/p/sign-ipa/signutmse.png"
 width="750"
 height="1334"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/signutmse_hu32f54be7f5707d98976505cbc1d85ca8_44535_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="56"
@@ -145,10 +139,9 @@ data-flex-basis="134px"
 &lt;hr>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/sign-ipa/utmdone.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/sign-ipa/utmdone.png"
 width="442"
 height="249"
-srcset="https://.blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/sign-ipa/utmdone_hu5585321c6ce9206ac918324601e3f871_34511_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="177"

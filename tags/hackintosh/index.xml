@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hackintosh on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/hackintosh/</link><description>Recent content in Hackintosh on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2022 16:45:33 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/hackintosh/index.xml" rel="self" type="application/rss+xml"/><item><title>记我的第一次捡垃圾之M73</title><link>https://.blog.linsnow.cn/p/m73-hackintosh/</link><pubDate>Fri, 04 Mar 2022 16:45:33 +0800</pubDate><guid>https://.blog.linsnow.cn/p/m73-hackintosh/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/hackintosh.webp" alt="Featured image of post 记我的第一次捡垃圾之M73" />&lt;h2 id="前言">前言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hackintosh on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/hackintosh/</link><description>Recent content in Hackintosh on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 04 Mar 2022 16:45:33 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/hackintosh/index.xml" rel="self" type="application/rss+xml"/><item><title>记我的第一次捡垃圾之M73</title><link>https://blog.linsnow.cn/p/m73-hackintosh/</link><pubDate>Fri, 04 Mar 2022 16:45:33 +0800</pubDate><guid>https://blog.linsnow.cn/p/m73-hackintosh/</guid><description>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.webp" alt="Featured image of post 记我的第一次捡垃圾之M73" />&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.&lt;/p>
 &lt;h2 id="正文">正文&lt;/h2>
 &lt;p>捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;&lt;/p>
@@ -54,20 +54,18 @@
 &lt;/table>
 &lt;/blockquote>
 &lt;p>小机机的外貌，内部图就不拍了，我懒得拆开&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/m73.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/m73.webp"
 width="4032"
 height="3024"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/m73_hub60e8638036e5302c6e64fbba27a1eaf_83716_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/m73-hackintosh/m73_hub60e8638036e5302c6e64fbba27a1eaf_83716_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 alt="m73"
 class="gallery-image"
 data-flex-grow="133"
 data-flex-basis="320px"
 >&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/zhuomian.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/zhuomian.webp"
 width="1956"
 height="1116"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/zhuomian_hu6640085593f99baa1c1e0cbee4679932_77512_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/m73-hackintosh/zhuomian_hu6640085593f99baa1c1e0cbee4679932_77512_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="175"
@@ -80,10 +78,9 @@ data-flex-basis="420px"
 &lt;p>这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。
 为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子.
 算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/jigailan.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/jigailan.png"
 width="622"
 height="387"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/jigailan_hu32e7297d227ba3c9314a24c7fe14105a_28186_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/jigailan_hu32e7297d227ba3c9314a24c7fe14105a_28186_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="160"
@@ -98,10 +95,9 @@ data-flex-basis="385px"
 &lt;p>其中包括从macOS10.15到macOS12各大版本的config文件，使用只需把想要用的config对应的文件改名为&lt;code>config.plist&lt;/code>即可，想要看跑代码过程可以在引导界面按下&lt;code>win+v&lt;/code>键即可.&lt;/p>
 &lt;p>目前该opencore的版本为0.78，全部文件均使用来自官方的最新文件，对每个不必要的选项进行了精简优化，三码已经去掉了，只需自行加上三码即可.但是机型最好不要更改，防止无法安装.后续版本的更新看心情和时间，有问题的可以直接在本文下评论.&lt;/p>
 &lt;h3 id="整个efi大致结构如下">整个EFI大致结构如下：&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/EFIjiegou.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/EFIjiegou.png"
 width="487"
 height="833"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/EFIjiegou_hu8c3376b4bbbc019f1a9a82709ea0e817_26218_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/EFIjiegou_hu8c3376b4bbbc019f1a9a82709ea0e817_26218_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="58"
@@ -109,29 +105,26 @@ data-flex-basis="140px"
 >&lt;/p>
 &lt;p>采用oc最新版，包括驱动，并且有我维护，随缘更新.&lt;/p>
 &lt;h3 id="hackintools图">hackintools图：&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan.png"
 width="866"
 height="1016"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan_hu88535eacf7a1c6942b7125ad9f04fa65_49882_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/hackintoolsgailan_hu88535eacf7a1c6942b7125ad9f04fa65_49882_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="85"
 data-flex-basis="204px"
 >&lt;/p>
 &lt;h3 id="引导界面">引导界面：&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/yindao.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/yindao.webp"
 width="1920"
 height="1080"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/yindao_hud039eb2c8c5e871292740866828f4b08_28584_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/m73-hackintosh/yindao_hud039eb2c8c5e871292740866828f4b08_28584_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/kaiji.webp"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/kaiji.webp"
 width="4032"
 height="3024"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/kaiji_huf61b6a98e5d37e7d71e38b0065555cc8_88712_480x0_resize_q75_h2_box_2.webp 480w, https://.blog.linsnow.cn/p/m73-hackintosh/kaiji_huf61b6a98e5d37e7d71e38b0065555cc8_88712_1024x0_resize_q75_h2_box_2.webp 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
@@ -146,30 +139,27 @@ data-flex-basis="320px"
 &lt;/blockquote>
 &lt;h2 id="一些功能演示图">一些功能演示图：&lt;/h2>
 &lt;h3 id="隔空投送">隔空投送&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/airdrop.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/airdrop.png"
 width="956"
 height="472"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/airdrop_hu422bc4fb560cf7d8e942ff9b1d96ceee_25749_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/airdrop_hu422bc4fb560cf7d8e942ff9b1d96ceee_25749_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="202"
 data-flex-basis="486px"
 >&lt;/p>
 &lt;h3 id="网卡蓝牙驱动">网卡蓝牙驱动&lt;/h3>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/wangkaqudong.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/wangkaqudong.png"
 width="704"
 height="612"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/wangkaqudong_hu2670d6fa5453f2f5ce2826c9d2fd8365_20173_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/wangkaqudong_hu2670d6fa5453f2f5ce2826c9d2fd8365_20173_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="115"
 data-flex-basis="276px"
 >&lt;/p>
 &lt;p>支持4k和多种分辨率&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/m73-hackintosh/fenbianlv.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/fenbianlv.png"
 width="704"
 height="496"
-srcset="https://.blog.linsnow.cn/p/m73-hackintosh/fenbianlv_hu39441f947f1d512c3c9c3200294158b4_18047_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/m73-hackintosh/fenbianlv_hu39441f947f1d512c3c9c3200294158b4_18047_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="141"

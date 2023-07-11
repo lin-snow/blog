@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>books on L1nSn0w's Blog</title><link>https://.blog.linsnow.cn/tags/books/</link><description>Recent content in books on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 02 Jan 2022 16:31:57 +0800</lastBuildDate><atom:link href="https://.blog.linsnow.cn/tags/books/index.xml" rel="self" type="application/rss+xml"/><item><title>如何用apple自带图书app搭建个人专属阅读库</title><link>https://.blog.linsnow.cn/p/setup-apple-books/</link><pubDate>Sun, 02 Jan 2022 16:31:57 +0800</pubDate><guid>https://.blog.linsnow.cn/p/setup-apple-books/</guid><description>&lt;img src="https://.blog.linsnow.cn/p/setup-apple-books/applebooks.webp" alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库" />&lt;h2 id="一些废话">🍉一些废话&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>books on L1nSn0w's Blog</title><link>https://blog.linsnow.cn/tags/books/</link><description>Recent content in books on L1nSn0w's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 02 Jan 2022 16:31:57 +0800</lastBuildDate><atom:link href="https://blog.linsnow.cn/tags/books/index.xml" rel="self" type="application/rss+xml"/><item><title>如何用apple自带图书app搭建个人专属阅读库</title><link>https://blog.linsnow.cn/p/setup-apple-books/</link><pubDate>Sun, 02 Jan 2022 16:31:57 +0800</pubDate><guid>https://blog.linsnow.cn/p/setup-apple-books/</guid><description>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/applebooks.webp" alt="Featured image of post 如何用apple自带图书app搭建个人专属阅读库" />&lt;h2 id="一些废话">🍉一些废话&lt;/h2>
 &lt;p>这是一篇关于一个屑博主想读书后水的一篇文章，并试图拉你一起下水（bushi) 😅.&lt;/p>
 &lt;p>我会写的尽量详细，但这只是一个我认为可行的一个方案，或许你也可以直接摸索适合你自己的阅读方案。&lt;/p>
 &lt;p>在b站上面看到了一个up主分享的英文原著阅读，瞬间感觉又行了🤣，恰好iOS系统自带了 &lt;code>Apple Books&lt;/code>，于是乎新一轮的折腾便开始，害~🤔&lt;/p>
@@ -34,10 +34,9 @@
 &lt;p>从官网获取最新版 &lt;code>apple books&lt;/code>,几乎每个区域的 &lt;code>app store&lt;/code>都提供了软件下载，可以直接搜索下载&lt;/p>
 &lt;p>&lt;strong>官网地址&lt;/strong>：&lt;a class="link" href="https://apps.apple.com/us/app/apple-books/id364709193" target="_blank" rel="noopener"
 >Apple Books on the App Store&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/setup-apple-books/applebookpage.png"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/applebookpage.png"
 width="1034"
 height="657"
-srcset="https://.blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_480x0_resize_box_3.png 480w, https://.blog.linsnow.cn/p/setup-apple-books/applebookpage_huf731a6fed93ff79748946a5dc5f0a0ff_27650_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="157"
@@ -116,10 +115,9 @@ data-flex-basis="377px"
 &lt;hr>
 &lt;h3 id="使用方法">📌使用方法&lt;/h3>
 &lt;p>&lt;strong>通过获取epub格式的电子书，使用你的设备并将需要的书籍导入到 &lt;code>apple books&lt;/code>&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/setup-apple-books/books2.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/books2.jpg"
 width="749"
 height="618"
-srcset="https://.blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/setup-apple-books/books2_hu72372cdf8b550028dc169094bbd19896_29714_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="121"
@@ -128,10 +126,9 @@ data-flex-basis="290px"
 &lt;hr>
 &lt;h3 id="同步书籍">🎄同步书籍&lt;/h3>
 &lt;p>&lt;strong>同步你的书籍很方便，只需要在你的iCloud里开启books同步按钮即可&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/setup-apple-books/booksbackup.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/booksbackup.jpg"
 width="750"
 height="530"
-srcset="https://.blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/setup-apple-books/booksbackup_huf1e219314cda578bb4d4a0e1aaf3b0d4_21874_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="141"
@@ -139,10 +136,9 @@ data-flex-basis="339px"
 >&lt;/p>
 &lt;h3 id="软件的一些界面">🃏软件的一些界面&lt;/h3>
 &lt;p>这里展示一张软件使用的界面，大概看看就行&lt;/p>
-&lt;p>&lt;img src="https://.blog.linsnow.cn/p/setup-apple-books/books.jpg"
+&lt;p>&lt;img src="https://blog.linsnow.cn/p/setup-apple-books/books.jpg"
 width="1446"
 height="1280"
-srcset="https://.blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_480x0_resize_q75_box.jpg 480w, https://.blog.linsnow.cn/p/setup-apple-books/books_hu7cba776f391f1138b9a4261faa018807_80118_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="112"
