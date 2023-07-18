@@ -1576,6 +1576,25 @@ data-flex-basis="443px"
 &lt;/span>&lt;span class="lnt">386
 &lt;/span>&lt;span class="lnt">387
 &lt;/span>&lt;span class="lnt">388
+&lt;/span>&lt;span class="lnt">389
+&lt;/span>&lt;span class="lnt">390
+&lt;/span>&lt;span class="lnt">391
+&lt;/span>&lt;span class="lnt">392
+&lt;/span>&lt;span class="lnt">393
+&lt;/span>&lt;span class="lnt">394
+&lt;/span>&lt;span class="lnt">395
+&lt;/span>&lt;span class="lnt">396
+&lt;/span>&lt;span class="lnt">397
+&lt;/span>&lt;span class="lnt">398
+&lt;/span>&lt;span class="lnt">399
+&lt;/span>&lt;span class="lnt">400
+&lt;/span>&lt;span class="lnt">401
+&lt;/span>&lt;span class="lnt">402
+&lt;/span>&lt;span class="lnt">403
+&lt;/span>&lt;span class="lnt">404
+&lt;/span>&lt;span class="lnt">405
+&lt;/span>&lt;span class="lnt">406
+&lt;/span>&lt;span class="lnt">407
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
@@ -1600,11 +1619,13 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//light模式下的背景色
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--body-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#f6f9fd&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--body-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">hsl&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">40&lt;/span>&lt;span class="kt">deg&lt;/span> &lt;span class="mi">14&lt;/span>&lt;span class="mf">.29&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="mi">95&lt;/span>&lt;span class="mf">.88&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// light模式下的文章卡片配色
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#ffffff&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">hsl&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">40&lt;/span>&lt;span class="kt">deg&lt;/span> &lt;span class="mi">14&lt;/span>&lt;span class="mf">.29&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="mi">95&lt;/span>&lt;span class="mf">.88&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//文章卡片标题字体
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">----card-text-color-main&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">rgb&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">41&lt;/span> &lt;span class="mi">46&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">----card-text-color-main&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">hsl&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">40&lt;/span>&lt;span class="kt">deg&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="mi">28&lt;/span>&lt;span class="mf">.04&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//文章内字体
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-text-color-secondary&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">hsl&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">40&lt;/span>&lt;span class="kt">deg&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="mi">28&lt;/span>&lt;span class="mf">.04&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 标题左栏小白条调整
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--heading-border-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局顶部边距
@@ -1623,6 +1644,9 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--tr-even-background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#eff0fa&lt;/span>&lt;span class="mi">54&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局字体大小
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--article-font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Waline评论区样式
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--waline-bgcolor&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#fdf8f0&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--waline-bgcolor-light&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#ebe4da&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="kt">e&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">data-scheme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;dark&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//dark模式下的背景色
@@ -1637,9 +1661,26 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#ff6d1b&lt;/span>&lt;span class="mi">17&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码前景色
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-text-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#e96900&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Waline评论区样式
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--waline-bgcolor&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#1e1e1e&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--waline-bgcolor-light&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#272727&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//----------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//文章卡片
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-page&lt;/span> &lt;span class="nc">.main-article&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l4&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.article-list&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l4&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//----------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//右侧边栏归档样式微调
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.widget.archives&lt;/span> &lt;span class="nc">.widget-archive--list&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l3&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// ---------------------------------------
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 代码块样式修改
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1903,14 +1944,7 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">card-border-radius&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//---------------------------------------
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面引入字体
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// body {
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// /* Screen version */
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// font-family: &amp;#34;LXGW WenKai Screen&amp;#34;, sans-serif;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// }
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//----------------------------------------------
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//文章封面高度更改
@@ -1965,8 +1999,12 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">27&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//-----------------------------------------------------
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//----------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//Waline评论区卡片阴影
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.waline-container&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l3&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>大家可以根据需要调试更改和增删一些参数,后续的魔改内容也会更新在这个文件里.😀如果你有什么好的想法欢迎在评论区留言交流.&lt;/p>
 &lt;hr>
