@@ -77,7 +77,7 @@ class="gallery-image"
 data-flex-grow="107"
 data-flex-basis="258px"
 >&lt;/p>
-&lt;p>Windows11的开始菜单在刚出的时候可以说是饱受诟病,不过现在好多了,同样是因为二级菜单的原因,缺少了点效率,但是勉强能接受,平时开始菜单用的不是很多,没什么好说的.&lt;/p></description></item><item><title>拥抱最好用的hugo之stack</title><link>https://blog.linsnow.cn/p/join-hugo-and-stack/</link><pubDate>Sat, 17 Dec 2022 22:17:06 +0800</pubDate><guid>https://blog.linsnow.cn/p/join-hugo-and-stack/</guid><description>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/hugostack.webp" alt="Featured image of post 拥抱最好用的hugo之stack" />&lt;h2 id="缘起">&lt;em>🙃缘起:&lt;/em>&lt;/h2>
+&lt;p>Windows11的开始菜单在刚出的时候可以说是饱受诟病,不过现在好多了,同样是因为二级菜单的原因,缺少了点效率,但是勉强能接受,平时开始菜单用的不是很多,没什么好说的.&lt;/p></description></item><item><title>拥抱最好用的hugo之stack</title><link>https://blog.linsnow.cn/p/join-hugo-and-stack/</link><pubDate>Sat, 17 Dec 2022 22:17:06 +0800</pubDate><guid>https://blog.linsnow.cn/p/join-hugo-and-stack/</guid><description>&lt;img src="https://blog.linsnow.cn/p/join-hugo-and-stack/hugostack.png" alt="Featured image of post 拥抱最好用的hugo之stack" />&lt;h2 id="缘起">&lt;em>🙃缘起:&lt;/em>&lt;/h2>
 &lt;p>*进坑Hugo这么久了,是时候也开一篇记录一下建站过程了.*本教程是面向小白而写的,所以可能有些东西写的很罗嗦,所以大佬手下留情.本文稍微有点长,所以请保持耐心.😅&lt;/p>
 &lt;p>&lt;em>写这篇的一个主要原因有三:&lt;/em>&lt;/p>
 &lt;blockquote>
@@ -1015,8 +1015,28 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//--------------------------------------------------
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//友情链接三栏
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//归档页面双栏
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="cm">/* 归档页面两栏 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">grid&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">grid-template-columns&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">fr&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">fr&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gap&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">article&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">card-background&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l2&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin-bottom&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">16&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//--------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//友情链接三栏
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact.links&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">grid&lt;/span>&lt;span class="p">;&lt;/span>
@@ -1128,7 +1148,7 @@ data-flex-basis="443px"
 >『Hugo』Hugo Styles (echosec.top)&lt;/a>&lt;/p>
 &lt;p>&amp;hellip;.&lt;/p>
 &lt;/blockquote>
-&lt;hr></description></item><item><title>记我的第一次捡垃圾之M73</title><link>https://blog.linsnow.cn/p/m73-hackintosh/</link><pubDate>Fri, 04 Mar 2022 16:45:33 +0800</pubDate><guid>https://blog.linsnow.cn/p/m73-hackintosh/</guid><description>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.webp" alt="Featured image of post 记我的第一次捡垃圾之M73" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;hr></description></item><item><title>记我的第一次捡垃圾之M73</title><link>https://blog.linsnow.cn/p/m73-hackintosh/</link><pubDate>Fri, 04 Mar 2022 16:45:33 +0800</pubDate><guid>https://blog.linsnow.cn/p/m73-hackintosh/</guid><description>&lt;img src="https://blog.linsnow.cn/p/m73-hackintosh/hackintosh.png" alt="Featured image of post 记我的第一次捡垃圾之M73" />&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.&lt;/p>
 &lt;h2 id="正文">正文&lt;/h2>
 &lt;p>捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;&lt;/p>
