@@ -798,7 +798,7 @@ data-flex-basis="443px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局卡片圆角
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//标签云卡片圆角
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--tag-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--tag-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 卡片间距
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--section-separation&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">32&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码背景色
