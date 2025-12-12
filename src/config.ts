@@ -27,7 +27,7 @@ export const themeConfig: ThemeConfig = {
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'light', // light | dark | auto
+    mode: 'auto', // light | dark | auto
     light: {
       // primary color
       // used for title, hover, etc
@@ -167,11 +167,11 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/lin-snow',
       },
       {
         name: 'Email',
-        url: 'email@radishzz.cc',
+        url: 'hi@vaaat.com',
       },
       // {
       //   name: 'X',
@@ -187,7 +187,7 @@ export const themeConfig: ThemeConfig = {
   preload: {
     // image hosting url
     // optimize remote images and generate low-quality placeholders
-    imageHostURL: 'image.radishzz.cc',
+    imageHostURL: 'blog.vaaat.com',
     // custom google analytics js
     // for users who proxy tracking scripts to a custom domain
     // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
@@ -195,7 +195,7 @@ export const themeConfig: ThemeConfig = {
     // custom umami analytics js
     // for users who self-deploy umami or proxy tracking scripts to a custom domain
     // see https://umami.is/docs/bypass-ad-blockers
-    customUmamiAnalyticsJS: 'https://views.radishzz.cc/script.js',
+    customUmamiAnalyticsJS: '',
   },
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 }
