@@ -1,0 +1,91 @@
+html {
+  --at-apply: 'bg-background c-secondary antialiased';
+  scrollbar-width: thin;
+  scrollbar-color: oklch(var(--un-preset-theme-colors-secondary) / 0.25) transparent;
+  scrollbar-gutter: stable;
+  text-autospace: normal;
+}
+
+/* Fix Flash Issue On iOS */
+body {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+body::selection {
+  --at-apply: 'bg-highlight';
+}
+
+/* Highlight Hover Animation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.highlight-static,
+.highlight-hover {
+  --at-apply: 'relative inline-block';
+}
+.highlight-static::after,
+.highlight-hover::after {
+  --at-apply: 'absolute left-0 z--1 h-0.5em w-full bg-highlight';
+  content: '';
+}
+.highlight-static::after,
+.highlight-hover:hover::after {
+  --at-apply: 'origin-bottom-left scale-x-100';
+}
+.highlight-hover::after {
+  --at-apply: 'origin-bottom-right scale-x-0 transition-transform ease-out lg:duration-300';
+}
+
+/* Heading Anchor Link >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.heading-anchor-link {
+  --at-apply: 'inline-block translate-y-0.1em';
+}
+h1:hover .heading-anchor-link svg,
+h2:hover .heading-anchor-link svg,
+h3:hover .heading-anchor-link svg,
+h4:hover .heading-anchor-link svg {
+  --at-apply: 'op-40';
+}
+.heading-anchor-link svg {
+  --at-apply: 'ml-0.4em aspect-square w-0.9em op-0 transition-opacity ease-out active:scale-90';
+}
+h1:hover .heading-anchor-link svg:hover,
+h2:hover .heading-anchor-link svg:hover,
+h3:hover .heading-anchor-link svg:hover,
+h4:hover .heading-anchor-link svg:hover {
+  --at-apply: 'op-80';
+}
+
+/* Image Zoom >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.zoom-overlay {
+  --at-apply: 'fixed left-0 top-0 z-999 hidden h-full w-full cursor-zoom-out bg-background/95 op-0 transition-opacity duration-300';
+}
+.zoom-img {
+  --at-apply: 'fixed z-1000 cursor-zoom-out transition-transform duration-300';
+}
+
+/* Code Copy Button >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.code-copy-button {
+  --at-apply: 'absolute right-2.2 top-2.2 z-99 grid aspect-square w-8 cursor-pointer place-items-center uno-round-border';
+  --at-apply: 'border-secondary/15 bg-background c-secondary/80 op-0 hover:(border-primary/15 c-primary/80)';
+  transition: opacity 0.15s ease-out, background-color 0.15s ease-out;
+}
+.code-block-wrapper:hover .code-copy-button {
+  --at-apply: 'op-100';
+}
+.icon-copy,
+.icon-check {
+  --at-apply: '[grid-area:1/1] aspect-square w-50%';
+}
+.icon-check {
+  --at-apply: 'op-0';
+}
+.code-copy-button.copied {
+  --at-apply: 'border-none bg-emerald-600 c-background';
+}
+html.dark .code-copy-button.copied {
+  --at-apply: 'bg-emerald-500';
+}
+.code-copy-button.copied .icon-copy {
+  --at-apply: 'op-0';
+}
+.code-copy-button.copied .icon-check {
+  --at-apply: 'op-100';
+}
