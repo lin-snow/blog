@@ -4,17 +4,17 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: 'L1nSn0w\'s Blog',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: '无限进步',
     // site description
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    description: '一个更新频率极低的博客，记录技术、生活和成长。',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true | false
     // author name
-    author: 'radishzz',
+    author: 'L1nSn0w',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://blog.vaaat.com',
     // base path
     // root directory for all pages and assets
     base: '/', // e.g., '/blog', '/docs'
@@ -61,9 +61,9 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh', // de | en | es | fr | ja | ko | pl | pt | ru | zh | zh-tw
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: ['en', 'es', 'ja', 'ru', 'zh-tw'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
+    moreLocales: ['en'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
     // post font style
-    fontStyle: 'sans', // sans | serif
+    fontStyle: 'serif', // sans | serif
     // post date format
     dateFormat: 'YYYY-MM-DD', // YYYY-MM-DD | MM-DD-YYYY | DD-MM-YYYY | MMM D YYYY | D MMM YYYY
     // enable table of contents
@@ -82,15 +82,15 @@ export const themeConfig: ThemeConfig = {
     // giscus
     // https://giscus.app/
     giscus: {
-      repo: '',
-      repoId: '',
-      category: '',
-      categoryId: '',
+      repo: 'lin-snow/log-comment',
+      repoId: 'R_kgDOOx7SnA',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOOx7SnM4Cqrob',
       mapping: 'pathname',
       strict: '0',
       reactionsEnabled: '1',
       emitMetadata: '0',
-      inputPosition: 'bottom',
+      inputPosition: 'top',
     },
     // twikoo
     // https://twikoo.js.org/
@@ -102,7 +102,7 @@ export const themeConfig: ThemeConfig = {
     // https://waline.js.org/en/
     waline: {
       // server url
-      serverURL: 'https://retypeset-comment.radishzz.cc',
+      serverURL: '',
       // emoji url
       emoji: [
         'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
