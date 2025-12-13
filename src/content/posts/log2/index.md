@@ -123,7 +123,7 @@ memos是一款强大好用的自主部署web软件，但是这也是我重构网
 ## 给代码拍照
 双喜临门，开发这款编程字体的作者同样开发了一款VSCode代码截图工具，不仅可以给代码截图，也能给终端截图，使用效果可以参考上面发的代码截图！
 代码配上好看的字体，下一步自然是配个好用的代码截图给代码拍美美的照片啦！下面给出插件的开源仓库地址，快去使用吧，觉得好用的话不要忘了给插件开发者点个star!
-> 仓库开源地址： [VSCode-Codeimg](https://github.com/subframe7536/vscode-codeimg)
+> 仓库开源地址： [VSCode-Codeimg](https://github.com/subframe7536/vscode-codeimg)  
 > 插件安装地址： [CodeImg - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=subframe7536.codeimg)
 
 ---
@@ -136,8 +136,8 @@ memos是一款强大好用的自主部署web软件，但是这也是我重构网
 :::gallery
 ![珠江附近](zhujiang.jpg)
 ![教学楼附近的话](flowers.jpg)
-![拍摄与校内图书馆附近的草地](flowers&bag.jpg)
 ![](upstares.jpg)
+![拍摄与校内图书馆附近的草地](flowers&bag.jpg)
 :::
 
 ---
