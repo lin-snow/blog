@@ -3,7 +3,6 @@ title: "我的赛博生活01"
 published: 2024-03-03
 tags:
   - 赛博生活
-abbrlink: cyberlife
 ---
 > 封面来自FIMO 胶卷Tokyo 500-II 拍摄的水井盖
 

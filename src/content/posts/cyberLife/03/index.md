@@ -3,7 +3,6 @@ title: "我的赛博生活03"
 published: 2025-02-10
 tags:
   - 赛博生活
-abbrlink: cyberlife
 ---
 
 这段时间又折腾了些新玩意，~~又有素材可以水啦~~。欢迎来到**L1nSn0wの二进制生活**！😁

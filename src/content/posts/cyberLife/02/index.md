@@ -3,7 +3,6 @@ title: "我的赛博生活02"
 published: 2024-05-29
 tags:
   - 赛博生活
-abbrlink: cyberlife
 ---
 
 > 封面来自FIMO拍摄的广工雨夜的宿舍楼
