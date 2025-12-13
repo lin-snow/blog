@@ -136,8 +136,8 @@ memos是一款强大好用的自主部署web软件，但是这也是我重构网
 :::gallery
 ![珠江附近](zhujiang.jpg)
 ![教学楼附近的话](flowers.jpg)
-![](upstares.jpg)
-![拍摄与校内图书馆附近的草地](flowers&bag.jpg)
+![楼梯行人](upstares.jpg)
+![校内图书馆附近的草地](flowers_bag.jpg)
 :::
 
 ---
