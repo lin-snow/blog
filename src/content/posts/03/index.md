@@ -38,7 +38,7 @@ tags:
 
 ---
 ## 🛜AX3000T & Immortal
-没错，我又折腾上了我的路由器，相比于[我的赛博生活01](/posts/cyberlife/log-01/)那篇博客里不同的是，这一次我给AX3000T刷上了自己编译定制的**ImmortalWRT**。
+没错，我又折腾上了我的路由器，相比于 **我的赛博生活01** 那篇博客里不同的是，这一次我给AX3000T刷上了自己编译定制的**ImmortalWRT**。
 
 固件仅支持小米AX3000T v1! 基于hanwckf大佬的[immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x)进行编译，同样使用h大提供的的[mt798x uboot](https://github.com/hanwckf/bl-mt798x/releases)进行刷入引导。  
   
