@@ -8,7 +8,7 @@ export const themeConfig: ThemeConfig = {
     // site subtitle
     subtitle: '无限进步',
     // site description
-    description: '一个更新频率极低的博客，记录技术、生活和成长。',
+    description: '一个更新频率极低的博客，记录技术、生活和成长.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true | false
     // author name
@@ -61,7 +61,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh', // de | en | es | fr | ja | ko | pl | pt | ru | zh | zh-tw
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: ['en'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
+    moreLocales: [], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
     // post font style
     fontStyle: 'serif', // sans | serif
     // post date format
