@@ -4,6 +4,8 @@ published: 2024-03-03
 tags:
   - 赛博生活
 ---
+![](jingai.webp)
+
 > 封面来自FIMO 胶卷Tokyo 500-II 拍摄的水井盖
 
 ## 🙃Logging...
@@ -37,8 +39,10 @@ ARC-一款号称挑战Chrome的浏览器，这个浏览器目前优先在Mac和i
 ## 🎉订阅iCloud+服务
 被Apple生态的绑定进一步加深！iCloud默认的5GB的存储空间真心有点不够用了，经常提示不足，就很烦！目前手机存储空间还剩下差不多50GB,而且6块钱一个月的iCloud+目前还能接受，就算把剩下的存储空间用满也够我存照片了，总有一些值得留下的照片，所以就订阅了我的`第一个iCloud+服务器`,买完iCloud+顺便把相册整理了一番，平时还是保存了一堆没有什么用的照片，该删还是删，占空间不说，有时候想找一些照片都麻烦，也不好进行整理归类。
 
+:::gallery
 ![iCloud+订阅](icloud+sub.jpg)
 ![我的iCloud](icloud.jpg)
+:::
 
 ## 📷APP-FIMO Pro
 

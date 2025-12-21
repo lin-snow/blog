@@ -64,6 +64,7 @@ tags:
 > Github地址: https://github.com/Akifyss/obsidian-border
 
 2.然后安装`Style Settings`插件
+
 3.导入配置
 
 ![Obsidian导入主题配置](import_config.png)
