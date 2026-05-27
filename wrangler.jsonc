@@ -1,0 +1,9 @@
+{
+  // 纯静态站点：只声明静态资源目录，不需要 Worker 脚本（无 main / 无 adapter）。
+  // 这能阻止 wrangler 的 auto-config 误装 @astrojs/cloudflare adapter 把站点变成 SSR。
+  "name": "blog",
+  "compatibility_date": "2026-05-27",
+  "assets": {
+    "directory": "./dist"
+  }
+}
